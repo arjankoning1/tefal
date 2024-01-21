@@ -1,0 +1,138 @@
+
+TENDL-2023 (TALYS Evaluated Nuclear Data Library)                 
+                                                                  
+Photon activation library      
+                                                                  
+Author: A.J. Koning, IAEA                                         
+                                                                  
+Ref.: A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,         
+      M. Fleming, and S. van der Marck, TENDL: Complete nuclear   
+      data library for innovative nuclear science and             
+      technology, Nuclear Data Sheets 155, 1 (2019).              
+                                                                  
+************** G E N E R A L   I N F O R M A T I O N *************
+                                                                  
+This evaluated data file is based on a software system built      
+around the nuclear model code TALYS [kon23], version 2.0. It is   
+part of a large collection of isotopic evaluations, all created by
+running the system with either adjusted or default input          
+parameters. This means that the data in the entire collection have
+been tested in detail for many isotopes against individual        
+experimental data, while for other isotopes it is only as good as 
+the global quality of TALYS at the moment. The mutual quality of  
+all individual data files is however consistent: The same set of  
+nuclear models is used and, equally important, the same ENDF-6    
+formatting procedures for each isotope. The data file has been    
+created automatically using the ENDF-6 format generator TEFAL.    
+                                                                  
+The resulting data file provides a complete representation of     
+nuclear data needed for transport, activation, damage, heating,   
+radioactivity, and shielding applications over the incident       
+proton energy range from 0.001 to 200. MeV.                       
+                                                                  
+All transport and activation data for neutrons, charged particles,
+photons and residual nuclides are filed. This includes cross      
+sections, angular distributions, double-differential spectra,     
+isomeric production, discrete and continuum photon production     
+cross sections, residual production cross sections and recoils.   
+This general purpose evaluation can thus be used as both          
+transport and activation library.                                 
+                                                                  
+A complete set of covariance data is included, which is stored    
+in MF31-40.                                                       
+                                                                  
+***************************** T A L Y S **************************
+                                                                  
+TALYS is a computer code system for the prediction and analysis   
+of nuclear reactions. TALYS simulates reactions that involve      
+neutrons, gamma-rays, protons, deuterons, tritons, helions and    
+alpha-particles, in the 1 keV - 200 MeV energy range. This is     
+achieved by implementing a suite of nuclear reaction models into  
+a single code system. This nuclear data file is based on a        
+theoretical analysis that utilizes the optical model, compound    
+nucleus statistical theory, fission, direct reactions and         
+pre-equilibrium processes, in combination with databases and      
+models for nuclear structure. The following output of TALYS is    
+stored in this data file:                                         
+                                                                  
+- Total, elastic and non-elastic cross sections                   
+- Inelastic cross sections to discrete states                     
+- Exclusive channel cross sections, e.g. (n,g), (n,2n), (n,np),.. 
+- Inelastic scattering angular distributions to discrete states   
+- Exclusive channel energy spectra                                
+- Exclusive channel double-differential spectra                   
+- Exclusive gamma production for discrete states and continuum    
+- Elastic scattering angular distributions                        
+- Recoil data                                                     
+- Total particle cross sections, e.g. (p,xn), (p,xp),..           
+- Total particle energy spectra                                   
+- Total particle double-differential spectra                      
+- Isomeric and ground state cross sections                        
+- Residual production cross sections                              
+                                                                  
+For a description of the used nuclear models and their            
+parameterization we refer to [kon19]. If for this specific        
+nuclide we deviate from the global parameterization, it is made   
+explicit above under Nuclide Specific Information.                
+                                                                  
+***************** F I L E   I N F O R M A T I O N ****************
+
+##### MF1: GENERAL INFORMATION
+
+- MT451    : Descriptive data and directory
+  
+This text and the full directory of used MF/MT sections.
+
+##### MF3: REACTION CROSS SECTIONS
+
+All the data present in the following MT-sections have been 
+calculated with TALYS. If the maximal cross section in an 
+excitation function over the whole energy range does not exceed
+1.e-9 b, the MT-number is not included at all. Cross sections 
+lower than 1.e-20 b are assumed to have no physical meaning and
+are set to zero.  
+
+- MT5      : (p,anything) cross section 
+
+MT5 contains the total non-elastic cross section, with which the
+information of MF6/MT5 can be combined to obtain residual
+production cross sections.
+
+##### MF6: PRODUCT ENERGY-ANGLE DISTRIBUTIONS
+
+In MF6 we store all residual production cross sections. 
+
+- MT5      : (p,anything) yields 
+                                                                 
+MT5 contains the production yields of residual products.
+The residual production yields are given per final product.
+These yields can be multiplied with the cross sections given in
+MF3/MT5 to get the residual production cross sections.
+
+***** F I L E   C H E C K I N G   A N D   P R O C E S S I N G ****
+
+This file has been checked and processed by
+- the BNL checking codes CHECKR-8.24, FIZCON-8.19 and PSYCHE-8.11
+  [her08],
+- the preprocessing codes PREPRO-2021 [cul23] into a PENDF file,
+- the processing code NJOY-2016.68 [mac10] into a PENDF file and a
+  MCNP (ACE) library,
+- MCNP for a standard calculation with the ACE library.
+
+*********************** R E F E R E N C E S **********************
+
+[cul23] D.E. Cullen, PREPRO 2023 - ENDF/B Pre-processing codes,
+        Technical report IAEA-NDS-0241, IAEA (2023)
+[her08] M. Herman, ENDF Utility Codes Release 8.0, (2008)         
+[kon23] A.J. Koning, S. Hilaire and S. Goriely,
+        TALYS: modeling of nuclear reactions,
+        European Journal of Physics A59 (6), 131 (2023).
+[kon19] A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,       
+        M. Fleming, and S. van der Marck, TENDL: Complete nuclear 
+        data library for innovative nuclear science and           
+        technology, Nuclear Data Sheets 155, 1 (2019)             
+[mac10] R.E. Macfarlane and A.C. Kahler, Methods for processing   
+        ENDF/B-VII with NJOY, Nuclear Data Sheets 111, 2739 (2010)
+                                                                  
+************************* C O N T E N T S ************************
+                                                                  

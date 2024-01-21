@@ -1,0 +1,428 @@
+# --File defining the origin of the MF2 RRR in the case of the keyword 'tendl y' is used
+# If a nucleus is not in this file, the MF2 RRR is taken form the default directory
+# --For the ladder option, set 'ladder' to no if the higher limit of the reconstructed
+# RRR is higher than the 1st inelastic level
+# D. Rochman, February 2012
+#
+# One parameter is added (D.Rochman, June 2016):
+# - factorMF33   : multiplier for the all uncertainties in the resonance range for MF33
+#                  if not given, no factor is applied.
+#                  ---> not used anymore
+# -HFR E<0 unc.  : uncertainty for the negative resonance energies in the HFR (used to produce random MF2 and file MF33)
+# -HFR E>0 unc.  : uncertainty for the positive resonance energies in the HFR (used to produce random MF2 and file MF33)
+# -factorMF33G   : multiplier for (n,g) only
+#                  ---> not used anymore
+# -factorMF33F   : multiplier for (n,f) only
+#                  ---> not used anymore
+#
+# rm:
+# 1 --> SLBW
+# 2 --> MLBW
+# 3 --> RM
+# 7 --> LRF7
+#   --> default is LRF7
+#   --> if the resonance come from endfb7.1, jendl5.0, or jeff3.1, it is not in LRF7 and the falg MLBW from the
+#       file global.thermal defines the format
+#
+# all: this parameter is used for the fitting with SAMMY, especially for actinides and isotopes with a lot
+#     of resonances. By default, it is set to "0" (yes): all resonance included
+#     If set to "1" (no), only l=0 resonances will be used for the fitting with SAMMY (leading to MF33)
+#     If set to "2" (no), 1/2 l=0 resonances will be used for the fitting with SAMMY (leading to MF33)
+#     If set to "3" (no), 1/3 l=0 resonances will be used for the fitting with SAMMY (leading to MF33)
+#                  ---> not used anymore
+#
+#
+# Element          Best mf2 RRR          why                                     ladder option      rm      not used             all      HFR E>0 unc      HFR E<0 unc     not used        not used         |
+#   Z  I  A                                                                                         <->    <---------->         <-->     <---------->     <---------->   <---------->    <---------->       |
+He  2  0  4                                                                          n                                                                                                                      |
+Li  3  0  7                                                                          n                                                                                                                      |
+Be  4  0  9                                                                          n                                                                                                                      |
+C   6  0  12                                                                         n                                                                                                                      |
+N   7  0  15                                                                         n                                                                                                                      |
+O   8  0  16                                                                         n                                                                                                                      |
+O   8  0  17                                                                                                                                                                                                |
+O   8  0  18                                                                                                                                                                                                |
+O   8  0  19                                                                         n                                                                                                                      |
+F   9  0  19                                                                         n                                                                                                                      |
+Na 11  0  23                                                                         n                                                                                                                      |
+Mg 12  0  24                                                                         n                                                                                                                      |
+Mg 12  0  25                                                                                                                                                                                                |
+Mg 12  0  26                                                                                                                                                                                                |
+Al 13  0  26                                                                                                                                                                                                |
+Al 13  0  27         endfb8.0          (otherwise pmf9 is very bad)                  n                                                                                                                      |
+Si 14  0  28         jendl5.0                                                        n                                                                                                                      |
+Si 14  0  29                                                                         n                                                                                                                      |
+Si 14  0  31                                                                         n                                                                                                                      |
+Si 14  0  32                                                                         n                                                                                                                      |
+P  15  0  31                                                                         n                                                                                                                      |
+S  16  0  32                                                                         n                                                                                                                      |
+S  16  0  33                                                                                                                                                                                                |
+S  16  0  34                                                                         n                                                                                                                      |
+S  16  0  38                                                                         n                                                                                                                      |
+Cl 17  0  35         jendl5.0                                                        n                                                                                                                      |
+Cl 17  0  36                                                                                                                                                                                                |
+Cl 17  0  37         jendl5.0                                                        n                                                                                                                      |
+Ar 18  0  36                                                                                                                                                                                                |
+Ar 18  0  37                                                                                                                                                                                                |
+Ar 18  0  38                                                                                                                                                                                                |
+Ar 18  0  39                                                                         n                                                                                                                      |
+Ar 18  0  40                                                                         n                                                                                                                      |
+K  19  0  40                                                                                                                                                                                                |
+K  19  0  41                                                                         n                                                                                                                      |
+Ca 20  0  40                                                                         n                                                                                                                      |
+Ca 20  0  41                                                                                                                                                                                                |
+Ca 20  0  42                                                                         n               3                                                                                                      |
+Ca 20  0  43                                                                                                                                                                                                |
+Ca 20  0  44                                                                         n                                                                                                                      |
+Ca 20  0  46                                                                         n                                                                                                                      |
+Ca 20  0  48                                                                                                                                                                                                |
+Sc 21  0  45                                                                         n                                                                                                                      |
+Ti 22  0  46                                                                         n                                                                                                                      |
+Ti 22  0  47                                                                         n                                                                                                                      |
+Ti 22  0  48         endfb8.0                                                        n                                                                                                                      |
+Ti 22  0  49                            to keep (n,el) correct                       n                                                                                                                      |
+Ti 22  0  50         jeff3.3                                                         n                                                                                                                      |
+V  23  0  50                                                                         n                                                                                                                      |             
+V  23  0  51                                                                         n                                                                                                                      |             
+Cr 24  0  50                                                                         n               3                                                                                                      |
+Cr 24  0  51                                                                                                                                                                                                |             
+Cr 24  0  52                                                                         n               3                                                                                                      |
+Cr 24  0  53                                                                         n               3                                                                                                      |
+Cr 24  0  54         endfb8.0                                                        n                                                                                                                      |
+Mn 25  1  50                                                                         n                                                                                                                      |
+Mn 25  0  53                                                                         n                                                                                                                      |
+Mn 25  0  54                                                                                                                                                                                                |
+Mn 25  0  55         jendl5.0                                                        n                                                                                                                      |
+Fe 26  1  52                                                                         n                                                                                                                      |
+Fe 26  0  54         endfb8.0                                                        n               3                                                                                                      |
+Fe 26  0  56         endfb8.0                                                        n                                                                                                                      |
+Fe 26  0  57         endfb8.0                                                        n               3                                                                                                      |
+Fe 26  0  58         endfb8.0                                                        n                                                                                                                      |
+Fe 26  1  65                                                                         n                                                                                                                      |
+Co 27  1  54                                                                         n                                                                                                                      |
+Co 27  0  58                                                                         n                                                                                                                      |
+Co 27  1  58                                                                         n                                                                                                                      |
+Co 27  0  59                                                                         n                                                                                                                      |
+Co 27  0  60                                                                         n                                                                                                                      |
+Ni 28  0  58         jendl5.0                                                        n                                                                                                                      |             
+Ni 28  0  59                                                                                                                                                                                                |
+Ni 28  0  60         jendl5.0                                                        n                                                                                                                      |
+Ni 28  0  61                                                                         n                                                                                                                      | 
+Ni 28  0  62                                                                         n                                                                                                                      |
+Ni 28  0  64         jendl5.0                                                        n                                                                                                                      |
+Ni 28  0  65                                                                                                                                                                                                |
+Cu 29  0  63         endfb8.0                                                        n                                                                                                                      |
+Cu 29  0  64                                                                                                                                                                                                |
+Cu 29  0  65         endfb8.0                                                        n                                                                                                                      |
+Cu 29  0  66                                                                                                                                                                                                |
+Zn 30  0  64                                                                                                                                                                                                |             
+Zn 30  0  65                                                                         n                                                                                                                      |             
+Zn 30  0  66                                                                         n                                                                                                                      |             
+Zn 30  0  67                                                                         n                                                                                                                      |             
+Zn 30  0  68                                                                         n                                                                                                                      |             
+Zn 30  0  70                                                                         n                                                                                                                      |             
+Ga 31  0  69                                                                                                                                                                                                |             
+Ga 31  0  71                                                                                                                                                                                                |             
+Ge 32  0  68                                                                                                                                                                                                |             
+Ge 32  0  70         jendl5.0                                                                                                                                                                               |             
+Ge 32  0  72                                                                                                                                                                                                |             
+Ge 32  0  73                                                                                                                                                                                                |             
+Ge 32  0  76                                                                                                                                                                                                |             
+As 33  0  75                                                                         n                                                                                                                      |             
+Se 34  0  74                                                                                                                                                                                                |             
+Se 34  0  76         jendl5.0                                                                                                                                                                               |             
+Se 34  0  77                                                                                                                                                                                                |             
+Se 34  0  78                                                                         n                                                                                                                      |             
+Se 34  0  79         jendl5.0                                                                                                                10          10                                                 |             
+Se 34  0  80                                                                         n                                                                                                                      |             
+Se 34  0  82                                                                                                                                                                                                |             
+Br 35  0  79                                                                         n                                                                                                                      |
+Br 35  0  81                                                                         n                                                                                                                      |
+Kr 36  0  78                                                                                                                                                                                                |
+Kr 36  0  80                                                                                                                                                                                                |
+Kr 36  0  82                                                                                                                                                                                                |
+Kr 36  0  83                                                                                                                                                                                                |
+Kr 36  0  84                                                                                                                                                                                                |
+Kr 36  0  85                                                                         n                                                                                                                      |
+Kr 36  0  86                                                                         n               3                                                                                                      |
+Rb 37  0  85                                                                         n                                                                                                                      |
+Rb 37  0  88                                                                                                                                                                                                |
+Rb 37  0  87                                                                                                                                                                                                |
+Sr 38  0  84                                                                                                                                                                                                |
+Sr 38  0  86                                                                         n                                                                                                                      |
+Sr 38  0  87                                                                         n                                                                                                                      |
+Sr 38  0  88                                                                         n                                                                                                                      |
+Sr 38  0  90                                                                         n                                                                                                                      |
+Y  39  0  89                                                                         n                                                                                                                      |
+Y  39  0  90                                                                                                                                                                                                |
+Zr 40  0  88                                                                         n                                                                                                                      |
+Zr 40  0  90                                                                         n                                                                                                                      |
+Zr 40  0  91                                                                         n                                                                                                                      |
+Zr 40  0  92                                                                         n                                                                                                                      |
+Zr 40  0  93                                                                         n                                                                                                                      |
+Zr 40  0  94                                                                         n                                                                                                                      |
+Zr 40  0  96                                                                         n                                                                                                                      |
+Nb 41  0  90                                                                                                                                                                                                |
+Nb 41  0  93                                                                         n                                                                                                                      |
+Mo 42  0  92                                                                         n                                                                                                                      |
+Mo 42  0  94                                                                         n                                                                                                                      |
+Mo 42  0  95                                                                                                                                                                                                |
+Mo 42  0  96                                                                         n                                                                                                                      |
+Mo 42  0  97                                                                                                                                                                                                |
+Mo 42  0  98                                                                         n                                                                                                                      |
+Mo 42  0  99                                                                                                                                                                                                |
+Mo 42  0  100                                                                        n                                                                                                                      |
+Tc 43  0  98                                                                                                                                                                                                |
+Tc 43  0  99                                                                         n               3                                                                                                      |
+Ru 44  0  99                                                                                                                                                                                                |
+Ru 44  0  100                                                                                                                                                                                               |
+Ru 44  0  101                                                                        n                                                                                                                      |
+Ru 44  0  102                                                                        n                                                                                                                      |
+Ru 44  0  103                                                                                                                                                                                               |
+Ru 44  0  104                                                                        n                                                                                                                      |
+Ru 44  0  106                                                                                                                                                                                               |
+Rh 45  0  103                                                                        n                                                                                                                      |
+Pd 46  1  95                                                                         n                                                                                                                     |
+Pd 46  0  104                                                                                                                                                                                               |
+Pd 46  0  105                                                                        n                                                                                                                      |
+Pd 46  0  106                                                                        n                                                                                                                      |
+Pd 46  0  107                                                                        n                                                                                                                      |
+Pd 46  0  108                                                                        n                                                                                                                      |
+Pd 46  0  110                                                                        n                                                                                                                      |
+Ag 47  0  107                                                                        n               3                                                                                                      |
+Ag 47  0  109                                                                        n               3                                                                                                      |
+Ag 47  0  111                                                                                                                                                                                               |
+Cd 48  0  106                                                                                                                                                                                               |
+Cd 48  0  108                                                                                                                                                                                               |
+Cd 48  0  110                                                                        n                                                                                                                      |
+Cd 48  0  111                                                                        n                                                                                                                      |
+Cd 48  0  112                                                                        n                                                                                                                      |
+Cd 48  0  113                                                                        n                                                                                                                      |
+Cd 48  1  113                                                                        n                                                                                                                      |
+Cd 48  0  114                                                                        n                                                                                                                      |
+Cd 48  0  116                                                                        n                                                                                                                      |
+In 49  0  113                                                                        n                                                                                                                      |
+In 49  0  115                                                                        n                                                                                                                      |
+Sn 50  0  112                                                                                                                                                                                               |
+Sn 50  0  113                                                                                                                                                                                               |
+Sn 50  0  114                                                                                                                                                                                               |
+Sn 50  0  115                                                                                                                                                                                               |
+Sn 50  0  116                                                                        n                                                                                                                      |
+Sn 50  0  117                                                                        n                                                                                                                      |
+Sn 50  0  118                                                                        n                                                                                                                      |
+Sn 50  0  119                                                                                                                                                                                               |
+Sn 50  0  120                                                                        n                                                                                                                      |
+Sn 50  0  122                                                                        n                                                                                                                      |
+Sn 50  0  124                                                                        n                                                                                                                      |
+Sb 51  0  121                                                                        n                                                                                                                      |
+Sb 51  0  123                                                                        n                                                                                                                      |
+Sb 51  0  134                                                                        n                                                                                                                      |
+Sb 51  1  134                                                                        n                                                                                                                      |
+Te 52  0  120                                                                                                                                                                                               |
+Te 52  0  122                                                                        n                                                                                                                      |
+Te 52  0  123                                                                        n                                                                                                                      |
+Te 52  0  124                                                                        n                                                                                                                      |
+Te 52  0  125                                                                        n                                                                                                                      |
+Te 52  0  126                                                                        n                                                                                                                      |
+Te 52  0  127                                                                        n                                                                                                                      |
+Te 52  1  127                                                                        n                                                                                                                      |
+Te 52  0  128                                                                        n                                                                                                                      |
+I  53  0  126                                                                        n                                                                                                                      |
+I  53  0  127                                                                        n                                                                                                                      |
+I  53  0  129                                                                        n                                                                                                                      |
+I  53  0  131                                                                                                                                                                                               |
+Xe 54  0  124                                                                                                                                                                                               |
+Xe 54  0  126                                                                                                                                                                                               |
+Xe 54  0  128                                                                                                                                                                                               |
+Xe 54  0  129                                                                        n                                                                                                                      |
+Xe 54  0  130                                                                        n                                                                                                                      |
+Xe 54  0  131                                                                        n                                                                                                                      |
+Xe 54  0  132                                                                                                                                                                                               |
+Xe 54  0  133                                                                                                                                                                                               |
+Xe 54  0  135                                                                        n               3                                                                                                      |
+Xe 54  1  135                                                                        n                                                                                                                      |
+Xe 54  0  136                                                                        n                                                                                                                      |
+Cs 55  0  133        jeff3.3                                                         n                                                                                                                      |
+Cs 55  0  135                                                                        n               3                                                                                                      |
+Ba 56  0  130                                                                        n                                                                                                                      |
+Ba 56  0  133                                                                                                                                                                                               |
+Ba 56  0  134                                                                        n                                                                                                                      |
+Ba 56  0  135                                                                        n                                                                                                                      |
+Ba 56  0  136                                                                        n                                                                                                                      |
+Ba 56  0  137                                                                        n                                                                                                                      |
+Ba 56  0  138                                                                        n                                                                                                                      |
+Ba 56  0  140                                                                                                                                                                                               |
+La 57  0  139        endfb8.0                                                        n                                                                                                                      |
+Ce 58  0  138                                                                                                                                                                                               |
+Ce 58  0  139                                                                        n                                                                                                                      |
+Ce 58  0  140        jendl5.0                                                        n                                                                                                                      |
+Ce 58  0  142                                                                        n                                                                                                                      |
+Pr 59  0  141                                                                        n                                                                                                                      |
+Nd 60  0  142                                                                        n                                                                                                                      |
+Nd 60  0  143                                                                        n                                                                                                                      |
+Nd 60  0  144                                                                        n                                                                                                                      |
+Nd 60  0  145                                                                        n                                                                                                                      |
+Nd 60  0  146                                                                        n                                                                                                                      |
+Nd 60  0  148                                                                        n                                                                                                                      |
+Nd 60  0  150                                                                        n                                                                                                                      |
+Pm 61  0  147                                                                        n                                                                                                                      |
+Pm 61  0  148                                                                                                                                                                                               |
+Pm 61  1  148                                                                        n                                                                                                                      |
+Pm 61  0  151                                                                                                                                                                                               |
+Sm 62  0  144                                                                        n                                                                                                                      |
+Sm 62  0  145                                                                                                                                                                                               |
+Sm 62  0  147                                                                        n                                                                                                                      |
+Sm 62  0  148                                                                                                                                                                                               |
+Sm 62  0  149                                                                        n                                                                                                                      |
+Sm 62  0  150                                                                                                                                                                                               |
+Sm 62  0  151                                                                        n               3                                                                                                      |
+Sm 62  0  152                                                                        n                                                                                                                      |
+Sm 62  0  153                                                                                                                                                                                               |
+Sm 62  0  154                                                                        n                                                                                                                      |
+Eu 63  0  151                                                                        n                                                                                                                      |
+Eu 63  0  152                                                                                                                                                                                               |
+Eu 63  0  153                                                                        n               3                                                                                                      |
+Eu 63  0  154                                                                        n                                                                                                                      |
+Eu 63  0  155                                                                        n                                                                                                                      |
+Gd 64  0  146                                                                        n                                                                                                                      |
+Gd 64  0  148                                                                        n                                                                                                                      |
+Gd 64  0  152                                                                        n                                                                                                                      |
+Gd 64  0  153                                                                                                                                                                                               |
+Gd 64  0  154                                                                        n                                                                                                                      |
+Gd 64  0  155                                                                        n                                                                                                                      |
+Gd 64  0  156                                                                        n                                                                                                                      |
+Gd 64  0  157                                                                        n                                                                                                                      |
+Gd 64  0  158                                                                        n                                                                                                                      |
+Gd 64  0  160                                                                        n                                                                                                                      |
+Tb 65  0  159                                                                        n                                                                                                                      |
+Tb 65  0  160                                                                                                                                                                                               |
+Dy 66  0  156                                                                                                                                                                                               |
+Dy 66  0  160                                                                        n                                                                                                                      |
+Dy 66  0  161                                                                        n                                                                                                                      |
+Dy 66  0  162                                                                        n                                                                                                                      |
+Dy 66  0  163                                                                        n                                                                                                                      |
+Dy 66  0  164                                                                        n                                                                                                                      |
+Dy 66  0  165                                                                                                                                                                                               |
+Ho 67  0  165                                                                        n                                                                                                                      |
+Ho 67  1  166                                                                                                                                                                                               |
+Er 68  0  162                                                                                                                                                                                               |
+Er 68  0  164                                                                                                                                                                                               |
+Er 68  0  166                                                                        n                                                                                                                      |
+Er 68  0  167                                                                        n                                                                                                                      |
+Er 68  0  168                                                                        n                                                                                                                      |
+Er 68  0  170                                                                        n                                                                                                                      |
+Tm 69  0  169                                                                        n                                                                                                                      |
+Tm 69  0  170                                                                                                                                                                                               |
+Tm 69  0  171                                                                        n               3                                                                                                      |
+Yb 70  0  169                                                                                                                                                                                               |
+Yb 70  1  169                                                                        n                                                                                                                      |
+Yb 70  0  170                                                                                                                                                                                               |
+Yb 70  0  171                                                                        n                                                                                                                      |
+Yb 70  0  172                                                                        n                                                                                                                      |
+Yb 70  0  173                                                                        n                                                                                                                      |
+Yb 70  0  174                                                                        n                                                                                                                      |
+Yb 70  0  176                                                                        n                                                                                                                      |
+Lu 71  0  173                                                                        n               3                                                                                                       |
+Lu 71  0  175                                                                        n               3                                                                                                      |
+Lu 71  0  176                                                                        n               3                                                                                                      |
+Lu 71  0  177                                                                                                                                                                                               |
+Hf 72  0  174                                                                                                                                                                                               |
+Hf 72  0  176                                                                        n                                                                                                                      |
+Hf 72  0  177                                                                        n                                                                                                                      |
+Hf 72  0  178                                                                        n                                                                                                                      |
+Hf 72  2  178                                                                        n                                                                                                                      |
+Hf 72  0  179                                                                        n                                                                                                                      |
+Hf 72  0  180                                                                        n                                                                                                                      |
+Hf 72  0  182                                                                        n                                                                                                                      |
+Ta 73  1  180                                                                        n                                                                                                                      |
+Ta 73  0  181                                                                        n                                                                                                                      |
+Ta 73  0  182                                                                                                                                                                                               |
+W  74  0  182                                                                        n                                                                                                                      |
+W  74  0  183                                                                        n                                                                                                                      |
+W  74  0  184                                                                        n                                                                                                                      |
+W  74  0  186                                                                        n                                                                                                                      |
+W  74  0  187                                                                        n                                                                                                                      |
+Re 75  0  185                                                                        n                                                                                                                      |
+Re 75  0  187                                                                        n                                                                                                                      |
+Os 76  0  186                                                                        n                                                                                                                      |
+Os 76  0  187                                                                        n                                                                                                                      |
+Os 76  0  188                                                                        n                                                                                                                      |
+Os 76  0  189                                                                                                                                                                                               |
+Os 76  0  190                                                                                                                                                                                               |
+Os 76  0  192                                                                        n                                                                                                                      |
+Ir 77  0  191                                                                        n                                                                                                                      |
+Ir 77  0  192                                                                                                                                                                                               |
+Ir 77  0  193                                                                        n                                                                                                                      |
+Ir 77  0  194                                                                        n                                                                                                                      |
+Ir 77  1  194                                                                        n                                                                                                                      |
+Pt 78  0  190                                                                                                                                                                                               |
+Pt 78  0  192        jeff3.3                                                         n                                                                                                                      |
+Pt 78  0  195                                                                        n                                                                                                                      |
+Pt 78  0  198                                                                                                                                                                                               |
+Au 79  0  197        endfb8.0                                                        n                                                                                                                      |
+Au 79  0  198                                                                        n                                                                                                                      |
+Hg 80  0  196                                                                                                                                                                                               |
+Hg 80  0  198                                                                                                                                                                                               |
+Hg 80  0  199                                                                                                                                                                                               |
+Hg 80  0  200                                                                        n                                                                                                                      |
+Hg 80  0  201                                                                                                                                                                                               |
+Hg 80  0  202                                                                        n                                                                                                                      |
+Hg 80  0  204                                                                        n                                                                                                                      |
+Hg 80  0  208                                                                        n                                                                                                                      |
+Tl 81  0  203                                                                        n                                                                                                                      |
+Tl 81  0  205        endfb8.0                                                        n                                                                                                                      |
+Pb 82  0  204        jendl5.0                                                        n                                                                                                                      |
+Pb 82  0  206        jendl5.0                                                        n                                                                                                                      |
+Pb 82  0  207        jendl5.0                                                        n                                                                                                                      |
+Pb 82  0  208        jendl5.0                                                        n                                                                                                                      |
+Bi 83  0  209                                                                        n                                                                                                                      |
+Rn 86  0  199                                                                        n                                                                                                                      |
+Ra 88  0  209                                                                        n                                                                                                                      |
+Ra 88  0  226                                                                                                                                                                                               |
+Th 90  0  229                                                                        n                                                                                                                      |
+Th 90  0  230                                                                        n                                                                                                                      |
+Th 90  0  232                                                                        n                                                                                                                      |
+Pa 91  0  231                                                                        n                                                                                                                      |
+Pa 91  0  232                                                                        n                                                                                                                      |
+Pa 91  0  233                                                                        n                                                                                                                      |
+U  92  0  232        endfb8.0                                                        n               3                                                                                                      |
+U  92  0  233        jendl5.0                                                        n               3                                                                                                      |
+U  92  0  234                                                                        n                                                                                                                      |
+U  92  0  235        endfb8.0                                                        n               3          1                                                                                           |
+U  92  0  236                                                                        n                                                                                                                      |
+U  92  0  238        endfb8.0                                                        n               3                                                                                                      |
+Np 93  0  236                                                                        n                                                                                                                      |
+Np 93  0  237                                                                        n                                                                                                                      |
+Pu 94  0  236                                                                        n               3                                                                                                      |
+Pu 94  0  238                                                                        n                                                                                                                      |
+Pu 94  0  239        endfb8.0                                                        n               3                                                                                                      |
+Pu 94  0  240        endfb8.0                                                        n               3                                                                                                      |
+Pu 94  0  241        endfb8.0                                                        n               3                                                                                                      |
+Pu 94  0  242                                                                        n               3                                                                                                      |
+Pu 94  0  244                                                                        n                                                                                                                      |
+Am 95  0  241        endfb8.0                                                        n                                                                                                                      |
+Am 95  1  242                                                                        n                                                                                                                      |
+Am 95  0  243                                                                        n                                                                                                                      |
+Am 95  1  236                                                                                                                                                                                               |
+Cm 96  0  242                                                                        n                                                                                                                      |
+Cm 96  0  243                                                                        n                                                                                                                      |
+Cm 96  0  244                                                                        n                                                                                                                      |
+Cm 96  0  245                                                                        n                                                                                                                      |
+Cm 96  0  246                                                                        n                                                                                                                      |
+Cm 96  0  247                                                                        n                                                                                                                      |
+Cm 96  0  248                                                                        n                                                                                                                      |
+Bk 97  0  249                                                                        n                                                                                                                      |
+Cf 98  0  249                                                                        n                                                                                                                      |
+Cf 98  0  250                                                                        n                                                                                                                      |
+Cf 98  0  251                                                                        n                                                                                                                      |
+Cf 98  0  252                                                                        n                                                                                                                      |
+Es 99  0  249                                                                        n                                                                                                                      |
+Md 101 0  249                                                                        n                                                                                                                      |
+Md 101 0  259                                                                        n                                                                                                                      |
+No 102 0  259                                                                        n                                                                                                                      |
+Lr 103 0  259                                                                        n                                                                                                                      |
+Rf 104 0  259                                                                        n                                                                                                                      |
+Sg 106 0  259                                                                        n                                                                                                                      |
+Dh 107 0  274                                                                        n                                                                                                                      |
+Mt 109 0  279                                                                        n                                                                                                                      |
+Ds 110 0  281                                                                        n                                                                                                                      |

@@ -1,0 +1,235 @@
+
+TENDL-2023 (TALYS Evaluated Nuclear Data Library)       
+                                  
+Neutron activation library    
+                                                       
+Author: A.J. Koning and D. Rochman, IAEA - PSI         
+                                                          
+Ref.: A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,  
+      M. Fleming, and S. van der Marck, TENDL: Complete nuclear
+      data library for innovative nuclear science and         
+      technology, Nuclear Data Sheets 155, 1 (2019).         
+                                                            
+************** G E N E R A L   I N F O R M A T I O N *************
+                                                                  
+This evaluated data file is based on a software system built      
+around the nuclear model code TALYS [kon23], version 2.0. It is   
+part of a large collection of isotopic evaluations, all created by
+running the system with either adjusted or default input          
+parameters. This means that the data in the entire collection have
+been tested in detail for many isotopes against individual        
+experimental data, while for other isotopes it is only as good as 
+the global quality of TALYS at the moment. The mutual quality of  
+all individual data files is however consistent: The same set of  
+nuclear models is used and, equally important, the same ENDF-6    
+formatting procedures for each isotope. The data file has been    
+created automatically using the ENDF-6 format generator TEFAL.    
+                                                                  
+The resulting data file provides a complete representation of     
+nuclear data needed for transport, activation, damage, heating,   
+radioactivity, and shielding applications over the incident       
+neutron energy range from 1.e-11 to 200. MeV.                     
+                                                                  
+All transport and activation data for neutrons, charged particles,
+photons and residual nuclides are filed. This includes cross      
+sections, angular distributions, double-differential spectra,     
+isomeric production, discrete and continuum photon production     
+cross sections, residual production cross sections and recoils.   
+This general purpose evaluation can thus be used as both          
+transport and activation library.                                 
+                                                                  
+A complete set of covariance data is included, which is stored    
+in MF31-40.                                                       
+                                                                  
+***************************** T A L Y S **************************
+                                                                  
+TALYS is a computer code system for the prediction and analysis   
+of nuclear reactions. TALYS simulates reactions that involve      
+neutrons, gamma-rays, protons, deuterons, tritons, helions and    
+alpha-particles, in the 1 keV - 200 MeV energy range. This is     
+achieved by implementing a suite of nuclear reaction models into  
+a single code system. This nuclear data file is based on a        
+theoretical analysis that utilizes the optical model, compound    
+nucleus statistical theory, fission, direct reactions and         
+pre-equilibrium processes, in combination with databases and      
+models for nuclear structure. The following output of TALYS is    
+stored in this data file:                                         
+                                                                  
+- Total, elastic and non-elastic cross sections                   
+- Inelastic cross sections to discrete states                     
+- Exclusive channel cross sections, e.g. (n,g), (n,2n), (n,np),.. 
+- Inelastic scattering angular distributions to discrete states   
+- Exclusive channel energy spectra                                
+- Exclusive channel double-differential spectra                   
+- Exclusive gamma production for discrete states and continuum    
+- Elastic scattering angular distributions                        
+- Recoil data                                                     
+- Total particle cross sections, e.g. (n,xn), (n,xp),..           
+- Total particle energy spectra                                   
+- Total particle double-differential spectra                      
+- Isomeric and ground state cross sections                        
+- Residual production cross sections                              
+                                                                  
+For a description of the used nuclear models and their
+parameterization we refer to [kon19]. If for this specific
+nuclide we deviate from the global parameterization, it is made
+explicit above under Nuclide Specific Information.
+
+***************** F I L E   I N F O R M A T I O N ****************
+                                                                  
+##### MF1: GENERAL INFORMATION                                    
+                                                                  
+- MT451    : Descriptive data and directory                       
+                                                                  
+This text and the full directory of used MF/MT sections.          
+                                                                  
+##### MF3: REACTION CROSS SECTIONS                                
+                                                                  
+All the data present in the following MT-sections have been       
+calculated with TALYS, possibly normalized to experimental data.  
+If the maximal cross section in an excitation function over the   
+whole energy range does not exceed 1.e-9 b, the MT-number is not  
+included. Cross sections lower than 1.e-20 b are assumed to have  
+no physical meaning and are set to zero. All MT numbers extend up 
+to the highest incident energy.                                   
+The following reaction channels/MT numbers are generally included:
+                                                                  
+- MT1      : Total cross section                                  
+                                                                  
+Calculated with the optical model over the whole energy range,    
+or partly reproduced using experimental data.                     
+                                                                  
+- MT2      : Elastic scattering cross section                     
+                                                                  
+Obtained by subtracting the non-elastic cross section from the    
+total cross section.                                              
+                                                                  
+- MT3      : Non-elastic cross section                            
+                                                                  
+Calculated with the optical model over the whole energy range.    
+                                                                  
+- MT4      : Total inelastic cross section                        
+                                                                  
+Sum of MT=51-91.                                                  
+                                                                  
+- MT5      : (n,anything) cross section                           
+                                                                  
+MT5 contains the reactions which can not be stored in any other   
+MT-number. The information of MF3/MT5 can be combined with        
+MF6/MT5 to obtain residual production cross sections particle     
+production cross sections and (double-)differential cross         
+sections.                                                         
+                                                                  
+- MT16     : (n,2n) cross section                                 
+- MT17     : (n,3n) cross section                                 
+- MT22     : (n,na) cross section                                 
+- MT28     : (n,np) cross section                                 
+- MT51-90  : (n,n') cross section for 1st-40th excited state      
+- MT91     : (n,n') continuum cross section                       
+- MT102    : (n,gamma) cross section                              
+- MT103    : (n,p) cross section                                  
+- MT104    : (n,d) cross section                                  
+- MT105    : (n,t) cross section                                  
+- MT106    : (n,h) cross section                                  
+- MT107    : (n,a) cross section                                  
+- MT600-610: (n,p) cross section for 0th-10th excited state       
+- MT649    : (n,p) continuum cross section                        
+- MT650-655: (n,d) cross section for 0th-5th excited state        
+- MT699    : (n,d) continuum cross section                        
+- MT700-705: (n,t) cross section for 0th-5th excited state        
+- MT749    : (n,t) continuum cross section                        
+- MT750-755: (n,h) cross section for 0th-5th excited state        
+- MT799    : (n,h) continuum cross section                        
+- MT800-810: (n,a) cross section for 0th-10th excited state       
+- MT849    : (n,a) continuum cross section                        
+                                                                  
+##### MF6: PRODUCT ENERGY-ANGLE DISTRIBUTIONS                     
+                                                                  
+In MF6 we store all residual production cross sections.
+
+- MT5      : (n,anything) yields
+
+For reactions not given by explicit MT numbers, MT5 contains the
+residual production yields per final product. All these yields
+and relative distributions can be multiplied with the cross
+sections given in MF3/MT5 to get the production cross sections.
+                                                                  
+##### MF8: RADIOACTIVE DECAY DATA                                 
+                                                                  
+For reactions to isomers, MF8 designates where the information    
+for isomeric versus ground state production, or residual          
+production can be found, i.e. for each MT number it points to     
+either MF6, MF9 or MF10.                                          
+                                                                  
+##### MF9: MULTIPLICITIES FOR PRODUCTION OF RADIOACTIVE NUCLIDES  
+                                                                  
+MF9 is used for isomer production by non-threshold reactions.     
+Final states with a lifetime that exceeds 1 second are treated    
+as isomer.                                                        
+                                                                  
+##### MF10: CROSS SECTIONS FOR PRODUCTION OF RADIOACTIVE NUCLIDES 
+                                                                  
+MF10 is used for isomer production by threshold reactions.        
+Final states with a lifetime that exceeds 1 second are treated    
+as isomer.                                                        
+                                                                  
+##### MF33: COVARIANCES OF NEUTRON CROSS SECTIONS                 
+                                                                  
+In MF33, we store the covariances of most, but not all, reaction  
+channels that are given in MF3. All covariances are generated     
+with the TASMAN code [kon19], which generates TALYS runs using    
+a Monte Carlo parameter method.                                   
+For each MT-number, the information consists of:                  
+1. Covariances for MTa, Ea and MTa, Ea (variances)                
+2. Covariances for MTa, Ea and MTa, Eb (correlations for the      
+   same reaction channel between different energies)              
+3. Covariances for MTa, Ea and MTb, Ea (correlations between      
+   different reaction channels for the same energy)               
+4. Covariances for MTa, Ea and MTb, Eb (correlations between      
+   different reaction channels for different energies)            
+Classes 1 and 2 are covered by NI-type subsubsections with        
+flag LB=5, followed by a LB=8 section which contains              
+the cross section variances multiplied by 1.e-3. Next, classes 3  
+and 4 are covered by flag LB=6 to account for the different       
+energy grids that two correlating MT-sections may have. Since     
+the total correlation matrix is fully symmetric, we only need to  
+include the correlation elements between different MT-numbers     
+once, and we do that in the subsection with the lowest of the     
+two MT-numbers. We include covariance information for all the     
+total cross sections, the lumped partial cross sections and the   
+individual inelastic cross sections per level (MT51,...). We do   
+not include covariances for MT600 and higher MT-numbers. For the  
+most important channels, we include cross-channel correlations.   
+                                                                  
+##### MF40: COVARIANCES OF ISOMER PRODUCTION                      
+                                                                  
+For covariances of ground state and isomeric cross sections, the  
+same procedures as for MF33 are used.                             
+                                                                  
+***** F I L E   C H E C K I N G   A N D   P R O C E S S I N G ****
+
+This file has been checked and processed by
+- the BNL checking codes CHECKR-8.24, FIZCON-8.19 and PSYCHE-8.11
+  [her08],
+- the preprocessing codes PREPRO-2021 [cul23] into a PENDF file,
+- the processing code NJOY-2016.68 [mac10] into a PENDF file and a
+  MCNP (ACE) library,
+- MCNP for a standard calculation with the ACE library.
+
+*********************** R E F E R E N C E S **********************
+
+[cul23] D.E. Cullen, PREPRO 2023 - ENDF/B Pre-processing codes,
+        Technical report IAEA-NDS-0241, IAEA (2023)
+[her08] M. Herman, ENDF Utility Codes Release 8.0, (2008)         
+[kon23] A.J. Koning, S. Hilaire and S. Goriely,
+        TALYS: modeling of nuclear reactions,
+        European Journal of Physics A59 (6), 131 (2023).
+[kon19] A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,       
+        M. Fleming, and S. van der Marck, TENDL: Complete nuclear 
+        data library for innovative nuclear science and           
+        technology, Nuclear Data Sheets 155, 1 (2019)             
+[mac10] R.E. Macfarlane and A.C. Kahler, Methods for processing   
+        ENDF/B-VII with NJOY, Nuclear Data Sheets 111, 2739 (2010)
+                                                                  
+************************* C O N T E N T S ************************
+                                                                  
