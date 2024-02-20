@@ -106,7 +106,10 @@ subroutine talyschannels
   integer           :: type           ! particle type
   real(sgl)         :: Efinal         ! final level
   real(sgl)         :: Ein            ! incident energy
+  real(sgl)         :: eps
+  real(sgl)         :: Erat
   real(sgl)         :: Efile          ! incident energy
+  real(sgl)         :: Egam           ! gamma energy
   real(sgl)         :: Est            ! starting level
   real(sgl)         :: xsga           ! exclusive discrete gamma-ray cross section
 !
@@ -117,6 +120,7 @@ subroutine talyschannels
 ! For the high-energy EAF format, extra MT-numbers with more particles are allowed.
 ! For the other cases, we stick to the official ENDF-6 format.
 !
+  eps = 1.e-6
   isoexist = .false.
   if (flagmtextra) then
     inend = 8
@@ -169,9 +173,11 @@ subroutine talyschannels
                     key='title'
                     keyix=index(line,trim(key))
                     if (keyix > 0) read(line(keyix+len_trim(key)+2:80),'(a)', iostat = istat) title
+                    if (istat /= 0) call read_error(xsfile, istat)
                     key='source'
                     keyix=index(line,trim(key))
                     if (keyix > 0) read(line(keyix+len_trim(key)+2:80),'(a)', iostat = istat) source
+                    if (istat /= 0) call read_error(xsfile, istat)
                     key='Q-value [MeV]'
                     keyix=index(line,trim(key))
                     if (keyix > 0) read(line(keyix+len_trim(key)+2:80),*, iostat = istat) Qexcl(idc)
@@ -258,36 +264,31 @@ subroutine talyschannels
                       do
                         read(1,'(a)',iostat = istat) line
                         if (istat == -1) exit
+                        key='E-incident [MeV]'
+                        keyix=index(line,trim(key))
+                        if (keyix > 0) read(line(keyix+len_trim(key)+2:80),*, iostat = istat) Efile
+                        if (istat /= 0) call read_error(gamfile, istat)
                         key='entries'
                         keyix=index(line,trim(key))
                         if (keyix > 0) then
-                          read(line(keyix+len_trim(key)+2:80),*, iostat = istat) N
+                          read(line(keyix+len_trim(key)+2:80),*, iostat = istat) Ng
+                          if (istat /= 0) call read_error(gamfile, istat)
                           read(1,'(/)')
-                          Ng = 0
-                   Loop2: do nin = 1, N
-                            read(1, '(15x, i6)', iostat =istat) Ng
-                            if (istat == -1) exit
-                            if (istat > 0) call read_error(gamfile, istat, eof = 'continue')
-                            do nen = 1, Nengam
-                              if (nin == Egamindex(nen)) then
-                                do igam = 1, Ng
-                                  read(1, '(2(i6, 9x), 3e15.6)', iostat = istat) i1, i2, xsga, Est, Efinal
-                                  if (istat /= 0) call read_error(gamfile, istat)
-                                  if (i1 <= numlevels .and. i2 <= numlevels) then
-                                    xsgamdis(idc, nen, i1, i2) = xsga
-                                    Estartdis(idc, i1, i2) = Est
-                                    Egammadis(idc, i1, i2) = Estartdis(idc, i1, i2) - Efinal
-                                  endif
-                                enddo
-                                cycle Loop2
-                              endif
-                            enddo
-                            do igam = 1, Ng
-                              read(1, '()', iostat = istat)
-                              if (istat /= 0) call read_error(gamfile, istat)
-                            enddo
-                          enddo Loop2
-                          exit
+                          do nen = 1, Nengam
+                            Ein = eninc(Egamindex(nen))
+                            Erat = Efile/Ein
+                            if (Erat >= 1. - eps .and. Erat <= 1. + eps) then
+                              do igam = 1, Ng
+                                read(1, '(2(i6, 9x), 4e15.6)', iostat = istat) i1, i2, xsga, Est, Efinal, Egam
+                                if (istat /= 0) call read_error(gamfile, istat)
+                                if (i1 <= numlevels .and. i2 <= numlevels) then
+                                  xsgamdis(idc, nen, i1, i2) = xsga
+                                  Estartdis(idc, i1, i2) = Est
+                                  Egammadis(idc, i1, i2) = Egam
+                                endif
+                              enddo
+                            endif
+                          enddo
                         endif
                       enddo
                       close (unit = 1)
@@ -330,7 +331,8 @@ subroutine talyschannels
                             if (istat /= 0) call read_error(spfile, istat)
                             read(1,'(/)')
                             if (flagblock) then
-                              if (abs(Ein-Efile) <= 1.e-4) then
+                              Erat = Efile/Ein
+                              if (Erat >= 1. - eps .and. Erat <= 1. + eps) then
                                 nout(idc, nen) = min(Nfile, numen2-1)
                                 do nen2 = 1, nout(idc,nen)
                                   read(1, '(8es15.6)', iostat = istat) Eout(idc,nen,nen2), (specexcl(idc,nen,type,nen2),type=0,6)
@@ -390,7 +392,8 @@ subroutine talyschannels
                               if (istat /= 0) call read_error(recfile, istat)
                               read(1,'(/)')
                               if (flagblock) then
-                                if (abs(Ein-Efile) <= 1.e-4) then
+                                Erat = Efile/Ein
+                                if (Erat >= 1. - eps .and. Erat <= 1. + eps) then
                                   noutrec(idc,nen) = min(Nfile,numenrec)
                                   do nen2 = 1,noutrec(idc,nen)
                                     read(1, '(2es15.6)', iostat = istat) Erec(idc,nen,nen2), recexcl(idc,nen,nen2)
