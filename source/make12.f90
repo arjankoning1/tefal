@@ -107,7 +107,6 @@ subroutine make12
   integer   :: nex                   ! discrete level
   integer   :: nex0                  ! base number for discrete level
   integer   :: nin                   ! counter for incident energy
-  integer   :: Nphoton               ! total number of photons (NJOY restriction)
   integer   :: NS                    ! line number
   integer   :: type                  ! particle type
   real(sgl) :: Ein                   ! incident energy
@@ -120,7 +119,6 @@ subroutine make12
 !
   MF = 12
   NS = 0
-  Nphoton = 0
   open (unit = 2, file = 'MF12', status = 'replace')
   do MT = 4, nummt
     if ( .not. mtexist(3, MT)) cycle
@@ -289,8 +287,6 @@ subroutine make12
         nex0 = nex
       endif
       ESNS(MT) = real(int(Exd))
-      Nphoton = Nphoton + Nbranch(type, nex0)
-      if (Nphoton > 100) cycle
       do i = 1, Nbranch(type, nex0)
         ii = branchlevel(type, nex0, i)
         Exd = real(dble((Qdisc(type, 0) - Qdisc(type, ii)) * 1.e6))
