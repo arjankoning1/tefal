@@ -117,6 +117,7 @@ subroutine inputout
 !
   write(*, '(" #"/" # Specific structure of the data file")')
   write(*, '(" #")')
+  write(*, '(" linenumbers         ", a1, "     flaglinenum   flag to write line numbers of ENDF file")') yesno(flaglinenum)
   write(*, '(" high                ", a1, "     flaghigh      flag for high energies")') yesno(flaghigh)
   write(*, '(" mtall               ", a1, "     flagmtall     flag to include all defined MT numbers from ENDF manual")') &
  &  yesno(flagmtall)
