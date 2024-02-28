@@ -47,7 +47,7 @@ subroutine endfinitial
 ! Variables for initialization of ENDF format
 !   AWR           ! standard mass parameter
 !   blank1        ! blank string
-!   blank2        ! blank string
+!   blank2        ! string with zeroes
 !   CONT          ! ENDF - 6 format
 !   FEND          ! ENDF - 6 format
 !   HEAD          ! ENDF - 6 format
@@ -261,6 +261,7 @@ subroutine endfinitial
 !
   write(blank1(1:11), '(11x)')
   write(blank2(1:66), '(66x)')
+! blank2= ' 0.000000+0 0.000000+0          0          0          0          0'
   CONT = '(2a11, 4i11, i4, i2, i3, i5)'
   FEND = '(a66, i4, i2, i3, i5)'
   HEAD = '(2a11, 4i11, i4, i2, i3, i5)'
@@ -339,6 +340,7 @@ subroutine endfinitial
   write(rec0(1:37), '(" ", a10, " ", a16, " ", a8)') identifier, filetype, parname(k0)
   write(rec0(38:66), '(" + ", a2, "-", i3, a1, a9, " -", i4, " MeV")') nuclid, Atarget, isochar, energystring, int(enincmax)
   write(rec0(67:80), '("  99 0  0    0")')
+  if (.not.flaglinenum) rec0(76:80)='     '
   return
 end subroutine endfinitial
 ! Copyright A.J. Koning 2021
