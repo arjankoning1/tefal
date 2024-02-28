@@ -30,6 +30,8 @@ subroutine finalwrite
   logical           :: lexist    ! logical to determine existence
   character(len=4)  :: mffile    ! MF filename
   character(len=80) :: string    ! line with parameter value
+  character(len=80) :: mendline  ! 
+  character(len=80) :: tendline  ! 
   integer           :: imf       ! MF counter
   integer           :: imt       ! MT counter
   integer           :: istat     ! logical for file access
@@ -61,7 +63,7 @@ subroutine finalwrite
 !
 ! The EAF-library does not contain line numbers.
 !
-        if (flageaf) then
+        if (flageaf .or. .not.flaglinenum) then
           write(string(76:80), '(5x)')
         else
 !
@@ -91,8 +93,14 @@ subroutine finalwrite
       close (unit = 1)
     endif
   enddo
-  write(10, fmt = MEND) blank2, 0, 0, 0, 0
-  if ( .not. flageaf) write(10, fmt = TEND) blank2, -1, 0, 0, 0
+  write(mendline, fmt = MEND) blank2, 0, 0, 0, 0
+  write(tendline, fmt = TEND) blank2, -1, 0, 0, 0
+  if (.not.flaglinenum) then
+     mendline(76:80)='     '
+     tendline(76:80)='     '
+  endif
+  write(10,'(a)') trim(mendline)
+  if (.not. flageaf) write(10,'(a)') trim(tendline)
   close (unit = 10)
   return
 end subroutine finalwrite
