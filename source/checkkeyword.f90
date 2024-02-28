@@ -19,7 +19,7 @@ subroutine checkkeyword
 ! *** Declaration of local data
 !
   implicit none
-  integer, parameter  :: numkey=59         ! number of keywords
+  integer, parameter  :: numkey=60         ! number of keywords
   integer             :: i                 ! counter
   integer             :: j                 ! counter
   character(len=132)  :: key               ! keyword
@@ -36,7 +36,7 @@ subroutine checkkeyword
   data (keyword(i), i = 1, numkey) / ' ', 'addlow', 'adopt', 'author', 'background', 'breakup', &
     'capt6', 'clean', 'covariance', 'covdiscrete', 'covrp', 'cross', 'cuteps', 'diffweight', 'disc6', 'disclim', 'eaf', &
     'endfdetail', 'endffile', 'endftext', 'eswitch', 'eswitch4', 'exclude', 'fis10', 'gam13', 'gamdiscrete', &
-    'gpf', 'high', 'identifier', 'include', 'intercor', 'lab', 'lssf', 'maxrp', 'mtall', 'mtextra', 'multichance', &
+    'gpf', 'high', 'identifier', 'include', 'intercor', 'lab', 'linenumbers', 'lssf', 'maxrp', 'mtall', 'mtextra', 'multichance', &
     'ngn', 'nmtmax', 'nocross', 'nomf', 'part6', 'partiala', 'partialcov', 'partiald', 'partialh', 'partialn', 'partialp', &
     'partialt', 'recoil', 'renorm', 'resonance', 'rp10', 'rp6', 'subfission', 'tabddx', 'urrcomp', 'urrenergy', 'urrmode'/
 !
