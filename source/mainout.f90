@@ -8,9 +8,9 @@ subroutine mainout
 ! 2023-12-29: Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
-  write(*,'(/"    TEFAL-2.0 (Version: December 29, 2023)"/)')
+  write(*,'(/"    TEFAL-2.01 (Version: February 25, 2024)"/)')
   write(*, '(10x, " Creating ENDF-6 files with TALYS")')
-  write(*, '(/" Copyright (C) 2023  A.J. Koning     ")')
+  write(*, '(/" Copyright (C) 2024  A.J. Koning     ")')
 !
 ! ***************** Write input file and default parameters ************
 !
