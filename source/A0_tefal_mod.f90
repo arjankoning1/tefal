@@ -148,6 +148,7 @@ module A0_tefal_mod
 ! Purpose   : Variables for input of ENDF structure
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
+  logical                   :: flaglinenum ! flag to write line numbers of ENDF file
   logical                   :: flagaddlow  ! flag to add low-energy Q>0 reactions to total cross section
   logical                   :: flagcapt6   ! flag to put MT102 gamma prod. in MF6 instead of MF12/14/15
   logical                   :: flagdisc6   ! flag for discrete angular distribution and gamma prod. in MF6
