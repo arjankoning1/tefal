@@ -71,6 +71,7 @@ subroutine input_endfstruc
 !
 ! ********************************* Defaults ***************************
 !
+  flaglinenum = .true.
   flagpart6 = .true.
   flagparp = .false.
   flagpard = .false.
@@ -126,6 +127,12 @@ subroutine input_endfstruc
 !
 ! Test for keywords
 !
+    if (key == 'linenumbers') then
+      if (ch == 'n') flaglinenum = .false.
+      if (ch == 'y') flaglinenum = .true.
+      if (ch /= 'y' .and. ch /= 'n') call read_error(line, istat)
+      cycle
+    endif
     if (key == 'disc6') then
       if (ch == 'n') flagdisc6 = .false.
       if (ch == 'y') flagdisc6 = .true.
