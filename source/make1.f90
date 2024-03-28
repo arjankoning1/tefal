@@ -173,11 +173,11 @@ subroutine make1
 ! Overwrite AWI with slightly less precise values to keep BNL checking software happy.
 !
   AWI = real(relmass(k0))
-  if (k0 == 2) AWI = 0.998623
-  if (k0 == 3) AWI = 1.996256
-  if (k0 == 4) AWI = 2.989596
-  if (k0 == 5) AWI = 2.989033
-  if (k0 == 6) AWI = 3.967131
+! if (k0 == 2) AWI = 0.998623
+! if (k0 == 3) AWI = 1.996256
+! if (k0 == 4) AWI = 2.989596
+! if (k0 == 5) AWI = 2.989033
+! if (k0 == 6) AWI = 3.967131
   LREL = 1
   IPART = 1000 * parZ(k0) + parA(k0)
   ITYPE = 0
