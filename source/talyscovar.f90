@@ -167,7 +167,6 @@ Loop2:  do ichan = 1, Nchancovint
           read(3,'(/)')
           do nen = 1, Nencov
             do nen2 = 1, Nencov
-!             read(3, * , iostat = istat) mt, ie, ie, ee, mt, ie, ie, ee, Rcov(ichan, nen, ichan2, nen2)
               read(3, * , iostat = istat) ee, ee, Rcov(ichan, nen, ichan2, nen2)
               if (istat > 0) cycle
             enddo
@@ -197,7 +196,6 @@ Loop3:  do ichan = 1, Nchancov
       if (keyix > 0) then
         read(4,'(/)')
         do nen = 1, Nencov
-!         read(4, * , iostat = istat) mt, ie, ie, ee1, ee, relerr(ichan, nen), ee, xserr(ichan, nen)
           read(4, * , iostat = istat) ee1, ee, relerr(ichan, nen), ee, xserr(ichan, nen)
           if (istat > 0) cycle
         enddo
