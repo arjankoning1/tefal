@@ -376,6 +376,10 @@ Loop1:  do MT = 1, nummt
         else
           err = (xserr(ichan, i) * 1.e-3) **2
           Rmt8(ichan, iE8) = 1.e-3 * err
+          if (i == 2) then
+            err = (xserr(ichan, 1) * 1.e-3) **2
+            Rmt8(ichan, 1) = 1.e-3 * err
+          endif
         endif
 !
 ! Intra-MT covariances
@@ -443,7 +447,7 @@ Loop1:  do MT = 1, nummt
 !
       do iE8 = 1, NE8(ichan)
         b8(ichan, 2 * iE8 - 1) = ELB8(iE8) * 1.e6
-        b8(ichan, 2 * iE8) = Rmt8(ichan, iE8)
+        b8(ichan, 2 * iE8) = max(Rmt8(ichan, iE8), 1.e-20)
       enddo
 !
 ! Set last element to zero (Caleb Mattoon)
