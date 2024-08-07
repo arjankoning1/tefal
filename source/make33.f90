@@ -448,6 +448,7 @@ Loop1:  do MT = 1, nummt
       do iE8 = 1, NE8(ichan)
         b8(ichan, 2 * iE8 - 1) = ELB8(iE8) * 1.e6
         b8(ichan, 2 * iE8) = max(Rmt8(ichan, iE8), 1.e-20)
+        if (adopt(32, 151) .and. b8(ichan, 2 * iE8 - 1) .le. EHres) b8(ichan, 2 * iE8) = 0.
       enddo
 !
 ! Set last element to zero (Caleb Mattoon)
@@ -462,6 +463,7 @@ Loop1:  do MT = 1, nummt
           do iE5b = iE5, NE33(ichan, 1)
             ib = ib + 1
             b33MT(ichan, ib) = Rmtfinal(ichan, iE5, iE5b)
+            if (adopt(32, 151) .and. (b33MT(ichan, iE5) .le. EHres .or. b33MT(ichan, iE5b) .le. EHres)) b33MT(ichan, ib) = 0.
           enddo
         enddo
       endif
@@ -528,6 +530,8 @@ Loop1:  do MT = 1, nummt
               do iE6b = 2, NE2cov(ichan2)
                 ib = ib + 1
                 b33(i1, Nsec, ib) = Rfinal(i1, iE6, i2, iE6b)
+                if (adopt(32, 151) .and. (b33(i1, Nsec, iE6) .le. EHres .or. ELB6b(ichan2, iE6b) * 1.e6 .le. EHres)) &
+ &                b33(i1, Nsec, ib) = 0.
               enddo
             enddo
             MT33(ichan, Nsec) = MTindex(ichan2)
