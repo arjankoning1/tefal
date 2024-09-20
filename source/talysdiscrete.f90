@@ -67,7 +67,7 @@ subroutine talysdiscrete
   integer           :: type        ! particle type
   real(sgl)         :: Ein         ! incident energy
   real(sgl)         :: Efile       ! incident energy
-  real(sgl)         :: Qold        ! help variable
+  real(dbl)         :: Qold        ! help variable
 !
 ! ******************* Read discrete level cross sections ***************
 !
