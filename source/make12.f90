@@ -275,22 +275,17 @@ subroutine make12
       LP12(MT) = 0
       NS12(MT) = nex
       if (type == k0 .and. nex <= Ltarget) then
-        Exd = real(dble((Qdisc(type, 0) - Qdisc(type, nex - 1)) * 1.e6))
+        Exd = (Qdisc(type, 0) - Qdisc(type, nex - 1)) * 1.e6
         nex0 = max(nex - 1, 1)
       else
-        if (MT <= 90) then
-          Exd = real(dble(abs(QI(MT))))
-          if (Exd < 1.e4) Exd = Exd + 0.01
-        else
-          Exd = real(dble((Qdisc(type, 0) - Qdisc(type, nex)) * 1.e6))
-        endif
+        Exd = (Qdisc(type, 0) - Qdisc(type, nex)) * 1.e6
         nex0 = nex
       endif
-      ESNS(MT) = real(int(Exd))
+      ESNS(MT) = Exd
       do i = 1, Nbranch(type, nex0)
         ii = branchlevel(type, nex0, i)
-        Exd = real(dble((Qdisc(type, 0) - Qdisc(type, ii)) * 1.e6))
-        ES12(MT, i) = real(int(Exd))
+        Exd = (Qdisc(type, 0) - Qdisc(type, ii)) * 1.e6
+        ES12(MT, i) = Exd
         TP12(MT, i) = 0.01 * branchratio(type, nex0, i)
       enddo
       NT12(MT) = Nbranch(type, nex0)
