@@ -107,7 +107,7 @@ subroutine processchannels
   real(sgl) :: ee                       ! energy
   real(sgl) :: Elast                    ! help variable
   real(sgl) :: Eo(0:numen2)             ! help variable
-  real(sgl) :: QQ                       ! Q-value
+  real(dbl) :: QQ                       ! Q-value
   real(sgl) :: specmass                 ! specific mass
   real(sgl) :: tot                      ! total
   real(sgl) :: totE                     ! total
