@@ -91,7 +91,7 @@ subroutine processyields
   real(sgl) :: Ein                  ! incident energy
   real(sgl) :: Elast                ! help variable
   real(sgl) :: enum                 ! enumerator of Lorentzian
-  real(sgl) :: QQ                   ! Q-value
+  real(dbl) :: QQ                   ! Q-value
   real(sgl) :: specmass             ! specific mass
   real(sgl) :: xb                   ! begin x value
   real(sgl) :: xe                   ! end x value
