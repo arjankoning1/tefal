@@ -850,7 +850,7 @@ module A0_tefal_mod
   real(sgl), dimension(0:numpar,0:numenin+150)                  :: edisc     ! incident energy for discrete level cross sections
   real(sgl), dimension(0:numpar,0:numlevels)                    :: Ethdisc   ! threshold energy
   real(sgl), dimension(0:numpar,0:numlevels)                    :: jdis      ! spin of level
-  real(sgl), dimension(0:numpar,0:numlevels)                    :: Qdisc     ! Q-value
+  real(dbl), dimension(0:numpar,0:numlevels)                    :: Qdisc     ! Q-value
   real(sgl), dimension(0:numpar,0:numlevin,0:numenang,0:numang) :: xsang     ! differential cross section
   real(sgl), dimension(0:numpar,0:numenin+150)                  :: xsbin     ! binary cross section
   real(sgl), dimension(0:numpar,0:numenin)                      :: xscont    ! continuum cross section
