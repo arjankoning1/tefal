@@ -6,7 +6,7 @@ program tefal
 ! Author    : Arjan Koning
 !
 ! 2021-12-30: Original code
-! 2024-08-07: Current revision
+! 2024-11-14: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !
@@ -18,7 +18,7 @@ program tefal
 !
 ! MIT License
 !
-! Copyright (c) 2023 Arjan Koning
+! Copyright (c) 2024 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
@@ -59,4 +59,4 @@ program tefal
   call process
   call tefalmake
 end program tefal
-! Copyright A.J. Koning 2023
+! Copyright A.J. Koning 2024
