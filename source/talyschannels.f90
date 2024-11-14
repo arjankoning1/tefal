@@ -99,6 +99,7 @@ subroutine talyschannels
   integer           :: nen            ! energy counter
   integer           :: nen2           ! energy counter
   integer           :: nex            ! discrete level
+  integer           :: nex0           ! discrete level
   integer           :: Nfile          ! help variable
   integer           :: Ng             ! number of discrete gamma-rays
   integer           :: nin            ! counter for incident energy
@@ -208,12 +209,13 @@ subroutine talyschannels
                   isofile(1:9) = xsfile(1:9)
                   isofile(10:10) = 'L'
                   Nisomer(idc) = 0
-                  do nex = 0, nlevmax
-                    write(isofile(11:12), '(i2.2)') nex
+                  do nex0 = 0, numlevin
+                    write(isofile(11:12), '(i2.2)') nex0
                     inquire (file = isofile, exist = lexist)
                     if (lexist) then
                       open (unit = 1, file = isofile, status = 'old', iostat = istat)
                       if (istat /= 0) call read_error(isofile, istat)
+                      nex = min (nex0, nlevmax)
                       isoexist(idc, nex) = .true.
                       do
                         read(1,'(a)',iostat = istat) line
