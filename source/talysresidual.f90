@@ -61,6 +61,7 @@ subroutine talysresidual
   integer           :: nen        ! energy counter
   integer           :: nen2       ! energy counter
   integer           :: nex        ! discrete level
+  integer           :: nex0       ! discrete level
   integer           :: Nfile      ! help variable
   integer           :: nin        ! counter for incident energy
   integer           :: Nix        ! neutron number index for residual nucleus
@@ -121,13 +122,14 @@ subroutine talysresidual
       isofile(1:9) = rpfile(1:9)
       isofile(10:10) = 'L'
       Nisorp(Zix, Nix) = 0
-      do nex = 0, nlevmax
-        write(isofile(11:12), '(i2.2)') nex
+      do nex0 = 0, numlevin
+        write(isofile(11:12), '(i2.2)') nex0
         inquire (file = isofile, exist = lexist2)
         if (lexist2) then
           open (unit = 1, file = isofile, status = 'old')
           read(1, '()', iostat = istat) 
           if (istat /= 0) call read_error(isofile, istat)
+          nex = min (nex0, nlevmax)
           do
             read(1,'(a)', iostat = istat) line
             if (istat == -1) exit
