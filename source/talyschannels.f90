@@ -217,6 +217,7 @@ subroutine talyschannels
                       if (istat /= 0) call read_error(isofile, istat)
                       nex = min (nex0, nlevmax)
                       isoexist(idc, nex) = .true.
+                      isolevel(idc, nex) = nex0
                       do
                         read(1,'(a)',iostat = istat) line
                         if (istat == -1) exit
