@@ -33,6 +33,8 @@ subroutine arrayinitial
   E1 = 0.
   nubar = 0.
   Cnubar = 0.
+  isolevel = 0
+  rpisolevel = 0
   Qexcliso = 0.
   Ethexcliso = 0.
   xsexcliso = 0.
