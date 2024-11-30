@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2024-11-14: Current revision
+! 2024-11-30: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -815,6 +815,7 @@ module A0_tefal_mod
   integer, dimension(0:numchan)                                    :: Nisomer     ! number of isomers
   integer, dimension(0:numchan,numenspec)                          :: nout        ! number of emission energies
   integer, dimension(0:numchan,numenspec)                          :: noutrec     ! number of recoil energies
+  integer, dimension(0:numchan,0:numlevels)                        :: isolevel    ! level of isomer
   real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: branchiso   ! branching ratio for isomer
   real(sgl), dimension(0:numchan,0:numlevels,0:numlevels)          :: Egammadis   ! gamma energy
   real(sgl), dimension(0:numchan,numenspec,0:numpar,0:numen2)      :: Ehist       ! histogram emission energy
@@ -923,6 +924,7 @@ module A0_tefal_mod
   integer, dimension(0:numZ,0:numN)                        :: Nisorp      ! number of isomers
   integer, dimension(0:numZ,0:numN,numenspec)              :: noutrecrp   ! number of recoil energies for residual nucleus
   logical, dimension(0:numZ,0:numN)                        :: rpexist     ! flag for existence of residual nuclide
+  integer, dimension(0:numZ,0:numN,0:numlevels)            :: rpisolevel  ! level of isomer of residual nucleus
   real(sgl), dimension(0:numZ,0:numN,numenin,0:numenrec)   :: Erecrp      ! recoil energy of residual nucleus
   real(sgl), dimension(0:numZ,0:numN,numenspec,0:numenrec) :: Ehistcumrec ! histogram emission energy for recoil spectr
   real(sgl), dimension(0:numZ,0:numN,0:numlevels)          :: Erpiso      ! energy of isomer
