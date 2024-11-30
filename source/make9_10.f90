@@ -167,7 +167,7 @@ subroutine make9_10
             iza = iza + 1
             iso = iso + 1
             IZAP(iza) = 1000 * Z + A
-            LFSZA(iza) = nex
+            LFSZA(iza) = rpisolevel(Zix, Nix, nex)
             QMZA(iza) = Qrp(Zix, Nix) * 1.e6
             QIZA(iza) = Qrpiso(Zix, Nix, nex) * 1.e6
             EthZA(iza) = Erpiso(Zix, Nix, nex)
@@ -325,7 +325,7 @@ subroutine make9_10
 !
 ! ENDF-6 parameters
 !
-          LFS(MT, iso) = nex
+          LFS(MT, iso) = isolevel(idc, nex)
           NP10(MT, iso) = iE
           NR10(MT, iso) = 1
           NBT10(MT, iso, 1) = iE
