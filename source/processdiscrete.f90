@@ -90,7 +90,7 @@ subroutine processdiscrete
             xsdisc(type, nex, nin) = 0.
           endif
         endif
-        if (xsdisc(type, nex, nin) >= xsepshigh) limit = .true.
+        if (xsdisc(type, nex, nin) >= xsepslow) limit = .true.
       enddo
       if ( .not. limit) then
         levexist(type, nex) = .false.
