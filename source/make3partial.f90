@@ -176,6 +176,7 @@ Loop1:  do MT = 1, nummt
             else
               E3(MT, 1) = EthMT(MT) * 1.e6
               xs(MT, 1) = xsexcl(idc, 1) * 1.e-3
+              iE = 1
             endif
           endif
         else
