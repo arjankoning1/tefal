@@ -448,9 +448,10 @@ subroutine processchannels
   do idc = 0, idnum
     do nex = 0, nlevmax
       if ( .not. isoexist(idc, nex)) cycle
-      do nin = 1, numcut
+      do nin = numcut, 1, -1
         if (xsexcl(idc, nin) > 0.) then
           branchiso(idc, nex, nin) = xsexcliso(idc, nex, nin) / xsexcl(idc, nin)
+          if (nin < numcut .and. xsexcliso(idc, nex, nin) < 1.01*xsepslow) branchiso(idc, nex, nin) = branchiso(idc, nex, nin + 1)
         else
           branchiso(idc, nex, nin) = 0.
         endif
