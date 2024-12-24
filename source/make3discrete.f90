@@ -134,7 +134,7 @@ subroutine make3discrete
       endif
       QI(MT) = Qdisc(type, nex0) * 1.e6
       if (k0 == 0 .and. Qdisc(type, nex0) >= 0.) then
-       iE = 0
+        iE = 0
       else
         EthMT(MT) = max(Ethdisc(type, nex0), EminMeV)
         if (nlevmax == 0 .and. k0 == type) QI(MT) = EthMT(MT) * 1.e6 * AWR / (AWR + 1.)
@@ -236,7 +236,7 @@ subroutine make3discrete
 !
 ! Remove MT number if all cross sections are zero
 !
-      do i = 1, iE
+      do i = 1, nin
         if (xs(MT, i) > 0.) goto 100
       enddo
       mtexist(MF, MT) = .false.
