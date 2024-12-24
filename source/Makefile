@@ -1,6 +1,6 @@
 # This file is part of TEFAL
 # 
-#    Author: Arjan Koning Copyright: (C) 2023
+#    Author: Arjan Koning Copyright: (C) 2024
 #
 # TEFAL is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -34,7 +34,7 @@ src = $(fsub)
 all: change tefal install clean
 
 change : 
-	../path_change
+	../path_change.bash
 
 tefal : $(obj)
 	$(FC) $(FFLAGS) -o  tefal  $(obj)
