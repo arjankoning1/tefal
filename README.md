@@ -52,7 +52,7 @@ install_tefal.bash
 ```
 
 The above will produce a *tefal* executable in the *tefal/bin* directory. 
-The compiler and its flags can be set in either the *source/Makefile* or in *code_build*.
+The compiler and its flags can be set in either the *source/Makefile* or in *code_build.bash*.
 
 ## The TEFAL package
 
