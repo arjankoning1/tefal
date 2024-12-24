@@ -48,7 +48,7 @@ make
 #### 2. Using the install_tefal.bash script:
 ```
 cd tefal
-install_tefal.bash tefal
+install_tefal.bash
 ```
 
 The above will produce a *tefal* executable in the *tefal/bin* directory. 
