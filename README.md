@@ -20,13 +20,13 @@ The following are the prerequisites for compiling TEFAL:
 ### Downloads:
 
 To download TEFAL, you can use one of the following options:
-#### 1. Download the entire tar file:
+#### 1. Download the entire tar file (frozen version):
 ```
 https://nds.iaea.org/talys/tefal.tar
 tar zxf tefal.tar
 ```
 
-#### 2. Using git:
+#### 2. Using git (latest beta version):
 ```
 git clone https://github.com/arjankoning1/tefal.git
 ```
@@ -45,10 +45,10 @@ To install TEFAL, you can use one of the following options:
 cd tefal/source
 make
 ```
-#### 2. Using the code_build script:
+#### 2. Using the install_tefal.bash script:
 ```
 cd tefal
-code_build tefal
+install_tefal.bash tefal
 ```
 
 The above will produce a *tefal* executable in the *tefal/bin* directory. 
@@ -60,7 +60,7 @@ The *tefal/* directory contains the following directories and files:
 
 + `README.md` this README file
 + `LICENSE` the License file
-+ `code_build` and `path_change` installation scripts
++ `install_tasman.bash`, `code_build.bash` and `path_change.bash` installation scripts
 + `source/` the Fortran source code of TEFAL and the Makefile
 + `bin/` the executable after successful installation
 + `misc/` text files and energy grids to be used by TEFAL
@@ -84,7 +84,7 @@ You may create your own input files, e.g. *talys.inp* and *tefal.inp*, after whi
 talys < talys.inp > talys.out
 tefal < tefal.inp > tefal.out
 ```
-assuming that *tefal* is linked to the *tefal/bin/tefal* executable.
+assuming that *tefal* is linked to the *tefal/bin/tefal* executable and *talys* is linked to the *talys/bin/talys* executable.
 
 ## License and Copyright
 This software is distributed and copyrighted according to the [LICENSE](LICENSE) file.
