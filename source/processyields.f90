@@ -269,7 +269,7 @@ subroutine processyields
       endif
       if (enum > 0.1) then
         if (denom > 0.1) yieldany(type, nin) = enum / denom
-        nend0 = nend0 + 1
+        nend0 = min(numen2, nend0 + 1)
         f0cum(type, nen, nend0) = 0.
         xsy = 0.
         if (nbeg0 >= 1) then
