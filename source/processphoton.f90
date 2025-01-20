@@ -107,6 +107,7 @@ subroutine processphoton
   real(sgl) :: factor                                        ! multiplication factor
   real(sgl) :: gspec                                         ! gamma spectrum
   real(sgl) :: specmass                                      ! specific mass
+  real(sgl) :: factorprev  
   real(sgl) :: tot                                           ! total
   real(sgl) :: totC                                          ! total
   real(sgl) :: totE                                          ! total
@@ -418,7 +419,12 @@ subroutine processphoton
           if (Erecav(idc, nen) < Eavailable) Eavailable = Eavailable - Erecav(idc, nen)
           Eaverage = totE / tot
           Esum = Eaverage * yieldgam(idc, nen)
-          factor = Eavailable / Esum
+          if (eninc(nin) >= 1.e-5) then
+            factor = Eavailable / Esum
+          else
+            factor = factorprev
+          endif
+          factorprev = factor
           yieldgam(idc, nen) = yieldgam(idc, nen) * factor
           tot = Eaverage * yieldgam(idc, nen)
         endif
