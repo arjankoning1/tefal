@@ -419,7 +419,7 @@ subroutine processphoton
           if (Erecav(idc, nen) < Eavailable) Eavailable = Eavailable - Erecav(idc, nen)
           Eaverage = totE / tot
           Esum = Eaverage * yieldgam(idc, nen)
-          if (eninc(nin) >= 1.e-5) then
+          if (eninc(nin) >= 1.e-3) then
             factor = Eavailable / Esum
           else
             factor = factorprev
