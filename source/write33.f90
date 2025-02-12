@@ -115,8 +115,8 @@ subroutine write33(MF)
       if (MT == 5) then
         call hrwrite(ZA, AWR, LIS, 0, NZA, 0, MAT, MF, MT, NS)
       else
-        call hrwrite(ZA, AWR, LIS, 0, NSt(MT), 0, MAT, MF, MT, NS)
-        Niso = NSt(MT)
+        Niso = min(NSt(MT),2)
+        call hrwrite(ZA, AWR, LIS, 0, Niso, 0, MAT, MF, MT, NS)
       endif
     endif
 !
