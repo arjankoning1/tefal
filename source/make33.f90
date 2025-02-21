@@ -478,8 +478,8 @@ Loop1:  do MT = 1, nummt
       else
         if (MTindexiso(ichan) /=  -1) flag33(MF, MT) = .true.
         if (Nisocov(MT) /= NSt(MT)) flag33(MF, MT) = .false.
+        if (MT == 18 .and. mtexist(10, 18)) flag33(40, 18) = .true.
       endif
-      if (mtexist(10, 18)) flag33(40, MT) = .true.
       MT33(ichan, 1) = MTindex(ichan)
       NC33(ichan, 1) = 0
       NT33(ichan, 1) = (NE33(ichan, 1) * (NE33(ichan, 1) + 1)) / 2
