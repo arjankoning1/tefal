@@ -6,12 +6,12 @@ subroutine mainout
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2024-12-29: Current revision
+! 2025-02-21: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
-  write(*,'(/"    TEFAL-2.1 (Version: December 29, 2024)"/)')
+  write(*,'(/"    TEFAL-2.1 (Version: February 21, 2025)"/)')
   write(*, '(10x, " Creating ENDF-6 files with TALYS")')
-  write(*, '(/" Copyright (C) 2024  A.J. Koning     ")')
+  write(*, '(/" Copyright (C) 2025  A.J. Koning     ")')
 !
 ! ***************** Write input file and default parameters ************
 !
@@ -20,4 +20,4 @@ subroutine mainout
   call inputout
   return
 end subroutine mainout
-! Copyright A.J. Koning 2024
+! Copyright A.J. Koning 2025
