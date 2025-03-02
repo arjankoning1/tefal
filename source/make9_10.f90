@@ -219,11 +219,14 @@ subroutine make9_10
           if (iso == numiso) cycle
           iso = iso + 1
           QM(MT) = Qexcl(idc) * 1.e6
-          if ( k0 > 0 .and. MT == MTinel) then
-            if (nex == 0 .and. Lisomer > 0) then
-              QIiso(MT, iso) = Qdisc(k0, 0) * 1.e6
-            else
-              QIiso(MT, iso) = 0.
+          if (k0 > 0 .and. MT == MTinel) then
+            QIiso(MT, iso) = 0.
+            if (Lisomer > 0) then
+              if (nex == 0) then
+                QIiso(MT, iso) = Qdisc(k0, 0) * 1.e6
+              else
+                QIiso(MT, iso) = Qdisc(k0, nex) * 1.e6
+              endif
             endif
             if (nex > 0 .and. Lisomer == 0) QIiso(MT, iso) = Qdisc(k0, nex) * 1.e6
           else
@@ -246,7 +249,7 @@ subroutine make9_10
             else
               E10(MT, iso, 1) = max(Ethexcliso(idc, nex) * 1.e6, EmineV)
             endif
-            if (MT == MTinel .and. nex > 0 .and. Lisomer > 0) E10(MT, iso, 1) = EmineV
+            if (QIiso(MT,iso) > 0.) E10(MT, iso, 1) = EmineV
             if (eninc(1) == EminMeV) then
               if (yield) then
                 if (xsexcl(idc, 1) <= xsepslow) then
