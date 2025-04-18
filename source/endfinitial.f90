@@ -337,8 +337,9 @@ subroutine endfinitial
     energystring = '      MeV'
     write(energystring(2:5), '(i4)') int(eninc(1))
   endif
-  write(rec0(1:37), '(" ", a10, " ", a16, " ", a8)') identifier, filetype, parname(k0)
-  write(rec0(38:66), '(" + ", a2, "-", i3, a1, a9, " -", i4, " MeV")') nuclid, Atarget, isochar, energystring, int(enincmax)
+  write(rec0(1:21), '(" ", a10, ": ", a8)') identifier, parname(k0)
+  write(rec0(22:66), '(" + ", a2, "-", i3, a1, a9, " -", i4, " MeV       CC-BY-4.0")') nuclid, Atarget, isochar, energystring, &
+&   int(enincmax)
   write(rec0(67:80), '("  99 0  0    0")')
   if (.not.flaglinenum) rec0(76:80)='     '
   return
