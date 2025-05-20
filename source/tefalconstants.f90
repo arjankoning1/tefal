@@ -5,7 +5,7 @@ subroutine tefalconstants
 !
 ! Author    : Arjan Koning
 !
-! 2021-12-30: Original code
+! 2025-05-20: Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -51,7 +51,7 @@ subroutine tefalconstants
   parZ = (/ 0, 0, 1, 1, 1, 2, 2 /)
   parN = (/ 0, 1, 0, 1, 2, 1, 2 /)
   parA = (/ 0, 1, 1, 2, 3, 3, 4 /)
-  parmass = (/ 0., 1.00866491590, 1.007825031898, 2.014101777844, 3.01604928132, 3.01602932197, 4.00260325413 /)
+  parmass = (/ 0., 1.00866491574, 1.00727646662, 2.01355321275, 3.01550071621, 3.01493224717, 4.0015061791 /)
   parspin = (/ 0., 0.5, 0.5, 1., 0.5, 0.5, 0. /)
 !
 ! ************************ Nuclear symbols *****************************
@@ -83,4 +83,4 @@ subroutine tefalconstants
   xsepshigh = 1.e-6
   fislim = 215
 end subroutine tefalconstants
-! Copyright A.J. Koning 2021
+! Copyright A.J. Koning 2025
