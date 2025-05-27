@@ -226,19 +226,16 @@ subroutine make9_10
                 QIiso(MT, iso) = Qdisc(k0, 0) * 1.e6
               else
                 QIiso(MT, iso) = Qdisc(k0, nex) * 1.e6
-print*, " QIISO ",  MT, iso,  QIiso(MT, iso)
               endif
             endif
             if (nex > 0 .and. Lisomer == 0) QIiso(MT, iso) = Qdisc(k0, nex) * 1.e6
           else
             QIiso(MT, iso) = Qexcliso(idc, nex) * 1.e6
-print*, " QIISO B",  MT, iso,  QIiso(MT, iso)
           endif
 !
 ! Make sure the energy level is precisely the difference of Q-values
 !
           ELFS(MT, iso) = QM(MT) - QIiso(MT, iso)
-print*," A ",MT,iso,ELFS(MT, iso) , QM(MT) , QIiso(MT, iso)
 !         if (nex > 0) then
 !           L = int(log10(ELFS(MT, iso)))
 !           eps = 9. * 10 **real(L - 7)
@@ -368,7 +365,6 @@ print*," A ",MT,iso,ELFS(MT, iso) , QM(MT) , QIiso(MT, iso)
     QM(MT) = 2.e8
     QIiso(MT, iso) = 0.
     ELFS(MT, iso) = QM(MT)
-print*," C ",MT, iso,ELFS(MT, iso)
     LFS(MT, iso) = 0
     NP10(MT, iso) = iE
     NR10(MT, iso) = 1
