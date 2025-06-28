@@ -40,7 +40,7 @@ module A0_tefal_mod
   integer, parameter :: numl=60                         ! number of l values
   integer, parameter :: numgam=100                      ! number of gamma lines
   integer, parameter :: numres=5                        ! number of resonance sections
-  integer, parameter :: numnrs=6000                     ! number of resonances
+  integer, parameter :: numnrs=5000                     ! number of resonances
   integer, parameter :: numrespar=5                     ! number of different resonance parameters
   integer, parameter :: numrescov=1000                  ! number of resonances with covariances
   integer, parameter :: numlres=5                       ! number of l-values
