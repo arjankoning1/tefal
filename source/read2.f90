@@ -216,14 +216,23 @@ subroutine read2
             read(3, '(2e11.6, 2i11, 11x, i11)', iostat = istat) AWRI(n, ll), QX(n, ll), Lres(n, ll), LRX(n, ll), NRS(n, ll)
             if (istat /= 0) call read_error(afile, istat)
             do ie = 1, NRS(n, ll)
-              read(3, '(6e11.6)', iostat = istat) Er(n, ll, ie), AJ(n, ll, ie), &
-                GT(n, ll, ie), GN(n, ll, ie), GG(n, ll, ie), GF(n, ll, ie)
-              if (istat /= 0) call read_error(afile, istat)
-              GT(n, ll, ie) = abs(GT(n, ll, ie))
-              GN(n, ll, ie) = abs(GN(n, ll, ie))
-              GG(n, ll, ie) = abs(GG(n, ll, ie))
-              GF(n, ll, ie) = abs(GF(n, ll, ie))
+              if (ie > numnrs) then
+                read(3, '()', iostat = istat) 
+                if (istat /= 0) call read_error(afile, istat)
+              else
+                read(3, '(6e11.6)', iostat = istat) Er(n, ll, ie), AJ(n, ll, ie), &
+                  GT(n, ll, ie), GN(n, ll, ie), GG(n, ll, ie), GF(n, ll, ie)
+                if (istat /= 0) call read_error(afile, istat)
+                GT(n, ll, ie) = abs(GT(n, ll, ie))
+                GN(n, ll, ie) = abs(GN(n, ll, ie))
+                GG(n, ll, ie) = abs(GG(n, ll, ie))
+                GF(n, ll, ie) = abs(GF(n, ll, ie))
+              endif
             enddo
+            if (NRS(n, ll) > numnrs) then
+              write(*, '(" TEFAL-warning: number of resonances cut at ",i6)') numnrs
+              NRS(n, ll) = min(NRS(n, ll), numnrs)
+            endif
           enddo
         endif
 !
@@ -260,13 +269,22 @@ subroutine read2
             read(3, '(2e11.6, i11, 22x, i11)', iostat = istat) AWRI(n, ll), APL(n, ll), Lres(n, ll), NRS(n, ll)
             if (istat /= 0) call read_error(afile, istat)
             do ie = 1, NRS(n, ll)
-              read(3, '(6e11.6)', iostat = istat) Er(n, ll, ie), AJ(n, ll, ie), &
-                GN(n, ll, ie), GG(n, ll, ie), GFA(n, ll, ie), GFB(n, ll, ie)
-              if (istat /= 0) call read_error(afile, istat)
-              GT(n, ll, ie) = abs(GT(n, ll, ie))
-              GN(n, ll, ie) = abs(GN(n, ll, ie))
-              GG(n, ll, ie) = abs(GG(n, ll, ie))
+              if (ie > numnrs) then
+                read(3, '()', iostat = istat) 
+                if (istat /= 0) call read_error(afile, istat)
+              else
+                read(3, '(6e11.6)', iostat = istat) Er(n, ll, ie), AJ(n, ll, ie), &
+                  GN(n, ll, ie), GG(n, ll, ie), GFA(n, ll, ie), GFB(n, ll, ie)
+                if (istat /= 0) call read_error(afile, istat)
+                GT(n, ll, ie) = abs(GT(n, ll, ie))
+                GN(n, ll, ie) = abs(GN(n, ll, ie))
+                GG(n, ll, ie) = abs(GG(n, ll, ie))
+              endif
             enddo
+            if (NRS(n, ll) > numnrs) then
+              write(*, '(" TEFAL-warning: number of resonances cut at ",i6)') numnrs
+              NRS(n, ll) = min(NRS(n, ll), numnrs)
+            endif
           enddo
         endif
 !
