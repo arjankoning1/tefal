@@ -78,9 +78,10 @@ subroutine endfinitial
   character(len=4)  :: ext          ! filename extension
   character(len=9)  :: energystring ! energy string
   character(len=16) :: filetype     ! type of ENDF-6 file
-  integer           :: isp(4)       ! help variable for Es-Lr MAT numbers
+! integer           :: isp(4)       ! help variable for Es-Lr MAT numbers
   integer           :: MT           ! MT-number
-  isp = (/9920, 9945, 9965, 9980/)
+  integer           :: Adif         ! difference relative to lightest stable isotope
+! isp = (/9920, 9945, 9965, 9980/)
 !
 ! ********************** Assignment of MT-numbers **********************
 !
@@ -293,17 +294,22 @@ subroutine endfinitial
 ! In the EAF-format, the MAT numbers are different from the ENDF-6 format.
 ! (Not all possibilities for MAT-numbers are yet covered, e.g. Einsteinium and higher, to be done).
 !
-  if (flageaf .or. Ztarget > 103) then
+  if (flageaf .or. Ztarget >= 99) then
     MAT = mod(Ztarget * 100, 10000) + mod(Atarget, 100)
     if (flageaf) then
       if (Lisomer == 1) MAT = MAT + 50
       if (Lisomer == 2) MAT = MAT + 70
       if (Lisomer == 3) MAT = MAT + 90
+    else
+      MAT = MAT + Lisomer
     endif
   else
-    if (Ztarget < 99) MAT = Ztarget * 100 + 25 + 3 * (Atarget - light(Ztarget)) + Lisomer
-    if (Ztarget == 99) MAT = Ztarget * 100 + Atarget - light(Ztarget) + 1 + 5 * Lisomer
-    if (Ztarget > 99) MAT = isp(Ztarget - 99) + Atarget - light(Ztarget) + 1 + 5 * Lisomer
+!
+! Avoid overlap with neutron rich isotopes of other element, hence store as the 'n' isomer.
+!
+    Adif = Atarget - light(Ztarget)
+    MAT = Ztarget * 100 + 25 + 3 * Adif + Lisomer
+    if (Adif < -10) MAT = MAT - 1
   endif
 !
 ! *********************** Name of ENDF file ****************************
