@@ -63,7 +63,7 @@ subroutine checkfiles
         if (adopt(imf, imt)) then
           inquire (file = filename, exist = lexist)
           if (lexist) exit
-          if (imf == 1 .and. (imt == 452 .or. imt == 455 .or. imt == 458)) then
+          if (imf == 1 .and. (imt == 452 .or. imt == 455 .or. imt == 456 .or. imt == 458)) then
             write(*, '(" TEFAL-warning: ",a, " not present")') trim(filename)
             write(*,'("   MF ",i3," MT ",i3," omitted")')  imf,imt
             adopt(imf, imt) = .false.
@@ -75,7 +75,7 @@ subroutine checkfiles
             adopt(imf, imt) = .false.
             cycle
           endif
-          if (imf == 5 .and. imt == 18) then
+          if (imf == 5 .and. (imt == 18 .or. imt == 455)) then
             write(*, '(" TEFAL-warning: ",a, " not present")') trim(filename)
             write(*,'("   MF ",i3," MT ",i3," omitted")')  imf,imt
             adopt(imf, imt) = .false.
