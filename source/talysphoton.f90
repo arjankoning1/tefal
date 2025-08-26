@@ -65,6 +65,7 @@ subroutine talysphoton
           do
             read(1, '(i6, 9x, 15x, i6, 9x, es15.6)', iostat = istat) i, Ngamdis(type, i), yieldg(type, i)
             if (istat == -1) exit
+            Ngamdis(type, i) = min(Ngamdis(type, i), numgam)
             do j = 1, Ngamdis(type, i)
               read(1, '(90x, 2es15.6)') Egamdis(type, i, j), yieldratio(type, i, j)
             enddo
