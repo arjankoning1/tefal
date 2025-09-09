@@ -143,7 +143,7 @@ subroutine processphoton
         enddo
       enddo
     enddo
-    Ngam(idc) = Ng
+    Ngam(idc) = min(Ng, numgam -1)
   enddo
 !
 ! ********** Sort gamma ray energies into descending order *************
