@@ -85,7 +85,7 @@ subroutine talysphoton
     A = Ainit - parZ(type) - parN(type)
     write(resstring(1:3),'(i3.3)') Z
     write(resstring(4:6),'(i3.3)') A
-    discretefile = 'levels'//resstring//'.tot'
+    discretefile = 'levels'//resstring//'.out'
     inquire (file = discretefile, exist = lexist)
     if (lexist) then
       open (unit = 1, file = discretefile, status = 'old')
