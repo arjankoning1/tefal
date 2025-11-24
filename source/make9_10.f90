@@ -108,14 +108,14 @@ subroutine make9_10
   integer   :: iE               ! energy counter
   integer   :: iso              ! counter for isomer
   integer   :: iza              ! counter for Z,A combinations
-  integer   :: L                ! counter for Legendre coefficients
+! integer   :: L                ! counter for Legendre coefficients
   integer   :: MT               ! MT-number
   integer   :: nex              ! discrete level
   integer   :: nin              ! counter for incident energy
   integer   :: Nix              ! neutron number index for residual nucleus
   integer   :: Z                ! charge number of target nucleus
   integer   :: Zix              ! charge number index for residual nucleus
-  real(sgl) :: eps              ! help variable
+! real(sgl) :: eps              ! help variable
 !
 ! **************************** Make MF10 *******************************
 !
