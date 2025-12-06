@@ -193,6 +193,11 @@ subroutine talyschannels
                       read(line(keyix+len_trim(key)+2:80),*, iostat = istat) N
                       if (istat /= 0) call read_error(xsfile, istat)
                       read(1,'(/)')
+                      if (N > numenin) then
+                        write(*, '(" TEFAL-warning: number of energy points cut from ",i6," to ",i6," in file ",a)') &
+ &                        N, numenin, trim(xsfile)
+                        N = numenin
+                      endif
                       do nin = 1, N
                         read(1, '(15x, 2es15.6)', iostat = istat) xsexcl(idc, nin), xsgamexcl(idc, nin)
                         if (istat == -1) exit
