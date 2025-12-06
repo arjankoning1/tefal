@@ -108,7 +108,7 @@ subroutine reacinitial
 ! Masses relative to the neutron mass and standard ENDF-6 quantities are determined.
 !
   do type = 0, 6
-    relmass(type) = parmass(type) / parmass(1)
+    relmass(type) = baremass(type) / parmass(1)
   enddo
   nuclid = nuc(Ztarget)
   massN = real(tarmass / parmass(1))
