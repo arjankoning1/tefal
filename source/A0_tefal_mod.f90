@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2025-10-12: Current revision
+! 2025-12-01: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -85,6 +85,7 @@ module A0_tefal_mod
   integer, dimension(0:numpar)           :: parN      ! neutron number of particle
   integer, dimension(0:numpar)           :: parZ      ! charge number of particle
   real(dbl), dimension(0:numpar)         :: parmass   ! mass of particle in a.m.u.
+  real(dbl), dimension(0:numpar)         :: baremass  ! bare mass (i.e. without electron) of particle in a.m.u.
   real(sgl), dimension(0:numpar)         :: parspin   ! spin of particle
   real(sgl)                              :: pi        ! pi
   real(sgl)                              :: xsepshigh ! upper limit for cross sections in millibarns
