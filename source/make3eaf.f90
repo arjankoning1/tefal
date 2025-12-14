@@ -227,7 +227,7 @@ subroutine make3eaf
             if (eafstring(MT)(i:i) >= 'a' .and. eafstring(MT)(i:i) <= 'z') eafstring(MT)(i:i) = &
               achar(iachar(eafstring(MT)(i:i)) - 32)
           enddo
-          write(eafstring(MT)(26:35), '("TALYS-2.1 ")')
+          write(eafstring(MT)(26:35), '("TALYS-2.2 ")')
         enddo
       endif
     enddo
