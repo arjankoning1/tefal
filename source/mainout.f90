@@ -9,7 +9,7 @@ subroutine mainout
 ! 2025-12-01: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
-  write(*,'(/"    TEFAL-2.2 (Version: December 1, 2025)"/)')
+  write(*,'(/"    TEFAL-2.2 (Version: December 9, 2025)"/)')
   write(*, '(10x, " Creating ENDF-6 files with TALYS")')
   write(*, '(/" Copyright (C) 2025  A.J. Koning     ")')
 !
