@@ -1,0 +1,545 @@
+ 9.023200+4 2.300447+2          0          0         17          19040 1451    0
+ 0.000000+0 0.000000+0          0          0          0          69040 1451    0
+ 1.000000+0 2.000000+7          1          0         10       20259040 1451    0
+ 0.000000+0 0.000000+0          0          0        377        1629040 1451    0
+ 90-Th-232 IAEA       EVAL-DEC25 A.J. Koning and D. Rochman       9040 1451    0
+ TENDL-2025           DIST-      REV1-                            9040 1451    0
+----TENDL-2025        Material 9040         REVISION 1            9040 1451    0
+-----Incident neutron  data                                       9040 1451    0
+------ENDF-6 Format                                               9040 1451    0
+                                                                  9040 1451    0
+TENDL-2025 (TALYS Evaluated Nuclear Data Library)                 9040 1451    0
+                                                                  9040 1451    0
+Neutron general purpose library                                   9040 1451    0
+                                                                  9040 1451    0
+Author: A.J. Koning and D. Rochman, IAEA - PSI                    9040 1451    0
+                                                                  9040 1451    0
+Ref.: A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,         9040 1451    0
+      M. Fleming, and S. van der Marck, TENDL: Complete nuclear   9040 1451    0
+      data library for innovative nuclear science and             9040 1451    0
+      technology, Nuclear Data Sheets 155, 1 (2019).              9040 1451    0
+                                                                  9040 1451    0
+************** G E N E R A L   I N F O R M A T I O N *************9040 1451    0
+                                                                  9040 1451    0
+This evaluated data file is based on a software system built      9040 1451    0
+around the nuclear model code TALYS [kon23], version 2.0. It is   9040 1451    0
+part of a large collection of isotopic evaluations, all created by9040 1451    0
+running the system with either adjusted or default input          9040 1451    0
+parameters. This means that the data in the entire collection have9040 1451    0
+been tested in detail for many isotopes against individual        9040 1451    0
+experimental data, while for other isotopes it is only as good as 9040 1451    0
+the global quality of TALYS at the moment. The mutual quality of  9040 1451    0
+all individual data files is however consistent: The same set of  9040 1451    0
+nuclear models is used and, equally important, the same ENDF-6    9040 1451    0
+formatting procedures for each isotope. The data file has been    9040 1451    0
+created automatically using the ENDF-6 format generator TEFAL.    9040 1451    0
+                                                                  9040 1451    0
+The resulting data file provides a complete representation of     9040 1451    0
+nuclear data needed for transport, activation, damage, heating,   9040 1451    0
+radioactivity, and shielding applications over the incident       9040 1451    0
+neutron energy range from 1.e-11 to 200. MeV.                     9040 1451    0
+                                                                  9040 1451    0
+All transport and activation data for neutrons, charged particles,9040 1451    0
+photons and residual nuclides are filed. This includes cross      9040 1451    0
+sections, angular distributions, double-differential spectra,     9040 1451    0
+isomeric production, discrete and continuum photon production     9040 1451    0
+cross sections, residual production cross sections and recoils.   9040 1451    0
+This general purpose evaluation can thus be used as both          9040 1451    0
+transport and activation library.                                 9040 1451    0
+                                                                  9040 1451    0
+A complete set of covariance data is included, which is stored    9040 1451    0
+in MF31-40.                                                       9040 1451    0
+                                                                  9040 1451    0
+                      Resonance Range                             9040 1451    0
+                                                                  9040 1451    0
+  --------------------------------------------------------------- 9040 1451    0
+  --------------------------------------------------------------- 9040 1451    0
+                                                                  9040 1451    0
+  General methodology: The global approach considered in this     9040 1451    0
+          work is presented in the following papers:              9040 1451    0
+          (1) Modern nuclear data evaluation with the TALYS       9040 1451    0
+              code system, A.J. Koning and D. Rochman,            9040 1451    0
+              A.J. Koning and D. Rochman,                         9040 1451    0
+              Nuclear Data Sheets 113 (2012) 2841.                9040 1451    0
+          (2) TENDL: Complete Nuclear Data Library for            9040 1451    0
+              Innovative Nuclear Science and Technology,          9040 1451    0
+              A.J. Koning, D. Rochman, J.Ch Sublet, N. Dzysiuk,   9040 1451    0
+              M. Fleming and S. van der Marck,                    9040 1451    0
+              Nuclear Data Sheets 155 (2019) 1.                   9040 1451    0
+                                                                  9040 1451    0
+  MF2:  Resolved resonance range  (RRR)                           9040 1451    0
+       The RRR was generated with TARES-1.4                       9040 1451    0
+       The unresolved resonance range is obtained from the TALYS  9040 1451    0
+       code.                                                      9040 1451    0
+                                                                  9040 1451    0
+  MF33 in the resonance range:                                    9040 1451    0
+  The MF33 in the resonance range is obtained by using a number   9040 1451    0
+  of MF2 random files. There is therefore a consistency           9040 1451    0
+  between the MF2 random and the MF33.                            9040 1451    0
+  MF32:                                                           9040 1451    0
+  The MF32 contains the resonance parameters, uncertainties and   9040 1451    0
+  some correlation. These values are used to generate random      9040 1451    0
+  MF2, taking advantage of the code ENDSAM from L. Plevnik and    9040 1451    0
+  G. Zerovnik from JSI, Slovenia (thanks to A. Trkov, IAEA).      9040 1451    0
+                                                                  9040 1451    0
+***************************** T A L Y S **************************9040 1451    0
+                                                                  9040 1451    0
+TALYS is a computer code system for the prediction and analysis   9040 1451    0
+of nuclear reactions. TALYS simulates reactions that involve      9040 1451    0
+neutrons, gamma-rays, protons, deuterons, tritons, helions and    9040 1451    0
+alpha-particles, in the 1 keV - 200 MeV energy range. This is     9040 1451    0
+achieved by implementing a suite of nuclear reaction models into  9040 1451    0
+a single code system. This nuclear data file is based on a        9040 1451    0
+theoretical analysis that utilizes the optical model, compound    9040 1451    0
+nucleus statistical theory, fission, direct reactions and         9040 1451    0
+pre-equilibrium processes, in combination with databases and      9040 1451    0
+models for nuclear structure. The following output of TALYS is    9040 1451    0
+stored in this data file:                                         9040 1451    0
+                                                                  9040 1451    0
+- Total, elastic and non-elastic cross sections                   9040 1451    0
+- Inelastic cross sections to discrete states                     9040 1451    0
+- Exclusive channel cross sections, e.g. (n,g), (n,2n), (n,np),.. 9040 1451    0
+- Inelastic scattering angular distributions to discrete states   9040 1451    0
+- Exclusive channel energy spectra                                9040 1451    0
+- Exclusive channel double-differential spectra                   9040 1451    0
+- Exclusive gamma production for discrete states and continuum    9040 1451    0
+- Elastic scattering angular distributions                        9040 1451    0
+- Recoil data                                                     9040 1451    0
+- Total particle cross sections, e.g. (n,xn), (n,xp),..           9040 1451    0
+- Total particle energy spectra                                   9040 1451    0
+- Total particle double-differential spectra                      9040 1451    0
+- Isomeric and ground state cross sections                        9040 1451    0
+- Residual production cross sections                              9040 1451    0
+                                                                  9040 1451    0
+For a description of the used nuclear models and their            9040 1451    0
+parameterization we refer to [kon19]. If for this specific        9040 1451    0
+nuclide we deviate from the global parameterization, it is made   9040 1451    0
+explicit above under Nuclide Specific Information.                9040 1451    0
+                                                                  9040 1451    0
+***************** F I L E   I N F O R M A T I O N ****************9040 1451    0
+                                                                  9040 1451    0
+##### MF1: GENERAL INFORMATION                                    9040 1451    0
+                                                                  9040 1451    0
+- MT451    : Descriptive data and directory                       9040 1451    0
+                                                                  9040 1451    0
+This text and the full directory of used MF/MT sections.          9040 1451    0
+                                                                  9040 1451    0
+##### MF2: RESONANCE PARAMETERS                                   9040 1451    0
+                                                                  9040 1451    0
+- MT151    : Resonance parameters                                 9040 1451    0
+                                                                  9040 1451    0
+Details about the origin of the resonance parameters for this     9040 1451    0
+nuclide are given above in this description. In general, both a   9040 1451    0
+Resolved and an Unresolved Resonance Range are given.             9040 1451    0
+                                                                  9040 1451    0
+##### MF3: REACTION CROSS SECTIONS                                9040 1451    0
+                                                                  9040 1451    0
+All the data present in the following MT-sections have been       9040 1451    0
+calculated with TALYS, possibly normalized to experimental data.  9040 1451    0
+If the maximal cross section in an excitation function over the   9040 1451    0
+whole energy range does not exceed 1.e-9 b, the MT-number is not  9040 1451    0
+included. Cross sections lower than 1.e-20 b are assumed to have  9040 1451    0
+no physical meaning and are set to zero. All MT numbers extend up 9040 1451    0
+to the highest incident energy.                                   9040 1451    0
+The following reaction channels/MT numbers are generally included:9040 1451    0
+                                                                  9040 1451    0
+- MT1      : Total cross section                                  9040 1451    0
+                                                                  9040 1451    0
+Calculated with the optical model over the whole energy range,    9040 1451    0
+or partly reproduced using experimental data.                     9040 1451    0
+                                                                  9040 1451    0
+- MT2      : Elastic scattering cross section                     9040 1451    0
+                                                                  9040 1451    0
+Obtained by subtracting the non-elastic cross section from the    9040 1451    0
+total cross section.                                              9040 1451    0
+                                                                  9040 1451    0
+- MT3      : Non-elastic cross section                            9040 1451    0
+                                                                  9040 1451    0
+Calculated with the optical model over the whole energy range.    9040 1451    0
+                                                                  9040 1451    0
+- MT4      : Total inelastic cross section                        9040 1451    0
+                                                                  9040 1451    0
+Sum of MT=51-91.                                                  9040 1451    0
+                                                                  9040 1451    0
+- MT5      : (n,anything) cross section                           9040 1451    0
+                                                                  9040 1451    0
+MT5 contains the reactions which can not be stored in any other   9040 1451    0
+MT-number. The information of MF3/MT5 can be combined with        9040 1451    0
+MF6/MT5 to obtain residual production cross sections particle     9040 1451    0
+production cross sections and (double-)differential cross         9040 1451    0
+sections.                                                         9040 1451    0
+                                                                  9040 1451    0
+- MT16     : (n,2n) cross section                                 9040 1451    0
+- MT17     : (n,3n) cross section                                 9040 1451    0
+- MT22     : (n,na) cross section                                 9040 1451    0
+- MT28     : (n,np) cross section                                 9040 1451    0
+- MT51-90  : (n,n') cross section for 1st-40th excited state      9040 1451    0
+- MT91     : (n,n') continuum cross section                       9040 1451    0
+- MT102    : (n,gamma) cross section                              9040 1451    0
+- MT103    : (n,p) cross section                                  9040 1451    0
+- MT104    : (n,d) cross section                                  9040 1451    0
+- MT105    : (n,t) cross section                                  9040 1451    0
+- MT106    : (n,h) cross section                                  9040 1451    0
+- MT107    : (n,a) cross section                                  9040 1451    0
+- MT600-610: (n,p) cross section for 0th-10th excited state       9040 1451    0
+- MT649    : (n,p) continuum cross section                        9040 1451    0
+- MT650-655: (n,d) cross section for 0th-5th excited state        9040 1451    0
+- MT699    : (n,d) continuum cross section                        9040 1451    0
+- MT700-705: (n,t) cross section for 0th-5th excited state        9040 1451    0
+- MT749    : (n,t) continuum cross section                        9040 1451    0
+- MT750-755: (n,h) cross section for 0th-5th excited state        9040 1451    0
+- MT799    : (n,h) continuum cross section                        9040 1451    0
+- MT800-810: (n,a) cross section for 0th-10th excited state       9040 1451    0
+- MT849    : (n,a) continuum cross section                        9040 1451    0
+                                                                  9040 1451    0
+##### MF4: ANGULAR DISTRIBUTIONS OF SECONDARY PARTICLES           9040 1451    0
+                                                                  9040 1451    0
+We use MF4 for the neutron scattering angular distribution for    9040 1451    0
+discrete levels.                                                  9040 1451    0
+                                                                  9040 1451    0
+- MT2      : Elastic angular distribution                         9040 1451    0
+                                                                  9040 1451    0
+The flag LTT=3 is used to indicate a switch at some high energy,  9040 1451    0
+generally 50 MeV, from a Legendre representation to a tabulated   9040 1451    0
+representation. For incident energies below this energy, the      9040 1451    0
+Legendre coefficients are given on a sufficiently precise energy  9040 1451    0
+grid. They are a sum of calculated Legendre coefficients for      9040 1451    0
+compound nucleus and shape-elastic scattering. For higher         9040 1451    0
+incident energies, relative angular distributions are tabulated   9040 1451    0
+on an angular grid.                                               9040 1451    0
+                                                                  9040 1451    0
+- MT51-70  : (n,n') angular distribution for 1st-20th state       9040 1451    0
+- MT600-610: (n,p) angular distribution for 0th-10th state        9040 1451    0
+- MT650-655: (n,d) angular distribution for 0th-5th state         9040 1451    0
+- MT700-705: (n,t) angular distribution for 0th-5th state         9040 1451    0
+- MT750-755: (n,h) angular distribution for 0th-5th state         9040 1451    0
+- MT800-810: (n,a) angular distribution for 0th-10th state        9040 1451    0
+                                                                  9040 1451    0
+##### MF6: PRODUCT ENERGY-ANGLE DISTRIBUTIONS                     9040 1451    0
+                                                                  9040 1451    0
+In MF6 we store all secondary energy, angle, and energy-angle     9040 1451    0
+distributions, as well as all residual and discrete + continuum   9040 1451    0
+photon production cross sections for channels other than capture  9040 1451    0
+(MT102) and reactions to discrete levels (MT51,etc.).             9040 1451    0
+All data are generated with TALYS.                                9040 1451    0
+                                                                  9040 1451    0
+- MT5      : (n,anything) yields and energy-angle distributions   9040 1451    0
+                                                                  9040 1451    0
+MT5 contains, in this order,                                      9040 1451    0
+For neutrons up to alpha particles and photons:                   9040 1451    0
+- the production yields per particle for the whole energy range   9040 1451    0
+- the secondary energy-angle distributions per particles which are9040 1451    0
+  not represented by explicit MT numbers. On a secondary energy   9040 1451    0
+  grid the relative emission spectra are given together with the  9040 1451    0
+  parameters for the Kalbach systematics for angular              9040 1451    0
+  distributions. Inelastic scattering cross sections for discrete 9040 1451    0
+  states have been broadened and added to the continuum spectra.  9040 1451    0
+For each residual product:                                        9040 1451    0
+- the production yields for the whole energy range.               9040 1451    0
+- the recoil                                                      9040 1451    0
+These distributions can be multiplied with MF3/MT5 to get         9040 1451    0
+the production cross sections and (double-)differential cross     9040 1451    0
+sections.                                                         9040 1451    0
+                                                                  9040 1451    0
+- MT16     : (n,2n) energy-angle distr. and photon production     9040 1451    0
+                                                                  9040 1451    0
+First, for each type of outgoing particle, the (trivial) integer  9040 1451    0
+particle yields are given. Next, on a sufficiently dense incident 9040 1451    0
+energy grid the secondary energy-angle distributions are          9040 1451    0
+specified by means of the relative emission spectra and the       9040 1451    0
+parameters for the Kalbach systematics for angular distributions. 9040 1451    0
+Next, the photon yield is tabulated as a function of incident     9040 1451    0
+energy. For each incident energy, the photon production is given  9040 1451    0
+for all discrete gamma lines present in the final nucleus. A      9040 1451    0
+continuum photon distribution is added to this. We assume         9040 1451    0
+isotropy for all produced gamma rays.                             9040 1451    0
+                                                                  9040 1451    0
+For the following MT-numbers, the same procedure as for MT16 is   9040 1451    0
+followed:                                                         9040 1451    0
+                                                                  9040 1451    0
+- MT17 : (n,3n) energy-angle distr. and photon production         9040 1451    0
+- MT22 : (n,na) energy-angle distr. and photon production         9040 1451    0
+- MT28 : (n,np) energy-angle distr. and photon production         9040 1451    0
+- MT91 : (n,n') continuum energy-angle distr. and phot. prod.     9040 1451    0
+- MT649: (n,p) continuum energy-angle distr. and photon prod.     9040 1451    0
+- MT699: (n,d) continuum energy-angle distr. and photon prod.     9040 1451    0
+- MT749: (n,t) continuum energy-angle distr. and photon prod.     9040 1451    0
+- MT809: (n,h) continuum energy-angle distr. and photon prod.     9040 1451    0
+- MT849: (n,a) continuum energy-angle distr. and photon prod.     9040 1451    0
+                                                                  9040 1451    0
+##### MF8: RADIOACTIVE DECAY DATA                                 9040 1451    0
+                                                                  9040 1451    0
+For reactions to isomers, MF8 designates where the information    9040 1451    0
+for isomeric versus ground state production, or residual          9040 1451    0
+production can be found, i.e. for each MT number it points to     9040 1451    0
+either MF6, MF9 or MF10.                                          9040 1451    0
+                                                                  9040 1451    0
+##### MF9: MULTIPLICITIES FOR PRODUCTION OF RADIOACTIVE NUCLIDES  9040 1451    0
+                                                                  9040 1451    0
+MF9 is used for isomer production by non-threshold reactions.     9040 1451    0
+Final states with a lifetime that exceeds 1 second are treated    9040 1451    0
+as isomer.                                                        9040 1451    0
+                                                                  9040 1451    0
+##### MF10: CROSS SECTIONS FOR PRODUCTION OF RADIOACTIVE NUCLIDES 9040 1451    0
+                                                                  9040 1451    0
+MF10 is used for isomer production by threshold reactions.        9040 1451    0
+Final states with a lifetime that exceeds 1 second are treated    9040 1451    0
+as isomer.                                                        9040 1451    0
+                                                                  9040 1451    0
+##### MF12: PHOTON PRODUCTION YIELD DATA                          9040 1451    0
+                                                                  9040 1451    0
+MF12 is used for the photon production for two types of reactions:9040 1451    0
+- Reactions to discrete levels (MT51, etc.) For this transition   9040 1451    0
+  probabilities are used (LO=2)                                   9040 1451    0
+- Photons from neutron capture (MT102). Here multiplicities are   9040 1451    0
+  given                                                           9040 1451    0
+                                                                  9040 1451    0
+##### MF14: PHOTON ANGULAR DISTRIBUTIONS                          9040 1451    0
+                                                                  9040 1451    0
+All photon production is considered as isotropic                  9040 1451    0
+                                                                  9040 1451    0
+##### MF15: PHOTON ENERGY SPECTRA                                 9040 1451    0
+                                                                  9040 1451    0
+For capture (MT102), the photon energy spectrum is given.         9040 1451    0
+                                                                  9040 1451    0
+##### MF32: COVARIANCES OF RESONANCE PARAMETERS                   9040 1451    0
+                                                                  9040 1451    0
+In MF32, we store the covariances of resonance parameters,        9040 1451    0
+and more details are given above in this description. In most     9040 1451    0
+versions of TENDL, this information is now stored in MF33.        9040 1451    0
+                                                                  9040 1451    0
+##### MF33: COVARIANCES OF NEUTRON CROSS SECTIONS                 9040 1451    0
+                                                                  9040 1451    0
+In MF33, we store the covariances of most, but not all, reaction  9040 1451    0
+channels that are given in MF3. All covariances are generated     9040 1451    0
+with the TASMAN code [kon19], which generates TALYS runs using    9040 1451    0
+a Monte Carlo parameter method.                                   9040 1451    0
+For each MT-number, the information consists of:                  9040 1451    0
+1. Covariances for MTa, Ea and MTa, Ea (variances)                9040 1451    0
+2. Covariances for MTa, Ea and MTa, Eb (correlations for the      9040 1451    0
+   same reaction channel between different energies)              9040 1451    0
+3. Covariances for MTa, Ea and MTb, Ea (correlations between      9040 1451    0
+   different reaction channels for the same energy)               9040 1451    0
+4. Covariances for MTa, Ea and MTb, Eb (correlations between      9040 1451    0
+   different reaction channels for different energies)            9040 1451    0
+Classes 1 and 2 are covered by NI-type subsubsections with        9040 1451    0
+flag LB=5, followed by a LB=8 section which contains              9040 1451    0
+the cross section variances multiplied by 1.e-3. Next, classes 3  9040 1451    0
+and 4 are covered by flag LB=6 to account for the different       9040 1451    0
+energy grids that two correlating MT-sections may have. Since     9040 1451    0
+the total correlation matrix is fully symmetric, we only need to  9040 1451    0
+include the correlation elements between different MT-numbers     9040 1451    0
+once, and we do that in the subsection with the lowest of the     9040 1451    0
+two MT-numbers. We include covariance information for all the     9040 1451    0
+total cross sections, the lumped partial cross sections and the   9040 1451    0
+individual inelastic cross sections per level (MT51,...). We do   9040 1451    0
+not include covariances for MT600 and higher MT-numbers. For the  9040 1451    0
+most important channels, we include cross-channel correlations.   9040 1451    0
+                                                                  9040 1451    0
+##### MF34: COVARIANCES OF ANGULAR DISTRIBUTIONS                  9040 1451    0
+                                                                  9040 1451    0
+In MF34, we store the covariances of the elastic scattering       9040 1451    0
+angular distributions that are given in MF4/MT2. All covariances  9040 1451    0
+are generated with the TASMAN code [kon19], which generates       9040 1451    0
+TALYS runs using a Monte Carlo parameter method. The tables are   9040 1451    0
+restricted to MT2 and contain covariances for the first 6         9040 1451    0
+Legendre coefficients. Both intra- and inter-correlations of the  9040 1451    0
+various Legendre coefficients are given. As in MF33, the LB5      9040 1451    0
+representation is used.                                           9040 1451    0
+                                                                  9040 1451    0
+##### MF40: COVARIANCES OF ISOMER PRODUCTION                      9040 1451    0
+                                                                  9040 1451    0
+For covariances of ground state and isomeric cross sections, the  9040 1451    0
+same procedures as for MF33 are used.                             9040 1451    0
+                                                                  9040 1451    0
+***** F I L E   C H E C K I N G   A N D   P R O C E S S I N G ****9040 1451    0
+                                                                  9040 1451    0
+This file has been checked and processed by                       9040 1451    0
+- the BNL checking codes CHECKR-8.24, FIZCON-8.19 and PSYCHE-8.11 9040 1451    0
+  [her08],                                                        9040 1451    0
+- the preprocessing codes PREPRO-2021 [cul23] into a PENDF file,  9040 1451    0
+- the processing code NJOY-2016.68 [mac10] into a PENDF file and a9040 1451    0
+  MCNP (ACE) library,                                             9040 1451    0
+- MCNP for a standard calculation with the ACE library.           9040 1451    0
+                                                                  9040 1451    0
+*********************** R E F E R E N C E S **********************9040 1451    0
+                                                                  9040 1451    0
+[cul23] D.E. Cullen, PREPRO 2023 - ENDF/B Pre-processing codes,   9040 1451    0
+        Technical report IAEA-NDS-0241, IAEA (2023)               9040 1451    0
+[her08] M. Herman, ENDF Utility Codes Release 8.0, (2008)         9040 1451    0
+[kon23] A.J. Koning, S. Hilaire and S. Goriely,                   9040 1451    0
+        TALYS: modeling of nuclear reactions,                     9040 1451    0
+        European Journal of Physics A59 (6), 131 (2023).          9040 1451    0
+[kon19] A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,       9040 1451    0
+        M. Fleming, and S. van der Marck, TENDL: Complete nuclear 9040 1451    0
+        data library for innovative nuclear science and           9040 1451    0
+        technology, Nuclear Data Sheets 155, 1 (2019)             9040 1451    0
+[mac10] R.E. Macfarlane and A.C. Kahler, Methods for processing   9040 1451    0
+        ENDF/B-VII with NJOY, Nuclear Data Sheets 111, 2739 (2010)9040 1451    0
+                                                                  9040 1451    0
+************************* C O N T E N T S ************************9040 1451    0
+                                                                  9040 1451    0
+                                1        451        543          19040 1451    0
+                                2        151          4          19040 1451    0
+                                3          1         96          19040 1451    0
+                                3          2         93          19040 1451    0
+                                3          3         96          19040 1451    0
+                                3          4         29          19040 1451    0
+                                3         16         11          19040 1451    0
+                                3         17          8          19040 1451    0
+                                3         18         20          19040 1451    0
+                                3         19         20          19040 1451    0
+                                3         20         12          19040 1451    0
+                                3         22         11          19040 1451    0
+                                3         24          5          19040 1451    0
+                                3         28          7          19040 1451    0
+                                3         32          5          19040 1451    0
+                                3         33          5          19040 1451    0
+                                3         37          4          19040 1451    0
+                                3         41          4          19040 1451    0
+                                3         51         29          19040 1451    0
+                                3         52         28          19040 1451    0
+                                3         53         27          19040 1451    0
+                                3         54         26          19040 1451    0
+                                3         55         26          19040 1451    0
+                                3         56         25          19040 1451    0
+                                3         57         25          19040 1451    0
+                                3         58         25          19040 1451    0
+                                3         59         24          19040 1451    0
+                                3         60         24          19040 1451    0
+                                3         61         23          19040 1451    0
+                                3         62         23          19040 1451    0
+                                3         63         23          19040 1451    0
+                                3         64         22          19040 1451    0
+                                3         65         22          19040 1451    0
+                                3         66         21          19040 1451    0
+                                3         67         21          19040 1451    0
+                                3         68         21          19040 1451    0
+                                3         69         20          19040 1451    0
+                                3         70         20          19040 1451    0
+                                3         71         20          19040 1451    0
+                                3         72         19          19040 1451    0
+                                3         73         19          19040 1451    0
+                                3         74         19          19040 1451    0
+                                3         75         18          19040 1451    0
+                                3         76         18          19040 1451    0
+                                3         77         18          19040 1451    0
+                                3         78         17          19040 1451    0
+                                3         79         17          19040 1451    0
+                                3         80         17          19040 1451    0
+                                3         91         17          19040 1451    0
+                                3        102         23          19040 1451    0
+                                3        103          9          19040 1451    0
+                                3        104          7          19040 1451    0
+                                3        105          7          19040 1451    0
+                                3        107         12          19040 1451    0
+                                4          2        144          19040 1451    0
+                                4         18          2          19040 1451    0
+                                4         51        139          19040 1451    0
+                                4         52        133          19040 1451    0
+                                4         53        124          19040 1451    0
+                                4         54        116          19040 1451    0
+                                4         55        121          19040 1451    0
+                                4         56        109          19040 1451    0
+                                4         57        119          19040 1451    0
+                                4         58        119          19040 1451    0
+                                4         59        119          19040 1451    0
+                                4         60        106          19040 1451    0
+                                4         61        100          19040 1451    0
+                                4         62        117          19040 1451    0
+                                4         63        116          19040 1451    0
+                                4         64        117          19040 1451    0
+                                4         65        101          19040 1451    0
+                                4         66        111          19040 1451    0
+                                4         67        109          19040 1451    0
+                                4         68        111          19040 1451    0
+                                4         69        113          19040 1451    0
+                                4         70        113          19040 1451    0
+                                4         71        115          19040 1451    0
+                                4         72        103          19040 1451    0
+                                4         73        113          19040 1451    0
+                                4         74        114          19040 1451    0
+                                4         75        113          19040 1451    0
+                                4         76         99          19040 1451    0
+                                4         77         98          19040 1451    0
+                                4         78         99          19040 1451    0
+                                4         79        111          19040 1451    0
+                                4         80        114          19040 1451    0
+                                5         18          7          19040 1451    0
+                                6         16        724          19040 1451    0
+                                6         17        301          19040 1451    0
+                                6         22        555          19040 1451    0
+                                6         24        169          19040 1451    0
+                                6         28        421          19040 1451    0
+                                6         32        180          19040 1451    0
+                                6         33        186          19040 1451    0
+                                6         37        108          19040 1451    0
+                                6         41        134          19040 1451    0
+                                6         91       1311          19040 1451    0
+                                6        102       1646          19040 1451    0
+                                6        103        427          19040 1451    0
+                                6        104        272          19040 1451    0
+                                6        105        222          19040 1451    0
+                                6        107        549          19040 1451    0
+                               12         51          3          19040 1451    0
+                               12         52          3          19040 1451    0
+                               12         53          3          19040 1451    0
+                               12         54          3          19040 1451    0
+                               12         55          3          19040 1451    0
+                               12         56          3          19040 1451    0
+                               12         57          3          19040 1451    0
+                               12         58          3          19040 1451    0
+                               12         59          3          19040 1451    0
+                               12         60          3          19040 1451    0
+                               12         61          3          19040 1451    0
+                               12         62          3          19040 1451    0
+                               12         63          3          19040 1451    0
+                               12         64          3          19040 1451    0
+                               12         65          3          19040 1451    0
+                               12         66          3          19040 1451    0
+                               12         67          3          19040 1451    0
+                               12         68          3          19040 1451    0
+                               12         69          3          19040 1451    0
+                               12         70          3          19040 1451    0
+                               12         71          3          19040 1451    0
+                               12         72          3          19040 1451    0
+                               12         73          3          19040 1451    0
+                               12         74          3          19040 1451    0
+                               12         75          3          19040 1451    0
+                               12         76          3          19040 1451    0
+                               12         77          3          19040 1451    0
+                               12         78          3          19040 1451    0
+                               12         79          3          19040 1451    0
+                               12         80          3          19040 1451    0
+                               14         51          1          19040 1451    0
+                               14         52          1          19040 1451    0
+                               14         53          1          19040 1451    0
+                               14         54          1          19040 1451    0
+                               14         55          1          19040 1451    0
+                               14         56          1          19040 1451    0
+                               14         57          1          19040 1451    0
+                               14         58          1          19040 1451    0
+                               14         59          1          19040 1451    0
+                               14         60          1          19040 1451    0
+                               14         61          1          19040 1451    0
+                               14         62          1          19040 1451    0
+                               14         63          1          19040 1451    0
+                               14         64          1          19040 1451    0
+                               14         65          1          19040 1451    0
+                               14         66          1          19040 1451    0
+                               14         67          1          19040 1451    0
+                               14         68          1          19040 1451    0
+                               14         69          1          19040 1451    0
+                               14         70          1          19040 1451    0
+                               14         71          1          19040 1451    0
+                               14         72          1          19040 1451    0
+                               14         73          1          19040 1451    0
+                               14         74          1          19040 1451    0
+                               14         75          1          19040 1451    0
+                               14         76          1          19040 1451    0
+                               14         77          1          19040 1451    0
+                               14         78          1          19040 1451    0
+                               14         79          1          19040 1451    0
+                               14         80          1          19040 1451    0
+                                                                  9040 1  0    0
+                                                                  9040 0  0    0

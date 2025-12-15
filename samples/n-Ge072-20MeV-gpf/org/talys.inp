@@ -1,0 +1,37 @@
+#
+# General
+#
+projectile n
+element ge
+mass 72
+energy energies
+endf y
+#
+# Precision
+#
+bins 40
+popeps 1.e-12
+transeps 1.e-20
+transpower 15
+xseps 1.e-30
+#
+# Specific
+#
+M2constant 1.2
+Rgamma 3.
+a 30 69 10.0
+Ntop 30 73 15
+a 30 73 12.9
+a 31 70 12.0
+a 31 72 12.7
+Ntop 31 73 15
+a 31 73 12.6
+a 31 74 12.0
+a 32 69 12.5
+a 32 70 12.0
+a 32 71 10.8
+a 32 72 11.1
+a 32 74 10.8
+a 32 76 11.0  
+gp 32 73 2.7
+optmodfileN 32 ge.omp

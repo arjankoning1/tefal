@@ -1,0 +1,26 @@
+# header: 
+#   title: B6 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 5
+#   A: 6
+#   nuclide: B6
+#   parameters: 
+#     nuclear mass [amu]:  6.050800E+00
+#     neutron separation energy [MeV]: -2.993333E+01
+#     proton separation energy [MeV]: -2.892103E+00
+#     alpha separation energy [MeV]: -3.558002E+01
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.0             -              0                                                                                           2-#
+     1            4.333333E+00        2.0             +              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           

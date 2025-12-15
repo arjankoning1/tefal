@@ -1,0 +1,339 @@
+ 3.006400+4 6.337996+1         -1          0         17          13025 1451    0
+ 0.000000+0 0.000000+0          0          0          0          63025 1451    0
+ 0.000000+0 5.000000+7          1          0          0       20253025 1451    0
+ 0.000000+0 0.000000+0          0          0        285         483025 1451    0
+ 30-Zn- 64 IAEA       EVAL-DEC25 A.J. Koning                      3025 1451    0
+ LIB-2023             DIST-      REV1-                            3025 1451    0
+----LIB-2023          Material 3025         REVISION 1            3025 1451    0
+-----Incident photon   data                                       3025 1451    0
+------ENDF-6 Format                                               3025 1451    0
+                                                                  3025 1451    0
+TENDL-2025 (TALYS Evaluated Nuclear Data Library)                 3025 1451    0
+                                                                  3025 1451    0
+Photon general purpose library                                    3025 1451    0
+                                                                  3025 1451    0
+Author: A.J. Koning, IAEA                                         3025 1451    0
+                                                                  3025 1451    0
+Ref.: A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,         3025 1451    0
+      M. Fleming, and S. van der Marck, TENDL: Complete nuclear   3025 1451    0
+      data library for innovative nuclear science and             3025 1451    0
+      technology, Nuclear Data Sheets 155, 1 (2019).              3025 1451    0
+                                                                  3025 1451    0
+************** G E N E R A L   I N F O R M A T I O N *************3025 1451    0
+                                                                  3025 1451    0
+This evaluated data file is based on a software system built      3025 1451    0
+around the nuclear model code TALYS [kon23], version 2.0. It is   3025 1451    0
+part of a large collection of isotopic evaluations, all created by3025 1451    0
+running the system with either adjusted or default input          3025 1451    0
+parameters. This means that the data in the entire collection have3025 1451    0
+been tested in detail for many isotopes against individual        3025 1451    0
+experimental data, while for other isotopes it is only as good as 3025 1451    0
+the global quality of TALYS at the moment. The mutual quality of  3025 1451    0
+all individual data files is however consistent: The same set of  3025 1451    0
+nuclear models is used and, equally important, the same ENDF-6    3025 1451    0
+formatting procedures for each isotope. The data file has been    3025 1451    0
+created automatically using the ENDF-6 format generator TEFAL.    3025 1451    0
+                                                                  3025 1451    0
+The resulting data file provides a complete representation of     3025 1451    0
+nuclear data needed for transport, activation, damage, heating,   3025 1451    0
+radioactivity, and shielding applications over the incident       3025 1451    0
+photon energy range from 1. to 200. MeV.                          3025 1451    0
+                                                                  3025 1451    0
+All transport and activation data for neutrons, charged particles,3025 1451    0
+photons and residual nuclides are filed. This includes cross      3025 1451    0
+sections, angular distributions, double-differential spectra,     3025 1451    0
+isomeric production, discrete and continuum photon production     3025 1451    0
+cross sections, residual production cross sections and recoils.   3025 1451    0
+This general purpose evaluation can thus be used as both          3025 1451    0
+transport and activation library.                                 3025 1451    0
+                                                                  3025 1451    0
+A complete set of covariance data is included, which is stored    3025 1451    0
+in MF31-40.                                                       3025 1451    0
+                                                                  3025 1451    0
+**** N U C L I D E    S P E C I F I C   I N F O R M A T I O N ****3025 1451    0
+                                                                  3025 1451    0
+               Adjusted TALYS input parameters                    3025 1451    0
+                                                                  3025 1451    0
+sgradjust 34 76 1.08 e1                                           3025 1451    0
+                                                                  3025 1451    0
+***************************** T A L Y S **************************3025 1451    0
+                                                                  3025 1451    0
+TALYS is a computer code system for the prediction and analysis   3025 1451    0
+of nuclear reactions. TALYS simulates reactions that involve      3025 1451    0
+neutrons, gamma-rays, protons, deuterons, tritons, helions and    3025 1451    0
+alpha-particles, in the 1 keV - 200 MeV energy range. This is     3025 1451    0
+achieved by implementing a suite of nuclear reaction models into  3025 1451    0
+a single code system. This nuclear data file is based on a        3025 1451    0
+theoretical analysis that utilizes the optical model, compound    3025 1451    0
+nucleus statistical theory, fission, direct reactions and         3025 1451    0
+pre-equilibrium processes, in combination with databases and      3025 1451    0
+models for nuclear structure. The following output of TALYS is    3025 1451    0
+stored in this data file:                                         3025 1451    0
+                                                                  3025 1451    0
+- Total, elastic and non-elastic cross sections                   3025 1451    0
+- Inelastic cross sections to discrete states                     3025 1451    0
+- Exclusive channel cross sections, e.g. (n,g), (n,2n), (n,np),.. 3025 1451    0
+- Inelastic scattering angular distributions to discrete states   3025 1451    0
+- Exclusive channel energy spectra                                3025 1451    0
+- Exclusive channel double-differential spectra                   3025 1451    0
+- Exclusive gamma production for discrete states and continuum    3025 1451    0
+- Elastic scattering angular distributions                        3025 1451    0
+- Recoil data                                                     3025 1451    0
+- Total particle cross sections, e.g. (g,xn), (g,xp),..           3025 1451    0
+- Total particle energy spectra                                   3025 1451    0
+- Total particle double-differential spectra                      3025 1451    0
+- Isomeric and ground state cross sections                        3025 1451    0
+- Residual production cross sections                              3025 1451    0
+                                                                  3025 1451    0
+For a description of the used nuclear models and their            3025 1451    0
+parameterization we refer to [kon19]. If for this specific        3025 1451    0
+nuclide we deviate from the global parameterization, it is made   3025 1451    0
+explicit above under Nuclide Specific Information.                3025 1451    0
+                                                                  3025 1451    0
+***************** F I L E   I N F O R M A T I O N ****************3025 1451    0
+                                                                  3025 1451    0
+##### MF1: GENERAL INFORMATION                                    3025 1451    0
+                                                                  3025 1451    0
+- MT451    : Descriptive data and directory                       3025 1451    0
+                                                                  3025 1451    0
+This text and the full directory of used MF/MT sections.          3025 1451    0
+                                                                  3025 1451    0
+##### MF3: REACTION CROSS SECTIONS                                3025 1451    0
+                                                                  3025 1451    0
+All the data present in the following MT-sections have been       3025 1451    0
+calculated with TALYS, possibly normalized to experimental data.  3025 1451    0
+If the maximal cross section in an excitation function over the   3025 1451    0
+whole energy range does not exceed 1.e-9 b, the MT-number is not  3025 1451    0
+included. Cross sections lower than 1.e-20 b are assumed to have  3025 1451    0
+no physical meaning and are set to zero. All MT numbers extend up 3025 1451    0
+to the highest incident energy.                                   3025 1451    0
+The following reaction channels/MT numbers are generally included:3025 1451    0
+                                                                  3025 1451    0
+- MT2      : Elastic scattering cross section: nuclear +          3025 1451    0
+             interference terms                                   3025 1451    0
+                                                                  3025 1451    0
+Obtained by integrating the "nuclear-plus-interference" angular   3025 1451    0
+distributions of MF=6.  Note that because of the interference     3025 1451    0
+effect, the tabulations in both MF=6 and MF=3 can be negative at  3025 1451    0
+some energies and angles.                                         3025 1451    0
+                                                                  3025 1451    0
+- MT3      : Non-elastic cross section                            3025 1451    0
+                                                                  3025 1451    0
+Calculated with the optical model over the whole energy range.    3025 1451    0
+                                                                  3025 1451    0
+- MT4      : Total inelastic cross section                        3025 1451    0
+                                                                  3025 1451    0
+Sum of MT=51-91.                                                  3025 1451    0
+                                                                  3025 1451    0
+- MT5      : (g,anything) cross section                           3025 1451    0
+                                                                  3025 1451    0
+MT5 contains the reactions which can not be stored in any other   3025 1451    0
+MT-number. The information of MF3/MT5 can be combined with        3025 1451    0
+MF6/MT5 to obtain residual production cross sections particle     3025 1451    0
+production cross sections and (double-)differential cross         3025 1451    0
+sections.                                                         3025 1451    0
+                                                                  3025 1451    0
+- MT16     : (g,2n) cross section                                 3025 1451    0
+- MT17     : (g,3n) cross section                                 3025 1451    0
+- MT22     : (g,na) cross section                                 3025 1451    0
+- MT28     : (g,np) cross section                                 3025 1451    0
+- MT51-90  : (g,n') cross section for 1st-40th excited state      3025 1451    0
+- MT91     : (g,n') continuum cross section                       3025 1451    0
+- MT102    : (g,gamma) cross section                              3025 1451    0
+- MT103    : (g,p) cross section                                  3025 1451    0
+- MT104    : (g,d) cross section                                  3025 1451    0
+- MT105    : (g,t) cross section                                  3025 1451    0
+- MT106    : (g,h) cross section                                  3025 1451    0
+- MT107    : (g,a) cross section                                  3025 1451    0
+- MT600-610: (g,p) cross section for 0th-10th excited state       3025 1451    0
+- MT649    : (g,p) continuum cross section                        3025 1451    0
+- MT650-655: (g,d) cross section for 0th-5th excited state        3025 1451    0
+- MT699    : (g,d) continuum cross section                        3025 1451    0
+- MT700-705: (g,t) cross section for 0th-5th excited state        3025 1451    0
+- MT749    : (g,t) continuum cross section                        3025 1451    0
+- MT750-755: (g,h) cross section for 0th-5th excited state        3025 1451    0
+- MT799    : (g,h) continuum cross section                        3025 1451    0
+- MT800-810: (g,a) cross section for 0th-10th excited state       3025 1451    0
+- MT849    : (g,a) continuum cross section                        3025 1451    0
+                                                                  3025 1451    0
+##### MF6: PRODUCT ENERGY-ANGLE DISTRIBUTIONS                     3025 1451    0
+                                                                  3025 1451    0
+In MF6 we store all secondary energy, angle, and energy-angle     3025 1451    0
+distributions, as well as all residual and discrete + continuum   3025 1451    0
+photon production cross sections for channels other than capture  3025 1451    0
+(MT102) and reactions to discrete levels (MT51,etc.).             3025 1451    0
+All data are generated with TALYS.                                3025 1451    0
+                                                                  3025 1451    0
+- MT5      : (g,anything) yields and energy-angle distributions   3025 1451    0
+                                                                  3025 1451    0
+MT5 contains, in this order,                                      3025 1451    0
+For neutrons up to alpha particles and photons:                   3025 1451    0
+- the production yields per particle for the whole energy range   3025 1451    0
+- the secondary energy-angle distributions per particles which are3025 1451    0
+  not represented by explicit MT numbers. On a secondary energy   3025 1451    0
+  grid the relative emission spectra are given together with the  3025 1451    0
+  parameters for the Kalbach systematics for angular              3025 1451    0
+  distributions. Inelastic scattering cross sections for discrete 3025 1451    0
+  states have been broadened and added to the continuum spectra.  3025 1451    0
+For each residual product:                                        3025 1451    0
+- the production yields for the whole energy range.               3025 1451    0
+- the recoil                                                      3025 1451    0
+These distributions can be multiplied with MF3/MT5 to get         3025 1451    0
+the production cross sections and (double-)differential cross     3025 1451    0
+sections.                                                         3025 1451    0
+                                                                  3025 1451    0
+- MT16     : (g,2n) energy-angle distr. and photon production     3025 1451    0
+                                                                  3025 1451    0
+First, for each type of outgoing particle, the (trivial) integer  3025 1451    0
+particle yields are given. Next, on a sufficiently dense incident 3025 1451    0
+energy grid the secondary energy-angle distributions are          3025 1451    0
+specified by means of the relative emission spectra and the       3025 1451    0
+parameters for the Kalbach systematics for angular distributions. 3025 1451    0
+Next, the photon yield is tabulated as a function of incident     3025 1451    0
+energy. For each incident energy, the photon production is given  3025 1451    0
+for all discrete gamma lines present in the final nucleus. A      3025 1451    0
+continuum photon distribution is added to this. We assume         3025 1451    0
+isotropy for all produced gamma rays.                             3025 1451    0
+                                                                  3025 1451    0
+For the following MT-numbers, the same procedure as for MT16 is   3025 1451    0
+followed:                                                         3025 1451    0
+                                                                  3025 1451    0
+- MT17 : (g,3n) energy-angle distr. and photon production         3025 1451    0
+- MT22 : (g,na) energy-angle distr. and photon production         3025 1451    0
+- MT28 : (g,np) energy-angle distr. and photon production         3025 1451    0
+- MT91 : (g,n') continuum energy-angle distr. and phot. prod.     3025 1451    0
+- MT649: (g,p) continuum energy-angle distr. and photon prod.     3025 1451    0
+- MT699: (g,d) continuum energy-angle distr. and photon prod.     3025 1451    0
+- MT749: (g,t) continuum energy-angle distr. and photon prod.     3025 1451    0
+- MT809: (g,h) continuum energy-angle distr. and photon prod.     3025 1451    0
+- MT849: (g,a) continuum energy-angle distr. and photon prod.     3025 1451    0
+                                                                  3025 1451    0
+##### MF8: RADIOACTIVE DECAY DATA                                 3025 1451    0
+                                                                  3025 1451    0
+For reactions to isomers, MF8 designates where the information    3025 1451    0
+for isomeric versus ground state production, or residual          3025 1451    0
+production can be found, i.e. for each MT number it points to     3025 1451    0
+either MF6, MF9 or MF10.                                          3025 1451    0
+                                                                  3025 1451    0
+##### MF9: MULTIPLICITIES FOR PRODUCTION OF RADIOACTIVE NUCLIDES  3025 1451    0
+                                                                  3025 1451    0
+MF9 is used for isomer production by non-threshold reactions.     3025 1451    0
+Final states with a lifetime that exceeds 1 second are treated    3025 1451    0
+as isomer.                                                        3025 1451    0
+                                                                  3025 1451    0
+##### MF10: CROSS SECTIONS FOR PRODUCTION OF RADIOACTIVE NUCLIDES 3025 1451    0
+                                                                  3025 1451    0
+MF10 is used for isomer production by threshold reactions.        3025 1451    0
+Final states with a lifetime that exceeds 1 second are treated    3025 1451    0
+as isomer.                                                        3025 1451    0
+                                                                  3025 1451    0
+##### MF33: COVARIANCES OF NEUTRON CROSS SECTIONS                 3025 1451    0
+                                                                  3025 1451    0
+In MF33, we store the covariances of most, but not all, reaction  3025 1451    0
+channels that are given in MF3. All covariances are generated     3025 1451    0
+with the TASMAN code [kon19], which generates TALYS runs using    3025 1451    0
+a Monte Carlo parameter method.                                   3025 1451    0
+For each MT-number, the information consists of:                  3025 1451    0
+1. Covariances for MTa, Ea and MTa, Ea (variances)                3025 1451    0
+2. Covariances for MTa, Ea and MTa, Eb (correlations for the      3025 1451    0
+   same reaction channel between different energies)              3025 1451    0
+3. Covariances for MTa, Ea and MTb, Ea (correlations between      3025 1451    0
+   different reaction channels for the same energy)               3025 1451    0
+4. Covariances for MTa, Ea and MTb, Eb (correlations between      3025 1451    0
+   different reaction channels for different energies)            3025 1451    0
+Classes 1 and 2 are covered by NI-type subsubsections with        3025 1451    0
+flag LB=5, followed by a LB=8 section which contains              3025 1451    0
+the cross section variances multiplied by 1.e-3. Next, classes 3  3025 1451    0
+and 4 are covered by flag LB=6 to account for the different       3025 1451    0
+energy grids that two correlating MT-sections may have. Since     3025 1451    0
+the total correlation matrix is fully symmetric, we only need to  3025 1451    0
+include the correlation elements between different MT-numbers     3025 1451    0
+once, and we do that in the subsection with the lowest of the     3025 1451    0
+two MT-numbers. We include covariance information for all the     3025 1451    0
+total cross sections, the lumped partial cross sections and the   3025 1451    0
+individual inelastic cross sections per level (MT51,...). We do   3025 1451    0
+not include covariances for MT600 and higher MT-numbers. For the  3025 1451    0
+most important channels, we include cross-channel correlations.   3025 1451    0
+                                                                  3025 1451    0
+##### MF40: COVARIANCES OF ISOMER PRODUCTION                      3025 1451    0
+                                                                  3025 1451    0
+For covariances of ground state and isomeric cross sections, the  3025 1451    0
+same procedures as for MF33 are used.                             3025 1451    0
+                                                                  3025 1451    0
+***** F I L E   C H E C K I N G   A N D   P R O C E S S I N G ****3025 1451    0
+                                                                  3025 1451    0
+This file has been checked and processed by                       3025 1451    0
+- the BNL checking codes CHECKR-8.24, FIZCON-8.19 and PSYCHE-8.11 3025 1451    0
+  [her08],                                                        3025 1451    0
+- the preprocessing codes PREPRO-2021 [cul23] into a PENDF file,  3025 1451    0
+- the processing code NJOY-2016.68 [mac10] into a PENDF file and a3025 1451    0
+  MCNP (ACE) library,                                             3025 1451    0
+- MCNP for a standard calculation with the ACE library.           3025 1451    0
+                                                                  3025 1451    0
+*********************** R E F E R E N C E S **********************3025 1451    0
+                                                                  3025 1451    0
+[cul23] D.E. Cullen, PREPRO 2023 - ENDF/B Pre-processing codes,   3025 1451    0
+        Technical report IAEA-NDS-0241, IAEA (2023)               3025 1451    0
+[her08] M. Herman, ENDF Utility Codes Release 8.0, (2008)         3025 1451    0
+[kon23] A.J. Koning, S. Hilaire and S. Goriely,                   3025 1451    0
+        TALYS: modeling of nuclear reactions,                     3025 1451    0
+        European Journal of Physics A59 (6), 131 (2023).          3025 1451    0
+[kon19] A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk,       3025 1451    0
+        M. Fleming, and S. van der Marck, TENDL: Complete nuclear 3025 1451    0
+        data library for innovative nuclear science and           3025 1451    0
+        technology, Nuclear Data Sheets 155, 1 (2019)             3025 1451    0
+[mac10] R.E. Macfarlane and A.C. Kahler, Methods for processing   3025 1451    0
+        ENDF/B-VII with NJOY, Nuclear Data Sheets 111, 2739 (2010)3025 1451    0
+                                                                  3025 1451    0
+************************* C O N T E N T S ************************3025 1451    0
+                                                                  3025 1451    0
+                                1        451        337          13025 1451    0
+                                3          3         13          13025 1451    0
+                                3          4          9          13025 1451    0
+                                3          5          5          13025 1451    0
+                                3         16          6          13025 1451    0
+                                3         22          7          13025 1451    0
+                                3         24          5          13025 1451    0
+                                3         28          7          13025 1451    0
+                                3         32          5          13025 1451    0
+                                3         41          5          13025 1451    0
+                                3         44          5          13025 1451    0
+                                3         50         19          13025 1451    0
+                                3         51         18          13025 1451    0
+                                3         91          9          13025 1451    0
+                                3        102         13          13025 1451    0
+                                3        103         10          13025 1451    0
+                                3        104          7          13025 1451    0
+                                3        105          6          13025 1451    0
+                                3        106          7          13025 1451    0
+                                3        107         11          13025 1451    0
+                                3        108          8          13025 1451    0
+                                3        111          8          13025 1451    0
+                                3        112          7          13025 1451    0
+                                3        115          6          13025 1451    0
+                                3        116          5          13025 1451    0
+                                6          5       1396          13025 1451    0
+                                6         16        421          13025 1451    0
+                                6         22        733          13025 1451    0
+                                6         24        286          13025 1451    0
+                                6         28        618          13025 1451    0
+                                6         32        346          13025 1451    0
+                                6         41        160          13025 1451    0
+                                6         44        276          13025 1451    0
+                                6         50         33          13025 1451    0
+                                6         51         40          13025 1451    0
+                                6         91        700          13025 1451    0
+                                6        102       1060          13025 1451    0
+                                6        103       1005          13025 1451    0
+                                6        104        521          13025 1451    0
+                                6        105        479          13025 1451    0
+                                6        106        504          13025 1451    0
+                                6        107       1063          13025 1451    0
+                                6        108        646          13025 1451    0
+                                6        111        589          13025 1451    0
+                                6        112        690          13025 1451    0
+                                6        115        446          13025 1451    0
+                                6        116        347          13025 1451    0
+                                8          5         39          13025 1451    0
+                                                                  3025 1  0    0
+                                                                  3025 0  0    0

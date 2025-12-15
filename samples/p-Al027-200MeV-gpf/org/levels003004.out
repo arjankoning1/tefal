@@ -1,0 +1,30 @@
+# header: 
+#   title: Li4 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 3
+#   A: 4
+#   nuclide: Li4
+#   parameters: 
+#     nuclear mass [amu]:  4.027186E+00
+#     neutron separation energy [MeV]:  1.141513E+01
+#     proton separation energy [MeV]: -3.103074E+00
+#     alpha separation energy [MeV]: -1.347199E+01
+#     number of excited levels: 3
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 7
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.0             -              0                                                      9.100000E-23                          2-
+     1            3.200000E-01        1.0             -              1                                                      6.207000E-23                          1-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            2.080000E+00        0.0             -              1                                                      4.880000E-23                          0-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            2.850000E+00        1.0             -              1                                                      3.377000E-23                          1-
+                                                                           --->     1         100.0000       0.000000E+00                          B

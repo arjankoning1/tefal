@@ -1,0 +1,30 @@
+#
+# General
+#
+projectile n
+element sc
+mass 45
+energy energies
+endf y
+#
+# Precision
+#
+bins 50
+popeps 1.e-12
+transeps 1.e-20
+transpower 15
+xseps 1.e-30
+#
+# Specific
+#
+spherical y
+maxlevelsres 20
+sysreaction d t h
+M2constant 0.7
+a 18 41 8.6
+a 19 40 5.2
+a 19 44 6.2
+a 20 44 6.6
+a 20 45 6.10
+Ntop 21 45 30
+Rgamma 3.

@@ -1,0 +1,48 @@
+# header: 
+#   title: Li7 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 3
+#   A: 7
+#   nuclide: Li7
+#   parameters: 
+#     nuclear mass [amu]:  7.016003E+00
+#     neutron separation energy [MeV]:  7.251092E+00
+#     proton separation energy [MeV]:  9.973887E+00
+#     alpha separation energy [MeV]:  2.467325E+00
+#     number of excited levels: 9
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 25
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                                                         3/2-*
+     1            4.776120E-01        0.5             -              1                                                      7.300000E-14                        1/2-
+                                                                           --->     0         100.0000       0.000000E+00                           
+     2            4.630000E+00        3.5             -              1                                                      4.906000E-21                        7/2-
+                                                                           --->     0         100.0000       1.379000E-03                           
+     3            6.680000E+00        2.5             -              1                                                      5.185000E-22                        5/2-
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     4            7.459500E+00        2.5             -              2                                                      5.126000E-21                        5/2-
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     5            9.670000E+00        3.5             -              2                                                      1.141000E-21                        7/2-
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     6            9.850000E+00        1.5             -              2                                                      3.802000E-22                        3/2-
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     7            1.124000E+01        1.5             -              2                                                      1.755000E-21                        3/2-
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     8            1.370000E+01        0.5             -              2                                                      9.125000E-22       JP                   
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     9            1.470000E+01        0.5             +              2                                                      6.518000E-22       JP                   
+                                                                           --->     6          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B

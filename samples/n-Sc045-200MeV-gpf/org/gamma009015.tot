@@ -1,0 +1,32 @@
+# header: 
+#   title: Sc45 Cumulative discrete gamma decay
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target: 
+#   Z: 21
+#   A: 45
+#   nuclide: Sc45
+# quantity: 
+#   type: Cumulative discrete gamma decay
+# datablock: 
+#   columns: 10
+#   entries: 15
+##     Level         Energy       Num._branch    Total_yield   Parent_level  Daughter_level  Gamma_energy   Branch._ratio  Parent_energy Daughter_energy
+##      []            [MeV]           []             []             []             []            [MeV]           []            [MeV]          [MeV]
+     1            1.520000E+00     1            1.000000E+00
+                                                                 1              0            1.520000E+00   1.000000E+00   1.520000E+00   0.000000E+00
+     2            3.480000E+00     1            1.000000E+00
+                                                                 2              0            3.480000E+00   1.000000E+00   3.480000E+00   0.000000E+00
+     3            5.100000E+00     3            1.240493E+00
+                                                                 3              0            5.100000E+00   6.122622E-01   5.100000E+00   0.000000E+00
+                                                                 3              1            3.580000E+00   1.938689E-01   5.100000E+00   1.520000E+00
+                                                                 1              0            1.520000E+00   1.938689E-01   1.520000E+00   0.000000E+00
+     4            6.500000E+00     6            2.000005E+00
+                                                                 4              0            6.500000E+00   1.999995E-06   6.500000E+00   0.000000E+00
+                                                                 3              0            5.100000E+00   1.329134E-05   5.100000E+00   0.000000E+00
+                                                                 4              1            4.980000E+00   4.999794E-01   6.500000E+00   1.520000E+00
+                                                                 3              1            3.580000E+00   4.208618E-06   5.100000E+00   1.520000E+00
+                                                                 1              0            1.520000E+00   4.999836E-01   1.520000E+00   0.000000E+00
+                                                                 4              3            1.400000E+00   1.749996E-05   6.500000E+00   5.100000E+00

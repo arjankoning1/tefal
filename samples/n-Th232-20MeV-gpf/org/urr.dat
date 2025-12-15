@@ -1,0 +1,725 @@
+# header:
+#   title: Th232(n,urr) URR parameter at 1.650000E-02 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.650000E-02
+#     potential scattering radius [fm]:  9.392825E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.599665E+01   1.599665E+01   6.754891E-01   6.754891E-01   0.000000E+00   1.080556E-03   1.879873E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              0.5             -1       5.366523E+00   1.589621E+01   1.133705E+00   8.777419E-01   0.000000E+00   1.395277E-03   1.896941E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              1.5             -1       5.366523E+00   8.101607E+00   1.133705E+00   1.219026E+00   0.000000E+00   9.876069E-04   1.885973E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        2              1.5              1       3.329826E+00   8.178383E+00   9.496427E-01   1.178873E+00   0.000000E+00   9.641278E-04   1.861020E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        2              2.5              1       3.329826E+00   5.616639E+00   9.496427E-01   8.121043E-01   0.000000E+00   4.561296E-04   1.834542E-02   0.000000E+00   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.000000E-02 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.000000E-02
+#     potential scattering radius [fm]:  9.353261E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.589127E+01   1.589127E+01   6.735783E-01   6.735783E-01   0.000000E+00   1.070401E-03   1.882816E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              0.5             -1       5.331298E+00   1.579195E+01   1.139159E+00   8.821298E-01   0.000000E+00   1.393055E-03   1.899956E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              1.5             -1       5.331298E+00   8.048409E+00   1.139159E+00   1.224836E+00   0.000000E+00   9.857977E-04   1.888972E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        2              1.5              1       3.307693E+00   8.124068E+00   9.489400E-01   1.176600E+00   0.000000E+00   9.558775E-04   1.863901E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        2              2.5              1       3.307693E+00   5.579283E+00   9.489400E-01   8.123443E-01   0.000000E+00   4.532298E-04   1.837414E-02   0.000000E+00   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 5.000000E-02 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  5.000000E-02
+#     potential scattering radius [fm]:  9.052034E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.501612E+01   1.501612E+01   6.616611E-01   6.616611E-01   0.000000E+00   9.935581E-04   1.908052E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              0.5             -1       5.038740E+00   1.492601E+01   1.181594E+00   9.167433E-01   0.000000E+00   1.368332E-03   1.925784E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              1.5             -1       5.038740E+00   7.606575E+00   1.181594E+00   1.269877E+00   0.000000E+00   9.659415E-04   1.914689E-02   6.949721E-09   0.000000E+00   0.000000E+00
+        2              1.5              1       3.123938E+00   7.673118E+00   9.437469E-01   1.156774E+00   3.416972E-03   8.876066E-04   1.888589E-02   7.010516E-09   0.000000E+00   0.000000E+00
+        2              2.5              1       3.123938E+00   5.269156E+00   9.437469E-01   8.159305E-01   2.476916E-03   4.299265E-04   1.862041E-02   9.472778E-09   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.000000E-01 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.000000E-01
+#     potential scattering radius [fm]:  8.622221E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.366374E+01   1.366374E+01   6.493802E-01   6.493802E-01   8.958376E-04   8.872960E-04   1.950166E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              0.5             -1       4.586521E+00   1.358743E+01   1.239025E+00   9.641581E-01   4.541250E-02   1.310043E-03   1.969036E-02   0.000000E+00   0.000000E+00   0.000000E+00
+        1              1.5             -1       4.586521E+00   6.923639E+00   1.239025E+00   1.330648E+00   4.721976E-02   9.212924E-04   1.957769E-02   2.918416E-08   0.000000E+00   0.000000E+00
+        2              1.5              1       2.840169E+00   6.976684E+00   9.348357E-01   1.127887E+00   2.460979E-02   7.868907E-04   1.929743E-02   2.940775E-08   0.000000E+00   0.000000E+00
+        2              2.5              1       2.840169E+00   4.790257E+00   9.348357E-01   8.190053E-01   1.826408E-02   3.923245E-04   1.903119E-02   3.985620E-08   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.000000E-01 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.000000E-01
+#     potential scattering radius [fm]:  7.894144E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.131461E+01   1.131461E+01   6.350036E-01   6.350036E-01   9.476738E-03   7.184818E-04   2.034850E-02   3.411721E-22   0.000000E+00   0.000000E+00
+        1              0.5             -1       3.800606E+00   1.126083E+01   1.328435E+00   1.036057E+00   1.485250E-01   1.166686E-03   2.055867E-02   3.395505E-22   0.000000E+00   0.000000E+00
+        1              1.5             -1       3.800606E+00   5.736820E+00   1.328435E+00   1.425894E+00   1.629665E-01   8.180098E-04   2.044219E-02   3.472637E-22   0.000000E+00   0.000000E+00
+        2              1.5              1       2.347872E+00   5.768326E+00   9.203709E-01   1.074578E+00   4.210531E-02   6.198515E-04   2.012398E-02   3.491708E-22   0.000000E+00   0.000000E+00
+        2              2.5              1       2.347872E+00   3.959502E+00   9.203709E-01   8.278468E-01   2.998148E-02   3.277861E-04   1.985679E-02   2.396826E-22   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 4.000000E-01 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  4.000000E-01
+#     potential scattering radius [fm]:  6.757162E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       7.794976E+00   7.794976E+00   6.238770E-01   6.238770E-01   3.723187E-02   4.863106E-04   2.214557E-02   1.564626E-20   0.000000E+00   0.000000E+00
+        1              0.5             -1       2.621663E+00   7.775414E+00   1.434983E+00   1.125268E+00   2.860648E-01   8.749423E-04   2.241905E-02   1.560699E-20   0.000000E+00   0.000000E+00
+        1              1.5             -1       2.621663E+00   3.955278E+00   1.434983E+00   1.538222E+00   3.159808E-01   6.084095E-04   2.227303E-02   1.594034E-20   0.000000E+00   0.000000E+00
+        2              1.5              1       1.614148E+00   3.967543E+00   9.061882E-01   9.929231E-01   7.112613E-02   3.939465E-04   2.190598E-02   1.598977E-20   0.000000E+00   0.000000E+00
+        2              2.5              1       1.614148E+00   2.721260E+00   9.061882E-01   8.541473E-01   5.351799E-02   2.324357E-04   2.163312E-02   1.097524E-20   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 6.000000E-01 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  6.000000E-01
+#     potential scattering radius [fm]:  5.930549E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       5.380319E+00   5.380319E+00   6.221183E-01   6.221183E-01   5.732587E-02   3.347195E-04   2.400371E-02   4.965427E-13   0.000000E+00   0.000000E+00
+        1              0.5             -1       1.811770E+00   5.379901E+00   1.477372E+00   1.172351E+00   3.173012E-01   6.307134E-04   2.433605E-02   4.965041E-13   0.000000E+00   0.000000E+00
+        1              1.5             -1       1.811770E+00   2.731723E+00   1.477372E+00   1.579046E+00   3.504274E-01   4.313516E-04   2.414952E-02   5.101182E-13   0.000000E+00   0.000000E+00
+        2              1.5              1       1.112274E+00   2.735352E+00   9.039948E-01   9.384031E-01   8.622407E-02   2.566862E-04   2.375551E-02   5.107958E-13   0.000000E+00   0.000000E+00
+        2              2.5              1       1.112274E+00   1.874502E+00   9.039948E-01   8.833498E-01   6.871056E-02   1.655841E-04   2.347539E-02   3.626305E-13   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 8.000000E-01 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  8.000000E-01
+#     potential scattering radius [fm]:  5.361753E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       3.734732E+00   3.734732E+00   6.217232E-01   6.217232E-01   1.604056E-01   2.321969E-04   2.602075E-02   1.517384E-08   0.000000E+00   0.000000E+00
+        1              0.5             -1       1.258361E+00   3.740552E+00   1.466083E+00   1.188447E+00   3.889967E-01   4.445449E-04   2.638286E-02   1.519749E-08   0.000000E+00   0.000000E+00
+        1              1.5             -1       1.258361E+00   1.896293E+00   1.466083E+00   1.558628E+00   3.922219E-01   2.955616E-04   2.615518E-02   1.558209E-08   0.000000E+00   0.000000E+00
+        2              1.5              1       7.705893E-01   1.896304E+00   9.037660E-01   9.002216E-01   1.431806E-01   1.707094E-04   2.575479E-02   1.558218E-08   0.000000E+00   0.000000E+00
+        2              2.5              1       7.705893E-01   1.298084E+00   9.037660E-01   9.058926E-01   1.014096E-01   1.175924E-04   2.545811E-02   1.102034E-08   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.000000E+00
+#     potential scattering radius [fm]:  5.015079E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       2.632211E+00   2.632211E+00   6.184914E-01   6.184914E-01   3.148406E-01   1.628000E-04   2.848329E-02   3.443142E-07   0.000000E+00   0.000000E+00
+        1              0.5             -1       8.857496E-01   2.634597E+00   1.401213E+00   1.175882E+00   6.559025E-01   3.097976E-04   2.880410E-02   3.446263E-07   0.000000E+00   0.000000E+00
+        1              1.5             -1       8.857496E-01   1.334361E+00   1.401213E+00   1.476323E+00   6.597696E-01   1.969948E-04   2.854489E-02   3.527707E-07   0.000000E+00   0.000000E+00
+        2              1.5              1       5.416430E-01   1.334306E+00   8.984052E-01   8.703257E-01   2.892689E-01   1.161281E-04   2.817905E-02   3.527562E-07   0.000000E+00   0.000000E+00
+        2              2.5              1       5.416430E-01   9.117588E-01   8.984052E-01   9.152529E-01   2.184857E-01   8.344898E-05   2.783959E-02   2.480731E-07   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.200000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.200000E+00
+#     potential scattering radius [fm]:  4.848478E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.855994E+00   1.855994E+00   6.109481E-01   6.109481E-01   4.481796E-01   1.133916E-04   3.102443E-02   8.757834E-07   0.000000E+00   0.000000E+00
+        1              0.5             -1       6.237513E-01   1.856467E+00   1.297473E+00   1.140454E+00   9.234409E-01   2.117216E-04   3.128919E-02   8.760067E-07   0.000000E+00   0.000000E+00
+        1              1.5             -1       6.237513E-01   9.393679E-01   1.297473E+00   1.349813E+00   9.064553E-01   1.267971E-04   3.099492E-02   8.947487E-07   0.000000E+00   0.000000E+00
+        2              1.5              1       3.808883E-01   9.392861E-01   8.850849E-01   8.441457E-01   4.253246E-01   7.928943E-05   3.067390E-02   8.946707E-07   0.000000E+00   0.000000E+00
+        2              2.5              1       3.808883E-01   6.406959E-01   8.850849E-01   9.096485E-01   3.202919E-01   5.828080E-05   3.028423E-02   6.241407E-07   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.400000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.400000E+00
+#     potential scattering radius [fm]:  4.818291E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.314729E+00   1.314729E+00   5.991032E-01   5.991032E-01   5.735580E-01   7.876581E-05   3.375483E-02   2.584288E-06   0.000000E+00   0.000000E+00
+        1              0.5             -1       4.414291E-01   1.313402E+00   1.181543E+00   1.090359E+00   1.154322E+00   1.432080E-04   3.395088E-02   2.581680E-06   0.000000E+00   0.000000E+00
+        1              1.5             -1       4.414291E-01   6.648991E-01   1.181543E+00   1.211937E+00   1.108437E+00   8.058160E-05   3.366463E-02   2.634424E-06   0.000000E+00   0.000000E+00
+        2              1.5              1       2.697241E-01   6.652228E-01   8.632101E-01   8.193638E-01   5.595334E-01   5.450595E-05   3.339549E-02   2.635706E-06   0.000000E+00   0.000000E+00
+        2              2.5              1       2.697241E-01   4.536718E-01   8.632101E-01   8.895178E-01   4.597473E-01   4.035492E-05   3.299857E-02   1.826019E-06   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.600000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.600000E+00
+#     potential scattering radius [fm]:  4.885805E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       9.329295E-01   9.329295E-01   5.837706E-01   5.837706E-01   6.620614E-01   5.446167E-05   3.660437E-02   7.459958E-06   0.000000E+00   0.000000E+00
+        1              0.5             -1       3.129750E-01   9.306290E-01   1.075730E+00   1.033996E+00   1.207418E+00   9.622671E-05   3.672590E-02   7.441564E-06   0.000000E+00   0.000000E+00
+        1              1.5             -1       3.129750E-01   4.715644E-01   1.075730E+00   1.089641E+00   1.160204E+00   5.138358E-05   3.646747E-02   7.595205E-06   0.000000E+00   0.000000E+00
+        2              1.5              1       1.914797E-01   4.721576E-01   8.338239E-01   7.947329E-01   6.464574E-01   3.752391E-05   3.625170E-02   7.604759E-06   0.000000E+00   0.000000E+00
+        2              2.5              1       1.914797E-01   3.221080E-01   8.338239E-01   8.572785E-01   5.612378E-01   2.761363E-05   3.586589E-02   5.250070E-06   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 1.800000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  1.800000E+00
+#     potential scattering radius [fm]:  5.015729E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       6.647019E-01   6.647019E-01   5.660637E-01   5.660637E-01   7.811112E-01   3.762636E-05   3.964557E-02   2.154338E-05   0.000000E+00   0.000000E+00
+        1              0.5             -1       2.229084E-01   6.627016E-01   9.886653E-01   9.772905E-01   1.229158E+00   6.476520E-05   3.971624E-02   2.147854E-05   0.000000E+00   0.000000E+00
+        1              1.5             -1       2.229084E-01   3.358890E-01   9.886653E-01   9.924569E-01   1.195163E+00   3.333554E-05   3.946457E-02   2.193222E-05   0.000000E+00   0.000000E+00
+        2              1.5              1       1.364754E-01   3.364403E-01   7.989522E-01   7.695948E-01   7.604299E-01   2.589227E-05   3.929448E-02   2.196822E-05   0.000000E+00   0.000000E+00
+        2              2.5              1       1.364754E-01   2.296194E-01   7.989522E-01   8.165665E-01   6.884551E-01   1.874995E-05   3.892608E-02   1.514664E-05   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.000000E+00
+#     potential scattering radius [fm]:  5.176612E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       4.787745E-01   4.787745E-01   5.472184E-01   5.472184E-01   9.620922E-01   2.619942E-05   4.314787E-02   5.705094E-05   0.000000E+00   0.000000E+00
+        1              0.5             -1       1.607117E-01   4.783212E-01   9.195433E-01   9.234951E-01   1.305267E+00   4.417272E-05   4.328841E-02   5.699693E-05   0.000000E+00   0.000000E+00
+        1              1.5             -1       1.607117E-01   2.420324E-01   9.195433E-01   9.182260E-01   1.289885E+00   2.222405E-05   4.296036E-02   5.814809E-05   0.000000E+00   0.000000E+00
+        2              1.5              1       9.831199E-02   2.422543E-01   7.612587E-01   7.438501E-01   9.403125E-01   1.802009E-05   4.277856E-02   5.820139E-05   0.000000E+00   0.000000E+00
+        2              2.5              1       9.831199E-02   1.654587E-01   7.612587E-01   7.717039E-01   8.792980E-01   1.276851E-05   4.244279E-02   4.017863E-05   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.200000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.200000E+00
+#     potential scattering radius [fm]:  5.343899E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       3.449753E-01   3.449753E-01   5.283704E-01   5.283704E-01   1.128432E+00   1.822748E-05   4.671752E-02   1.378385E-04   0.000000E+00   0.000000E+00
+        1              0.5             -1       1.159101E-01   3.453618E-01   8.643174E-01   8.738354E-01   1.430644E+00   3.017893E-05   4.694113E-02   1.379929E-04   0.000000E+00   0.000000E+00
+        1              1.5             -1       1.159101E-01   1.744634E-01   8.643174E-01   8.611447E-01   1.430339E+00   1.502382E-05   4.652738E-02   1.406855E-04   0.000000E+00   0.000000E+00
+        2              1.5              1       7.084540E-02   1.744970E-01   7.233072E-01   7.176445E-01   1.106045E+00   1.252268E-05   4.632965E-02   1.407125E-04   0.000000E+00   0.000000E+00
+        2              2.5              1       7.084540E-02   1.192679E-01   7.233072E-01   7.267048E-01   1.053258E+00   8.667255E-06   4.603488E-02   9.741393E-05   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.400000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.400000E+00
+#     potential scattering radius [fm]:  5.501160E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       2.528212E-01   2.528212E-01   5.103707E-01   5.103707E-01   1.291276E+00   1.290325E-05   5.116927E-02   3.186882E-04   0.000000E+00   0.000000E+00
+        1              0.5             -1       8.496410E-02   2.531060E-01   8.192984E-01   8.289811E-01   1.581722E+00   2.098201E-05   5.138742E-02   3.190472E-04   0.000000E+00   0.000000E+00
+        1              1.5             -1       8.496410E-02   1.278975E-01   8.192984E-01   8.160708E-01   1.587694E+00   1.043734E-05   5.097090E-02   3.258241E-04   0.000000E+00   0.000000E+00
+        2              1.5              1       5.189016E-02   1.278991E-01   6.872293E-01   6.914462E-01   1.264790E+00   8.843534E-06   5.077842E-02   3.258282E-04   0.000000E+00   0.000000E+00
+        2              2.5              1       5.189016E-02   8.731478E-02   6.872293E-01   6.846992E-01   1.212095E+00   5.978437E-06   5.043185E-02   2.260515E-04   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.600000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.600000E+00
+#     potential scattering radius [fm]:  5.639392E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.863242E-01   1.863242E-01   4.938644E-01   4.938644E-01   1.528779E+00   9.201890E-06   5.604642E-02   6.690337E-04   0.000000E+00   0.000000E+00
+        1              0.5             -1       6.261466E-02   1.864135E-01   7.817408E-01   7.890500E-01   1.785564E+00   1.470896E-05   5.622094E-02   6.693545E-04   0.000000E+00   0.000000E+00
+        1              1.5             -1       6.261466E-02   9.428374E-02   7.817408E-01   7.793044E-01   1.780678E+00   7.347573E-06   5.583999E-02   6.851275E-04   0.000000E+00   0.000000E+00
+        2              1.5              1       3.821143E-02   9.428425E-02   6.544219E-01   6.658538E-01   1.490399E+00   6.277952E-06   5.566222E-02   6.851312E-04   0.000000E+00   0.000000E+00
+        2              2.5              1       3.821143E-02   6.425103E-02   6.544219E-01   6.475627E-01   1.425929E+00   4.160657E-06   5.522156E-02   4.768304E-04   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 2.800000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  2.800000E+00
+#     potential scattering radius [fm]:  5.754955E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.380170E-01   1.380170E-01   4.791415E-01   4.791415E-01   1.894464E+00   6.612967E-06   6.135485E-02   1.222535E-03   0.000000E+00   0.000000E+00
+        1              0.5             -1       4.636768E-02   1.379579E-01   7.497853E-01   7.539372E-01   2.114377E+00   1.040116E-05   6.146468E-02   1.222011E-03   0.000000E+00   0.000000E+00
+        1              1.5             -1       4.636768E-02   6.984138E-02   7.497853E-01   7.484013E-01   2.084672E+00   5.226939E-06   6.113058E-02   1.254676E-03   0.000000E+00   0.000000E+00
+        2              1.5              1       2.828020E-02   6.984120E-02   6.255035E-01   6.414196E-01   1.833019E+00   4.479751E-06   6.096584E-02   1.254673E-03   0.000000E+00   0.000000E+00
+        2              2.5              1       2.828020E-02   4.752347E-02   6.255035E-01   6.159540E-01   1.743809E+00   2.927227E-06   6.043363E-02   8.792705E-04   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 3.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  3.000000E+00
+#     potential scattering radius [fm]:  5.847390E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.036687E-01   1.036687E-01   4.663089E-01   4.663089E-01   2.365351E+00   4.834164E-06   6.776136E-02   1.985120E-03   0.000000E+00   0.000000E+00
+        1              0.5             -1       3.479334E-02   1.034531E-01   7.222349E-01   7.233822E-01   2.565045E+00   7.483616E-06   6.774210E-02   1.980992E-03   0.000000E+00   0.000000E+00
+        1              1.5             -1       3.479334E-02   5.242485E-02   7.222349E-01   7.218524E-01   2.507480E+00   3.784300E-06   6.746790E-02   2.043625E-03   0.000000E+00   0.000000E+00
+        2              1.5              1       2.122014E-02   5.242417E-02   6.005843E-01   6.186324E-01   2.274007E+00   3.243129E-06   6.731846E-02   2.043599E-03   0.000000E+00   0.000000E+00
+        2              2.5              1       2.122014E-02   3.565079E-02   6.005843E-01   5.897555E-01   2.154875E+00   2.102525E-06   6.673373E-02   1.451924E-03   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 3.500000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  3.500000E+00
+#     potential scattering radius [fm]:  5.995892E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       5.175034E-02   5.175034E-02   4.409175E-01   4.409175E-01   3.699991E+00   2.281763E-06   8.670402E-02   4.583506E-03   0.000000E+00   0.000000E+00
+        1              0.5             -1       1.736333E-02   5.164398E-02   6.661492E-01   6.615703E-01   3.762745E+00   3.416612E-06   8.660644E-02   4.574086E-03   0.000000E+00   0.000000E+00
+        1              1.5             -1       1.736333E-02   2.615794E-02   6.661492E-01   6.676755E-01   3.660422E+00   1.746502E-06   8.629549E-02   4.741115E-03   0.000000E+00   0.000000E+00
+        2              1.5              1       1.058557E-02   2.615778E-02   5.484459E-01   5.661476E-01   3.571110E+00   1.480917E-06   8.619080E-02   4.741086E-03   0.000000E+00   0.000000E+00
+        2              2.5              1       1.058557E-02   1.778135E-02   5.484459E-01   5.378248E-01   3.406152E+00   9.563249E-07   8.553344E-02   3.607814E-03   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 4.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  4.000000E+00
+#     potential scattering radius [fm]:  6.031296E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       2.693084E-02   2.693084E-02   4.242452E-01   4.242452E-01   5.893886E+00   1.142528E-06   1.120597E-01   8.077056E-03   0.000000E+00   0.000000E+00
+        1              0.5             -1       9.046520E-03   2.694775E-02   6.252999E-01   6.196445E-01   5.849234E+00   1.669802E-06   1.121842E-01   8.082129E-03   0.000000E+00   0.000000E+00
+        1              1.5             -1       9.046520E-03   1.361825E-02   6.252999E-01   6.271851E-01   5.709441E+00   8.541161E-07   1.116198E-01   8.265292E-03   0.000000E+00   0.000000E+00
+        2              1.5              1       5.507568E-03   1.361829E-02   5.189120E-01   5.316216E-01   5.752716E+00   7.239775E-07   1.115447E-01   8.265316E-03   0.000000E+00   0.000000E+00
+        2              2.5              1       5.507568E-03   9.247472E-03   5.189120E-01   5.112862E-01   5.545327E+00   4.728104E-07   1.107167E-01   6.949773E-03   0.000000E+00   0.000000E+00
+# header:
+#   title: Th232(n,urr) URR parameter at 4.500000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  4.500000E+00
+#     potential scattering radius [fm]:  5.979990E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       1.463320E-02   1.463320E-02   4.126353E-01   4.126353E-01   9.116272E+00   6.038174E-07   1.464097E-01   1.360774E-02   0.000000E+00   5.515333E-11
+        1              0.5             -1       4.915253E-03   1.464263E-02   5.927941E-01   5.878210E-01   9.069354E+00   8.607247E-07   1.465373E-01   1.361651E-02   0.000000E+00   4.125718E-11
+        1              1.5             -1       4.915253E-03   7.398935E-03   5.927941E-01   5.944517E-01   8.897747E+00   4.398310E-07   1.458849E-01   1.359092E-02   0.000000E+00   7.956669E-11
+        2              1.5              1       2.988972E-03   7.398765E-03   4.982036E-01   5.057843E-01   8.948622E+00   3.742179E-07   1.458251E-01   1.359060E-02   0.000000E+00   2.788635E-11
+        2              2.5              1       2.988972E-03   5.014908E-03   4.982036E-01   4.936552E-01   8.674026E+00   2.475635E-07   1.446374E-01   1.234659E-02   0.000000E+00   4.610023E-11
+# header:
+#   title: Th232(n,urr) URR parameter at 5.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  5.000000E+00
+#     potential scattering radius [fm]:  5.864648E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       8.291689E-03   8.291689E-03   4.040566E-01   4.040566E-01   1.478714E+01   3.350312E-07   1.932888E-01   2.317520E-02   0.000000E+00   8.287399E-10
+        1              0.5             -1       2.782298E-03   8.291848E-03   5.657272E-01   5.619857E-01   1.476620E+01   4.659900E-07   1.932979E-01   2.317564E-02   0.000000E+00   1.054558E-09
+        1              1.5             -1       2.782298E-03   4.187345E-03   5.657272E-01   5.669743E-01   1.453951E+01   2.374117E-07   1.924419E-01   2.266452E-02   0.000000E+00   8.831537E-10
+        2              1.5              1       1.691326E-03   4.187264E-03   4.825200E-01   4.863077E-01   1.456141E+01   2.036299E-07   1.924045E-01   2.266408E-02   0.000000E+00   7.487475E-10
+        2              2.5              1       1.691326E-03   2.837422E-03   4.825200E-01   4.802473E-01   1.419493E+01   1.362664E-07   1.909811E-01   2.138992E-02   0.000000E+00   5.505236E-10
+# header:
+#   title: Th232(n,urr) URR parameter at 5.500000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  5.500000E+00
+#     potential scattering radius [fm]:  5.706206E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       4.899432E-03   4.899432E-03   3.972039E-01   3.972039E-01   2.412362E+01   1.946074E-07   2.579390E-01   3.943361E-02   0.000000E+00   3.185161E-09
+        1              0.5             -1       1.643323E-03   4.899432E-03   5.423665E-01   5.398935E-01   2.410217E+01   2.645172E-07   2.579221E-01   3.943361E-02   0.000000E+00   3.264703E-09
+        1              1.5             -1       1.643323E-03   2.472690E-03   5.423665E-01   5.431908E-01   2.375704E+01   1.343142E-07   2.567728E-01   3.827242E-02   0.000000E+00   2.852619E-09
+        2              1.5              1       9.982074E-04   2.472690E-03   4.695814E-01   4.711412E-01   2.378170E+01   1.164986E-07   2.567580E-01   3.827242E-02   0.000000E+00   2.857463E-09
+        2              2.5              1       9.982074E-04   1.673982E-03   4.695814E-01   4.686455E-01   2.323491E+01   7.845043E-08   2.548564E-01   3.667294E-02   0.000000E+00   2.260796E-09
+# header:
+#   title: Th232(n,urr) URR parameter at 6.000000E+00 MeV
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# target:
+#   Z: 90
+#   A: 232
+#   nuclide: Th232
+# reaction:
+#   type: (n,urr)
+#   parameters:
+#     neutron separation energy [MeV]:  4.786385E+00
+#     thermal capture cross section [mb]:  7.341000E+03
+#   quantity:
+#     type: URR parameter
+#     E-incident [MeV]:  6.000000E+00
+#     potential scattering radius [fm]:  5.523896E+00
+#   datablock:
+#     columns: 13
+#     entries: 58
+##       l              J              P            D(l)          D(l,J)          S(l)          S(l,J)         Gx(l,J)        Gn(l,J)        Gg(l,J)        Gf(l,J)        Gp(l,J)        Ga(l,J)
+##      []             []             []            [eV]           [eV]            []             []            [eV]           [eV]           [eV]           [eV]           [eV]           [eV]
+        0              0.5              1       2.959645E-03   2.959645E-03   3.914073E-01   3.914073E-01   3.938159E+01   1.158427E-07   3.417977E-01   6.534159E-02   0.000000E+00   8.503892E-09
+        1              0.5             -1       9.932804E-04   2.959645E-03   5.218109E-01   5.204669E-01   3.928064E+01   1.540397E-07   3.417640E-01   6.534159E-02   0.000000E+00   8.530535E-09
+        1              1.5             -1       9.932804E-04   1.495022E-03   5.218109E-01   5.222589E-01   3.882335E+01   7.807883E-08   3.407235E-01   6.362684E-02   0.000000E+00   7.444036E-09
+        2              1.5              1       6.027151E-04   1.495022E-03   4.583216E-01   4.588946E-01   3.892860E+01   6.860572E-08   3.407228E-01   6.362684E-02   0.000000E+00   7.625689E-09
+        2              2.5              1       6.027151E-04   1.009823E-03   4.583216E-01   4.579778E-01   3.806078E+01   4.624767E-08   3.377293E-01   6.128804E-02   0.000000E+00   6.087113E-09

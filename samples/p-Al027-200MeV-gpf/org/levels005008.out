@@ -1,0 +1,33 @@
+# header: 
+#   title: B8 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 5
+#   A: 8
+#   nuclide: B8
+#   parameters: 
+#     nuclear mass [amu]:  8.024607E+00
+#     neutron separation energy [MeV]:  1.282630E+01
+#     proton separation energy [MeV]:  1.363261E-01
+#     alpha separation energy [MeV]:  4.826240E+00
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 10
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.0             +              0                                                      7.719000E-01                          2+
+     1            7.695000E-01        1.0             +              1                                                      1.282000E-20                          1+
+                                                                           --->     0         100.0000       0.000000E+00                           
+     2            2.320000E+00        3.0             +              1                                                      1.304000E-21                          3+
+                                                                           --->     0         100.0000       0.000000E+00                           
+     3            3.500000E+00        2.0             -              2                                                      5.703000E-23                          2-
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     4            1.061900E+01        0.0             +              1                                                                                            0+
+                                                                           --->     0         100.0000       0.000000E+00                          B

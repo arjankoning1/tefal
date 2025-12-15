@@ -1,0 +1,32 @@
+# header: 
+#   title: O11 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 8
+#   A: 11
+#   nuclide: O11
+#   parameters: 
+#     nuclear mass [amu]:  1.105125E+01
+#     neutron separation energy [MeV]:  1.883383E+01
+#     proton separation energy [MeV]: -1.649989E+00
+#     alpha separation energy [MeV]:  1.511621E+00
+#     number of excited levels: 3
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 9
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                      1.980000E-22                      (3/2-)
+     1            4.900000E-01        2.5             +              1                                                      4.304000E-22                      (5/2+)
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            6.900000E-01        1.5             -              2                                                      3.430000E-22                      (3/2-)
+                                                                           --->     1          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     3            2.120000E+00        2.5             +              2                                                      2.328000E-22                      (5/2+)
+                                                                           --->     1          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B

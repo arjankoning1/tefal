@@ -1,0 +1,26 @@
+# header: 
+#   title: F13 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 9
+#   A: 13
+#   nuclide: F13
+#   parameters: 
+#     nuclear mass [amu]:  1.304512E+01
+#     neutron separation energy [MeV]:  2.453018E+01
+#     proton separation energy [MeV]: -2.727768E+00
+#     alpha separation energy [MeV]:  4.336007E+00
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.5             +              0                                                                        E    X                
+     1            2.000000E+00        2.5             +              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           

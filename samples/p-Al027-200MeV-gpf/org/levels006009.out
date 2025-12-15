@@ -1,0 +1,38 @@
+# header: 
+#   title: C9 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 6
+#   A: 9
+#   nuclide: C9
+#   parameters: 
+#     nuclear mass [amu]:  9.031037E+00
+#     neutron separation energy [MeV]:  1.422462E+01
+#     proton separation energy [MeV]:  1.299495E+00
+#     alpha separation energy [MeV]:  1.065265E+01
+#     number of excited levels: 6
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 15
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                      1.265000E-01                        3/2-
+     1            2.218000E+00        0.5             -              1                                                      8.774000E-21                        1/2-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            3.542000E+00        2.5             -              1                                                      6.779000E-22                        5/2-
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     3            4.400000E+00        2.5             +              1                                                      1.659000E-22                        5/2+
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     4            5.750000E+00        3.5             +              1                                                      7.591000E-22       JP                   
+                                                                           --->     2         100.0000       0.000000E+00                          B
+     5            9.000000E+00        0.5             +              2                                                                         JP                   
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     6            1.500000E+01        1.5             +              2                                                                         JP                   
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B

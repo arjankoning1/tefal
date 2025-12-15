@@ -1,0 +1,26 @@
+# header: 
+#   title: N10 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 7
+#   A: 10
+#   nuclide: N10
+#   parameters: 
+#     nuclear mass [amu]:  1.004165E+01
+#     neutron separation energy [MeV]:  1.800307E+01
+#     proton separation energy [MeV]: -2.600159E+00
+#     alpha separation energy [MeV]:  1.094459E+01
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                      1.430000E-22       JP              1-,2-
+     1            9.000000E-01        2.0             -              1                                                      2.281000E-22                        (2-)
+                                                                           --->     0         100.0000       0.000000E+00                          B

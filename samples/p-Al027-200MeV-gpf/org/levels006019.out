@@ -1,0 +1,32 @@
+# header: 
+#   title: C19 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 6
+#   A: 19
+#   nuclide: C19
+#   parameters: 
+#     nuclear mass [amu]:  1.903480E+01
+#     neutron separation energy [MeV]:  5.768293E-01
+#     proton separation energy [MeV]:  2.666778E+01
+#     alpha separation energy [MeV]:  1.983669E+01
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 9
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.5             +              0                                                      4.620000E-02                        1/2+
+     1            2.090000E-01        1.5             +              1                                                      1.340000E-09                      (3/2+)
+                                                                           --->     0         100.0000       2.980000E-04                           
+     2            2.820000E-01        2.5             +              1                                                                         JP                   
+                                                                           --->     1         100.0000       0.000000E+00                           
+     3            6.530000E-01        2.5             +              1                                                                                        (5/2+)
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     4            1.460000E+00        2.5             +              1                                                      1.573000E-21                        5/2+
+                                                                           --->     0         100.0000       0.000000E+00                          B

@@ -1,0 +1,26 @@
+# header: 
+#   title: C8 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 6
+#   A: 8
+#   nuclide: C8
+#   parameters: 
+#     nuclear mass [amu]:  8.037643E+00
+#     neutron separation energy [MeV]:  2.023316E+01
+#     proton separation energy [MeV]: -9.881887E-02
+#     alpha separation energy [MeV]: -3.376678E+01
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                      3.500000E-21                          0+
+     1            3.250000E+00        2.0             +              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           

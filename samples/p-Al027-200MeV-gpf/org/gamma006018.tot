@@ -1,0 +1,26 @@
+# header: 
+#   title: Al27 Cumulative discrete gamma decay
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# target: 
+#   Z: 13
+#   A: 27
+#   nuclide: Al27
+# quantity: 
+#   type: Cumulative discrete gamma decay
+# datablock: 
+#   columns: 10
+#   entries: 9
+##     Level         Energy       Num._branch    Total_yield   Parent_level  Daughter_level  Gamma_energy   Branch._ratio  Parent_energy Daughter_energy
+##      []            [MeV]           []             []             []             []            [MeV]           []            [MeV]          [MeV]
+     1            1.588000E+00     1            9.998754E-01
+                                                                 1              0            1.588000E+00   1.000000E+00   1.588000E+00   0.000000E+00
+     2            2.515000E+00     3            1.859712E+00
+                                                                 2              0            2.515000E+00   7.532663E-02   2.515000E+00   0.000000E+00
+                                                                 1              0            1.588000E+00   4.623367E-01   1.588000E+00   0.000000E+00
+                                                                 2              1            9.270000E-01   4.623367E-01   2.515000E+00   1.588000E+00
+     3            3.972000E+00     2            1.999875E+00
+                                                                 3              1            2.384000E+00   5.000000E-01   3.972000E+00   1.588000E+00
+                                                                 1              0            1.588000E+00   5.000000E-01   1.588000E+00   0.000000E+00

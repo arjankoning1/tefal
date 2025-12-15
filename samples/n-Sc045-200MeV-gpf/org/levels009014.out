@@ -1,0 +1,30 @@
+# header: 
+#   title: F14 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# residual: 
+#   Z: 9
+#   A: 14
+#   nuclide: F14
+#   parameters: 
+#     nuclear mass [amu]:  1.403431E+01
+#     neutron separation energy [MeV]:  1.813691E+01
+#     proton separation energy [MeV]: -1.560074E+00
+#     alpha separation energy [MeV]:  9.260243E+00
+#     number of excited levels: 3
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 7
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.0             -              0                                                      5.000000E-22                          2-
+     1            5.400000E-01        1.0             -              1                                                      4.562000E-22                          1-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            1.490000E+00        3.0             -              1                                                      2.173000E-21                          3-
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     3            2.790000E+00        4.0             -              1                                                      8.295000E-22                          4-
+                                                                           --->     0         100.0000       0.000000E+00                          B

@@ -1,0 +1,26 @@
+# header: 
+#   title: Cl27 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# residual: 
+#   Z: 17
+#   A: 27
+#   nuclide: Cl27
+#   parameters: 
+#     nuclear mass [amu]:  2.703778E+01
+#     neutron separation energy [MeV]:  2.313032E+01
+#     proton separation energy [MeV]: -2.774103E+00
+#     alpha separation energy [MeV]:  9.423619E+00
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.5             -              0                                                                                              
+     1            9.629630E-01        2.5             -              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           

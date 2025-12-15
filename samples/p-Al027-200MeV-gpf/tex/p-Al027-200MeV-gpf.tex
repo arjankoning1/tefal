@@ -1,0 +1,19 @@
+\begin{samplecase}
+{\bf 200 MeV proton general purpose file for ${}^{27}$Al}\newline
+This sample case concerns a high-energy proton data library, i.e. up to an
+energy of 200 MeV. This time, no attempt was made to adjust the TALYS results to
+experimental data. This is a so called ``blind'' data library.
+The following TALYS input file is used:
+
+\VerbatimInput{\samples p-Al027-200MeV-gpf/org/talys.inp}
+
+with which we run
+
+{\bf talys $<$ talys.inp $>$ talys.out}\newline
+
+while {\em tefal.inp} is empty, so that running
+
+{\bf tefal $<$ tefal.inp $>$ tefal.out}\newline
+
+produces the file {\em p-Al027.gpf}.
+\end{samplecase}

@@ -1,0 +1,31 @@
+# header: 
+#   title: C18 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 6
+#   A: 18
+#   nuclide: C18
+#   parameters: 
+#     nuclear mass [amu]:  1.802675E+01
+#     neutron separation energy [MeV]:  4.183931E+00
+#     proton separation energy [MeV]:  2.608595E+01
+#     alpha separation energy [MeV]:  1.745985E+01
+#     number of excited levels: 3
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 8
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                      9.200000E-02                          0+
+     1            1.588000E+00        2.0             +              1                                                      1.550000E-11                          2+
+                                                                           --->     0         100.0000       1.246000E-04                           
+     2            2.515000E+00        2.0             +              2                                                                                          (2+)
+                                                                           --->     1          85.9900       2.506000E-06                           
+                                                                           --->     0          14.0100       5.650000E-04                           
+     3            3.972000E+00        1.0             +              1                                                                         JP             (2,3)+
+                                                                           --->     1         100.0000       0.000000E+00                           

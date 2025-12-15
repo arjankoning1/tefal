@@ -1,0 +1,35 @@
+# header: 
+#   title: F15 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 9
+#   A: 15
+#   nuclide: F15
+#   parameters: 
+#     nuclear mass [amu]:  1.501778E+01
+#     neutron separation energy [MeV]:  2.346897E+01
+#     proton separation energy [MeV]: -1.270074E+00
+#     alpha separation energy [MeV]:  1.022351E+01
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 12
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.5             +              0                                                      1.100000E-21                        1/2+
+     1            1.520000E+00        2.5             +              1                                                      1.521000E-21                        5/2+
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            3.480000E+00        0.5             -              1                                                      1.267000E-20                        1/2-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            5.100000E+00        1.5             -              2                                                      2.281000E-21       JP        (3/2-,5/2-)
+                                                                           --->     1          24.0493       0.000000E+00                          B
+                                                                           --->     0          75.9507       0.000000E+00                          B
+     4            6.500000E+00        3.5             -              3                                                      1.141000E-21       JP        (3/2+,5/2+)
+                                                                           --->     3           0.0035       0.000000E+00                          B
+                                                                           --->     1          99.9961       0.000000E+00                          B
+                                                                           --->     0           0.0004       0.000000E+00                          B

@@ -1,0 +1,32 @@
+# header: 
+#   title: Be6 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 4
+#   A: 6
+#   nuclide: Be6
+#   parameters: 
+#     nuclear mass [amu]:  6.019726E+00
+#     neutron separation energy [MeV]:  2.683528E+01
+#     proton separation energy [MeV]:  5.927501E-01
+#     alpha separation energy [MeV]: -1.619375E+01
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 9
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                      5.000000E-21                          0+
+     1            1.670000E+00        2.0             +              1                                                      3.933000E-22                        (2)+
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            2.300000E+01        4.0             -              1                                                                                            4-
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            2.600000E+01        2.0             -              1                                                                                            2-
+                                                                           --->     2         100.0000       0.000000E+00                          B
+     4            2.700000E+01        3.0             -              1                                                                                            3-
+                                                                           --->     1         100.0000       0.000000E+00                          B

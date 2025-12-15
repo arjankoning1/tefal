@@ -1,0 +1,28 @@
+# header: 
+#   title: He7 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 2
+#   A: 7
+#   nuclide: He7
+#   parameters: 
+#     nuclear mass [amu]:  7.027991E+00
+#     neutron separation energy [MeV]: -4.097157E-01
+#     proton separation energy [MeV]:  2.309149E+01
+#     alpha separation energy [MeV]: -2.472641E+01
+#     number of excited levels: 2
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 5
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                      2.510000E-21                      (3/2)-
+     1            2.920000E+00        2.5             -              1                                                      2.293000E-22                      (5/2-)
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            5.800000E+00        0.5             -              1                                                      1.141000E-22       JP                   
+                                                                           --->     1         100.0000       0.000000E+00                          B

@@ -1,0 +1,24 @@
+\begin{samplecase}
+{\bf 60 MeV neutron EAF activation file for ${}^{59}$Co}\newline
+This sample case concerns a high-energy neutron activation library in EAF
+format. Files like this are adopted in the EAF library for
+activation/transmutation calculations.
+The following TALYS input file is used:
+
+\VerbatimInput{\samples n-Co059-60MeV-eaf/org/talys.inp}
+
+with which we run
+
+{\bf talys $<$ talys.inp $>$ talys.out}\newline
+
+The following TEFAL input file is used
+
+\VerbatimInput{\samples n-Co059-60MeV-eaf/org/tefal.inp}
+
+with which we run
+
+{\bf tefal $<$ tefal.inp $>$ tefal.out}\newline
+
+Note that this time the produced nuclear data file automatically got
+the extension '.eaf', {\em n-Co059.eaf}.
+\end{samplecase}

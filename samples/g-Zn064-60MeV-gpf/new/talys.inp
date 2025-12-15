@@ -1,0 +1,20 @@
+#
+# General
+#
+projectile g
+element    zn
+mass        64
+energy     energies
+endf y
+#
+# Precision
+#
+bins  50
+popeps 1.e-12
+transeps 1.e-20
+transpower 15
+xseps 1.e-20
+#
+# Specific 
+#
+outgamdis n

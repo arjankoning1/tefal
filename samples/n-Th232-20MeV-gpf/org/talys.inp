@@ -1,0 +1,79 @@
+#
+# n-Th232-fis
+#
+# General
+#
+projectile n
+element    Th
+mass       232
+ltarget    000
+energy     energies
+maxlevelstar    30
+partable y
+bins 40
+endf y
+#
+# do not use best parameters from database
+#
+best n
+#
+# set multi-preequilibrium switch lower for actinides
+#
+multipreeq 6.
+#
+# output of extra channels
+#
+channels y
+filechannels y
+#
+# reduce output for activation-only calculation
+#
+maxrot 2
+strength 9
+strengthm1 3
+ngfit y
+upbend y
+ldmodel 5
+fismodel 5
+fispartdamp y
+hbstate n
+class2 n
+ecissave y
+eciscalc y
+inccalc y
+riplrisk y
+#
+# Current variables of TASMAN Run:  2509
+#
+ctable        90 233    1.35146 1                                               
+ptable        90 233 -1.94808E+00 1                                             
+ctable        90 233 -9.41013E-01 2                                             
+ptable        90 233    1.01594 2                                               
+ctable        90 233    3.16960 3                                               
+ptable        90 233 -1.14439E+00 3                                             
+betafiscor    90 233    1.04349                                                 
+vfiscor       90 233    0.71170                                                 
+ctable        90 232    0.32630 1                                               
+ptable        90 232    2.77492 1                                               
+ctable        90 232    8.34473 2                                               
+ptable        90 232 -6.59883E+00 2                                             
+ctable        90 232    0.69898 3                                               
+ptable        90 232    0.75241 3                                               
+betafiscor    90 232    0.50505                                                 
+vfiscor       90 232    0.84379                                                 
+ctable        90 231  5.77646E-02 1                                             
+ptable        90 231 -2.67866E+00 1                                             
+ctable        90 231 -3.61946E+00 2                                             
+ptable        90 231 -2.25936E+00 2                                             
+ctable        90 231 -2.85851E+00 3                                             
+ptable        90 231    2.66753 3                                               
+betafiscor    90 231    1.58614                                                 
+vfiscor       90 231    1.62104                                                 
+ctable        90 230 -3.18402E+00 1                                             
+ptable        90 230 -4.20179E+00 1                                             
+ctable        90 230    1.13153 2                                               
+ptable        90 230 -5.43220E-01 2                                             
+ctable        90 230    1.01315 3                                               
+ptable        90 230 -2.80603E+00 3                                             
+betafiscor    90 230    1.66138                                                 
+vfiscor       90 230    1.71450                             

@@ -1,0 +1,47 @@
+\begin{samplecase}
+{\bf 20 MeV neutron general purpose file for ${}^{72}$Ge}\newline
+This sample case concerns a conventional neutron data library, i.e. a
+general purpose library up to an energy of 20 MeV for $^{72}$Ge.
+A total of 4 files are needed for this run: the TALYS input file
+{\em talys.inp}, the energy grid {\em energies}, the optical model file
+{\em ge.omp} that is specified in the TALYS input file (for this particular case, see input file below) and the
+TEFAL input file {\em tefal.inp}.
+First, a TALYS calculation is performed \newline
+
+{\bf talys $<$ talys.inp $>$ talys.out}\newline
+
+where the input file {\em talys.inp} looks as follows:
+
+\VerbatimInput{\samples n-Ge072-20MeV-gpf/org/talys.inp}
+
+Note the essential input line with {\bf endf y}. For the rest, the TALYS input
+consists of some adjustable nuclear model parameters and some parameters
+determining the precision. We refer to the TALYS manual for the exact
+meaning of these keywords.
+The TEFAL input file is empty for this sample case, though needs to exist. TEFAL is executed\newline
+
+{\bf tefal $<$ tefal.inp $>$ tefal.out}\newline
+
+After this run, the most important result is a file called {\em n-Ge072.gpf}, which
+is the complete ENDF-6 formatted file. The top of this file shows the well-known ENDF format:
+
+\VerbatimInput{\samples n-Ge072-20MeV-gpf/tex/n-Ge072.head}
+
+In addition, there is the
+standard TEFAL output file {\em tefal.out} which looks as follows
+
+\VerbatimInput{\samples n-Ge072-20MeV-gpf/org/tefal.out80}
+
+Note that a table with all keywords is given,
+not only the ones that you have specified in the input file (in this case: none), but also all the
+defaults that are set automatically. The corresponding Fortran variables are
+also printed, together with a short explanation of their meaning. This table
+can be helpful as a guide to change further input parameters for a next run.
+Finally, at the end of the output it is mentioned that a file {\em tefal.clean} is made which contains a list of cleaned up double points.
+
+The ENDF file of this sample case shows the default ENDF-6 procedures we have
+used (since {\em tefal.inp} is empty): all open channels are included
+(many MT numbers), inelastic scattering angular distributions for discrete
+levels are stored in MF4/MT51, etc, MF6 is used for secondary distributions of
+partial channels, and MF12 is used for discrete level photon production.
+\end{samplecase}

@@ -1,0 +1,38 @@
+# header: 
+#   title: Li11 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 3
+#   A: 11
+#   nuclide: Li11
+#   parameters: 
+#     nuclear mass [amu]:  1.104372E+01
+#     neutron separation energy [MeV]:  3.956863E-01
+#     proton separation energy [MeV]:  1.575779E+01
+#     alpha separation energy [MeV]:  1.083136E+01
+#     number of excited levels: 6
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 15
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                      8.750000E-03                       3/2-*
+     1            1.266000E+00        0.5             -              1                                                      8.608000E-22       JP                   
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            2.474000E+00        2.5             -              1                                                      3.621000E-22       JP                   
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     3            3.700000E+00        3.5             -              1                                                                         JP                   
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     4            4.860000E+00        1.5             -              2                                                                         JP                   
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     5            6.230000E+00        0.5             -              2                                                                         JP                   
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     6            1.130000E+01        4.5             -              1                                                                         JP                   
+                                                                           --->     2         100.0000       0.000000E+00                          B

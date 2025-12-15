@@ -1,0 +1,33 @@
+# header: 
+#   title: H6 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 1
+#   A: 6
+#   nuclide: H6
+#   parameters: 
+#     nuclear mass [amu]:  6.044955E+00
+#     neutron separation energy [MeV]: -9.119607E-01
+#     proton separation energy [MeV]: -2.756603E+01
+#     alpha separation energy [MeV]: -3.243030E+01
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 10
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.0             -              0                                                      2.940000E-22                         2-#
+     1            4.100000E+00        0.0             -              1                                                      8.147000E-23       JP                   
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            8.000000E+00        1.0             -              1                                                      1.141000E-22       JP                   
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            1.230000E+01        3.0             -              1                                                      1.086000E-22       JP                   
+                                                                           --->     2         100.0000       0.000000E+00                          B
+     4            1.870000E+01        1.0             -              2                                                      1.170000E-22       JP                   
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     2          50.0000       0.000000E+00                          B

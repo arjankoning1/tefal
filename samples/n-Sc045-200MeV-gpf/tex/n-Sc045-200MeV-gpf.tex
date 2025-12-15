@@ -1,0 +1,39 @@
+\begin{samplecase}
+{\bf 200 MeV neutron general purpose file for ${}^{45}$Sc}\newline
+This sample case concerns a neutron data library up to an energy of 200 MeV,
+and leads to the $^{45}$Sc evaluation as present in JEFF-3.1.
+
+First, a TALYS calculation is performed \newline
+
+{\bf talys $<$ talys.inp $>$ talys.out}\newline
+
+where the input file {\em talys.inp} looks as follows:
+
+\VerbatimInput{\samples n-Sc045-200MeV-gpf/org/talys.inp}
+
+This time, the TEFAL input file {\em tefal.inp} is not empty, but
+we ask for adoption of the
+ENDF/B-VII total cross sections between 101 keV and 8.8 MeV, and the
+resonance parameters from JENDL5.0. Moreover, we want to call our
+ENDF-6 file {\em Sc45.high}.
+The following input file is used
+
+\VerbatimInput{\samples n-Sc045-200MeV-gpf/org/tefal.inp}
+
+with which we run TEFAL
+
+{\bf tefal $<$ tefal.inp $>$ tefal.out}\newline
+
+For the same sample case we add an alternative input file
+which produces a different library {\em Sc45.alt}, namely one where there is no abrupt switch at 20 MeV, but where instead al MT numbers are filled with data up to 200 MeV.
+The file {\em tefal2.inp} that takes care of this looks as follows:
+
+\VerbatimInput{\samples n-Sc045-200MeV-gpf/org/tefal2.inp}
+
+with which we can also run TEFAL
+
+{\bf tefal $<$ tefal2.inp $>$ tefal2.out}\newline
+
+to produce the {\em Sc45.alt} file.
+
+\end{samplecase}

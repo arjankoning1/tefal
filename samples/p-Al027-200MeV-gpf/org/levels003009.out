@@ -1,0 +1,41 @@
+# header: 
+#   title: Li9 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-15
+#   format: YANDF-0.4
+# residual: 
+#   Z: 3
+#   A: 9
+#   nuclide: Li9
+#   parameters: 
+#     nuclear mass [amu]:  9.026790E+00
+#     neutron separation energy [MeV]:  4.062217E+00
+#     proton separation energy [MeV]:  1.394368E+01
+#     alpha separation energy [MeV]:  1.036216E+01
+#     number of excited levels: 7
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 18
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        1.5             -              0                                                      1.782000E-01                        3/2-
+     1            2.691000E+00        0.5             -              1                                                                                        (1/2-)
+                                                                           --->     0         100.0000       5.870000E-04                           
+     2            4.301000E+00        2.5             -              1                                                      5.185000E-21       JP                   
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     3            5.380000E+00        3.5             -              1                                                      7.604000E-22       JP                   
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     4            6.430000E+00        4.5             -              1                                                      1.141000E-20        P             GE 9/2
+                                                                           --->     2         100.0000       0.000000E+00                          B
+     5            1.600000E+01        0.5             -              2                                                                         JP                   
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     6            1.710000E+01        1.5             -              2                                                      5.703000E-22       JP                   
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     7            1.890000E+01        0.5             -              2                                                      1.901000E-21       JP                   
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B

@@ -1,0 +1,33 @@
+# header: 
+#   title: O24 Nuclear masses and levels
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2025-12-14
+#   format: YANDF-0.4
+# residual: 
+#   Z: 8
+#   A: 24
+#   nuclide: O24
+#   parameters: 
+#     nuclear mass [amu]:  2.401986E+01
+#     neutron separation energy [MeV]:  4.192284E+00
+#     proton separation energy [MeV]:  2.550892E+01
+#     alpha separation energy [MeV]:  2.142778E+01
+#     number of excited levels: 4
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 10
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                      7.740000E-02                          0+
+     1            4.790000E+00        2.0             +              1                                                      9.125000E-21                          2+
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            5.370000E+00        1.0             +              1                                                      1.521000E-20                        (1+)
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            7.400000E+00        3.0             +              1                                                                         JP                (-)
+                                                                           --->     2         100.0000       0.000000E+00                          B
+     4            7.600000E+00        4.0             +              2                                                      4.562000E-21       JP                (+)
+                                                                           --->     1          99.9967       0.000000E+00                          B
+                                                                           --->     0           0.0033       0.000000E+00                          B
