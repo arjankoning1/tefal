@@ -20,7 +20,7 @@ The following are the prerequisites for compiling TEFAL:
 ### Downloads:
 
 To download TEFAL, you can use one of the following options:
-#### 1. Download the entire tar file (frozen version):
+#### 1. Download the entire tar file (frozen version TEFAL-2.2):
 ```
 https://nds.iaea.org/talys/tefal.tar
 tar zxf tefal.tar
@@ -30,12 +30,6 @@ tar zxf tefal.tar
 ```
 git clone https://github.com/arjankoning1/tefal.git
 ```
-The TEFAL sample cases do not fall under the git repository. For that you need to download:
-```
-https://nds.iaea.org/talys/samples/tefal_samples.tar
-tar zxf tefal_samples.tar
-```
-The resulting *samples/* directory should be moved inside the *tefal/* directory.
 
 ### Installation instructions:
 
@@ -60,7 +54,7 @@ The *tefal/* directory contains the following directories and files:
 
 + `README.md` this README file
 + `LICENSE` the License file
-+ `install_tasman.bash`, `code_build.bash` and `path_change.bash` installation scripts
++ `install_tefal.bash`, `code_build.bash` and `path_change.bash` installation scripts
 + `source/` the Fortran source code of TEFAL and the Makefile
 + `bin/` the executable after successful installation
 + `misc/` text files and energy grids to be used by TEFAL
