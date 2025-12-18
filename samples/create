@@ -1,0 +1,119 @@
+#!/bin/bash
+echo
+echo "     create (Version December 27 2024) (C) Copyright 2024 Arjan Koning and Viktor Zerkin All Rights Reserved"
+echo
+#
+# create: run TEFAL for each sample case present in the org/ directories and copies the
+#         input files to a directory new/ for Rtest cases to be run by the user 
+#
+# Examples: create     (run all sample cases)"
+#
+# verify has been developed on Linux and Macos.
+#
+# TEFAL executable
+#
+cwd=`pwd`
+tefal=${cwd}'/../bin/tefal'
+talys=${cwd}'/../../talys/bin/talys'
+#
+# Main output and determine number of sample cases
+# nfiles: total number of TEFAL sample cases
+#
+start=`date +%F,%T`
+echo "________Script [$0] starting on: `uname -n` at: $start"
+files=`find . -name tefal.inp | grep org | sort`
+nfiles=`find . -name tefal.inp | grep org | sort | wc -l`
+nfiles=`printf "%2d"  $(echo $nfiles)`
+echo "________in total there are ${nfiles} sample cases"
+echo "________going to run TEFAL on ${nfiles} sample cases"
+#
+# Runtime of the sample cases is printed in times_org.log
+#
+echo "Script $0 start on:`uname -n` at:`date +%F,%T` with ${nfiles} cases">times_org.log
+echo "TEFAL executable: ${tefal}">>times_org.log
+ls -la ${tefal}>>times_org.log
+echo >> times_org.log
+#
+# Output of TEFAL executable
+#
+homedir=`pwd`
+echo "________TEFAL executable: $tefal"
+ls -la ${tefal}
+echo "________TALYS executable: $talys"
+ls -la ${talys}
+echo ""
+#
+# Loop over sample cases
+#
+t00=`date +%s`
+ii=0
+for f in ${files}; do
+  ii=$((ii+1))
+  dir=`dirname ${f}`
+  cd ${dir}
+#
+# Create the new/ directories and copy the input files from org/ to new/
+#
+  if [ -d ../new ]; then
+    rm -r ../new
+  fi
+  mkdir -p ../new
+  cp ${homedir}/${dir}/tefal.inp ../new
+  cp ${homedir}/${dir}/energies ../new
+  cp ${homedir}/${dir}/talys.inp ../new
+  cp ${homedir}/${dir}/tefal*.inp ../new
+  cp ${homedir}/${dir}/energies ../new
+  if [ -e ${homedir}/${dir}/*.omp ]; then
+    cp ${homedir}/${dir}/*.omp ../new
+  fi
+  if [ -e ${homedir}/${dir}/*.mf2 ]; then
+    cp ${homedir}/${dir}/*.mf2 ../new
+  fi
+  if [ -e ${homedir}/${dir}/*endfb* ]; then
+    cp ${homedir}/${dir}/*endfb* ../new
+  fi
+  if [ -e ${homedir}/${dir}/*jendl* ]; then
+    cp ${homedir}/${dir}/*jendl* ../new
+  fi
+  if [ -e ${homedir}/${dir}/*jeff* ]; then
+    cp ${homedir}/${dir}/*jeff* ../new
+  fi
+#
+# Run TEFAL and output of calculation time
+#
+  echo "${ii}/${nfiles}  *** Sample case $dir "
+  echo "          *** Start: `date +%F,%T`"
+  t0=`date +%s`
+  echo "              Running TALYS"
+  ${talys} < talys.inp > talys.out
+  echo "              Running TEFAL"
+  ${tefal} < tefal.inp > tefal.out
+  colrm < tefal.out > tefal.out80 81
+  if [ -e tefal2.inp ] ; then
+    ${tefal} < tefal2.inp > tefal2.out
+  fi
+  errCode=$?
+  if [ $errCode -ne 0 ] ; then
+    echo "___________error=$errCode on $dir"
+  fi
+  t1=`date +%s`
+  dt=$(($t1-t0))
+  dt0=$(($t1-t00))
+  printf " %2d/%-2d %-30s %s time[sec]:%-5d total[sec]:%-5d sec err:%d\n" $ii ${nfiles} $dir `date +%F,%T` $dt ${dt0} $errCode>>../../times_org.log
+  echo "          *** End  : `date +%F,%T`" time[sec]:${dt}
+  echo
+#
+# Back to original directory for next sample case
+#
+  cd $homedir
+done
+#
+# Output of total time
+#
+t11=`date +%s`; dt0=$(($t11-t00))
+echo "Script $0 `date +%F,%T` stop $ii cases ${dt0}sec">>times_org.log
+echo "Elapsed time[sec]:" ${dt0}
+end=`date +%F,%T`
+echo "*** All sample cases created " 
+echo "Start: " $start
+echo "End  : " $end
