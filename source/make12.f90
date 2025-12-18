@@ -141,6 +141,7 @@ subroutine make12
       call read12(MT)
       goto 100
     endif
+    idc = 0
     do id = 0, idnum
       if (idchannel(id) == MTid(MT)) then
         idc = id
