@@ -75,6 +75,7 @@ subroutine write12(MT)
 !
   MF = 12
   NS = 0
+  idc = 0
 !
 ! LO=1: Multiplicities
 !
