@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_3-0)Sc36 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_3-0)
-#   Q-value [MeV]: -1.312195E+02
-#   E-threshold [MeV]:  1.341637E+02
+#   Q-value [MeV]: -1.314621E+02
+#   E-threshold [MeV]:  1.344117E+02
 #   level: 
 #     number: 3
-#     energy [MeV]:  1.355351E+00
-#     spin:  2.000000E+00
-#     parity: -1
+#     energy [MeV]:  1.597917E+00
+#     spin:  0.000000E+00
+#     parity: 1
 #     level: 
 #       number: 0
 #       energy [MeV]:  0.000000E+00
 #       spin:  1.000000E+00
 #       parity: -1
-#   gamma energy [MeV]:  1.355351E+00
+#   gamma energy [MeV]:  1.597917E+00
 #   residual: 
 #     Z: 21
 #     A: 36
@@ -133,5 +133,5 @@
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
    1.600000E+02   0.000000E+00
-   1.800000E+02   1.291309E-13
-   2.000000E+02   5.231256E-13
+   1.800000E+02   6.418910E-14
+   2.000000E+02   2.638114E-13

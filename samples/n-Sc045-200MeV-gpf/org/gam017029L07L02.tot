@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_7-2)Cl29 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_7-2)
-#   Q-value [MeV]: -1.264461E+02
-#   E-threshold [MeV]:  1.292832E+02
+#   Q-value [MeV]: -1.273264E+02
+#   E-threshold [MeV]:  1.301832E+02
 #   level: 
 #     number: 7
-#     energy [MeV]:  1.932035E+00
+#     energy [MeV]:  2.812328E+00
 #     spin:  1.500000E+00
 #     parity: 1
 #     level: 
 #       number: 2
-#       energy [MeV]:  9.942330E-01
+#       energy [MeV]:  1.726923E+00
 #       spin:  5.000000E-01
-#       parity: 1
-#   gamma energy [MeV]:  9.378020E-01
+#       parity: -1
+#   gamma energy [MeV]:  1.085405E+00
 #   residual: 
 #     Z: 17
 #     A: 29
@@ -133,5 +133,5 @@
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
    1.600000E+02   0.000000E+00
-   1.800000E+02   2.172913E-13
-   2.000000E+02   3.946515E-12
+   1.800000E+02   1.059957E-12
+   2.000000E+02   1.926024E-11

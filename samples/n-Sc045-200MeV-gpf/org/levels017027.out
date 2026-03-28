@@ -2,7 +2,7 @@
 #   title: Cl27 Nuclear masses and levels
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # residual: 
 #   Z: 17
@@ -13,14 +13,62 @@
 #     neutron separation energy [MeV]:  2.313032E+01
 #     proton separation energy [MeV]: -2.774103E+00
 #     alpha separation energy [MeV]:  9.423619E+00
-#     number of excited levels: 1
+#     number of excited levels: 20
 #   quantity: 
 #     type: Nuclear masses and levels
 #   datablock: 
 #     columns: 11
-#     entries: 3
+#     entries: 51
 ##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
 ##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
-     0            0.000000E+00        0.5             -              0                                                                                              
-     1            9.629630E-01        2.5             -              1                                                                        EJP                   
-                                                                           --->     0         100.0000       0.000000E+00                           
+     0            0.000000E+00        0.5             +              0                                                                         JP              HFB  
+     1            3.361420E-01        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     2            6.691620E-01        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     0         100.0000       0.000000E+00                          B
+     3            7.023380E-01        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     1         100.0000       0.000000E+00                          B
+     4            1.060625E+00        0.5             -              2                                                                        EJP    level density  
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     5            1.245000E+00        0.5             +              2                                                                        EJP    level density  
+                                                                           --->     2          50.0000       0.000000E+00                          B
+                                                                           --->     0          50.0000       0.000000E+00                          B
+     6            1.294091E+00        0.5             -              2                                                                        EJP    level density  
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     7            1.475909E+00        0.5             -              2                                                                        EJP    level density  
+                                                                           --->     3          50.0000       0.000000E+00                          B
+                                                                           --->     1          50.0000       0.000000E+00                          B
+     8            1.500996E+00        1.5             +              4                                                                        EJP    level density  
+                                                                           --->     6           1.3026       0.000000E+00                          B
+                                                                           --->     4           6.6239       0.000000E+00                          B
+                                                                           --->     3          25.2996       0.000000E+00                          B
+                                                                           --->     1          66.7738       0.000000E+00                          B
+     9            1.520909E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    10            1.657727E+00        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    11            1.702727E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    12            1.825769E+00        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    13            1.873333E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    14            1.979615E+00        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    15            2.026667E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    16            2.096389E+00        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    17            2.137778E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    18            2.207500E+00        0.5             -              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    19            2.248889E+00        0.5             +              1                                                                        EJP    level density  
+                                                                           --->     8         100.0000       0.000000E+00                          B
+    20            2.274236E+00        1.5             -              4                                                                        EJP    level density  
+                                                                           --->     9           3.1908       0.000000E+00                          B
+                                                                           --->     5           6.9679       0.000000E+00                          B
+                                                                           --->     2          23.5995       0.000000E+00                          B
+                                                                           --->     0          66.2417       0.000000E+00                          B

@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_19-1)Si24 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_19-1)
-#   Q-value [MeV]: -1.291604E+02
-#   E-threshold [MeV]:  1.320584E+02
+#   Q-value [MeV]: -1.304028E+02
+#   E-threshold [MeV]:  1.333286E+02
 #   level: 
 #     number: 19
-#     energy [MeV]:  6.691437E+00
-#     spin:  1.000000E+00
-#     parity: 1
+#     energy [MeV]:  7.933854E+00
+#     spin:  3.000000E+00
+#     parity: -1
 #     level: 
 #       number: 1
 #       energy [MeV]:  1.879000E+00
 #       spin:  2.000000E+00
 #       parity: 1
-#   gamma energy [MeV]:  4.812437E+00
+#   gamma energy [MeV]:  6.054854E+00
 #   residual: 
 #     Z: 14
 #     A: 24
@@ -132,6 +132,6 @@
    1.300000E+02   0.000000E+00
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
-   1.600000E+02   2.217081E-16
-   1.800000E+02   8.807086E-13
-   2.000000E+02   2.847723E-11
+   1.600000E+02   3.444606E-16
+   1.800000E+02   2.170886E-12
+   2.000000E+02   7.468400E-11

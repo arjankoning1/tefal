@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_13-5)Na19 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_13-5)
-#   Q-value [MeV]: -1.213177E+02
-#   E-threshold [MeV]:  1.240397E+02
+#   Q-value [MeV]: -1.207595E+02
+#   E-threshold [MeV]:  1.234690E+02
 #   level: 
 #     number: 13
-#     energy [MeV]:  6.765000E+00
-#     spin:  2.500000E+00
-#     parity: 1
+#     energy [MeV]:  6.206838E+00
+#     spin:  5.000000E-01
+#     parity: -1
 #     level: 
 #       number: 5
 #       energy [MeV]:  4.371000E+00
 #       spin:  1.500000E+00
 #       parity: -1
-#   gamma energy [MeV]:  2.394000E+00
+#   gamma energy [MeV]:  1.835838E+00
 #   residual: 
 #     Z: 11
 #     A: 19
@@ -132,6 +132,6 @@
    1.300000E+02   0.000000E+00
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
-   1.600000E+02   3.845041E-16
-   1.800000E+02   2.103070E-12
-   2.000000E+02   1.174614E-10
+   1.600000E+02   3.507260E-20
+   1.800000E+02   1.423505E-16
+   2.000000E+02   7.763195E-15

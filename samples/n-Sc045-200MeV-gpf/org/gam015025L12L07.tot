@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_12-7)P25 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_12-7)
-#   Q-value [MeV]: -1.372549E+02
-#   E-threshold [MeV]:  1.403344E+02
+#   Q-value [MeV]: -1.368705E+02
+#   E-threshold [MeV]:  1.399415E+02
 #   level: 
 #     number: 12
-#     energy [MeV]:  4.148172E+00
-#     spin:  2.500000E+00
+#     energy [MeV]:  3.763812E+00
+#     spin:  5.000000E-01
 #     parity: 1
 #     level: 
 #       number: 7
-#       energy [MeV]:  3.423865E+00
-#       spin:  3.500000E+00
+#       energy [MeV]:  3.168021E+00
+#       spin:  1.500000E+00
 #       parity: 1
-#   gamma energy [MeV]:  7.243068E-01
+#   gamma energy [MeV]:  5.957911E-01
 #   residual: 
 #     Z: 15
 #     A: 25
@@ -133,5 +133,5 @@
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
    1.600000E+02   0.000000E+00
-   1.800000E+02   2.634640E-16
-   2.000000E+02   2.470849E-14
+   1.800000E+02   0.000000E+00
+   2.000000E+02   1.362034E-14

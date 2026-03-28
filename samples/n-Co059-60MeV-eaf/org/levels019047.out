@@ -2,7 +2,7 @@
 #   title: K47 Nuclear masses and levels
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # residual: 
 #   Z: 19
@@ -18,7 +18,7 @@
 #     type: Nuclear masses and levels
 #   datablock: 
 #     columns: 11
-#     entries: 130
+#     entries: 129
 ##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
 ##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
      0            0.000000E+00        0.5             +              0                                                      1.738000E+01                       1/2+*
@@ -147,7 +147,6 @@
                                                                            --->     8           8.2356       0.000000E+00                          B
                                                                            --->     5          10.9911       0.000000E+00                          B
                                                                            --->     0          77.1746       0.000000E+00                          B
-    30            8.540880E+00        8.5             -              3                                                                        EJP    level density  
-                                                                           --->    13          99.8354       0.000000E+00                          B
-                                                                           --->    12           0.1548       0.000000E+00                          B
-                                                                           --->    10           0.0098       0.000000E+00                          B
+    30            8.549623E+00        8.5             +              2                                                                        EJP    level density  
+                                                                           --->    13          99.8564       0.000000E+00                          B
+                                                                           --->    12           0.1436       0.000000E+00                          B

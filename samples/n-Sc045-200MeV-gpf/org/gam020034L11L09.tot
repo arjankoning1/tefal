@@ -2,7 +2,7 @@
 #   title: Sc45(n,xg_11-9)Ca34 gamma-ray production cross section
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-01-14
+#   date: 2026-03-28
 #   format: YANDF-0.4
 # target: 
 #   Z: 21
@@ -10,19 +10,19 @@
 #   nuclide: Sc45
 # reaction: 
 #   type: (n,xg_11-9)
-#   Q-value [MeV]: -1.403940E+02
-#   E-threshold [MeV]:  1.435440E+02
+#   Q-value [MeV]: -1.394826E+02
+#   E-threshold [MeV]:  1.426121E+02
 #   level: 
 #     number: 11
-#     energy [MeV]:  4.911452E+00
-#     spin:  3.000000E+00
-#     parity: -1
+#     energy [MeV]:  4.000000E+00
+#     spin:  2.000000E+00
+#     parity: 1
 #     level: 
 #       number: 9
-#       energy [MeV]:  4.645024E+00
-#       spin:  2.000000E+00
-#       parity: 1
-#   gamma energy [MeV]:  2.664280E-01
+#       energy [MeV]:  3.833057E+00
+#       spin:  1.000000E+00
+#       parity: -1
+#   gamma energy [MeV]:  1.669431E-01
 #   residual: 
 #     Z: 20
 #     A: 34
@@ -133,5 +133,5 @@
    1.400000E+02   0.000000E+00
    1.500000E+02   0.000000E+00
    1.600000E+02   0.000000E+00
-   1.800000E+02   1.564013E-16
-   2.000000E+02   2.355625E-15
+   1.800000E+02   1.309756E-15
+   2.000000E+02   1.776722E-14
