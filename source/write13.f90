@@ -67,6 +67,7 @@ subroutine write13(MT)
 !
   MF = 13
   NS = 0
+  idc = 0
   do id = 0, idnum
     if (idchannel(id) == MTid(MT)) then
       idc = id
