@@ -152,6 +152,7 @@ subroutine write1
 !
 ! rwrite     : subroutine to write line with real values
 !
+  nutype = 0
   if (k0 <= 1 .and. flagfission) then
     do MT = 452, 456
       if ( .not. mtexist(MF, MT)) cycle
