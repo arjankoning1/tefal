@@ -6,7 +6,7 @@
  Dimensions - Cross sections: mb, Energies: MeV, Angles: degrees
 
  User: Arjan Koning
- Date: 2026-03-28
+ Date: 2026-04-12
 
  ########## USER INPUT ##########
 
@@ -1454,31 +1454,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 6.36770E+02
-     Compound elastic= 4.93858E+01
-     Non-elastic     = 5.87384E+02
+     Compound elastic= 4.92923E+01
+     Non-elastic     = 5.87478E+02
        Direct          = 3.42096E+00
        Pre-equilibrium = 5.82776E-03
-       Compound non-el = 5.83957E+02
+       Compound non-el = 5.84051E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 1.07799E+00
- neutron = 3.66456E+02
- proton  = 1.44104E+02
+ gamma   = 1.07591E+00
+ neutron = 3.67158E+02
+ proton  = 1.43674E+02
  deuteron= 0.00000E+00
  triton  = 0.00000E+00
  helium-3= 0.00000E+00
- alpha   = 7.57465E+01
+ alpha   = 7.55700E+01
 
  3. Total particle production cross sections
 
- gamma   = 6.19968E+00    Multiplicity= 1.05547E-02
- neutron = 3.66552E+02    Multiplicity= 6.24042E-01
- proton  = 1.44113E+02    Multiplicity= 2.45346E-01
+ gamma   = 6.18735E+00    Multiplicity= 1.05321E-02
+ neutron = 3.67254E+02    Multiplicity= 6.25136E-01
+ proton  = 1.43683E+02    Multiplicity= 2.44576E-01
  deuteron= 0.00000E+00    Multiplicity= 0.00000E+00
  triton  = 0.00000E+00    Multiplicity= 0.00000E+00
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 7.58130E+01    Multiplicity= 1.29069E-01
+ alpha   = 7.56363E+01    Multiplicity= 1.28748E-01
 
  4. Residual production cross sections
 
@@ -1487,21 +1487,21 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 9.06452E-01    0    9.06452E-01  1.00000
-   20  41 ( 41Ca) 3.66552E+02    0    3.66552E+02  1.00000
-   19  41 ( 41K ) 1.44113E+02    0    1.44113E+02  1.00000
-   18  38 ( 38Ar) 7.58130E+01    0    7.58130E+01  1.00000
+   20  42 ( 42Ca) 9.04674E-01    0    9.04674E-01  1.00000
+   20  41 ( 41Ca) 3.67254E+02    0    3.67254E+02  1.00000
+   19  41 ( 41K ) 1.43683E+02    0    1.43683E+02  1.00000
+   18  38 ( 38Ar) 7.56363E+01    0    7.56363E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 9.06452E-01
-   41 5.10665E+02
-   38 7.58130E+01
+   42 9.04674E-01
+   41 5.10937E+02
+   38 7.56363E+01
 
- Total residual production cross section:   587.3841553
- Non-elastic cross section              :   587.3841553
+ Total residual production cross section:   587.4777222
+ Non-elastic cross section              :   587.4777222
 
  8. Discrete state angular distributions
 
@@ -1567,31 +1567,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 7.43583E+02
-     Compound elastic= 2.76583E+01
-     Non-elastic     = 7.15925E+02
+     Compound elastic= 2.65540E+01
+     Non-elastic     = 7.17029E+02
        Direct          = 8.18455E+00
        Pre-equilibrium = 4.82412E-01
-       Compound non-el = 7.07258E+02
+       Compound non-el = 7.08362E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 8.36196E-01
- neutron = 4.31126E+02
- proton  = 1.87355E+02
+ gamma   = 8.04219E-01
+ neutron = 4.41239E+02
+ proton  = 1.81597E+02
  deuteron= 0.00000E+00
  triton  = 0.00000E+00
  helium-3= 0.00000E+00
- alpha   = 9.66072E+01
+ alpha   = 9.33887E+01
 
  3. Total particle production cross sections
 
- gamma   = 9.87045E+01    Multiplicity= 1.37870E-01
- neutron = 4.31231E+02    Multiplicity= 6.02341E-01
- proton  = 1.87368E+02    Multiplicity= 2.61714E-01
+ gamma   = 9.50506E+01    Multiplicity= 1.32562E-01
+ neutron = 4.41339E+02    Multiplicity= 6.15511E-01
+ proton  = 1.81609E+02    Multiplicity= 2.53280E-01
  deuteron= 0.00000E+00    Multiplicity= 0.00000E+00
  triton  = 0.00000E+00    Multiplicity= 0.00000E+00
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 9.66723E+01    Multiplicity= 1.35031E-01
+ alpha   = 9.34509E+01    Multiplicity= 1.30331E-01
 
  4. Residual production cross sections
 
@@ -1600,21 +1600,21 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 6.53699E-01    0    6.53699E-01  1.00000
-   20  41 ( 41Ca) 4.31233E+02    0    4.31233E+02  1.00000
-   19  41 ( 41K ) 1.87369E+02    0    1.87369E+02  1.00000
-   18  38 ( 38Ar) 9.66723E+01    0    9.66723E+01  1.00000
+   20  42 ( 42Ca) 6.29227E-01    0    6.29227E-01  1.00000
+   20  41 ( 41Ca) 4.41342E+02    0    4.41342E+02  1.00000
+   19  41 ( 41K ) 1.81610E+02    0    1.81610E+02  1.00000
+   18  38 ( 38Ar) 9.34509E+01    0    9.34509E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 6.53699E-01
-   41 6.18602E+02
-   38 9.66723E+01
+   42 6.29227E-01
+   41 6.22952E+02
+   38 9.34509E+01
 
- Total residual production cross section:   715.9279785
- Non-elastic cross section              :   715.9247437
+ Total residual production cross section:   717.0322266
+ Non-elastic cross section              :   717.0289307
 
  8. Discrete state angular distributions
 
@@ -1680,31 +1680,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 8.31637E+02
-     Compound elastic= 1.69733E+01
-     Non-elastic     = 8.14664E+02
+     Compound elastic= 1.62872E+01
+     Non-elastic     = 8.15350E+02
        Direct          = 1.39081E+01
        Pre-equilibrium = 2.43428E+00
-       Compound non-el = 7.98321E+02
+       Compound non-el = 7.99007E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 7.57778E-01
- neutron = 4.68799E+02
- proton  = 2.19026E+02
+ gamma   = 7.31593E-01
+ neutron = 4.80158E+02
+ proton  = 2.12515E+02
  deuteron= 0.00000E+00
  triton  = 0.00000E+00
  helium-3= 0.00000E+00
- alpha   = 1.26081E+02
+ alpha   = 1.21945E+02
 
  3. Total particle production cross sections
 
- gamma   = 2.89452E+02    Multiplicity= 3.55302E-01
- neutron = 4.68926E+02    Multiplicity= 5.75607E-01
- proton  = 2.19043E+02    Multiplicity= 2.68876E-01
+ gamma   = 2.78630E+02    Multiplicity= 3.41731E-01
+ neutron = 4.80281E+02    Multiplicity= 5.89050E-01
+ proton  = 2.12532E+02    Multiplicity= 2.60664E-01
  deuteron= 0.00000E+00    Multiplicity= 0.00000E+00
  triton  = 0.00000E+00    Multiplicity= 0.00000E+00
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 1.26156E+02    Multiplicity= 1.54856E-01
+ alpha   = 1.22016E+02    Multiplicity= 1.49649E-01
 
  4. Residual production cross sections
 
@@ -1713,23 +1713,23 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 5.37883E-01    0    5.37883E-01  1.00000
-   20  41 ( 41Ca) 4.68939E+02    0    4.68939E+02  1.00000
-   19  41 ( 41K ) 2.19047E+02    0    2.19047E+02  1.00000
-   18  38 ( 38Ar) 1.26156E+02    0    1.26156E+02  1.00000
-   16  34 ( 34S ) 6.21046E-12    0    6.21046E-12  1.00000
+   20  42 ( 42Ca) 5.19778E-01    0    5.19778E-01  1.00000
+   20  41 ( 41Ca) 4.80294E+02    0    4.80294E+02  1.00000
+   19  41 ( 41K ) 2.12536E+02    0    2.12536E+02  1.00000
+   18  38 ( 38Ar) 1.22017E+02    0    1.22017E+02  1.00000
+   16  34 ( 34S ) 6.09138E-12    0    6.09138E-12  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 5.37883E-01
-   41 6.87986E+02
-   38 1.26156E+02
-   34 6.21046E-12
+   42 5.19778E-01
+   41 6.92829E+02
+   38 1.22017E+02
+   34 6.09138E-12
 
- Total residual production cross section:   814.6796875
- Non-elastic cross section              :   814.6636963
+ Total residual production cross section:   815.3657227
+ Non-elastic cross section              :   815.3497925
 
  8. Discrete state angular distributions
 
@@ -1795,31 +1795,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 9.04655E+02
-     Compound elastic= 1.09441E+01
-     Non-elastic     = 8.93711E+02
+     Compound elastic= 1.05791E+01
+     Non-elastic     = 8.94076E+02
        Direct          = 1.87675E+01
        Pre-equilibrium = 6.47862E+00
-       Compound non-el = 8.68465E+02
+       Compound non-el = 8.68830E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 7.20929E-01
- neutron = 4.91406E+02
- proton  = 2.45470E+02
+ gamma   = 7.02047E-01
+ neutron = 5.01553E+02
+ proton  = 2.39800E+02
  deuteron= 0.00000E+00
  triton  = 0.00000E+00
  helium-3= 0.00000E+00
- alpha   = 1.56114E+02
+ alpha   = 1.52021E+02
 
  3. Total particle production cross sections
 
- gamma   = 5.06027E+02    Multiplicity= 5.66208E-01
- neutron = 4.91560E+02    Multiplicity= 5.50021E-01
- proton  = 2.45495E+02    Multiplicity= 2.74692E-01
+ gamma   = 4.89641E+02    Multiplicity= 5.47651E-01
+ neutron = 5.01703E+02    Multiplicity= 5.61142E-01
+ proton  = 2.39824E+02    Multiplicity= 2.68237E-01
  deuteron= 0.00000E+00    Multiplicity= 0.00000E+00
  triton  = 0.00000E+00    Multiplicity= 0.00000E+00
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 1.56200E+02    Multiplicity= 1.74777E-01
+ alpha   = 1.52104E+02    Multiplicity= 1.70125E-01
 
  4. Residual production cross sections
 
@@ -1828,23 +1828,23 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 4.55399E-01    0    4.55399E-01  1.00000
-   20  41 ( 41Ca) 4.91591E+02    0    4.91591E+02  1.00000
-   19  41 ( 41K ) 2.45503E+02    0    2.45503E+02  1.00000
-   18  38 ( 38Ar) 1.56203E+02    0    1.56203E+02  1.00000
-   16  34 ( 34S ) 5.81264E-08    0    5.81264E-08  1.00000
+   20  42 ( 42Ca) 4.43900E-01    0    4.43900E-01  1.00000
+   20  41 ( 41Ca) 5.01735E+02    0    5.01735E+02  1.00000
+   19  41 ( 41K ) 2.39832E+02    0    2.39832E+02  1.00000
+   18  38 ( 38Ar) 1.52107E+02    0    1.52107E+02  1.00000
+   16  34 ( 34S ) 5.73300E-08    0    5.73300E-08  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 4.55399E-01
-   41 7.37094E+02
-   38 1.56203E+02
-   34 5.81264E-08
+   42 4.43900E-01
+   41 7.41567E+02
+   38 1.52107E+02
+   34 5.73300E-08
 
- Total residual production cross section:   893.7529297
- Non-elastic cross section              :   893.7109375
+ Total residual production cross section:   894.1179810
+ Non-elastic cross section              :   894.0759277
 
  8. Discrete state angular distributions
 
@@ -1910,31 +1910,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 9.65479E+02
-     Compound elastic= 7.19372E+00
-     Non-elastic     = 9.58285E+02
+     Compound elastic= 7.02069E+00
+     Non-elastic     = 9.58458E+02
        Direct          = 2.47686E+01
        Pre-equilibrium = 2.25853E+01
-       Compound non-el = 9.10931E+02
+       Compound non-el = 9.11104E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.98015E-01
- neutron = 5.00025E+02
- proton  = 2.68082E+02
- deuteron= 3.58570E-06
+ gamma   = 6.85667E-01
+ neutron = 5.07722E+02
+ proton  = 2.63875E+02
+ deuteron= 3.54544E-06
  triton  = 0.00000E+00
  helium-3= 0.00000E+00
- alpha   = 1.89480E+02
+ alpha   = 1.86175E+02
 
  3. Total particle production cross sections
 
- gamma   = 7.30158E+02    Multiplicity= 7.61943E-01
- neutron = 5.00206E+02    Multiplicity= 5.21980E-01
- proton  = 2.68117E+02    Multiplicity= 2.79788E-01
- deuteron= 3.58570E-06    Multiplicity= 3.74179E-09
+ gamma   = 7.10970E+02    Multiplicity= 7.41785E-01
+ neutron = 5.07901E+02    Multiplicity= 5.29915E-01
+ proton  = 2.63908E+02    Multiplicity= 2.75347E-01
+ deuteron= 3.54544E-06    Multiplicity= 3.69910E-09
  triton  = 0.00000E+00    Multiplicity= 0.00000E+00
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 1.89578E+02    Multiplicity= 1.97831E-01
+ alpha   = 1.86272E+02    Multiplicity= 1.94345E-01
 
  4. Residual production cross sections
 
@@ -1943,28 +1943,28 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.83831E-01    0    3.83831E-01  1.00000
-   20  41 ( 41Ca) 5.00266E+02    0    5.00266E+02  1.00000
-   19  41 ( 41K ) 2.68135E+02    0    2.68135E+02  1.00000
-   19  40 ( 40K ) 3.58570E-06    0    3.58570E-06  1.00000
-   18  40 ( 40Ar) 7.77194E-11    0    7.77194E-11  1.00000
-   18  38 ( 38Ar) 1.89658E+02    0    1.89658E+02  1.00000
-   17  37 ( 37Cl) 4.10487E-09    0    4.10487E-09  1.00000
-   16  34 ( 34S ) 4.83571E-05    0    4.83571E-05  1.00000
+   20  42 ( 42Ca) 3.77356E-01    0    3.77356E-01  1.00000
+   20  41 ( 41Ca) 5.07961E+02    0    5.07961E+02  1.00000
+   19  41 ( 41K ) 2.63926E+02    0    2.63926E+02  1.00000
+   19  40 ( 40K ) 3.54544E-06    0    3.54544E-06  1.00000
+   18  40 ( 40Ar) 7.70991E-11    0    7.70991E-11  1.00000
+   18  38 ( 38Ar) 1.86351E+02    0    1.86351E+02  1.00000
+   17  37 ( 37Cl) 4.07464E-09    0    4.07464E-09  1.00000
+   16  34 ( 34S ) 4.80971E-05    0    4.80971E-05  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.83831E-01
-   41 7.68401E+02
-   40 3.58578E-06
-   38 1.89658E+02
-   37 4.10487E-09
-   34 4.83571E-05
+   42 3.77356E-01
+   41 7.71888E+02
+   40 3.54551E-06
+   38 1.86351E+02
+   37 4.07464E-09
+   34 4.80971E-05
 
- Total residual production cross section:   958.4432373
- Non-elastic cross section              :   958.2852783
+ Total residual production cross section:   958.6162720
+ Non-elastic cross section              :   958.4583130
 
  8. Discrete state angular distributions
 
@@ -2034,31 +2034,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.01648E+03
-     Compound elastic= 4.76702E+00
-     Non-elastic     = 1.01171E+03
+     Compound elastic= 4.68985E+00
+     Non-elastic     = 1.01179E+03
        Direct          = 2.56548E+01
        Pre-equilibrium = 5.27125E+01
-       Compound non-el = 9.33346E+02
+       Compound non-el = 9.33423E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.80967E-01
- neutron = 4.96485E+02
- proton  = 2.88942E+02
- deuteron= 1.56173E-02
+ gamma   = 6.73180E-01
+ neutron = 5.01843E+02
+ proton  = 2.86023E+02
+ deuteron= 1.55097E-02
  triton  = 2.30433E-37
  helium-3= 0.00000E+00
- alpha   = 2.25590E+02
+ alpha   = 2.23236E+02
 
  3. Total particle production cross sections
 
- gamma   = 9.61847E+02    Multiplicity= 9.50711E-01
- neutron = 4.96698E+02    Multiplicity= 4.90948E-01
- proton  = 2.88988E+02    Multiplicity= 2.85642E-01
- deuteron= 1.56173E-02    Multiplicity= 1.54365E-05
- triton  = 2.30433E-37    Multiplicity= 2.27766E-40
+ gamma   = 9.40750E+02    Multiplicity= 9.29788E-01
+ neutron = 5.02056E+02    Multiplicity= 4.96206E-01
+ proton  = 2.86067E+02    Multiplicity= 2.82733E-01
+ deuteron= 1.55097E-02    Multiplicity= 1.53290E-05
+ triton  = 2.30433E-37    Multiplicity= 2.27747E-40
  helium-3= 0.00000E+00    Multiplicity= 0.00000E+00
- alpha   = 2.25703E+02    Multiplicity= 2.23090E-01
+ alpha   = 2.23347E+02    Multiplicity= 2.20744E-01
 
  4. Residual production cross sections
 
@@ -2067,29 +2067,29 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.14221E-01    0    3.14221E-01  1.00000
-   20  41 ( 41Ca) 4.96797E+02    0    4.96797E+02  1.00000
-   19  41 ( 41K ) 2.89019E+02    0    2.89019E+02  1.00000
-   19  40 ( 40K ) 1.56173E-02    0    1.56173E-02  1.00000
-   18  40 ( 40Ar) 6.79184E-04    0    6.79184E-04  1.00000
-   18  38 ( 38Ar) 2.25936E+02    0    2.25936E+02  1.00000
-   18  37 ( 37Ar) 2.88984E-06    0    2.88984E-06  1.00000
-   17  37 ( 37Cl) 6.11355E-05    0    6.11355E-05  1.00000
-   16  34 ( 34S ) 5.45465E-03    0    5.45465E-03  1.00000
+   20  42 ( 42Ca) 3.10815E-01    0    3.10815E-01  1.00000
+   20  41 ( 41Ca) 5.02155E+02    0    5.02155E+02  1.00000
+   19  41 ( 41K ) 2.86098E+02    0    2.86098E+02  1.00000
+   19  40 ( 40K ) 1.55097E-02    0    1.55097E-02  1.00000
+   18  40 ( 40Ar) 6.75906E-04    0    6.75906E-04  1.00000
+   18  38 ( 38Ar) 2.23580E+02    0    2.23580E+02  1.00000
+   18  37 ( 37Ar) 2.82051E-06    0    2.82051E-06  1.00000
+   17  37 ( 37Cl) 6.08413E-05    0    6.08413E-05  1.00000
+   16  34 ( 34S ) 5.43814E-03    0    5.43814E-03  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.14221E-01
-   41 7.85815E+02
-   40 1.62965E-02
-   38 2.25936E+02
-   37 6.40253E-05
-   34 5.45465E-03
+   42 3.10815E-01
+   41 7.88252E+02
+   40 1.61856E-02
+   38 2.23580E+02
+   37 6.36618E-05
+   34 5.43814E-03
 
- Total residual production cross section:  1012.0875854
- Non-elastic cross section              :  1011.7129517
+ Total residual production cross section:  1012.1647339
+ Non-elastic cross section              :  1011.7901611
 
  8. Discrete state angular distributions
 
@@ -2163,31 +2163,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.05968E+03
-     Compound elastic= 3.18821E+00
-     Non-elastic     = 1.05649E+03
+     Compound elastic= 3.15443E+00
+     Non-elastic     = 1.05653E+03
        Direct          = 2.79306E+01
        Pre-equilibrium = 7.63446E+01
-       Compound non-el = 9.52217E+02
+       Compound non-el = 9.52250E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.70410E-01
- neutron = 4.95773E+02
- proton  = 3.11739E+02
- deuteron= 2.49196E-01
- triton  = 1.89552E-06
+ gamma   = 6.65512E-01
+ neutron = 4.99400E+02
+ proton  = 3.09740E+02
+ deuteron= 2.48111E-01
+ triton  = 1.89114E-06
  helium-3= 3.46116E-31
- alpha   = 2.48060E+02
+ alpha   = 2.46472E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.16638E+03    Multiplicity= 1.10401E+00
- neutron = 5.10298E+02    Multiplicity= 4.83012E-01
- proton  = 3.11978E+02    Multiplicity= 2.95296E-01
- deuteron= 2.49196E-01    Multiplicity= 2.35871E-04
- triton  = 1.89552E-06    Multiplicity= 1.79416E-09
- helium-3= 3.46116E-31    Multiplicity= 3.27609E-34
- alpha   = 2.48334E+02    Multiplicity= 2.35056E-01
+ gamma   = 1.14351E+03    Multiplicity= 1.08233E+00
+ neutron = 5.13868E+02    Multiplicity= 4.86376E-01
+ proton  = 3.09976E+02    Multiplicity= 2.93392E-01
+ deuteron= 2.48111E-01    Multiplicity= 2.34837E-04
+ triton  = 1.89114E-06    Multiplicity= 1.78996E-09
+ helium-3= 3.46116E-31    Multiplicity= 3.27598E-34
+ alpha   = 2.46743E+02    Multiplicity= 2.33542E-01
 
  4. Residual production cross sections
 
@@ -2196,32 +2196,32 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.55551E-01    0    2.55551E-01  1.00000
-   20  41 ( 41Ca) 4.81869E+02    0    4.81869E+02  1.00000
-   19  41 ( 41K ) 3.11652E+02    0    3.11652E+02  1.00000
-   20  40 ( 40Ca) 1.42824E+01    0    1.42824E+01  1.00000
-   19  40 ( 40K ) 2.49196E-01    0    2.49196E-01  1.00000
-   18  40 ( 40Ar) 1.79255E-01    0    1.79255E-01  1.00000
-   19  39 ( 39K ) 1.89552E-06    0    1.89552E-06  1.00000
-   18  38 ( 38Ar) 2.48374E+02    0    2.48374E+02  1.00000
-   18  37 ( 37Ar) 5.92217E-03    0    5.92217E-03  1.00000
-   17  37 ( 37Cl) 1.98140E-02    0    1.98140E-02  1.00000
-   16  34 ( 34S ) 1.35481E-01    0    1.35481E-01  1.00000
+   20  42 ( 42Ca) 2.53792E-01    0    2.53792E-01  1.00000
+   20  41 ( 41Ca) 4.85554E+02    0    4.85554E+02  1.00000
+   19  41 ( 41K ) 3.09652E+02    0    3.09652E+02  1.00000
+   20  40 ( 40Ca) 1.42247E+01    0    1.42247E+01  1.00000
+   19  40 ( 40K ) 2.48111E-01    0    2.48111E-01  1.00000
+   18  40 ( 40Ar) 1.78752E-01    0    1.78752E-01  1.00000
+   19  39 ( 39K ) 1.89114E-06    0    1.89114E-06  1.00000
+   18  38 ( 38Ar) 2.46783E+02    0    2.46783E+02  1.00000
+   18  37 ( 37Ar) 5.77344E-03    0    5.77344E-03  1.00000
+   17  37 ( 37Cl) 1.97494E-02    0    1.97494E-02  1.00000
+   16  34 ( 34S ) 1.35168E-01    0    1.35168E-01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.55551E-01
-   41 7.93521E+02
-   40 1.47108E+01
-   39 1.89552E-06
-   38 2.48374E+02
-   37 2.57362E-02
-   34 1.35481E-01
+   42 2.53792E-01
+   41 7.95207E+02
+   40 1.46515E+01
+   39 1.89114E-06
+   38 2.46783E+02
+   37 2.55228E-02
+   34 1.35168E-01
 
- Total residual production cross section:  1057.0220947
- Non-elastic cross section              :  1056.4918213
+ Total residual production cross section:  1057.0557861
+ Non-elastic cross section              :  1056.5256348
 
  8. Discrete state angular distributions
 
@@ -2299,31 +2299,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.09647E+03
-     Compound elastic= 2.12534E+00
-     Non-elastic     = 1.09434E+03
+     Compound elastic= 2.11075E+00
+     Non-elastic     = 1.09436E+03
        Direct          = 3.24258E+01
        Pre-equilibrium = 9.44475E+01
-       Compound non-el = 9.67471E+02
+       Compound non-el = 9.67486E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.57889E-01
- neutron = 4.95859E+02
- proton  = 3.38102E+02
- deuteron= 7.33534E-01
- triton  = 2.88902E-03
- helium-3= 8.87247E-12
- alpha   = 2.58990E+02
+ gamma   = 6.54843E-01
+ neutron = 4.98271E+02
+ proton  = 3.36746E+02
+ deuteron= 7.31451E-01
+ triton  = 2.88632E-03
+ helium-3= 8.85422E-12
+ alpha   = 2.57953E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.32195E+03    Multiplicity= 1.20799E+00
- neutron = 5.40594E+02    Multiplicity= 4.93989E-01
- proton  = 3.45730E+02    Multiplicity= 3.15924E-01
- deuteron= 7.33535E-01    Multiplicity= 6.70297E-04
- triton  = 2.88902E-03    Multiplicity= 2.63995E-06
- helium-3= 8.87247E-12    Multiplicity= 8.10757E-15
- alpha   = 2.61344E+02    Multiplicity= 2.38814E-01
+ gamma   = 1.29785E+03    Multiplicity= 1.18595E+00
+ neutron = 5.42871E+02    Multiplicity= 4.96063E-01
+ proton  = 3.44276E+02    Multiplicity= 3.14592E-01
+ deuteron= 7.31453E-01    Multiplicity= 6.68384E-04
+ triton  = 2.88632E-03    Multiplicity= 2.63745E-06
+ helium-3= 8.85422E-12    Multiplicity= 8.09078E-15
+ alpha   = 2.60291E+02    Multiplicity= 2.37848E-01
 
  4. Residual production cross sections
 
@@ -2332,33 +2332,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.05977E-01    0    2.05977E-01  1.00000
-   20  41 ( 41Ca) 4.46490E+02    0    4.46490E+02  1.00000
-   19  41 ( 41K ) 3.35171E+02    0    3.35171E+02  1.00000
-   20  40 ( 40Ca) 4.41926E+01    0    4.41926E+01  1.00000
-   19  40 ( 40K ) 6.25256E+00    0    6.25256E+00  1.00000
-   18  40 ( 40Ar) 2.20174E+00    0    2.20174E+00  1.00000
-   19  39 ( 39K ) 2.88902E-03    0    2.88902E-03  1.00000
-   18  39 ( 39Ar) 8.87247E-12    0    8.87247E-12  1.00000
-   18  38 ( 38Ar) 2.58108E+02    0    2.58108E+02  1.00000
-   18  37 ( 37Ar) 3.93554E-01    0    3.93554E-01  1.00000
-   17  37 ( 37Cl) 7.13389E-01    0    7.13389E-01  1.00000
-   16  34 ( 34S ) 1.24548E+00    0    1.24548E+00  1.00000
+   20  42 ( 42Ca) 2.05085E-01    0    2.05085E-01  1.00000
+   20  41 ( 41Ca) 4.49144E+02    0    4.49144E+02  1.00000
+   19  41 ( 41K ) 3.33818E+02    0    3.33818E+02  1.00000
+   20  40 ( 40Ca) 4.40553E+01    0    4.40553E+01  1.00000
+   19  40 ( 40K ) 6.15879E+00    0    6.15879E+00  1.00000
+   18  40 ( 40Ar) 2.19815E+00    0    2.19815E+00  1.00000
+   19  39 ( 39K ) 2.88632E-03    0    2.88632E-03  1.00000
+   18  39 ( 39Ar) 8.85422E-12    0    8.85422E-12  1.00000
+   18  38 ( 38Ar) 2.57072E+02    0    2.57072E+02  1.00000
+   18  37 ( 37Ar) 3.82308E-01    0    3.82308E-01  1.00000
+   17  37 ( 37Cl) 7.11803E-01    0    7.11803E-01  1.00000
+   16  34 ( 34S ) 1.24316E+00    0    1.24316E+00  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.05977E-01
-   41 7.81661E+02
-   40 5.26469E+01
-   39 2.88902E-03
-   38 2.58108E+02
-   37 1.10694E+00
-   34 1.24548E+00
+   42 2.05085E-01
+   41 7.82962E+02
+   40 5.24123E+01
+   39 2.88632E-03
+   38 2.57072E+02
+   37 1.09411E+00
+   34 1.24316E+00
 
- Total residual production cross section:  1094.9774170
- Non-elastic cross section              :  1094.3446045
+ Total residual production cross section:  1094.9920654
+ Non-elastic cross section              :  1094.3592529
 
  8. Discrete state angular distributions
 
@@ -2436,31 +2436,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.12769E+03
-     Compound elastic= 1.40354E+00
+     Compound elastic= 1.39739E+00
      Non-elastic     = 1.12629E+03
        Direct          = 3.44597E+01
        Pre-equilibrium = 1.10754E+02
-       Compound non-el = 9.81073E+02
+       Compound non-el = 9.81079E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.41469E-01
- neutron = 4.93988E+02
- proton  = 3.66840E+02
- deuteron= 1.15361E+00
- triton  = 3.47668E-02
- helium-3= 2.17360E-07
- alpha   = 2.63629E+02
+ gamma   = 6.39619E-01
+ neutron = 4.95560E+02
+ proton  = 3.65931E+02
+ deuteron= 1.15147E+00
+ triton  = 3.47466E-02
+ helium-3= 2.17106E-07
+ alpha   = 2.62975E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.38459E+03    Multiplicity= 1.22934E+00
- neutron = 5.73756E+02    Multiplicity= 5.09423E-01
- proton  = 4.16924E+02    Multiplicity= 3.70176E-01
- deuteron= 1.15362E+00    Multiplicity= 1.02427E-03
- triton  = 3.47668E-02    Multiplicity= 3.08685E-05
- helium-3= 2.17360E-07    Multiplicity= 1.92988E-10
- alpha   = 2.74928E+02    Multiplicity= 2.44101E-01
+ gamma   = 1.36197E+03    Multiplicity= 1.20925E+00
+ neutron = 5.75155E+02    Multiplicity= 5.10662E-01
+ proton  = 4.15488E+02    Multiplicity= 3.68899E-01
+ deuteron= 1.15147E+00    Multiplicity= 1.02236E-03
+ triton  = 3.47466E-02    Multiplicity= 3.08504E-05
+ helium-3= 2.17106E-07    Multiplicity= 1.92762E-10
+ alpha   = 2.74189E+02    Multiplicity= 2.43444E-01
 
  4. Residual production cross sections
 
@@ -2469,33 +2469,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.64069E-01    0    1.64069E-01  1.00000
-   20  41 ( 41Ca) 3.80333E+02    0    3.80333E+02  1.00000
-   19  41 ( 41K ) 3.47231E+02    0    3.47231E+02  1.00000
-   20  40 ( 40Ca) 7.01338E+01    0    7.01338E+01  1.00000
-   19  40 ( 40K ) 5.18726E+01    0    5.18726E+01  1.00000
-   18  40 ( 40Ar) 7.33941E+00    0    7.33941E+00  1.00000
-   19  39 ( 39K ) 3.47668E-02    0    3.47668E-02  1.00000
-   18  39 ( 39Ar) 2.17360E-07    0    2.17360E-07  1.00000
-   18  38 ( 38Ar) 2.57408E+02    0    2.57408E+02  1.00000
-   18  37 ( 37Ar) 2.68717E+00    0    2.68717E+00  1.00000
-   17  37 ( 37Cl) 4.40273E+00    0    4.40273E+00  1.00000
-   16  34 ( 34S ) 5.39224E+00    0    5.39224E+00  1.00000
+   20  42 ( 42Ca) 1.63622E-01    0    1.63622E-01  1.00000
+   20  41 ( 41Ca) 3.82655E+02    0    3.82655E+02  1.00000
+   19  41 ( 41K ) 3.46350E+02    0    3.46350E+02  1.00000
+   20  40 ( 40Ca) 6.99744E+01    0    6.99744E+01  1.00000
+   19  40 ( 40K ) 5.13359E+01    0    5.13359E+01  1.00000
+   18  40 ( 40Ar) 7.33247E+00    0    7.33247E+00  1.00000
+   19  39 ( 39K ) 3.47466E-02    0    3.47466E-02  1.00000
+   18  39 ( 39Ar) 2.17106E-07    0    2.17106E-07  1.00000
+   18  38 ( 38Ar) 2.56761E+02    0    2.56761E+02  1.00000
+   18  37 ( 37Ar) 2.61761E+00    0    2.61761E+00  1.00000
+   17  37 ( 37Cl) 4.39601E+00    0    4.39601E+00  1.00000
+   16  34 ( 34S ) 5.38410E+00    0    5.38410E+00  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.64069E-01
-   41 7.27564E+02
-   40 1.29346E+02
-   39 3.47670E-02
-   38 2.57408E+02
-   37 7.08990E+00
-   34 5.39224E+00
+   42 1.63622E-01
+   41 7.29005E+02
+   40 1.28643E+02
+   39 3.47468E-02
+   38 2.56761E+02
+   37 7.01361E+00
+   34 5.38410E+00
 
- Total residual production cross section:  1126.9992676
- Non-elastic cross section              :  1126.2863770
+ Total residual production cross section:  1127.0054932
+ Non-elastic cross section              :  1126.2926025
 
  8. Discrete state angular distributions
 
@@ -2573,31 +2573,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.15426E+03
-     Compound elastic= 9.08061E-01
+     Compound elastic= 9.05599E-01
      Non-elastic     = 1.15335E+03
        Direct          = 3.84833E+01
        Pre-equilibrium = 1.29727E+02
-       Compound non-el = 9.85141E+02
+       Compound non-el = 9.85144E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 6.14132E-01
- neutron = 4.91097E+02
- proton  = 3.95177E+02
- deuteron= 1.81036E+00
- triton  = 8.38576E-02
- helium-3= 2.89364E-05
- alpha   = 2.64570E+02
+ gamma   = 6.13057E-01
+ neutron = 4.92086E+02
+ proton  = 3.94588E+02
+ deuteron= 1.80820E+00
+ triton  = 8.38316E-02
+ helium-3= 2.89194E-05
+ alpha   = 2.64176E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.31782E+03    Multiplicity= 1.14260E+00
- neutron = 6.21891E+02    Multiplicity= 5.39203E-01
- proton  = 5.14116E+02    Multiplicity= 4.45758E-01
- deuteron= 1.81038E+00    Multiplicity= 1.56967E-03
- triton  = 8.38576E-02    Multiplicity= 7.27077E-05
- helium-3= 2.89364E-05    Multiplicity= 2.50889E-08
- alpha   = 2.93738E+02    Multiplicity= 2.54682E-01
+ gamma   = 1.29974E+03    Multiplicity= 1.12692E+00
+ neutron = 6.22699E+02    Multiplicity= 5.39902E-01
+ proton  = 5.12634E+02    Multiplicity= 4.44472E-01
+ deuteron= 1.80821E+00    Multiplicity= 1.56778E-03
+ triton  = 8.38316E-02    Multiplicity= 7.26851E-05
+ helium-3= 2.89194E-05    Multiplicity= 2.50742E-08
+ alpha   = 2.93175E+02    Multiplicity= 2.54194E-01
 
  4. Residual production cross sections
 
@@ -2606,33 +2606,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.26764E-01    0    1.26764E-01  1.00000
-   20  41 ( 41Ca) 2.99224E+02    0    2.99224E+02  1.00000
-   19  41 ( 41K ) 3.29445E+02    0    3.29445E+02  1.00000
-   20  40 ( 40Ca) 8.08349E+01    0    8.08349E+01  1.00000
-   19  40 ( 40K ) 1.52242E+02    0    1.52242E+02  1.00000
-   18  40 ( 40Ar) 1.19635E+01    0    1.19635E+01  1.00000
-   19  39 ( 39K ) 8.38576E-02    0    8.38576E-02  1.00000
-   18  39 ( 39Ar) 2.89364E-05    0    2.89364E-05  1.00000
-   18  38 ( 38Ar) 2.45052E+02    0    2.45052E+02  1.00000
-   18  37 ( 37Ar) 1.08843E+01    0    1.08843E+01  1.00000
-   17  37 ( 37Cl) 1.04558E+01    0    1.04558E+01  1.00000
-   16  34 ( 34S ) 1.38437E+01    0    1.38437E+01  1.00000
+   20  42 ( 42Ca) 1.26546E-01    0    1.26546E-01  1.00000
+   20  41 ( 41Ca) 3.01366E+02    0    3.01366E+02  1.00000
+   19  41 ( 41K ) 3.28926E+02    0    3.28926E+02  1.00000
+   20  40 ( 40Ca) 8.07085E+01    0    8.07085E+01  1.00000
+   19  40 ( 40K ) 1.51301E+02    0    1.51301E+02  1.00000
+   18  40 ( 40Ar) 1.19571E+01    0    1.19571E+01  1.00000
+   19  39 ( 39K ) 8.38316E-02    0    8.38316E-02  1.00000
+   18  39 ( 39Ar) 2.89194E-05    0    2.89194E-05  1.00000
+   18  38 ( 38Ar) 2.44676E+02    0    2.44676E+02  1.00000
+   18  37 ( 37Ar) 1.07416E+01    0    1.07416E+01  1.00000
+   17  37 ( 37Cl) 1.04443E+01    0    1.04443E+01  1.00000
+   16  34 ( 34S ) 1.38275E+01    0    1.38275E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.26764E-01
-   41 6.28669E+02
-   40 2.45040E+02
-   39 8.38866E-02
-   38 2.45052E+02
-   37 2.13401E+01
-   34 1.38437E+01
+   42 1.26546E-01
+   41 6.30292E+02
+   40 2.43967E+02
+   39 8.38606E-02
+   38 2.44676E+02
+   37 2.11859E+01
+   34 1.38275E+01
 
- Total residual production cross section:  1154.1556396
- Non-elastic cross section              :  1153.3519287
+ Total residual production cross section:  1154.1580811
+ Non-elastic cross section              :  1153.3543701
 
  8. Discrete state angular distributions
 
@@ -2710,7 +2710,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.17707E+03
-     Compound elastic= 5.77895E-01
+     Compound elastic= 5.76966E-01
      Non-elastic     = 1.17649E+03
        Direct          = 4.18872E+01
        Pre-equilibrium = 1.51306E+02
@@ -2718,23 +2718,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 5.80070E-01
- neutron = 4.88120E+02
- proton  = 4.21008E+02
- deuteron= 2.67004E+00
- triton  = 1.26407E-01
- helium-3= 4.86456E-04
- alpha   = 2.63988E+02
+ gamma   = 5.79471E-01
+ neutron = 4.88719E+02
+ proton  = 4.20639E+02
+ deuteron= 2.66806E+00
+ triton  = 1.26389E-01
+ helium-3= 4.86290E-04
+ alpha   = 2.63761E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.15418E+03    Multiplicity= 9.81035E-01
- neutron = 6.89115E+02    Multiplicity= 5.85737E-01
- proton  = 6.07808E+02    Multiplicity= 5.16627E-01
- deuteron= 2.67007E+00    Multiplicity= 2.26952E-03
- triton  = 1.26407E-01    Multiplicity= 1.07444E-04
- helium-3= 4.86456E-04    Multiplicity= 4.13480E-07
- alpha   = 3.19626E+02    Multiplicity= 2.71677E-01
+ gamma   = 1.14140E+03    Multiplicity= 9.70174E-01
+ neutron = 6.89543E+02    Multiplicity= 5.86100E-01
+ proton  = 6.06526E+02    Multiplicity= 5.15538E-01
+ deuteron= 2.66809E+00    Multiplicity= 2.26783E-03
+ triton  = 1.26389E-01    Multiplicity= 1.07429E-04
+ helium-3= 4.86290E-04    Multiplicity= 4.13339E-07
+ alpha   = 3.19203E+02    Multiplicity= 2.71317E-01
 
  4. Residual production cross sections
 
@@ -2743,33 +2743,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 9.67432E-02    0    9.67432E-02  1.00000
-   20  41 ( 41Ca) 2.22262E+02    0    2.22262E+02  1.00000
-   19  41 ( 41K ) 2.86335E+02    0    2.86335E+02  1.00000
-   20  40 ( 40Ca) 8.17503E+01    0    8.17503E+01  1.00000
-   19  40 ( 40K ) 2.76603E+02    0    2.76603E+02  1.00000
-   18  40 ( 40Ar) 1.45310E+01    0    1.45310E+01  1.00000
-   19  39 ( 39K ) 1.26407E-01    0    1.26407E-01  1.00000
-   18  39 ( 39Ar) 4.86456E-04    0    4.86456E-04  1.00000
-   18  38 ( 38Ar) 2.22957E+02    0    2.22957E+02  1.00000
-   18  37 ( 37Ar) 2.98092E+01    0    2.98092E+01  1.00000
-   17  37 ( 37Cl) 1.86627E+01    0    1.86627E+01  1.00000
-   16  34 ( 34S ) 2.42646E+01    0    2.42646E+01  1.00000
+   20  42 ( 42Ca) 9.66338E-02    0    9.66338E-02  1.00000
+   20  41 ( 41Ca) 2.24017E+02    0    2.24017E+02  1.00000
+   19  41 ( 41K ) 2.86063E+02    0    2.86063E+02  1.00000
+   20  40 ( 40Ca) 8.16627E+01    0    8.16627E+01  1.00000
+   19  40 ( 40K ) 2.75615E+02    0    2.75615E+02  1.00000
+   18  40 ( 40Ar) 1.45266E+01    0    1.45266E+01  1.00000
+   19  39 ( 39K ) 1.26389E-01    0    1.26389E-01  1.00000
+   18  39 ( 39Ar) 4.86290E-04    0    4.86290E-04  1.00000
+   18  38 ( 38Ar) 2.22756E+02    0    2.22756E+02  1.00000
+   18  37 ( 37Ar) 2.96438E+01    0    2.96438E+01  1.00000
+   17  37 ( 37Cl) 1.86479E+01    0    1.86479E+01  1.00000
+   16  34 ( 34S ) 2.42436E+01    0    2.42436E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 9.67432E-02
-   41 5.08596E+02
-   40 3.72884E+02
-   39 1.26893E-01
-   38 2.22957E+02
-   37 4.84720E+01
-   34 2.42646E+01
+   42 9.66338E-02
+   41 5.10079E+02
+   40 3.71804E+02
+   39 1.26875E-01
+   38 2.22756E+02
+   37 4.82917E+01
+   34 2.42436E+01
 
- Total residual production cross section:  1177.3969727
- Non-elastic cross section              :  1176.4920654
+ Total residual production cross section:  1177.3979492
+ Non-elastic cross section              :  1176.4929199
 
  8. Discrete state angular distributions
 
@@ -2847,31 +2847,31 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.19684E+03
-     Compound elastic= 3.65005E-01
-     Non-elastic     = 1.19647E+03
+     Compound elastic= 3.64667E-01
+     Non-elastic     = 1.19648E+03
        Direct          = 4.02664E+01
        Pre-equilibrium = 1.77877E+02
        Compound non-el = 9.78332E+02
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 5.43555E-01
- neutron = 4.83671E+02
- proton  = 4.42708E+02
- deuteron= 3.66261E+00
- triton  = 1.82247E-01
- helium-3= 2.91192E-03
- alpha   = 2.65705E+02
+ gamma   = 5.43230E-01
+ neutron = 4.84026E+02
+ proton  = 4.42484E+02
+ deuteron= 3.66112E+00
+ triton  = 1.82236E-01
+ helium-3= 2.91142E-03
+ alpha   = 2.65576E+02
 
  3. Total particle production cross sections
 
- gamma   = 9.53056E+02    Multiplicity= 7.96553E-01
- neutron = 7.72339E+02    Multiplicity= 6.45512E-01
- proton  = 6.77276E+02    Multiplicity= 5.66059E-01
- deuteron= 3.66265E+00    Multiplicity= 3.06120E-03
- triton  = 1.82247E-01    Multiplicity= 1.52320E-04
- helium-3= 2.91192E-03    Multiplicity= 2.43375E-06
- alpha   = 3.48999E+02    Multiplicity= 2.91690E-01
+ gamma   = 9.44577E+02    Multiplicity= 7.89466E-01
+ neutron = 7.72547E+02    Multiplicity= 6.45686E-01
+ proton  = 6.76330E+02    Multiplicity= 5.65269E-01
+ deuteron= 3.66117E+00    Multiplicity= 3.05996E-03
+ triton  = 1.82236E-01    Multiplicity= 1.52311E-04
+ helium-3= 2.91142E-03    Multiplicity= 2.43333E-06
+ alpha   = 3.48702E+02    Multiplicity= 2.91441E-01
 
  4. Residual production cross sections
 
@@ -2880,33 +2880,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 7.35261E-02    0    7.35261E-02  1.00000
-   20  41 ( 41Ca) 1.59235E+02    0    1.59235E+02  1.00000
-   19  41 ( 41K ) 2.30241E+02    0    2.30241E+02  1.00000
-   20  40 ( 40Ca) 8.48042E+01    0    8.48042E+01  1.00000
-   19  40 ( 40K ) 3.92936E+02    0    3.92936E+02  1.00000
-   18  40 ( 40Ar) 1.53804E+01    0    1.53804E+01  1.00000
-   19  39 ( 39K ) 1.82247E-01    0    1.82247E-01  1.00000
-   18  39 ( 39Ar) 2.91192E-03    0    2.91192E-03  1.00000
-   18  38 ( 38Ar) 1.98048E+02    0    1.98048E+02  1.00000
-   18  37 ( 37Ar) 5.46869E+01    0    5.46869E+01  1.00000
-   17  37 ( 37Cl) 2.72308E+01    0    2.72308E+01  1.00000
-   16  34 ( 34S ) 3.46863E+01    0    3.46863E+01  1.00000
+   20  42 ( 42Ca) 7.34677E-02    0    7.34677E-02  1.00000
+   20  41 ( 41Ca) 1.60503E+02    0    1.60503E+02  1.00000
+   19  41 ( 41K ) 2.30113E+02    0    2.30113E+02  1.00000
+   20  40 ( 40Ca) 8.47433E+01    0    8.47433E+01  1.00000
+   19  40 ( 40K ) 3.92137E+02    0    3.92137E+02  1.00000
+   18  40 ( 40Ar) 1.53779E+01    0    1.53779E+01  1.00000
+   19  39 ( 39K ) 1.82236E-01    0    1.82236E-01  1.00000
+   18  39 ( 39Ar) 2.91142E-03    0    2.91142E-03  1.00000
+   18  38 ( 38Ar) 1.97947E+02    0    1.97947E+02  1.00000
+   18  37 ( 37Ar) 5.45453E+01    0    5.45453E+01  1.00000
+   17  37 ( 37Cl) 2.72164E+01    0    2.72164E+01  1.00000
+   16  34 ( 34S ) 3.46660E+01    0    3.46660E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 7.35261E-02
-   41 3.89476E+02
-   40 4.93120E+02
-   39 1.85159E-01
-   38 1.98048E+02
-   37 8.19177E+01
-   34 3.46863E+01
+   42 7.34677E-02
+   41 3.90616E+02
+   40 4.92258E+02
+   39 1.85147E-01
+   38 1.97947E+02
+   37 8.17617E+01
+   34 3.46660E+01
 
- Total residual production cross section:  1197.5061035
- Non-elastic cross section              :  1196.4749756
+ Total residual production cross section:  1197.5063477
+ Non-elastic cross section              :  1196.4753418
 
  8. Discrete state angular distributions
 
@@ -2984,7 +2984,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.21392E+03
-     Compound elastic= 2.27601E-01
+     Compound elastic= 2.27480E-01
      Non-elastic     = 1.21369E+03
        Direct          = 4.47418E+01
        Pre-equilibrium = 2.06050E+02
@@ -2992,23 +2992,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 5.03427E-01
- neutron = 4.82341E+02
- proton  = 4.60192E+02
- deuteron= 4.52489E+00
- triton  = 2.95306E-01
- helium-3= 8.18215E-03
- alpha   = 2.65827E+02
+ gamma   = 5.03254E-01
+ neutron = 4.82548E+02
+ proton  = 4.60059E+02
+ deuteron= 4.52390E+00
+ triton  = 2.95297E-01
+ helium-3= 8.18243E-03
+ alpha   = 2.65755E+02
 
  3. Total particle production cross sections
 
- gamma   = 7.62492E+02    Multiplicity= 6.28241E-01
- neutron = 8.62610E+02    Multiplicity= 7.10732E-01
- proton  = 7.21597E+02    Multiplicity= 5.94547E-01
- deuteron= 4.52496E+00    Multiplicity= 3.72826E-03
- triton  = 2.95306E-01    Multiplicity= 2.43312E-04
- helium-3= 8.18215E-03    Multiplicity= 6.74154E-06
- alpha   = 3.68798E+02    Multiplicity= 3.03864E-01
+ gamma   = 7.56964E+02    Multiplicity= 6.23687E-01
+ neutron = 8.62698E+02    Multiplicity= 7.10805E-01
+ proton  = 7.20967E+02    Multiplicity= 5.94028E-01
+ deuteron= 4.52397E+00    Multiplicity= 3.72744E-03
+ triton  = 2.95297E-01    Multiplicity= 2.43305E-04
+ helium-3= 8.18244E-03    Multiplicity= 6.74177E-06
+ alpha   = 3.68606E+02    Multiplicity= 3.03706E-01
 
  4. Residual production cross sections
 
@@ -3017,33 +3017,33 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 5.35616E-02    0    5.35616E-02  1.00000
-   20  41 ( 41Ca) 1.18093E+02    0    1.18093E+02  1.00000
-   19  41 ( 41K ) 1.76599E+02    0    1.76599E+02  1.00000
-   20  40 ( 40Ca) 9.20425E+01    0    9.20425E+01  1.00000
-   19  40 ( 40K ) 4.86149E+02    0    4.86149E+02  1.00000
-   18  40 ( 40Ar) 1.55702E+01    0    1.55702E+01  1.00000
-   19  39 ( 39K ) 2.95306E-01    0    2.95306E-01  1.00000
-   18  39 ( 39Ar) 8.18215E-03    0    8.18215E-03  1.00000
-   18  38 ( 38Ar) 1.71080E+02    0    1.71080E+02  1.00000
-   18  37 ( 37Ar) 7.93489E+01    0    7.93489E+01  1.00000
-   17  37 ( 37Cl) 3.25124E+01    0    3.25124E+01  1.00000
-   16  34 ( 34S ) 4.30989E+01    0    4.30989E+01  1.00000
+   20  42 ( 42Ca) 5.35280E-02    0    5.35280E-02  1.00000
+   20  41 ( 41Ca) 1.18934E+02    0    1.18934E+02  1.00000
+   19  41 ( 41K ) 1.76542E+02    0    1.76542E+02  1.00000
+   20  40 ( 40Ca) 9.20008E+01    0    9.20008E+01  1.00000
+   19  40 ( 40K ) 4.85579E+02    0    4.85579E+02  1.00000
+   18  40 ( 40Ar) 1.55731E+01    0    1.55731E+01  1.00000
+   19  39 ( 39K ) 2.95297E-01    0    2.95297E-01  1.00000
+   18  39 ( 39Ar) 8.18244E-03    0    8.18244E-03  1.00000
+   18  38 ( 38Ar) 1.71032E+02    0    1.71032E+02  1.00000
+   18  37 ( 37Ar) 7.92480E+01    0    7.92480E+01  1.00000
+   17  37 ( 37Cl) 3.25017E+01    0    3.25017E+01  1.00000
+   16  34 ( 34S ) 4.30829E+01    0    4.30829E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 5.35616E-02
-   41 2.94691E+02
-   40 5.93762E+02
-   39 3.03488E-01
-   38 1.71080E+02
-   37 1.11861E+02
-   34 4.30989E+01
+   42 5.35280E-02
+   41 2.95476E+02
+   40 5.93153E+02
+   39 3.03479E-01
+   38 1.71032E+02
+   37 1.11750E+02
+   34 4.30829E+01
 
- Total residual production cross section:  1214.8500977
- Non-elastic cross section              :  1213.6923828
+ Total residual production cross section:  1214.8503418
+ Non-elastic cross section              :  1213.6925049
 
  8. Discrete state angular distributions
 
@@ -3121,7 +3121,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.22833E+03
-     Compound elastic= 1.41995E-01
+     Compound elastic= 1.41952E-01
      Non-elastic     = 1.22819E+03
        Direct          = 4.75513E+01
        Pre-equilibrium = 2.32121E+02
@@ -3129,23 +3129,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 4.67920E-01
- neutron = 4.79658E+02
- proton  = 4.72829E+02
- deuteron= 5.51583E+00
- triton  = 5.08410E-01
- helium-3= 1.92447E-02
- alpha   = 2.69189E+02
+ gamma   = 4.67827E-01
+ neutron = 4.79779E+02
+ proton  = 4.72750E+02
+ deuteron= 5.51520E+00
+ triton  = 5.08401E-01
+ helium-3= 1.93118E-02
+ alpha   = 2.69148E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.31848E+02    Multiplicity= 5.14456E-01
- neutron = 9.39965E+02    Multiplicity= 7.65326E-01
- proton  = 7.50333E+02    Multiplicity= 6.10927E-01
- deuteron= 5.51593E+00    Multiplicity= 4.49112E-03
- triton  = 5.08411E-01    Multiplicity= 4.13952E-04
- helium-3= 1.92448E-02    Multiplicity= 1.56692E-05
- alpha   = 3.85064E+02    Multiplicity= 3.13522E-01
+ gamma   = 6.28195E+02    Multiplicity= 5.11481E-01
+ neutron = 9.39967E+02    Multiplicity= 7.65329E-01
+ proton  = 7.49951E+02    Multiplicity= 6.10616E-01
+ deuteron= 5.51531E+00    Multiplicity= 4.49060E-03
+ triton  = 5.08402E-01    Multiplicity= 4.13945E-04
+ helium-3= 1.93118E-02    Multiplicity= 1.57238E-05
+ alpha   = 3.84942E+02    Multiplicity= 3.13423E-01
 
  4. Residual production cross sections
 
@@ -3154,30 +3154,30 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.96427E-02    0    3.96427E-02  1.00000
-   20  41 ( 41Ca) 8.87616E+01    0    8.87616E+01  1.00000
-   19  41 ( 41K ) 1.33109E+02    0    1.33109E+02  1.00000
-   20  40 ( 40Ca) 9.92834E+01    0    9.92834E+01  1.00000
-   19  40 ( 40K ) 5.54894E+02    0    5.54894E+02  1.00000
-   18  40 ( 40Ar) 1.65463E+01    0    1.65463E+01  1.00000
-   19  39 ( 39K ) 5.08430E-01    0    5.08430E-01  1.00000
-   18  39 ( 39Ar) 1.92448E-02    0    1.92448E-02  1.00000
-   18  38 ( 38Ar) 1.48241E+02    0    1.48241E+02  1.00000
-   18  37 ( 37Ar) 1.03858E+02    0    1.03858E+02  1.00000
-   17  37 ( 37Cl) 3.50716E+01    0    3.50716E+01  1.00000
-   16  34 ( 34S ) 4.91244E+01    0    4.91244E+01  1.00000
+   20  42 ( 42Ca) 3.96225E-02    0    3.96225E-02  1.00000
+   20  41 ( 41Ca) 8.93107E+01    0    8.93107E+01  1.00000
+   19  41 ( 41K ) 1.33084E+02    0    1.33084E+02  1.00000
+   20  40 ( 40Ca) 9.92510E+01    0    9.92510E+01  1.00000
+   19  40 ( 40K ) 5.54481E+02    0    5.54481E+02  1.00000
+   18  40 ( 40Ar) 1.65772E+01    0    1.65772E+01  1.00000
+   19  39 ( 39K ) 5.08421E-01    0    5.08421E-01  1.00000
+   18  39 ( 39Ar) 1.93118E-02    0    1.93118E-02  1.00000
+   18  38 ( 38Ar) 1.48219E+02    0    1.48219E+02  1.00000
+   18  37 ( 37Ar) 1.03789E+02    0    1.03789E+02  1.00000
+   17  37 ( 37Cl) 3.50646E+01    0    3.50646E+01  1.00000
+   16  34 ( 34S ) 4.91132E+01    0    4.91132E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.96427E-02
-   41 2.21871E+02
-   40 6.70724E+02
-   39 5.27675E-01
-   38 1.48241E+02
-   37 1.38930E+02
-   34 4.91244E+01
+   42 3.96225E-02
+   41 2.22395E+02
+   40 6.70310E+02
+   39 5.27733E-01
+   38 1.48219E+02
+   37 1.38854E+02
+   34 4.91132E+01
 
  Total residual production cross section:  1229.4575195
  Non-elastic cross section              :  1228.1879883
@@ -3258,7 +3258,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.24434E+03
-     Compound elastic= 9.01867E-02
+     Compound elastic= 9.01705E-02
      Non-elastic     = 1.24425E+03
        Direct          = 5.13666E+01
        Pre-equilibrium = 2.59758E+02
@@ -3266,23 +3266,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 4.36175E-01
- neutron = 4.77696E+02
- proton  = 4.83269E+02
- deuteron= 6.10832E+00
- triton  = 7.95011E-01
- helium-3= 3.87451E-02
- alpha   = 2.75907E+02
+ gamma   = 4.36123E-01
+ neutron = 4.77767E+02
+ proton  = 4.83222E+02
+ deuteron= 6.10793E+00
+ triton  = 7.95003E-01
+ helium-3= 3.95908E-02
+ alpha   = 2.75883E+02
 
  3. Total particle production cross sections
 
- gamma   = 5.69963E+02    Multiplicity= 4.58078E-01
- neutron = 1.00390E+03    Multiplicity= 8.06835E-01
- proton  = 7.71518E+02    Multiplicity= 6.20067E-01
- deuteron= 6.10920E+00    Multiplicity= 4.90995E-03
- triton  = 7.95012E-01    Multiplicity= 6.38949E-04
- helium-3= 3.87451E-02    Multiplicity= 3.11393E-05
- alpha   = 3.99449E+02    Multiplicity= 3.21036E-01
+ gamma   = 5.67434E+02    Multiplicity= 4.56045E-01
+ neutron = 1.00381E+03    Multiplicity= 8.06756E-01
+ proton  = 7.71353E+02    Multiplicity= 6.19934E-01
+ deuteron= 6.10881E+00    Multiplicity= 4.90963E-03
+ triton  = 7.95004E-01    Multiplicity= 6.38943E-04
+ helium-3= 3.95909E-02    Multiplicity= 3.18191E-05
+ alpha   = 3.99371E+02    Multiplicity= 3.20973E-01
 
  4. Residual production cross sections
 
@@ -3291,34 +3291,34 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.77291E-02    0    2.77291E-02  1.00000
-   20  41 ( 41Ca) 6.94341E+01    0    6.94341E+01  1.00000
-   19  41 ( 41K ) 1.00558E+02    0    1.00558E+02  1.00000
-   20  40 ( 40Ca) 1.03666E+02    0    1.03666E+02  1.00000
-   19  40 ( 40K ) 6.05800E+02    0    6.05800E+02  1.00000
-   18  40 ( 40Ar) 1.81856E+01    0    1.81856E+01  1.00000
-   19  39 ( 39K ) 8.03738E-01    0    8.03738E-01  1.00000
-   18  39 ( 39Ar) 3.87953E-02    0    3.87953E-02  1.00000
-   18  38 ( 38Ar) 1.31080E+02    0    1.31080E+02  1.00000
-   18  37 ( 37Ar) 1.28086E+02    0    1.28086E+02  1.00000
-   17  37 ( 37Cl) 3.52485E+01    0    3.52485E+01  1.00000
-   17  36 ( 36Cl) 8.11158E-10    0    8.11158E-10  1.00000
-   16  34 ( 34S ) 5.27068E+01    0    5.27068E+01  1.00000
+   20  42 ( 42Ca) 2.77145E-02    0    2.77145E-02  1.00000
+   20  41 ( 41Ca) 6.97963E+01    0    6.97963E+01  1.00000
+   19  41 ( 41K ) 1.00547E+02    0    1.00547E+02  1.00000
+   20  40 ( 40Ca) 1.03640E+02    0    1.03640E+02  1.00000
+   19  40 ( 40K ) 6.05439E+02    0    6.05439E+02  1.00000
+   18  40 ( 40Ar) 1.82906E+01    0    1.82906E+01  1.00000
+   19  39 ( 39K ) 8.03729E-01    0    8.03729E-01  1.00000
+   18  39 ( 39Ar) 3.96410E-02    0    3.96410E-02  1.00000
+   18  38 ( 38Ar) 1.31069E+02    0    1.31069E+02  1.00000
+   18  37 ( 37Ar) 1.28037E+02    0    1.28037E+02  1.00000
+   17  37 ( 37Cl) 3.52450E+01    0    3.52450E+01  1.00000
+   17  36 ( 36Cl) 8.11079E-10    0    8.11079E-10  1.00000
+   16  34 ( 34S ) 5.26994E+01    0    5.26994E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.77291E-02
-   41 1.69992E+02
-   40 7.27652E+02
-   39 8.42533E-01
-   38 1.31080E+02
-   37 1.63334E+02
-   36 8.11158E-10
-   34 5.27068E+01
+   42 2.77145E-02
+   41 1.70343E+02
+   40 7.27370E+02
+   39 8.43370E-01
+   38 1.31069E+02
+   37 1.63282E+02
+   36 8.11079E-10
+   34 5.26994E+01
 
- Total residual production cross section:  1245.6348877
+ Total residual production cross section:  1245.6347656
  Non-elastic cross section              :  1244.2497559
 
  8. Discrete state angular distributions
@@ -3397,7 +3397,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.26029E+03
-     Compound elastic= 5.84590E-02
+     Compound elastic= 5.84527E-02
      Non-elastic     = 1.26023E+03
        Direct          = 5.57010E+01
        Pre-equilibrium = 2.86950E+02
@@ -3405,23 +3405,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 4.08606E-01
- neutron = 4.76946E+02
- proton  = 4.91779E+02
- deuteron= 7.14645E+00
- triton  = 8.83350E-01
- helium-3= 8.49733E-02
- alpha   = 2.82984E+02
+ gamma   = 4.08576E-01
+ neutron = 4.76987E+02
+ proton  = 4.91749E+02
+ deuteron= 7.14620E+00
+ triton  = 8.83343E-01
+ helium-3= 8.86769E-02
+ alpha   = 2.82969E+02
 
  3. Total particle production cross sections
 
- gamma   = 5.68392E+02    Multiplicity= 4.51022E-01
- neutron = 1.05809E+03    Multiplicity= 8.39597E-01
- proton  = 7.86043E+02    Multiplicity= 6.23729E-01
- deuteron= 7.15932E+00    Multiplicity= 5.68096E-03
- triton  = 8.83352E-01    Multiplicity= 7.00944E-04
- helium-3= 8.49734E-02    Multiplicity= 6.74268E-05
- alpha   = 4.10354E+02    Multiplicity= 3.25618E-01
+ gamma   = 5.66495E+02    Multiplicity= 4.49516E-01
+ neutron = 1.05785E+03    Multiplicity= 8.39409E-01
+ proton  = 7.86088E+02    Multiplicity= 6.23765E-01
+ deuteron= 7.15907E+00    Multiplicity= 5.68075E-03
+ triton  = 8.83345E-01    Multiplicity= 7.00939E-04
+ helium-3= 8.86770E-02    Multiplicity= 7.03656E-05
+ alpha   = 4.10307E+02    Multiplicity= 3.25581E-01
 
  4. Residual production cross sections
 
@@ -3430,36 +3430,36 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.94234E-02    0    1.94234E-02  1.00000
-   20  41 ( 41Ca) 5.69838E+01    0    5.69838E+01  1.00000
-   19  41 ( 41K ) 7.60407E+01    0    7.60407E+01  1.00000
-   20  40 ( 40Ca) 1.06413E+02    0    1.06413E+02  1.00000
-   19  40 ( 40K ) 6.43057E+02    0    6.43057E+02  1.00000
-   18  40 ( 40Ar) 2.04390E+01    0    2.04390E+01  1.00000
-   19  39 ( 39K ) 1.04898E+00    0    1.04898E+00  1.00000
-   18  39 ( 39Ar) 9.00399E-02    0    9.00399E-02  1.00000
-   18  38 ( 38Ar) 1.18310E+02    0    1.18310E+02  1.00000
-   18  37 ( 37Ar) 1.52753E+02    0    1.52753E+02  1.00000
-   17  37 ( 37Cl) 3.34510E+01    0    3.34510E+01  1.00000
-   18  36 ( 36Ar) 3.73880E-07    0    3.73880E-07  1.00000
-   17  36 ( 36Cl) 3.80369E-07    0    3.80369E-07  1.00000
-   16  36 ( 36S ) 5.10907E-11    0    5.10907E-11  1.00000
-   16  34 ( 34S ) 5.31184E+01    0    5.31184E+01  1.00000
+   20  42 ( 42Ca) 1.94112E-02    0    1.94112E-02  1.00000
+   20  41 ( 41Ca) 5.72279E+01    0    5.72279E+01  1.00000
+   19  41 ( 41K ) 7.60351E+01    0    7.60351E+01  1.00000
+   20  40 ( 40Ca) 1.06393E+02    0    1.06393E+02  1.00000
+   19  40 ( 40K ) 6.42657E+02    0    6.42657E+02  1.00000
+   18  40 ( 40Ar) 2.06584E+01    0    2.06584E+01  1.00000
+   19  39 ( 39K ) 1.04897E+00    0    1.04897E+00  1.00000
+   18  39 ( 39Ar) 9.37432E-02    0    9.37432E-02  1.00000
+   18  38 ( 38Ar) 1.18304E+02    0    1.18304E+02  1.00000
+   18  37 ( 37Ar) 1.52712E+02    0    1.52712E+02  1.00000
+   17  37 ( 37Cl) 3.34617E+01    0    3.34617E+01  1.00000
+   18  36 ( 36Ar) 3.73867E-07    0    3.73867E-07  1.00000
+   17  36 ( 36Cl) 3.80332E-07    0    3.80332E-07  1.00000
+   16  36 ( 36S ) 4.83644E-11    0    4.83644E-11  1.00000
+   16  34 ( 34S ) 5.31126E+01    0    5.31126E+01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.94234E-02
-   41 1.33025E+02
-   40 7.69909E+02
-   39 1.13902E+00
-   38 1.18310E+02
-   37 1.86204E+02
-   36 7.54300E-07
-   34 5.31184E+01
+   42 1.94112E-02
+   41 1.33263E+02
+   40 7.69708E+02
+   39 1.14272E+00
+   38 1.18304E+02
+   37 1.86173E+02
+   36 7.54247E-07
+   34 5.31126E+01
 
- Total residual production cross section:  1261.7238770
+ Total residual production cross section:  1261.7236328
  Non-elastic cross section              :  1260.2315674
 
  8. Discrete state angular distributions
@@ -3538,7 +3538,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.25822E+03
-     Compound elastic= 3.53724E-02
+     Compound elastic= 3.53700E-02
      Non-elastic     = 1.25818E+03
        Direct          = 5.63097E+01
        Pre-equilibrium = 3.08793E+02
@@ -3546,23 +3546,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 3.81342E-01
- neutron = 4.70937E+02
- proton  = 4.96103E+02
- deuteron= 8.23729E+00
- triton  = 1.56888E+00
- helium-3= 1.33333E-01
- alpha   = 2.80823E+02
+ gamma   = 3.81322E-01
+ neutron = 4.70959E+02
+ proton  = 4.96083E+02
+ deuteron= 8.23711E+00
+ triton  = 1.56887E+00
+ helium-3= 1.41620E-01
+ alpha   = 2.80813E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.06363E+02    Multiplicity= 4.81934E-01
- neutron = 1.08828E+03    Multiplicity= 8.64964E-01
- proton  = 7.91726E+02    Multiplicity= 6.29261E-01
- deuteron= 8.29144E+00    Multiplicity= 6.59000E-03
- triton  = 1.56889E+00    Multiplicity= 1.24695E-03
- helium-3= 1.33334E-01    Multiplicity= 1.05973E-04
- alpha   = 4.08769E+02    Multiplicity= 3.24888E-01
+ gamma   = 6.04784E+02    Multiplicity= 4.80680E-01
+ neutron = 1.08787E+03    Multiplicity= 8.64637E-01
+ proton  = 7.91975E+02    Multiplicity= 6.29458E-01
+ deuteron= 8.29125E+00    Multiplicity= 6.58985E-03
+ triton  = 1.56888E+00    Multiplicity= 1.24694E-03
+ helium-3= 1.41620E-01    Multiplicity= 1.12559E-04
+ alpha   = 4.08756E+02    Multiplicity= 3.24877E-01
 
  4. Residual production cross sections
 
@@ -3571,42 +3571,42 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.27611E-02    0    1.27611E-02  1.00000
-   20  41 ( 41Ca) 4.57804E+01    0    4.57804E+01  1.00000
-   19  41 ( 41K ) 5.95126E+01    0    5.95126E+01  1.00000
-   20  40 ( 40Ca) 1.08230E+02    0    1.08230E+02  1.00000
-   19  40 ( 40K ) 6.59889E+02    0    6.59889E+02  1.00000
-   18  40 ( 40Ar) 2.38277E+01    0    2.38277E+01  1.00000
-   19  39 ( 39K ) 2.34925E+00    0    2.34925E+00  1.00000
-   18  39 ( 39Ar) 1.91182E-01    0    1.91182E-01  1.00000
-   18  38 ( 38Ar) 1.04692E+02    0    1.04692E+02  1.00000
-   18  37 ( 37Ar) 1.73568E+02    0    1.73568E+02  1.00000
-   17  37 ( 37Cl) 3.24853E+01    0    3.24853E+01  1.00000
-   18  36 ( 36Ar) 8.34221E-05    0    8.34221E-05  1.00000
-   17  36 ( 36Cl) 3.73145E-05    0    3.73145E-05  1.00000
-   16  36 ( 36S ) 6.41731E-08    0    6.41731E-08  1.00000
-   17  35 ( 35Cl) 1.79679E-12    0    1.79679E-12  1.00000
-   16  34 ( 34S ) 4.92065E+01    0    4.92065E+01  1.00000
-   16  33 ( 33S ) 1.04575E-09    0    1.04575E-09  1.00000
-   14  30 ( 30Si) 6.76208E-12    0    6.76208E-12  1.00000
+   20  42 ( 42Ca) 1.27521E-02    0    1.27521E-02  1.00000
+   20  41 ( 41Ca) 4.59471E+01    0    4.59471E+01  1.00000
+   19  41 ( 41K ) 5.95093E+01    0    5.95093E+01  1.00000
+   20  40 ( 40Ca) 1.08213E+02    0    1.08213E+02  1.00000
+   19  40 ( 40K ) 6.59395E+02    0    6.59395E+02  1.00000
+   18  40 ( 40Ar) 2.41730E+01    0    2.41730E+01  1.00000
+   19  39 ( 39K ) 2.34920E+00    0    2.34920E+00  1.00000
+   18  39 ( 39Ar) 1.99463E-01    0    1.99463E-01  1.00000
+   18  38 ( 38Ar) 1.04689E+02    0    1.04689E+02  1.00000
+   18  37 ( 37Ar) 1.73517E+02    0    1.73517E+02  1.00000
+   17  37 ( 37Cl) 3.25405E+01    0    3.25405E+01  1.00000
+   18  36 ( 36Ar) 8.34149E-05    0    8.34149E-05  1.00000
+   17  36 ( 36Cl) 3.73108E-05    0    3.73108E-05  1.00000
+   16  36 ( 36S ) 6.08274E-08    0    6.08274E-08  1.00000
+   17  35 ( 35Cl) 1.79677E-12    0    1.79677E-12  1.00000
+   16  34 ( 34S ) 4.91995E+01    0    4.91995E+01  1.00000
+   16  33 ( 33S ) 1.04290E-09    0    1.04290E-09  1.00000
+   14  30 ( 30Si) 6.73162E-12    0    6.73162E-12  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.27611E-02
-   41 1.05293E+02
-   40 7.91947E+02
-   39 2.54043E+00
-   38 1.04692E+02
-   37 2.06054E+02
-   36 1.20801E-04
-   35 1.79680E-12
-   34 4.92065E+01
-   33 1.04575E-09
-   30 6.76208E-12
+   42 1.27521E-02
+   41 1.05456E+02
+   40 7.91781E+02
+   39 2.54867E+00
+   38 1.04689E+02
+   37 2.06058E+02
+   36 1.20786E-04
+   35 1.79677E-12
+   34 4.91995E+01
+   33 1.04290E-09
+   30 6.73162E-12
 
- Total residual production cross section:  1259.7449951
+ Total residual production cross section:  1259.7451172
  Non-elastic cross section              :  1258.1845703
 
  8. Discrete state angular distributions
@@ -3685,7 +3685,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.25865E+03
-     Compound elastic= 2.18374E-02
+     Compound elastic= 2.18363E-02
      Non-elastic     = 1.25863E+03
        Direct          = 5.65663E+01
        Pre-equilibrium = 3.31033E+02
@@ -3693,23 +3693,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 3.58662E-01
- neutron = 4.69693E+02
- proton  = 4.98684E+02
- deuteron= 9.55272E+00
- triton  = 2.12657E+00
- helium-3= 2.79830E-01
- alpha   = 2.77933E+02
+ gamma   = 3.58648E-01
+ neutron = 4.69704E+02
+ proton  = 4.98668E+02
+ deuteron= 9.55258E+00
+ triton  = 2.12656E+00
+ helium-3= 2.91537E-01
+ alpha   = 2.77926E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.79873E+02    Multiplicity= 5.40170E-01
- neutron = 1.11089E+03    Multiplicity= 8.82617E-01
- proton  = 7.96708E+02    Multiplicity= 6.32997E-01
- deuteron= 9.67795E+00    Multiplicity= 7.68928E-03
- triton  = 2.12678E+00    Multiplicity= 1.68976E-03
- helium-3= 2.79836E-01    Multiplicity= 2.22334E-04
- alpha   = 4.08813E+02    Multiplicity= 3.24808E-01
+ gamma   = 6.78379E+02    Multiplicity= 5.38983E-01
+ neutron = 1.11028E+03    Multiplicity= 8.82136E-01
+ proton  = 7.97139E+02    Multiplicity= 6.33339E-01
+ deuteron= 9.67778E+00    Multiplicity= 7.68915E-03
+ triton  = 2.12677E+00    Multiplicity= 1.68975E-03
+ helium-3= 2.91543E-01    Multiplicity= 2.31636E-04
+ alpha   = 4.08848E+02    Multiplicity= 3.24837E-01
 
  4. Residual production cross sections
 
@@ -3718,43 +3718,43 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 8.24574E-03    0    8.24574E-03  1.00000
-   20  41 ( 41Ca) 4.00277E+01    0    4.00277E+01  1.00000
-   19  41 ( 41K ) 4.86892E+01    0    4.86892E+01  1.00000
-   20  40 ( 40Ca) 1.09907E+02    0    1.09907E+02  1.00000
-   19  40 ( 40K ) 6.63991E+02    0    6.63991E+02  1.00000
-   18  40 ( 40Ar) 2.81270E+01    0    2.81270E+01  1.00000
-   19  39 ( 39K ) 5.01408E+00    0    5.01408E+00  1.00000
-   18  39 ( 39Ar) 5.27288E-01    0    5.27288E-01  1.00000
-   18  38 ( 38Ar) 9.28905E+01    0    9.28905E+01  1.00000
-   18  37 ( 37Ar) 1.91377E+02    0    1.91377E+02  1.00000
-   17  37 ( 37Cl) 3.44110E+01    0    3.44110E+01  1.00000
-   18  36 ( 36Ar) 1.68093E-03    0    1.68093E-03  1.00000
-   17  36 ( 36Cl) 1.26915E-03    0    1.26915E-03  1.00000
-   16  36 ( 36S ) 9.23791E-06    0    9.23791E-06  1.00000
-   17  35 ( 35Cl) 1.51458E-08    0    1.51458E-08  1.00000
-   16  34 ( 34S ) 4.52835E+01    0    4.52835E+01  1.00000
-   16  33 ( 33S ) 3.85417E-07    0    3.85417E-07  1.00000
-   15  33 ( 33P ) 1.91809E-11    0    1.91809E-11  1.00000
-   14  30 ( 30Si) 1.13150E-09    0    1.13150E-09  1.00000
+   20  42 ( 42Ca) 8.23806E-03    0    8.23806E-03  1.00000
+   20  41 ( 41Ca) 4.01464E+01    0    4.01464E+01  1.00000
+   19  41 ( 41K ) 4.86869E+01    0    4.86869E+01  1.00000
+   20  40 ( 40Ca) 1.09893E+02    0    1.09893E+02  1.00000
+   19  40 ( 40K ) 6.63378E+02    0    6.63378E+02  1.00000
+   18  40 ( 40Ar) 2.85796E+01    0    2.85796E+01  1.00000
+   19  39 ( 39K ) 5.01290E+00    0    5.01290E+00  1.00000
+   18  39 ( 39Ar) 5.38942E-01    0    5.38942E-01  1.00000
+   18  38 ( 38Ar) 9.28884E+01    0    9.28884E+01  1.00000
+   18  37 ( 37Ar) 1.91296E+02    0    1.91296E+02  1.00000
+   17  37 ( 37Cl) 3.45527E+01    0    3.45527E+01  1.00000
+   18  36 ( 36Ar) 1.68018E-03    0    1.68018E-03  1.00000
+   17  36 ( 36Cl) 1.26903E-03    0    1.26903E-03  1.00000
+   16  36 ( 36S ) 8.85458E-06    0    8.85458E-06  1.00000
+   17  35 ( 35Cl) 1.51456E-08    0    1.51456E-08  1.00000
+   16  34 ( 34S ) 4.52717E+01    0    4.52717E+01  1.00000
+   16  33 ( 33S ) 3.84594E-07    0    3.84594E-07  1.00000
+   15  33 ( 33P ) 1.89544E-11    0    1.89544E-11  1.00000
+   14  30 ( 30Si) 1.12722E-09    0    1.12722E-09  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 8.24574E-03
-   41 8.87169E+01
-   40 8.02024E+02
-   39 5.54137E+00
-   38 9.28905E+01
-   37 2.25788E+02
-   36 2.95932E-03
-   35 1.51458E-08
-   34 4.52835E+01
-   33 3.85436E-07
-   30 1.13150E-09
+   42 8.23806E-03
+   41 8.88334E+01
+   40 8.01850E+02
+   39 5.55185E+00
+   38 9.28885E+01
+   37 2.25849E+02
+   36 2.95806E-03
+   35 1.51456E-08
+   34 4.52717E+01
+   33 3.84613E-07
+   30 1.12722E-09
 
- Total residual production cross section:  1260.2558594
+ Total residual production cross section:  1260.2557373
  Non-elastic cross section              :  1258.6281738
 
  8. Discrete state angular distributions
@@ -3833,7 +3833,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.25511E+03
-     Compound elastic= 1.33417E-02
+     Compound elastic= 1.33412E-02
      Non-elastic     = 1.25510E+03
        Direct          = 5.66278E+01
        Pre-equilibrium = 3.53151E+02
@@ -3841,23 +3841,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 3.37270E-01
- neutron = 4.67006E+02
- proton  = 4.99410E+02
- deuteron= 1.09695E+01
- triton  = 2.75707E+00
- helium-3= 5.20476E-01
- alpha   = 2.74096E+02
+ gamma   = 3.37260E-01
+ neutron = 4.67011E+02
+ proton  = 4.99399E+02
+ deuteron= 1.09694E+01
+ triton  = 2.75706E+00
+ helium-3= 5.32908E-01
+ alpha   = 2.74091E+02
 
  3. Total particle production cross sections
 
- gamma   = 7.64037E+02    Multiplicity= 6.08747E-01
- neutron = 1.12437E+03    Multiplicity= 8.95839E-01
- proton  = 8.00371E+02    Multiplicity= 6.37697E-01
- deuteron= 1.11871E+01    Multiplicity= 8.91330E-03
- triton  = 2.75822E+00    Multiplicity= 2.19762E-03
- helium-3= 5.20552E-01    Multiplicity= 4.14751E-04
- alpha   = 4.07671E+02    Multiplicity= 3.24812E-01
+ gamma   = 7.62486E+02    Multiplicity= 6.07511E-01
+ neutron = 1.12357E+03    Multiplicity= 8.95209E-01
+ proton  = 8.00945E+02    Multiplicity= 6.38154E-01
+ deuteron= 1.11868E+01    Multiplicity= 8.91313E-03
+ triton  = 2.75821E+00    Multiplicity= 2.19761E-03
+ helium-3= 5.32985E-01    Multiplicity= 4.24656E-04
+ alpha   = 4.07770E+02    Multiplicity= 3.24891E-01
 
  4. Residual production cross sections
 
@@ -3866,42 +3866,42 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 5.25218E-03    0    5.25218E-03  1.00000
-   20  41 ( 41Ca) 3.52747E+01    0    3.52747E+01  1.00000
-   19  41 ( 41K ) 4.06305E+01    0    4.06305E+01  1.00000
-   20  40 ( 40Ca) 1.09778E+02    0    1.09778E+02  1.00000
-   19  40 ( 40K ) 6.59390E+02    0    6.59390E+02  1.00000
-   18  40 ( 40Ar) 3.27425E+01    0    3.27425E+01  1.00000
-   19  39 ( 39K ) 1.07103E+01    0    1.07103E+01  1.00000
-   18  39 ( 39Ar) 1.28470E+00    0    1.28470E+00  1.00000
-   18  38 ( 38Ar) 8.40104E+01    0    8.40104E+01  1.00000
-   18  37 ( 37Ar) 2.05006E+02    0    2.05006E+02  1.00000
-   17  37 ( 37Cl) 3.66379E+01    0    3.66379E+01  1.00000
-   18  36 ( 36Ar) 3.05013E-02    0    3.05013E-02  1.00000
-   17  36 ( 36Cl) 1.52014E-02    0    1.52014E-02  1.00000
-   16  36 ( 36S ) 2.81032E-04    0    2.81032E-04  1.00000
-   17  35 ( 35Cl) 5.16220E-06    0    5.16220E-06  1.00000
-   16  35 ( 35S ) 3.00184E-12    0    3.00184E-12  1.00000
-   16  34 ( 34S ) 4.12718E+01    0    4.12718E+01  1.00000
-   16  33 ( 33S ) 3.74205E-05    0    3.74205E-05  1.00000
-   15  33 ( 33P ) 2.56588E-09    0    2.56588E-09  1.00000
-   14  30 ( 30Si) 6.34997E-08    0    6.34997E-08  1.00000
+   20  42 ( 42Ca) 5.24559E-03    0    5.24559E-03  1.00000
+   20  41 ( 41Ca) 3.53643E+01    0    3.53643E+01  1.00000
+   19  41 ( 41K ) 4.06287E+01    0    4.06287E+01  1.00000
+   20  40 ( 40Ca) 1.09764E+02    0    1.09764E+02  1.00000
+   19  40 ( 40K ) 6.58671E+02    0    6.58671E+02  1.00000
+   18  40 ( 40Ar) 3.32639E+01    0    3.32639E+01  1.00000
+   19  39 ( 39K ) 1.07043E+01    0    1.07043E+01  1.00000
+   18  39 ( 39Ar) 1.29667E+00    0    1.29667E+00  1.00000
+   18  38 ( 38Ar) 8.40088E+01    0    8.40088E+01  1.00000
+   18  37 ( 37Ar) 2.04885E+02    0    2.04885E+02  1.00000
+   17  37 ( 37Cl) 3.68967E+01    0    3.68967E+01  1.00000
+   18  36 ( 36Ar) 3.04793E-02    0    3.04793E-02  1.00000
+   17  36 ( 36Cl) 1.51843E-02    0    1.51843E-02  1.00000
+   16  36 ( 36S ) 2.73219E-04    0    2.73219E-04  1.00000
+   17  35 ( 35Cl) 5.16215E-06    0    5.16215E-06  1.00000
+   16  35 ( 35S ) 2.78935E-12    0    2.78935E-12  1.00000
+   16  34 ( 34S ) 4.12530E+01    0    4.12530E+01  1.00000
+   16  33 ( 33S ) 3.73578E-05    0    3.73578E-05  1.00000
+   15  33 ( 33P ) 2.54152E-09    0    2.54152E-09  1.00000
+   14  30 ( 30Si) 6.33086E-08    0    6.33086E-08  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 5.25218E-03
-   41 7.59052E+01
-   40 8.01911E+02
-   39 1.19950E+01
-   38 8.40104E+01
-   37 2.41644E+02
-   36 4.59837E-02
-   35 5.16221E-06
-   34 4.12718E+01
-   33 3.74231E-05
-   30 6.34997E-08
+   42 5.24559E-03
+   41 7.59931E+01
+   40 8.01699E+02
+   39 1.20010E+01
+   38 8.40088E+01
+   37 2.41782E+02
+   36 4.59368E-02
+   35 5.16215E-06
+   34 4.12530E+01
+   33 3.73603E-05
+   30 6.33086E-08
 
  Total residual production cross section:  1256.7883301
  Non-elastic cross section              :  1255.0966797
@@ -3982,7 +3982,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.25936E+03
-     Compound elastic= 8.61580E-03
+     Compound elastic= 8.61555E-03
      Non-elastic     = 1.25935E+03
        Direct          = 5.78482E+01
        Pre-equilibrium = 3.76163E+02
@@ -3990,23 +3990,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 3.20689E-01
- neutron = 4.66875E+02
- proton  = 5.01491E+02
- deuteron= 1.21606E+01
- triton  = 3.46290E+00
- helium-3= 8.24400E-01
- alpha   = 2.74217E+02
+ gamma   = 3.20682E-01
+ neutron = 4.66877E+02
+ proton  = 5.01482E+02
+ deuteron= 1.21605E+01
+ triton  = 3.46289E+00
+ helium-3= 8.35800E-01
+ alpha   = 2.74213E+02
 
  3. Total particle production cross sections
 
- gamma   = 8.52838E+02    Multiplicity= 6.77204E-01
- neutron = 1.13968E+03    Multiplicity= 9.04975E-01
- proton  = 8.10888E+02    Multiplicity= 6.43893E-01
- deuteron= 1.24962E+01    Multiplicity= 9.92276E-03
- triton  = 3.46625E+00    Multiplicity= 2.75241E-03
- helium-3= 8.24817E-01    Multiplicity= 6.54954E-04
- alpha   = 4.12770E+02    Multiplicity= 3.27764E-01
+ gamma   = 8.51147E+02    Multiplicity= 6.75861E-01
+ neutron = 1.13874E+03    Multiplicity= 9.04224E-01
+ proton  = 8.11556E+02    Multiplicity= 6.44424E-01
+ deuteron= 1.24960E+01    Multiplicity= 9.92257E-03
+ triton  = 3.46623E+00    Multiplicity= 2.75240E-03
+ helium-3= 8.36217E-01    Multiplicity= 6.64006E-04
+ alpha   = 4.12937E+02    Multiplicity= 3.27897E-01
 
  4. Residual production cross sections
 
@@ -4015,44 +4015,44 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.08522E-03    0    3.08522E-03  1.00000
-   20  41 ( 41Ca) 3.24327E+01    0    3.24327E+01  1.00000
-   19  41 ( 41K ) 3.50306E+01    0    3.50306E+01  1.00000
-   20  40 ( 40Ca) 1.07243E+02    0    1.07243E+02  1.00000
-   19  40 ( 40K ) 6.48710E+02    0    6.48710E+02  1.00000
-   18  40 ( 40Ar) 3.74957E+01    0    3.74957E+01  1.00000
-   19  39 ( 39K ) 2.22420E+01    0    2.22420E+01  1.00000
-   18  39 ( 39Ar) 3.07613E+00    0    3.07613E+00  1.00000
-   18  38 ( 38Ar) 7.88204E+01    0    7.88204E+01  1.00000
-   18  37 ( 37Ar) 2.16112E+02    0    2.16112E+02  1.00000
-   17  37 ( 37Cl) 4.08869E+01    0    4.08869E+01  1.00000
-   18  36 ( 36Ar) 2.47145E-01    0    2.47145E-01  1.00000
-   17  36 ( 36Cl) 8.28643E-02    0    8.28643E-02  1.00000
-   16  36 ( 36S ) 3.60839E-03    0    3.60839E-03  1.00000
-   17  35 ( 35Cl) 3.05316E-04    0    3.05316E-04  1.00000
-   16  35 ( 35S ) 1.17656E-09    0    1.17656E-09  1.00000
-   16  34 ( 34S ) 3.87188E+01    0    3.87188E+01  1.00000
-   16  33 ( 33S ) 1.30670E-03    0    1.30670E-03  1.00000
-   15  33 ( 33P ) 1.54560E-07    0    1.54560E-07  1.00000
-   14  30 ( 30Si) 2.30015E-06    0    2.30015E-06  1.00000
+   20  42 ( 42Ca) 3.08016E-03    0    3.08016E-03  1.00000
+   20  41 ( 41Ca) 3.25017E+01    0    3.25017E+01  1.00000
+   19  41 ( 41K ) 3.50291E+01    0    3.50291E+01  1.00000
+   20  40 ( 40Ca) 1.07231E+02    0    1.07231E+02  1.00000
+   19  40 ( 40K ) 6.47921E+02    0    6.47921E+02  1.00000
+   18  40 ( 40Ar) 3.80441E+01    0    3.80441E+01  1.00000
+   19  39 ( 39K ) 2.22228E+01    0    2.22228E+01  1.00000
+   18  39 ( 39Ar) 3.08651E+00    0    3.08651E+00  1.00000
+   18  38 ( 38Ar) 7.88191E+01    0    7.88191E+01  1.00000
+   18  37 ( 37Ar) 2.15951E+02    0    2.15951E+02  1.00000
+   17  37 ( 37Cl) 4.12702E+01    0    4.12702E+01  1.00000
+   18  36 ( 36Ar) 2.46937E-01    0    2.46937E-01  1.00000
+   17  36 ( 36Cl) 8.20494E-02    0    8.20494E-02  1.00000
+   16  36 ( 36S ) 3.54561E-03    0    3.54561E-03  1.00000
+   17  35 ( 35Cl) 3.05313E-04    0    3.05313E-04  1.00000
+   16  35 ( 35S ) 1.07406E-09    0    1.07406E-09  1.00000
+   16  34 ( 34S ) 3.86924E+01    0    3.86924E+01  1.00000
+   16  33 ( 33S ) 1.30500E-03    0    1.30500E-03  1.00000
+   15  33 ( 33P ) 1.53515E-07    0    1.53515E-07  1.00000
+   14  30 ( 30Si) 2.29474E-06    0    2.29474E-06  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.08522E-03
-   41 6.74633E+01
-   40 7.93449E+02
-   39 2.53181E+01
-   38 7.88204E+01
-   37 2.56999E+02
-   36 3.33618E-01
-   35 3.05317E-04
-   34 3.87188E+01
-   33 1.30685E-03
-   30 2.30015E-06
+   42 3.08016E-03
+   41 6.75308E+01
+   40 7.93197E+02
+   39 2.53093E+01
+   38 7.88191E+01
+   37 2.57221E+02
+   36 3.32532E-01
+   35 3.05314E-04
+   34 3.86924E+01
+   33 1.30515E-03
+   30 2.29474E-06
 
- Total residual production cross section:  1261.1075439
+ Total residual production cross section:  1261.1072998
  Non-elastic cross section              :  1259.3513184
 
  8. Discrete state angular distributions
@@ -4131,7 +4131,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.26314E+03
-     Compound elastic= 5.61784E-03
+     Compound elastic= 5.61771E-03
      Non-elastic     = 1.26313E+03
        Direct          = 5.93336E+01
        Pre-equilibrium = 3.99332E+02
@@ -4139,23 +4139,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 3.05041E-01
- neutron = 4.67470E+02
- proton  = 5.02124E+02
+ gamma   = 3.05035E-01
+ neutron = 4.67471E+02
+ proton  = 5.02118E+02
  deuteron= 1.38992E+01
- triton  = 3.76283E+00
- helium-3= 1.28261E+00
- alpha   = 2.74290E+02
+ triton  = 3.76282E+00
+ helium-3= 1.29225E+00
+ alpha   = 2.74287E+02
 
  3. Total particle production cross sections
 
- gamma   = 9.30241E+02    Multiplicity= 7.36454E-01
- neutron = 1.15428E+03    Multiplicity= 9.13823E-01
- proton  = 8.24464E+02    Multiplicity= 6.52713E-01
- deuteron= 1.44034E+01    Multiplicity= 1.14029E-02
- triton  = 3.76967E+00    Multiplicity= 2.98438E-03
- helium-3= 1.28391E+00    Multiplicity= 1.01645E-03
- alpha   = 4.19268E+02    Multiplicity= 3.31927E-01
+ gamma   = 9.28400E+02    Multiplicity= 7.34997E-01
+ neutron = 1.15322E+03    Multiplicity= 9.12985E-01
+ proton  = 8.25180E+02    Multiplicity= 6.53280E-01
+ deuteron= 1.44047E+01    Multiplicity= 1.14039E-02
+ triton  = 3.76964E+00    Multiplicity= 2.98435E-03
+ helium-3= 1.29356E+00    Multiplicity= 1.02409E-03
+ alpha   = 4.19491E+02    Multiplicity= 3.32104E-01
 
  4. Residual production cross sections
 
@@ -4164,47 +4164,47 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.83571E-03    0    1.83571E-03  1.00000
-   20  41 ( 41Ca) 2.94684E+01    0    2.94684E+01  1.00000
-   19  41 ( 41K ) 3.10777E+01    0    3.10777E+01  1.00000
-   20  40 ( 40Ca) 1.03847E+02    0    1.03847E+02  1.00000
-   19  40 ( 40K ) 6.28767E+02    0    6.28767E+02  1.00000
-   18  40 ( 40Ar) 4.22738E+01    0    4.22738E+01  1.00000
-   19  39 ( 39K ) 3.88668E+01    0    3.88668E+01  1.00000
-   18  39 ( 39Ar) 7.31290E+00    0    7.31290E+00  1.00000
-   17  39 ( 39Cl) 1.75756E-12    0    1.75756E-12  1.00000
-   19  38 ( 38K ) 8.01251E-12    0    7.86325E-12  0.98137
+   20  42 ( 42Ca) 1.83134E-03    0    1.83134E-03  1.00000
+   20  41 ( 41Ca) 2.95256E+01    0    2.95256E+01  1.00000
+   19  41 ( 41K ) 3.10765E+01    0    3.10765E+01  1.00000
+   20  40 ( 40Ca) 1.03836E+02    0    1.03836E+02  1.00000
+   19  40 ( 40K ) 6.27950E+02    0    6.27950E+02  1.00000
+   18  40 ( 40Ar) 4.28145E+01    0    4.28145E+01  1.00000
+   19  39 ( 39K ) 3.88266E+01    0    3.88266E+01  1.00000
+   18  39 ( 39Ar) 7.32839E+00    0    7.32839E+00  1.00000
+   17  39 ( 39Cl) 1.56230E-12    0    1.56230E-12  1.00000
+   19  38 ( 38K ) 8.01250E-12    0    7.86324E-12  0.98137
                                  1    1.49262E-13  0.01863   9.24400E-01 sec. 
-   18  38 ( 38Ar) 7.56745E+01    0    7.56745E+01  1.00000
-   18  37 ( 37Ar) 2.23255E+02    0    2.23255E+02  1.00000
-   17  37 ( 37Cl) 4.58574E+01    0    4.58574E+01  1.00000
-   18  36 ( 36Ar) 1.09160E+00    0    1.09160E+00  1.00000
-   17  36 ( 36Cl) 3.16267E-01    0    3.16267E-01  1.00000
-   16  36 ( 36S ) 2.21751E-02    0    2.21751E-02  1.00000
-   17  35 ( 35Cl) 4.77451E-03    0    4.77451E-03  1.00000
-   16  35 ( 35S ) 1.26500E-07    0    1.26500E-07  1.00000
-   16  34 ( 34S ) 3.70983E+01    0    3.70983E+01  1.00000
-   16  33 ( 33S ) 1.82621E-02    0    1.82621E-02  1.00000
-   15  33 ( 33P ) 3.81654E-06    0    3.81654E-06  1.00000
-   14  30 ( 30Si) 2.43617E-05    0    2.43617E-05  1.00000
+   18  38 ( 38Ar) 7.56731E+01    0    7.56731E+01  1.00000
+   18  37 ( 37Ar) 2.23062E+02    0    2.23062E+02  1.00000
+   17  37 ( 37Cl) 4.63481E+01    0    4.63481E+01  1.00000
+   18  36 ( 36Ar) 1.09065E+00    0    1.09065E+00  1.00000
+   17  36 ( 36Cl) 3.09948E-01    0    3.09948E-01  1.00000
+   16  36 ( 36S ) 2.19212E-02    0    2.19212E-02  1.00000
+   17  35 ( 35Cl) 4.77447E-03    0    4.77447E-03  1.00000
+   16  35 ( 35S ) 1.14152E-07    0    1.14152E-07  1.00000
+   16  34 ( 34S ) 3.70655E+01    0    3.70655E+01  1.00000
+   16  33 ( 33S ) 1.82439E-02    0    1.82439E-02  1.00000
+   15  33 ( 33P ) 3.80325E-06    0    3.80325E-06  1.00000
+   14  30 ( 30Si) 2.43193E-05    0    2.43193E-05  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.83571E-03
-   41 6.05460E+01
-   40 7.74888E+02
-   39 4.61797E+01
-   38 7.56745E+01
-   37 2.69113E+02
-   36 1.43005E+00
-   35 4.77464E-03
-   34 3.70983E+01
-   33 1.82659E-02
-   30 2.43617E-05
+   42 1.83134E-03
+   41 6.06021E+01
+   40 7.74601E+02
+   39 4.61550E+01
+   38 7.56731E+01
+   37 2.69410E+02
+   36 1.42252E+00
+   35 4.77459E-03
+   34 3.70655E+01
+   33 1.82477E-02
+   30 2.43193E-05
 
- Total residual production cross section:  1264.9544678
+ Total residual production cross section:  1264.9543457
  Non-elastic cross section              :  1263.1343994
 
  8. Discrete state angular distributions
@@ -4283,7 +4283,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.26923E+03
-     Compound elastic= 2.44899E-03
+     Compound elastic= 2.44895E-03
      Non-elastic     = 1.26923E+03
        Direct          = 6.09774E+01
        Pre-equilibrium = 4.46855E+02
@@ -4291,23 +4291,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 2.77565E-01
- neutron = 4.67725E+02
- proton  = 4.99854E+02
- deuteron= 1.75397E+01
+ gamma   = 2.77563E-01
+ neutron = 4.67724E+02
+ proton  = 4.99851E+02
+ deuteron= 1.75396E+01
  triton  = 5.22288E+00
- helium-3= 1.65227E+00
- alpha   = 2.76956E+02
+ helium-3= 1.65830E+00
+ alpha   = 2.76954E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.02038E+03    Multiplicity= 8.03937E-01
- neutron = 1.18722E+03    Multiplicity= 9.35390E-01
- proton  = 8.63278E+02    Multiplicity= 6.80160E-01
- deuteron= 1.86364E+01    Multiplicity= 1.46833E-02
- triton  = 5.24041E+00    Multiplicity= 4.12882E-03
- helium-3= 1.65732E+00    Multiplicity= 1.30577E-03
- alpha   = 4.38582E+02    Multiplicity= 3.45551E-01
+ gamma   = 1.01827E+03    Multiplicity= 8.02272E-01
+ neutron = 1.18598E+03    Multiplicity= 9.34411E-01
+ proton  = 8.64101E+02    Multiplicity= 6.80808E-01
+ deuteron= 1.86723E+01    Multiplicity= 1.47116E-02
+ triton  = 5.24036E+00    Multiplicity= 4.12878E-03
+ helium-3= 1.66335E+00    Multiplicity= 1.31052E-03
+ alpha   = 4.38800E+02    Multiplicity= 3.45722E-01
 
  4. Residual production cross sections
 
@@ -4316,49 +4316,49 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 6.13135E-04    0    6.13135E-04  1.00000
-   20  41 ( 41Ca) 2.46714E+01    0    2.46714E+01  1.00000
-   19  41 ( 41K ) 2.57065E+01    0    2.57065E+01  1.00000
-   20  40 ( 40Ca) 9.24214E+01    0    9.24214E+01  1.00000
-   19  40 ( 40K ) 5.61771E+02    0    5.61771E+02  1.00000
-   18  40 ( 40Ar) 4.90535E+01    0    4.90535E+01  1.00000
-   19  39 ( 39K ) 8.65460E+01    0    8.65460E+01  1.00000
-   18  39 ( 39Ar) 2.63923E+01    0    2.63923E+01  1.00000
-   17  39 ( 39Cl) 2.32192E-07    0    2.32192E-07  1.00000
-   19  38 ( 38K ) 8.94821E-04    0    8.23339E-04  0.92012
-                                 1    7.14816E-05  0.07988   9.24400E-01 sec. 
-   18  38 ( 38Ar) 7.29316E+01    0    7.29316E+01  1.00000
-   17  38 ( 38Cl) 5.60939E-09    0    5.38098E-09  0.95928
-                                 1    2.28403E-10  0.04072   7.15000E-01 sec. 
-   18  37 ( 37Ar) 2.26597E+02    0    2.26597E+02  1.00000
-   17  37 ( 37Cl) 5.80841E+01    0    5.80841E+01  1.00000
-   18  36 ( 36Ar) 6.69076E+00    0    6.69076E+00  1.00000
-   17  36 ( 36Cl) 3.77652E+00    0    3.77652E+00  1.00000
-   16  36 ( 36S ) 2.50818E-01    0    2.50818E-01  1.00000
-   17  35 ( 35Cl) 7.81853E-02    0    7.81853E-02  1.00000
-   16  35 ( 35S ) 6.81629E-05    0    6.81629E-05  1.00000
-   16  34 ( 34S ) 3.56456E+01    0    3.56456E+01  1.00000
-   16  33 ( 33S ) 5.56194E-01    0    5.56194E-01  1.00000
-   15  33 ( 33P ) 7.73576E-04    0    7.73576E-04  1.00000
-   14  30 ( 30Si) 1.12233E-03    0    1.12233E-03  1.00000
+   20  42 ( 42Ca) 6.10818E-04    0    6.10818E-04  1.00000
+   20  41 ( 41Ca) 2.47143E+01    0    2.47143E+01  1.00000
+   19  41 ( 41K ) 2.57056E+01    0    2.57056E+01  1.00000
+   20  40 ( 40Ca) 9.24116E+01    0    9.24116E+01  1.00000
+   19  40 ( 40K ) 5.60998E+02    0    5.60998E+02  1.00000
+   18  40 ( 40Ar) 4.95216E+01    0    4.95216E+01  1.00000
+   19  39 ( 39K ) 8.63886E+01    0    8.63886E+01  1.00000
+   18  39 ( 39Ar) 2.65666E+01    0    2.65666E+01  1.00000
+   17  39 ( 39Cl) 1.94874E-07    0    1.94874E-07  1.00000
+   19  38 ( 38K ) 8.94819E-04    0    8.23337E-04  0.92012
+                                 1    7.14815E-05  0.07988   9.24400E-01 sec. 
+   18  38 ( 38Ar) 7.29292E+01    0    7.29292E+01  1.00000
+   17  38 ( 38Cl) 5.60804E-09    0    5.37969E-09  0.95928
+                                 1    2.28348E-10  0.04072   7.15000E-01 sec. 
+   18  37 ( 37Ar) 2.26377E+02    0    2.26377E+02  1.00000
+   17  37 ( 37Cl) 5.86862E+01    0    5.86862E+01  1.00000
+   18  36 ( 36Ar) 6.68596E+00    0    6.68596E+00  1.00000
+   17  36 ( 36Cl) 3.69905E+00    0    3.69905E+00  1.00000
+   16  36 ( 36S ) 2.48893E-01    0    2.48893E-01  1.00000
+   17  35 ( 35Cl) 7.81846E-02    0    7.81846E-02  1.00000
+   16  35 ( 35S ) 6.18849E-05    0    6.18849E-05  1.00000
+   16  34 ( 34S ) 3.56063E+01    0    3.56063E+01  1.00000
+   16  33 ( 33S ) 5.55859E-01    0    5.55859E-01  1.00000
+   15  33 ( 33P ) 7.72362E-04    0    7.72362E-04  1.00000
+   14  30 ( 30Si) 1.12139E-03    0    1.12139E-03  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 6.13135E-04
-   41 5.03778E+01
-   40 7.03246E+02
-   39 1.12938E+02
-   38 7.29325E+01
-   37 2.84681E+02
-   36 1.07181E+01
-   35 7.82534E-02
-   34 3.56456E+01
-   33 5.56968E-01
-   30 1.12233E-03
+   42 6.10818E-04
+   41 5.04199E+01
+   40 7.02931E+02
+   39 1.12955E+02
+   38 7.29301E+01
+   37 2.85063E+02
+   36 1.06339E+01
+   35 7.82465E-02
+   34 3.56063E+01
+   33 5.56632E-01
+   30 1.12139E-03
 
- Total residual production cross section:  1271.1761475
+ Total residual production cross section:  1271.1760254
  Non-elastic cross section              :  1269.2275391
 
  8. Discrete state angular distributions
@@ -4437,7 +4437,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.27310E+03
-     Compound elastic= 1.09027E-03
+     Compound elastic= 1.09026E-03
      Non-elastic     = 1.27310E+03
        Direct          = 6.20327E+01
        Pre-equilibrium = 4.89777E+02
@@ -4445,23 +4445,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 2.54049E-01
+ gamma   = 2.54048E-01
  neutron = 4.67463E+02
- proton  = 4.98424E+02
+ proton  = 4.98422E+02
  deuteron= 2.16065E+01
  triton  = 6.87110E+00
- helium-3= 2.70507E+00
- alpha   = 2.75774E+02
+ helium-3= 2.70853E+00
+ alpha   = 2.75773E+02
 
  3. Total particle production cross sections
 
- gamma   = 1.00787E+03    Multiplicity= 7.91668E-01
- neutron = 1.23214E+03    Multiplicity= 9.67827E-01
- proton  = 9.16238E+02    Multiplicity= 7.19691E-01
- deuteron= 2.36590E+01    Multiplicity= 1.85838E-02
- triton  = 6.90881E+00    Multiplicity= 5.42677E-03
- helium-3= 2.71630E+00    Multiplicity= 2.13361E-03
- alpha   = 4.61943E+02    Multiplicity= 3.62849E-01
+ gamma   = 1.00531E+03    Multiplicity= 7.89653E-01
+ neutron = 1.23038E+03    Multiplicity= 9.66449E-01
+ proton  = 9.17961E+02    Multiplicity= 7.21044E-01
+ deuteron= 2.37884E+01    Multiplicity= 1.86854E-02
+ triton  = 6.90873E+00    Multiplicity= 5.42670E-03
+ helium-3= 2.71977E+00    Multiplicity= 2.13634E-03
+ alpha   = 4.61636E+02    Multiplicity= 3.62608E-01
 
  4. Residual production cross sections
 
@@ -4470,50 +4470,50 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.12791E-04    0    2.12791E-04  1.00000
-   20  41 ( 41Ca) 2.01694E+01    0    2.01694E+01  1.00000
-   19  41 ( 41K ) 2.15472E+01    0    2.15472E+01  1.00000
-   20  40 ( 40Ca) 7.92441E+01    0    7.92441E+01  1.00000
-   19  40 ( 40K ) 4.74417E+02    0    4.74417E+02  1.00000
-   18  40 ( 40Ar) 5.02738E+01    0    5.02738E+01  1.00000
+   20  42 ( 42Ca) 2.11789E-04    0    2.11789E-04  1.00000
+   20  41 ( 41Ca) 2.02047E+01    0    2.02047E+01  1.00000
+   19  41 ( 41K ) 2.15466E+01    0    2.15466E+01  1.00000
+   20  40 ( 40Ca) 7.92350E+01    0    7.92350E+01  1.00000
+   19  40 ( 40K ) 4.73705E+02    0    4.73705E+02  1.00000
+   18  40 ( 40Ar) 5.06526E+01    0    5.06526E+01  1.00000
    20  39 ( 39Ca) 1.22131E-02    0    1.22131E-02  1.00000
-   19  39 ( 39K ) 1.43464E+02    0    1.43464E+02  1.00000
-   18  39 ( 39Ar) 5.85915E+01    0    5.85915E+01  1.00000
-   17  39 ( 39Cl) 6.48701E-05    0    6.48701E-05  1.00000
-   19  38 ( 38K ) 4.49290E-02    0    3.61544E-02  0.80470
-                                 1    8.77462E-03  0.19530   9.24400E-01 sec. 
-   18  38 ( 38Ar) 7.24639E+01    0    7.24639E+01  1.00000
-   17  38 ( 38Cl) 6.56332E-06    0    5.27027E-06  0.80299
-                                 1    1.29305E-06  0.19701   7.15000E-01 sec. 
-   18  37 ( 37Ar) 2.11424E+02    0    2.11424E+02  1.00000
-   17  37 ( 37Cl) 6.88343E+01    0    6.88343E+01  1.00000
-   18  36 ( 36Ar) 1.71212E+01    0    1.71212E+01  1.00000
-   17  36 ( 36Cl) 1.81472E+01    0    1.81472E+01  1.00000
-   16  36 ( 36S ) 9.58349E-01    0    9.58349E-01  1.00000
-   17  35 ( 35Cl) 2.46389E-01    0    2.46389E-01  1.00000
-   16  35 ( 35S ) 1.78771E-03    0    1.78771E-03  1.00000
-   16  34 ( 34S ) 3.43955E+01    0    3.43955E+01  1.00000
-   16  33 ( 33S ) 3.74899E+00    0    3.74899E+00  1.00000
-   15  33 ( 33P ) 2.36013E-02    0    2.36013E-02  1.00000
-   14  30 ( 30Si) 1.46109E-02    0    1.46109E-02  1.00000
+   19  39 ( 39K ) 1.42777E+02    0    1.42777E+02  1.00000
+   18  39 ( 39Ar) 5.98595E+01    0    5.98595E+01  1.00000
+   17  39 ( 39Cl) 5.46392E-05    0    5.46392E-05  1.00000
+   19  38 ( 38K ) 4.49289E-02    0    3.61543E-02  0.80470
+                                 1    8.77461E-03  0.19530   9.24400E-01 sec. 
+   18  38 ( 38Ar) 7.24585E+01    0    7.24585E+01  1.00000
+   17  38 ( 38Cl) 6.56239E-06    0    5.26954E-06  0.80299
+                                 1    1.29285E-06  0.19701   7.15000E-01 sec. 
+   18  37 ( 37Ar) 2.11220E+02    0    2.11220E+02  1.00000
+   17  37 ( 37Cl) 6.94137E+01    0    6.94137E+01  1.00000
+   18  36 ( 36Ar) 1.71117E+01    0    1.71117E+01  1.00000
+   17  36 ( 36Cl) 1.75617E+01    0    1.75617E+01  1.00000
+   16  36 ( 36S ) 9.49186E-01    0    9.49186E-01  1.00000
+   17  35 ( 35Cl) 2.46385E-01    0    2.46385E-01  1.00000
+   16  35 ( 35S ) 1.66252E-03    0    1.66252E-03  1.00000
+   16  34 ( 34S ) 3.43578E+01    0    3.43578E+01  1.00000
+   16  33 ( 33S ) 3.74741E+00    0    3.74741E+00  1.00000
+   15  33 ( 33P ) 2.35657E-02    0    2.35657E-02  1.00000
+   14  30 ( 30Si) 1.46048E-02    0    1.46048E-02  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.12791E-04
-   41 4.17166E+01
-   40 6.03935E+02
-   39 2.02068E+02
-   38 7.25089E+01
-   37 2.80258E+02
-   36 3.62267E+01
-   35 2.48176E-01
-   34 3.43955E+01
-   33 3.77259E+00
-   30 1.46109E-02
+   42 2.11789E-04
+   41 4.17514E+01
+   40 6.03593E+02
+   39 2.02648E+02
+   38 7.25034E+01
+   37 2.80634E+02
+   36 3.56226E+01
+   35 2.48048E-01
+   34 3.43578E+01
+   33 3.77098E+00
+   30 1.46048E-02
 
- Total residual production cross section:  1275.1447754
+ Total residual production cross section:  1275.1446533
  Non-elastic cross section              :  1273.0988770
 
  8. Discrete state angular distributions
@@ -4592,7 +4592,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.27515E+03
-     Compound elastic= 4.99515E-04
+     Compound elastic= 4.99512E-04
      Non-elastic     = 1.27515E+03
        Direct          = 6.31511E+01
        Pre-equilibrium = 5.29769E+02
@@ -4600,23 +4600,23 @@ file: aaang.L00
 
  2. Binary non-elastic cross sections (non-exclusive)
 
- gamma   = 2.34136E-01
+ gamma   = 2.34135E-01
  neutron = 4.68183E+02
- proton  = 4.95511E+02
+ proton  = 4.95510E+02
  deuteron= 2.49350E+01
- triton  = 7.89265E+00
- helium-3= 3.26410E+00
- alpha   = 2.75130E+02
+ triton  = 7.89264E+00
+ helium-3= 3.26603E+00
+ alpha   = 2.75129E+02
 
  3. Total particle production cross sections
 
- gamma   = 9.09983E+02    Multiplicity= 7.13629E-01
- neutron = 1.29181E+03    Multiplicity= 1.01307E+00
- proton  = 9.69941E+02    Multiplicity= 7.60649E-01
- deuteron= 2.82234E+01    Multiplicity= 2.21334E-02
- triton  = 7.96837E+00    Multiplicity= 6.24897E-03
- helium-3= 3.28613E+00    Multiplicity= 2.57705E-03
- alpha   = 4.88847E+02    Multiplicity= 3.83364E-01
+ gamma   = 9.06086E+02    Multiplicity= 7.10572E-01
+ neutron = 1.28850E+03    Multiplicity= 1.01047E+00
+ proton  = 9.74161E+02    Multiplicity= 7.63958E-01
+ deuteron= 2.84435E+01    Multiplicity= 2.23060E-02
+ triton  = 7.96825E+00    Multiplicity= 6.24888E-03
+ helium-3= 3.28806E+00    Multiplicity= 2.57857E-03
+ alpha   = 4.87482E+02    Multiplicity= 3.82294E-01
 
  4. Residual production cross sections
 
@@ -4625,52 +4625,52 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 8.12218E-05    0    8.12218E-05  1.00000
-   20  41 ( 41Ca) 1.75297E+01    0    1.75297E+01  1.00000
-   19  41 ( 41K ) 1.81299E+01    0    1.81299E+01  1.00000
-   20  40 ( 40Ca) 6.74400E+01    0    6.74400E+01  1.00000
-   19  40 ( 40K ) 3.83609E+02    0    3.83609E+02  1.00000
-   18  40 ( 40Ar) 4.57350E+01    0    4.57350E+01  1.00000
+   20  42 ( 42Ca) 8.07713E-05    0    8.07713E-05  1.00000
+   20  41 ( 41Ca) 1.75580E+01    0    1.75580E+01  1.00000
+   19  41 ( 41K ) 1.81296E+01    0    1.81296E+01  1.00000
+   20  40 ( 40Ca) 6.74333E+01    0    6.74333E+01  1.00000
+   19  40 ( 40K ) 3.82957E+02    0    3.82957E+02  1.00000
+   18  40 ( 40Ar) 4.60371E+01    0    4.60371E+01  1.00000
    20  39 ( 39Ca) 1.05973E-01    0    1.05973E-01  1.00000
-   19  39 ( 39K ) 2.00270E+02    0    2.00270E+02  1.00000
-   18  39 ( 39Ar) 9.38441E+01    0    9.38441E+01  1.00000
-   17  39 ( 39Cl) 1.50066E-03    0    1.50066E-03  1.00000
+   19  39 ( 39K ) 1.97961E+02    0    1.97961E+02  1.00000
+   18  39 ( 39Ar) 9.78304E+01    0    9.78304E+01  1.00000
+   17  39 ( 39Cl) 1.30146E-03    0    1.30146E-03  1.00000
    19  38 ( 38K ) 1.63266E-01    0    1.18560E-01  0.72618
-                                 1    4.47063E-02  0.27382   9.24400E-01 sec. 
-   18  38 ( 38Ar) 7.41602E+01    0    7.41602E+01  1.00000
-   17  38 ( 38Cl) 3.48027E-04    0    2.30526E-04  0.66238
-                                 1    1.17501E-04  0.33762   7.15000E-01 sec. 
-   18  37 ( 37Ar) 1.83341E+02    0    1.83341E+02  1.00000
-   17  37 ( 37Cl) 7.30431E+01    0    7.30431E+01  1.00000
-   18  36 ( 36Ar) 2.94076E+01    0    2.94076E+01  1.00000
-   17  36 ( 36Cl) 4.43356E+01    0    4.43356E+01  1.00000
-   16  36 ( 36S ) 1.67294E+00    0    1.67294E+00  1.00000
-   17  35 ( 35Cl) 4.46669E-01    0    4.46669E-01  1.00000
-   16  35 ( 35S ) 9.49065E-03    0    9.49065E-03  1.00000
-   16  34 ( 34S ) 3.27400E+01    0    3.27400E+01  1.00000
-   16  33 ( 33S ) 1.10089E+01    0    1.10089E+01  1.00000
-   15  33 ( 33P ) 1.81492E-01    0    1.81492E-01  1.00000
-   16  32 ( 32S ) 5.19276E-10    0    5.19276E-10  1.00000
-   14  30 ( 30Si) 9.67010E-02    0    9.67010E-02  1.00000
+                                 1    4.47062E-02  0.27382   9.24400E-01 sec. 
+   18  38 ( 38Ar) 7.41381E+01    0    7.41381E+01  1.00000
+   17  38 ( 38Cl) 3.48035E-04    0    2.30516E-04  0.66234
+                                 1    1.17519E-04  0.33766   7.15000E-01 sec. 
+   18  37 ( 37Ar) 1.83172E+02    0    1.83172E+02  1.00000
+   17  37 ( 37Cl) 7.35325E+01    0    7.35325E+01  1.00000
+   18  36 ( 36Ar) 2.93869E+01    0    2.93869E+01  1.00000
+   17  36 ( 36Cl) 4.27773E+01    0    4.27773E+01  1.00000
+   16  36 ( 36S ) 1.64488E+00    0    1.64488E+00  1.00000
+   17  35 ( 35Cl) 4.46657E-01    0    4.46657E-01  1.00000
+   16  35 ( 35S ) 9.10305E-03    0    9.10305E-03  1.00000
+   16  34 ( 34S ) 3.27077E+01    0    3.27077E+01  1.00000
+   16  33 ( 33S ) 1.10033E+01    0    1.10033E+01  1.00000
+   15  33 ( 33P ) 1.80964E-01    0    1.80964E-01  1.00000
+   16  32 ( 32S ) 4.91627E-10    0    4.91627E-10  1.00000
+   14  30 ( 30Si) 9.66629E-02    0    9.66629E-02  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 8.12218E-05
-   41 3.56596E+01
-   40 4.96784E+02
-   39 2.94222E+02
-   38 7.43238E+01
-   37 2.56384E+02
-   36 7.54162E+01
-   35 4.56160E-01
-   34 3.27400E+01
-   33 1.11904E+01
-   32 5.19276E-10
-   30 9.67010E-02
+   42 8.07713E-05
+   41 3.56875E+01
+   40 4.96427E+02
+   39 2.95898E+02
+   38 7.43018E+01
+   37 2.56704E+02
+   36 7.38090E+01
+   35 4.55760E-01
+   34 3.27077E+01
+   33 1.11843E+01
+   32 4.91627E-10
+   30 9.66629E-02
 
- Total residual production cross section:  1277.2728271
+ Total residual production cross section:  1277.2725830
  Non-elastic cross section              :  1275.1495361
 
  8. Discrete state angular distributions
@@ -4749,7 +4749,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.27648E+03
-     Compound elastic= 2.37124E-04
+     Compound elastic= 2.37123E-04
      Non-elastic     = 1.27648E+03
        Direct          = 6.63779E+01
        Pre-equilibrium = 5.67720E+02
@@ -4762,18 +4762,18 @@ file: aaang.L00
  proton  = 4.91136E+02
  deuteron= 2.90013E+01
  triton  = 9.51370E+00
- helium-3= 4.48328E+00
- alpha   = 2.74376E+02
+ helium-3= 4.48434E+00
+ alpha   = 2.74375E+02
 
  3. Total particle production cross sections
 
- gamma   = 7.96337E+02    Multiplicity= 6.23854E-01
- neutron = 1.35212E+03    Multiplicity= 1.05926E+00
- proton  = 1.01678E+03    Multiplicity= 7.96551E-01
- deuteron= 3.37552E+01    Multiplicity= 2.64440E-02
- triton  = 9.64843E+00    Multiplicity= 7.55863E-03
- helium-3= 4.52382E+00    Multiplicity= 3.54398E-03
- alpha   = 5.11360E+02    Multiplicity= 4.00601E-01
+ gamma   = 7.89182E+02    Multiplicity= 6.18249E-01
+ neutron = 1.34647E+03    Multiplicity= 1.05483E+00
+ proton  = 1.02413E+03    Multiplicity= 8.02307E-01
+ deuteron= 3.40110E+01    Multiplicity= 2.66444E-02
+ triton  = 9.64829E+00    Multiplicity= 7.55852E-03
+ helium-3= 4.52488E+00    Multiplicity= 3.54481E-03
+ alpha   = 5.09129E+02    Multiplicity= 3.98854E-01
 
  4. Residual production cross sections
 
@@ -4782,51 +4782,51 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.50111E-05    0    3.50111E-05  1.00000
-   20  41 ( 41Ca) 1.50039E+01    0    1.50039E+01  1.00000
-   19  41 ( 41K ) 1.64549E+01    0    1.64549E+01  1.00000
-   20  40 ( 40Ca) 5.77651E+01    0    5.77651E+01  1.00000
-   19  40 ( 40K ) 3.05427E+02    0    3.05427E+02  1.00000
-   18  40 ( 40Ar) 3.92680E+01    0    3.92680E+01  1.00000
+   20  42 ( 42Ca) 3.48404E-05    0    3.48404E-05  1.00000
+   20  41 ( 41Ca) 1.50281E+01    0    1.50281E+01  1.00000
+   19  41 ( 41K ) 1.64546E+01    0    1.64546E+01  1.00000
+   20  40 ( 40Ca) 5.77585E+01    0    5.77585E+01  1.00000
+   19  40 ( 40K ) 3.04860E+02    0    3.04860E+02  1.00000
+   18  40 ( 40Ar) 3.95170E+01    0    3.95170E+01  1.00000
    20  39 ( 39Ca) 2.95611E-01    0    2.95611E-01  1.00000
-   19  39 ( 39K ) 2.49080E+02    0    2.49080E+02  1.00000
-   18  39 ( 39Ar) 1.25209E+02    0    1.25209E+02  1.00000
-   17  39 ( 39Cl) 1.14787E-02    0    1.14787E-02  1.00000
+   19  39 ( 39K ) 2.44390E+02    0    2.44390E+02  1.00000
+   18  39 ( 39Ar) 1.32456E+02    0    1.32456E+02  1.00000
+   17  39 ( 39Cl) 1.05361E-02    0    1.05361E-02  1.00000
    19  38 ( 38K ) 3.34605E-01    0    2.30105E-01  0.68769
                                  1    1.04500E-01  0.31231   9.24400E-01 sec. 
-   18  38 ( 38Ar) 7.87412E+01    0    7.87412E+01  1.00000
-   17  38 ( 38Cl) 3.37405E-03    0    2.00992E-03  0.59570
-                                 1    1.36413E-03  0.40430   7.15000E-01 sec. 
-   18  37 ( 37Ar) 1.51107E+02    0    1.51107E+02  1.00000
-   17  37 ( 37Cl) 6.95201E+01    0    6.95201E+01  1.00000
-   18  36 ( 36Ar) 4.08227E+01    0    4.08227E+01  1.00000
-   17  36 ( 36Cl) 7.56167E+01    0    7.56167E+01  1.00000
-   16  36 ( 36S ) 2.22724E+00    0    2.22724E+00  1.00000
-   17  35 ( 35Cl) 6.68528E-01    0    6.68528E-01  1.00000
-   16  35 ( 35S ) 2.15168E-02    0    2.15168E-02  1.00000
-   16  34 ( 34S ) 2.93743E+01    0    2.93743E+01  1.00000
-   16  33 ( 33S ) 2.09490E+01    0    2.09490E+01  1.00000
-   15  33 ( 33P ) 4.88178E-01    0    4.88178E-01  1.00000
-   16  32 ( 32S ) 2.59695E-06    0    2.59695E-06  1.00000
-   15  32 ( 32P ) 1.09060E-09    0    1.09060E-09  1.00000
-   14  30 ( 30Si) 2.75048E-01    0    2.75048E-01  1.00000
+   18  38 ( 38Ar) 7.86701E+01    0    7.86701E+01  1.00000
+   17  38 ( 38Cl) 3.39282E-03    0    2.01543E-03  0.59403
+                                 1    1.37739E-03  0.40597   7.15000E-01 sec. 
+   18  37 ( 37Ar) 1.50972E+02    0    1.50972E+02  1.00000
+   17  37 ( 37Cl) 6.99111E+01    0    6.99111E+01  1.00000
+   18  36 ( 36Ar) 4.07495E+01    0    4.07495E+01  1.00000
+   17  36 ( 36Cl) 7.33481E+01    0    7.33481E+01  1.00000
+   16  36 ( 36S ) 2.17727E+00    0    2.17727E+00  1.00000
+   17  35 ( 35Cl) 6.68255E-01    0    6.68255E-01  1.00000
+   16  35 ( 35S ) 2.09936E-02    0    2.09936E-02  1.00000
+   16  34 ( 34S ) 2.93483E+01    0    2.93483E+01  1.00000
+   16  33 ( 33S ) 2.09319E+01    0    2.09319E+01  1.00000
+   15  33 ( 33P ) 4.84301E-01    0    4.84301E-01  1.00000
+   16  32 ( 32S ) 2.48161E-06    0    2.48161E-06  1.00000
+   15  32 ( 32P ) 1.08132E-09    0    1.08132E-09  1.00000
+   14  30 ( 30Si) 2.74851E-01    0    2.74851E-01  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.50111E-05
-   41 3.14588E+01
-   40 4.02460E+02
-   39 3.74596E+02
-   38 7.90792E+01
-   37 2.20627E+02
-   36 1.18667E+02
-   35 6.90045E-01
-   34 2.93743E+01
-   33 2.14372E+01
-   32 2.59804E-06
-   30 2.75048E-01
+   42 3.48404E-05
+   41 3.14828E+01
+   40 4.02135E+02
+   39 3.77152E+02
+   38 7.90080E+01
+   37 2.20883E+02
+   36 1.16275E+02
+   35 6.89249E-01
+   34 2.93483E+01
+   33 2.14162E+01
+   32 2.48270E-06
+   30 2.74851E-01
 
  Total residual production cross section:  1278.6643066
  Non-elastic cross section              :  1276.4797363
@@ -4920,18 +4920,18 @@ file: aaang.L00
  proton  = 4.85259E+02
  deuteron= 3.23207E+01
  triton  = 1.05492E+01
- helium-3= 5.97286E+00
+ helium-3= 5.97344E+00
  alpha   = 2.73109E+02
 
  3. Total particle production cross sections
 
- gamma   = 7.13999E+02    Multiplicity= 5.59183E-01
- neutron = 1.41134E+03    Multiplicity= 1.10532E+00
- proton  = 1.05756E+03    Multiplicity= 8.28248E-01
- deuteron= 3.87968E+01    Multiplicity= 3.03845E-02
- triton  = 1.07641E+01    Multiplicity= 8.43012E-03
- helium-3= 6.04045E+00    Multiplicity= 4.73071E-03
- alpha   = 5.28024E+02    Multiplicity= 4.13533E-01
+ gamma   = 7.01999E+02    Multiplicity= 5.49785E-01
+ neutron = 1.40376E+03    Multiplicity= 1.09938E+00
+ proton  = 1.06694E+03    Multiplicity= 8.35599E-01
+ deuteron= 3.90388E+01    Multiplicity= 3.05740E-02
+ triton  = 1.07639E+01    Multiplicity= 8.43000E-03
+ helium-3= 6.04114E+00    Multiplicity= 4.73124E-03
+ alpha   = 5.25587E+02    Multiplicity= 4.11624E-01
 
  4. Residual production cross sections
 
@@ -4940,57 +4940,57 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.71415E-05    0    1.71415E-05  1.00000
-   20  41 ( 41Ca) 1.34285E+01    0    1.34285E+01  1.00000
-   19  41 ( 41K ) 1.38923E+01    0    1.38923E+01  1.00000
-   20  40 ( 40Ca) 4.98750E+01    0    4.98750E+01  1.00000
-   19  40 ( 40K ) 2.47295E+02    0    2.47295E+02  1.00000
-   18  40 ( 40Ar) 3.21196E+01    0    3.21196E+01  1.00000
+   20  42 ( 42Ca) 1.70806E-05    0    1.70806E-05  1.00000
+   20  41 ( 41Ca) 1.34490E+01    0    1.34490E+01  1.00000
+   19  41 ( 41K ) 1.38922E+01    0    1.38922E+01  1.00000
+   20  40 ( 40Ca) 4.98696E+01    0    4.98696E+01  1.00000
+   19  40 ( 40K ) 2.46826E+02    0    2.46826E+02  1.00000
+   18  40 ( 40Ar) 3.23295E+01    0    3.23295E+01  1.00000
    20  39 ( 39Ca) 5.82988E-01    0    5.82988E-01  1.00000
-   19  39 ( 39K ) 2.81925E+02    0    2.81925E+02  1.00000
-   18  39 ( 39Ar) 1.50051E+02    0    1.50051E+02  1.00000
-   17  39 ( 39Cl) 4.68272E-02    0    4.68272E-02  1.00000
-   19  38 ( 38K ) 5.80263E-01    0    3.97658E-01  0.68531
-                                 1    1.82605E-01  0.31469   9.24400E-01 sec. 
-   18  38 ( 38Ar) 8.81728E+01    0    8.81728E+01  1.00000
-   17  38 ( 38Cl) 1.27986E-02    0    7.48580E-03  0.58489
-                                 1    5.31281E-03  0.41511   7.15000E-01 sec. 
-   18  37 ( 37Ar) 1.20584E+02    0    1.20584E+02  1.00000
-   17  37 ( 37Cl) 6.06023E+01    0    6.06023E+01  1.00000
-   18  36 ( 36Ar) 5.20948E+01    0    5.20948E+01  1.00000
-   17  36 ( 36Cl) 1.07302E+02    0    1.07302E+02  1.00000
-   16  36 ( 36S ) 2.46717E+00    0    2.46717E+00  1.00000
-   17  35 ( 35Cl) 1.10399E+00    0    1.10399E+00  1.00000
-   16  35 ( 35S ) 4.14362E-02    0    4.14362E-02  1.00000
-   16  34 ( 34S ) 2.56030E+01    0    2.56030E+01  1.00000
-   16  33 ( 33S ) 2.97982E+01    0    2.97982E+01  1.00000
-   15  33 ( 33P ) 9.18841E-01    0    9.18841E-01  1.00000
-   16  32 ( 32S ) 3.96669E-04    0    3.96669E-04  1.00000
-   15  32 ( 32P ) 1.15856E-06    0    1.15856E-06  1.00000
-   15  31 ( 31P ) 7.10340E-10    0    7.10340E-10  1.00000
-   14  30 ( 30Si) 5.97405E-01    0    5.97405E-01  1.00000
-   14  29 ( 29Si) 7.98905E-10    0    7.98905E-10  1.00000
+   19  39 ( 39K ) 2.75407E+02    0    2.75407E+02  1.00000
+   18  39 ( 39Ar) 1.59403E+02    0    1.59403E+02  1.00000
+   17  39 ( 39Cl) 4.72261E-02    0    4.72261E-02  1.00000
+   19  38 ( 38K ) 5.80249E-01    0    3.97646E-01  0.68530
+                                 1    1.82603E-01  0.31470   9.24400E-01 sec. 
+   18  38 ( 38Ar) 8.79807E+01    0    8.79807E+01  1.00000
+   17  38 ( 38Cl) 1.33500E-02    0    7.67748E-03  0.57509
+                                 1    5.67248E-03  0.42491   7.15000E-01 sec. 
+   18  37 ( 37Ar) 1.20478E+02    0    1.20478E+02  1.00000
+   17  37 ( 37Cl) 6.09085E+01    0    6.09085E+01  1.00000
+   18  36 ( 36Ar) 5.18742E+01    0    5.18742E+01  1.00000
+   17  36 ( 36Cl) 1.05039E+02    0    1.05039E+02  1.00000
+   16  36 ( 36S ) 2.39147E+00    0    2.39147E+00  1.00000
+   17  35 ( 35Cl) 1.10144E+00    0    1.10144E+00  1.00000
+   16  35 ( 35S ) 4.09210E-02    0    4.09210E-02  1.00000
+   16  34 ( 34S ) 2.55824E+01    0    2.55824E+01  1.00000
+   16  33 ( 33S ) 2.97981E+01    0    2.97981E+01  1.00000
+   15  33 ( 33P ) 9.04544E-01    0    9.04544E-01  1.00000
+   16  32 ( 32S ) 3.81263E-04    0    3.81263E-04  1.00000
+   15  32 ( 32P ) 1.15292E-06    0    1.15292E-06  1.00000
+   15  31 ( 31P ) 7.10328E-10    0    7.10328E-10  1.00000
+   14  30 ( 30Si) 5.95618E-01    0    5.95618E-01  1.00000
+   14  29 ( 29Si) 6.88302E-10    0    6.88302E-10  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.71415E-05
-   41 2.73208E+01
-   40 3.29290E+02
-   39 4.32606E+02
-   38 8.87659E+01
-   37 1.81186E+02
-   36 1.61864E+02
-   35 1.14543E+00
-   34 2.56030E+01
-   33 3.07171E+01
-   32 3.97828E-04
-   31 7.10340E-10
-   30 5.97405E-01
-   29 7.98905E-10
+   42 1.70806E-05
+   41 2.73412E+01
+   40 3.29025E+02
+   39 4.35440E+02
+   38 8.85743E+01
+   37 1.81387E+02
+   36 1.59305E+02
+   35 1.14236E+00
+   34 2.55824E+01
+   33 3.07027E+01
+   32 3.82416E-04
+   31 7.10328E-10
+   30 5.95618E-01
+   29 6.88302E-10
 
- Total residual production cross section:  1279.0958252
+ Total residual production cross section:  1279.0957031
  Non-elastic cross section              :  1276.8598633
 
  8. Discrete state angular distributions
@@ -5069,7 +5069,7 @@ file: aaang.L00
  1. Total (binary) cross sections
 
    Reaction        = 1.27634E+03
-     Compound elastic= 5.62270E-05
+     Compound elastic= 5.62269E-05
      Non-elastic     = 1.27634E+03
        Direct          = 7.03972E+01
        Pre-equilibrium = 6.38983E+02
@@ -5082,18 +5082,18 @@ file: aaang.L00
  proton  = 4.77698E+02
  deuteron= 3.60114E+01
  triton  = 1.20240E+01
- helium-3= 6.75010E+00
- alpha   = 2.73577E+02
+ helium-3= 6.75042E+00
+ alpha   = 2.73576E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.78097E+02    Multiplicity= 5.31282E-01
- neutron = 1.45763E+03    Multiplicity= 1.14204E+00
- proton  = 1.09410E+03    Multiplicity= 8.57219E-01
- deuteron= 4.44804E+01    Multiplicity= 3.48500E-02
- triton  = 1.23372E+01    Multiplicity= 9.66608E-03
- helium-3= 6.85274E+00    Multiplicity= 5.36905E-03
- alpha   = 5.41858E+02    Multiplicity= 4.24540E-01
+ gamma   = 6.61245E+02    Multiplicity= 5.18079E-01
+ neutron = 1.44910E+03    Multiplicity= 1.13535E+00
+ proton  = 1.10379E+03    Multiplicity= 8.64812E-01
+ deuteron= 4.46863E+01    Multiplicity= 3.50113E-02
+ triton  = 1.23371E+01    Multiplicity= 9.66596E-03
+ helium-3= 6.85367E+00    Multiplicity= 5.36979E-03
+ alpha   = 5.39849E+02    Multiplicity= 4.22967E-01
 
  4. Residual production cross sections
 
@@ -5102,60 +5102,60 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 8.81188E-06    0    8.81188E-06  1.00000
-   20  41 ( 41Ca) 1.16857E+01    0    1.16857E+01  1.00000
-   19  41 ( 41K ) 1.20047E+01    0    1.20047E+01  1.00000
-   20  40 ( 40Ca) 4.35404E+01    0    4.35404E+01  1.00000
-   19  40 ( 40K ) 2.06417E+02    0    2.06417E+02  1.00000
-   18  40 ( 40Ar) 2.63788E+01    0    2.63788E+01  1.00000
+   20  42 ( 42Ca) 8.78522E-06    0    8.78522E-06  1.00000
+   20  41 ( 41Ca) 1.17034E+01    0    1.17034E+01  1.00000
+   19  41 ( 41K ) 1.20046E+01    0    1.20046E+01  1.00000
+   20  40 ( 40Ca) 4.35360E+01    0    4.35360E+01  1.00000
+   19  40 ( 40K ) 2.06036E+02    0    2.06036E+02  1.00000
+   18  40 ( 40Ar) 2.65757E+01    0    2.65757E+01  1.00000
    20  39 ( 39Ca) 9.98078E-01    0    9.98078E-01  1.00000
-   19  39 ( 39K ) 2.93957E+02    0    2.93957E+02  1.00000
-   18  39 ( 39Ar) 1.65747E+02    0    1.65747E+02  1.00000
-   17  39 ( 39Cl) 1.20778E-01    0    1.20778E-01  1.00000
-   19  38 ( 38K ) 9.03836E-01    0    6.35823E-01  0.70347
-                                 1    2.68013E-01  0.29653   9.24400E-01 sec. 
-   18  38 ( 38Ar) 1.06704E+02    0    1.06704E+02  1.00000
-   17  38 ( 38Cl) 3.03796E-02    0    1.79436E-02  0.59065
-                                 1    1.24360E-02  0.40935   7.15000E-01 sec. 
-   18  37 ( 37Ar) 9.69715E+01    0    9.69715E+01  1.00000
-   17  37 ( 37Cl) 4.98831E+01    0    4.98831E+01  1.00000
-   18  36 ( 36Ar) 6.20584E+01    0    6.20584E+01  1.00000
-   17  36 ( 36Cl) 1.34753E+02    0    1.34753E+02  1.00000
-   16  36 ( 36S ) 3.43819E+00    0    3.43819E+00  1.00000
-   17  35 ( 35Cl) 2.47132E+00    0    2.47132E+00  1.00000
-   16  35 ( 35S ) 9.14366E-02    0    9.14366E-02  1.00000
-   17  34 ( 34Cl) 1.02525E-09    0    6.03569E-11  0.05887
-                                 1    9.64894E-10  0.94113   1.91900E+03 sec. 
-   16  34 ( 34S ) 2.08893E+01    0    2.08893E+01  1.00000
-   16  33 ( 33S ) 3.73402E+01    0    3.73402E+01  1.00000
-   15  33 ( 33P ) 1.31889E+00    0    1.31889E+00  1.00000
-   16  32 ( 32S ) 1.07832E-02    0    1.07832E-02  1.00000
-   15  32 ( 32P ) 1.16601E-04    0    1.16601E-04  1.00000
-   14  32 ( 32Si) 1.08882E-10    0    1.08882E-10  1.00000
-   15  31 ( 31P ) 7.06460E-07    0    7.06460E-07  1.00000
-   14  30 ( 30Si) 9.07611E-01    0    9.07611E-01  1.00000
-   14  29 ( 29Si) 7.69615E-07    0    7.69615E-07  1.00000
+   19  39 ( 39K ) 2.86892E+02    0    2.86892E+02  1.00000
+   18  39 ( 39Ar) 1.75488E+02    0    1.75488E+02  1.00000
+   17  39 ( 39Cl) 1.33972E-01    0    1.33972E-01  1.00000
+   19  38 ( 38K ) 9.03711E-01    0    6.35721E-01  0.70346
+                                 1    2.67990E-01  0.29654   9.24400E-01 sec. 
+   18  38 ( 38Ar) 1.06269E+02    0    1.06269E+02  1.00000
+   17  38 ( 38Cl) 3.37218E-02    0    1.92325E-02  0.57033
+                                 1    1.44892E-02  0.42967   7.15000E-01 sec. 
+   18  37 ( 37Ar) 9.68860E+01    0    9.68860E+01  1.00000
+   17  37 ( 37Cl) 5.01294E+01    0    5.01294E+01  1.00000
+   18  36 ( 36Ar) 6.15871E+01    0    6.15871E+01  1.00000
+   17  36 ( 36Cl) 1.32971E+02    0    1.32971E+02  1.00000
+   16  36 ( 36S ) 3.37445E+00    0    3.37445E+00  1.00000
+   17  35 ( 35Cl) 2.45578E+00    0    2.45578E+00  1.00000
+   16  35 ( 35S ) 9.12313E-02    0    9.12313E-02  1.00000
+   17  34 ( 34Cl) 1.02516E-09    0    6.03217E-11  0.05884
+                                 1    9.64834E-10  0.94116   1.91900E+03 sec. 
+   16  34 ( 34S ) 2.08730E+01    0    2.08730E+01  1.00000
+   16  33 ( 33S ) 3.74820E+01    0    3.74820E+01  1.00000
+   15  33 ( 33P ) 1.28677E+00    0    1.28677E+00  1.00000
+   16  32 ( 32S ) 1.03892E-02    0    1.03892E-02  1.00000
+   15  32 ( 32P ) 1.16171E-04    0    1.16171E-04  1.00000
+   14  32 ( 32Si) 1.07140E-10    0    1.07140E-10  1.00000
+   15  31 ( 31P ) 7.06445E-07    0    7.06445E-07  1.00000
+   14  30 ( 30Si) 8.99983E-01    0    8.99983E-01  1.00000
+   14  29 ( 29Si) 6.80010E-07    0    6.80010E-07  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 8.81188E-06
-   41 2.36903E+01
-   40 2.76336E+02
-   39 4.60823E+02
-   38 1.07638E+02
-   37 1.46855E+02
-   36 2.00249E+02
-   35 2.56276E+00
-   34 2.08893E+01
-   33 3.86591E+01
-   32 1.08998E-02
-   31 7.06460E-07
-   30 9.07611E-01
-   29 7.69615E-07
+   42 8.78522E-06
+   41 2.37080E+01
+   40 2.76148E+02
+   39 4.63512E+02
+   38 1.07207E+02
+   37 1.47015E+02
+   36 1.97933E+02
+   35 2.54701E+00
+   34 2.08730E+01
+   33 3.87687E+01
+   32 1.05054E-02
+   31 7.06445E-07
+   30 8.99983E-01
+   29 6.80010E-07
 
- Total residual production cross section:  1278.6215820
+ Total residual production cross section:  1278.6214600
  Non-elastic cross section              :  1276.3399658
 
  8. Discrete state angular distributions
@@ -5247,18 +5247,18 @@ file: aaang.L00
  proton  = 4.73698E+02
  deuteron= 3.95792E+01
  triton  = 1.34118E+01
- helium-3= 8.09594E+00
+ helium-3= 8.09612E+00
  alpha   = 2.70538E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.69245E+02    Multiplicity= 5.24672E-01
- neutron = 1.50311E+03    Multiplicity= 1.17840E+00
- proton  = 1.13334E+03    Multiplicity= 8.88513E-01
- deuteron= 5.03809E+01    Multiplicity= 3.94974E-02
- triton  = 1.38453E+01    Multiplicity= 1.08544E-02
- helium-3= 8.24387E+00    Multiplicity= 6.46299E-03
- alpha   = 5.50756E+02    Multiplicity= 4.31779E-01
+ gamma   = 6.48366E+02    Multiplicity= 5.08303E-01
+ neutron = 1.49437E+03    Multiplicity= 1.17155E+00
+ proton  = 1.14211E+03    Multiplicity= 8.95388E-01
+ deuteron= 5.05478E+01    Multiplicity= 3.96282E-02
+ triton  = 1.38452E+01    Multiplicity= 1.08543E-02
+ helium-3= 8.24565E+00    Multiplicity= 6.46439E-03
+ alpha   = 5.49577E+02    Multiplicity= 4.30855E-01
 
  4. Residual production cross sections
 
@@ -5267,62 +5267,62 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 4.76900E-06    0    4.76900E-06  1.00000
-   20  41 ( 41Ca) 9.13171E+00    0    9.13171E+00  1.00000
-   19  41 ( 41K ) 1.09018E+01    0    1.09018E+01  1.00000
-   20  40 ( 40Ca) 3.84714E+01    0    3.84714E+01  1.00000
-   19  40 ( 40K ) 1.72987E+02    0    1.72987E+02  1.00000
-   18  40 ( 40Ar) 2.16211E+01    0    2.16211E+01  1.00000
+   20  42 ( 42Ca) 4.75894E-06    0    4.75894E-06  1.00000
+   20  41 ( 41Ca) 9.14661E+00    0    9.14661E+00  1.00000
+   19  41 ( 41K ) 1.09017E+01    0    1.09017E+01  1.00000
+   20  40 ( 40Ca) 3.84675E+01    0    3.84675E+01  1.00000
+   19  40 ( 40K ) 1.72685E+02    0    1.72685E+02  1.00000
+   18  40 ( 40Ar) 2.17917E+01    0    2.17917E+01  1.00000
    20  39 ( 39Ca) 1.47880E+00    0    1.47880E+00  1.00000
-   19  39 ( 39K ) 2.95368E+02    0    2.95368E+02  1.00000
-   18  39 ( 39Ar) 1.74415E+02    0    1.74415E+02  1.00000
-   17  39 ( 39Cl) 2.35433E-01    0    2.35433E-01  1.00000
-   19  38 ( 38K ) 1.50112E+00    0    1.10221E+00  0.73426
-                                 1    3.98907E-01  0.26574   9.24400E-01 sec. 
-   18  38 ( 38Ar) 1.34816E+02    0    1.34816E+02  1.00000
-   17  38 ( 38Cl) 6.22895E-02    0    3.65655E-02  0.58703
-                                 1    2.57239E-02  0.41297   7.15000E-01 sec. 
+   19  39 ( 39K ) 2.88702E+02    0    2.88702E+02  1.00000
+   18  39 ( 39Ar) 1.83403E+02    0    1.83403E+02  1.00000
+   17  39 ( 39Cl) 2.78470E-01    0    2.78470E-01  1.00000
+   19  38 ( 38K ) 1.50069E+00    0    1.10186E+00  0.73424
+                                 1    3.98827E-01  0.26576   9.24400E-01 sec. 
+   18  38 ( 38Ar) 1.34077E+02    0    1.34077E+02  1.00000
+   17  38 ( 38Cl) 7.08650E-02    0    4.01023E-02  0.56590
+                                 1    3.07627E-02  0.43410   7.15000E-01 sec. 
    19  37 ( 37K ) 6.86591E-10    0    6.86591E-10  1.00000
-   18  37 ( 37Ar) 7.81413E+01    0    7.81413E+01  1.00000
-   17  37 ( 37Cl) 3.93791E+01    0    3.93791E+01  1.00000
-   18  36 ( 36Ar) 6.85585E+01    0    6.85585E+01  1.00000
-   17  36 ( 36Cl) 1.58373E+02    0    1.58373E+02  1.00000
-   16  36 ( 36S ) 3.34167E+00    0    3.34167E+00  1.00000
-   18  35 ( 35Ar) 1.62554E-07    0    1.62554E-07  1.00000
-   17  35 ( 35Cl) 6.59985E+00    0    6.59985E+00  1.00000
-   16  35 ( 35S ) 2.57366E-01    0    2.57366E-01  1.00000
-   15  35 ( 35P ) 1.32773E-11    0    1.32773E-11  1.00000
-   17  34 ( 34Cl) 3.99340E-06    0    3.13346E-07  0.07847
-                                 1    3.68006E-06  0.92153   1.91900E+03 sec. 
-   16  34 ( 34S ) 1.68845E+01    0    1.68845E+01  1.00000
-   16  33 ( 33S ) 4.22792E+01    0    4.22792E+01  1.00000
-   15  33 ( 33P ) 1.81981E+00    0    1.81981E+00  1.00000
-   16  32 ( 32S ) 1.00445E-01    0    1.00445E-01  1.00000
-   15  32 ( 32P ) 2.66405E-03    0    2.66405E-03  1.00000
-   14  32 ( 32Si) 6.32261E-08    0    6.32261E-08  1.00000
-   15  31 ( 31P ) 6.58752E-05    0    6.58752E-05  1.00000
-   14  31 ( 31Si) 1.24450E-10    0    1.24450E-10  1.00000
-   14  30 ( 30Si) 1.12655E+00    0    1.12655E+00  1.00000
-   14  29 ( 29Si) 8.90345E-05    0    8.90345E-05  1.00000
+   18  37 ( 37Ar) 7.80711E+01    0    7.80711E+01  1.00000
+   17  37 ( 37Cl) 3.95781E+01    0    3.95781E+01  1.00000
+   18  36 ( 36Ar) 6.77998E+01    0    6.77998E+01  1.00000
+   17  36 ( 36Cl) 1.57198E+02    0    1.57198E+02  1.00000
+   16  36 ( 36S ) 3.34704E+00    0    3.34704E+00  1.00000
+   18  35 ( 35Ar) 1.62036E-07    0    1.62036E-07  1.00000
+   17  35 ( 35Cl) 6.53597E+00    0    6.53597E+00  1.00000
+   16  35 ( 35S ) 2.54362E-01    0    2.54362E-01  1.00000
+   15  35 ( 35P ) 1.23732E-11    0    1.23732E-11  1.00000
+   17  34 ( 34Cl) 3.99300E-06    0    3.13222E-07  0.07844
+                                 1    3.67978E-06  0.92156   1.91900E+03 sec. 
+   16  34 ( 34S ) 1.68708E+01    0    1.68708E+01  1.00000
+   16  33 ( 33S ) 4.27151E+01    0    4.27151E+01  1.00000
+   15  33 ( 33P ) 1.77023E+00    0    1.77023E+00  1.00000
+   16  32 ( 32S ) 9.71039E-02    0    9.71039E-02  1.00000
+   15  32 ( 32P ) 2.64817E-03    0    2.64817E-03  1.00000
+   14  32 ( 32Si) 6.24935E-08    0    6.24935E-08  1.00000
+   15  31 ( 31P ) 6.58736E-05    0    6.58736E-05  1.00000
+   14  31 ( 31Si) 1.23146E-10    0    1.23146E-10  1.00000
+   14  30 ( 30Si) 1.10865E+00    0    1.10865E+00  1.00000
+   14  29 ( 29Si) 8.04462E-05    0    8.04462E-05  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 4.76900E-06
-   41 2.00335E+01
-   40 2.33079E+02
-   39 4.71497E+02
-   38 1.36380E+02
-   37 1.17520E+02
-   36 2.30273E+02
-   35 6.85721E+00
-   34 1.68845E+01
-   33 4.40990E+01
-   32 1.03109E-01
-   31 6.58753E-05
-   30 1.12655E+00
-   29 8.90345E-05
+   42 4.75894E-06
+   41 2.00483E+01
+   40 2.32944E+02
+   39 4.73862E+02
+   38 1.35649E+02
+   37 1.17649E+02
+   36 2.28345E+02
+   35 6.79033E+00
+   34 1.68708E+01
+   33 4.44853E+01
+   32 9.97521E-02
+   31 6.58738E-05
+   30 1.10865E+00
+   29 8.04462E-05
 
  Total residual production cross section:  1277.8525391
  Non-elastic cross section              :  1275.5500488
@@ -5416,18 +5416,18 @@ file: aaang.L00
  proton  = 4.70174E+02
  deuteron= 4.29599E+01
  triton  = 1.48652E+01
- helium-3= 8.70177E+00
+ helium-3= 8.70187E+00
  alpha   = 2.67534E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.79050E+02    Multiplicity= 5.32852E-01
- neutron = 1.53803E+03    Multiplicity= 1.20690E+00
- proton  = 1.17534E+03    Multiplicity= 9.22288E-01
- deuteron= 5.64206E+01    Multiplicity= 4.42734E-02
- triton  = 1.54479E+01    Multiplicity= 1.21220E-02
- helium-3= 8.90966E+00    Multiplicity= 6.99142E-03
- alpha   = 5.59106E+02    Multiplicity= 4.38732E-01
+ gamma   = 6.55898E+02    Multiplicity= 5.14684E-01
+ neutron = 1.52936E+03    Multiplicity= 1.20009E+00
+ proton  = 1.18268E+03    Multiplicity= 9.28053E-01
+ deuteron= 5.65531E+01    Multiplicity= 4.43773E-02
+ triton  = 1.54478E+01    Multiplicity= 1.21219E-02
+ helium-3= 8.91234E+00    Multiplicity= 6.99353E-03
+ alpha   = 5.58818E+02    Multiplicity= 4.38505E-01
 
  4. Residual production cross sections
 
@@ -5436,70 +5436,70 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.98939E-06    0    2.98939E-06  1.00000
-   20  41 ( 41Ca) 8.14609E+00    0    8.14609E+00  1.00000
-   19  41 ( 41K ) 9.36174E+00    0    9.36174E+00  1.00000
-   20  40 ( 40Ca) 3.35823E+01    0    3.35823E+01  1.00000
-   19  40 ( 40K ) 1.51666E+02    0    1.51666E+02  1.00000
-   18  40 ( 40Ar) 1.92821E+01    0    1.92821E+01  1.00000
+   20  42 ( 42Ca) 2.98394E-06    0    2.98394E-06  1.00000
+   20  41 ( 41Ca) 8.15989E+00    0    8.15989E+00  1.00000
+   19  41 ( 41K ) 9.36168E+00    0    9.36168E+00  1.00000
+   20  40 ( 40Ca) 3.35789E+01    0    3.35789E+01  1.00000
+   19  40 ( 40K ) 1.51412E+02    0    1.51412E+02  1.00000
+   18  40 ( 40Ar) 1.94385E+01    0    1.94385E+01  1.00000
    20  39 ( 39Ca) 1.88758E+00    0    1.88758E+00  1.00000
-   19  39 ( 39K ) 2.80043E+02    0    2.80043E+02  1.00000
-   18  39 ( 39Ar) 1.72583E+02    0    1.72583E+02  1.00000
-   17  39 ( 39Cl) 3.88454E-01    0    3.88454E-01  1.00000
-   19  38 ( 38K ) 2.74287E+00    0    2.07602E+00  0.75688
-                                 1    6.66853E-01  0.24312   9.24400E-01 sec. 
-   18  38 ( 38Ar) 1.72449E+02    0    1.72449E+02  1.00000
-   17  38 ( 38Cl) 1.26410E-01    0    7.23042E-02  0.57198
-                                 1    5.41057E-02  0.42802   7.15000E-01 sec. 
-   16  38 ( 38S ) 7.97654E-10    0    7.97654E-10  1.00000
+   19  39 ( 39K ) 2.74277E+02    0    2.74277E+02  1.00000
+   18  39 ( 39Ar) 1.80397E+02    0    1.80397E+02  1.00000
+   17  39 ( 39Cl) 4.69488E-01    0    4.69488E-01  1.00000
+   19  38 ( 38K ) 2.74187E+00    0    2.07520E+00  0.75685
+                                 1    6.66676E-01  0.24315   9.24400E-01 sec. 
+   18  38 ( 38Ar) 1.71335E+02    0    1.71335E+02  1.00000
+   17  38 ( 38Cl) 1.40776E-01    0    7.84819E-02  0.55749
+                                 1    6.22941E-02  0.44251   7.15000E-01 sec. 
+   16  38 ( 38S ) 6.72899E-10    0    6.72899E-10  1.00000
    19  37 ( 37K ) 1.00658E-05    0    1.00658E-05  1.00000
-   18  37 ( 37Ar) 6.39679E+01    0    6.39679E+01  1.00000
-   17  37 ( 37Cl) 3.25959E+01    0    3.25959E+01  1.00000
-   16  37 ( 37S ) 4.19972E-10    0    4.19972E-10  1.00000
-   18  36 ( 36Ar) 7.19724E+01    0    7.19724E+01  1.00000
-   17  36 ( 36Cl) 1.71678E+02    0    1.71678E+02  1.00000
-   16  36 ( 36S ) 4.51593E+00    0    4.51593E+00  1.00000
-   18  35 ( 35Ar) 5.64823E-05    0    5.64823E-05  1.00000
-   17  35 ( 35Cl) 1.56884E+01    0    1.56884E+01  1.00000
-   16  35 ( 35S ) 7.49661E-01    0    7.49661E-01  1.00000
-   15  35 ( 35P ) 9.00339E-09    0    9.00339E-09  1.00000
-   17  34 ( 34Cl) 2.82154E-04    0    4.20764E-05  0.14913
-                                 1    2.40077E-04  0.85087   1.91900E+03 sec. 
-   16  34 ( 34S ) 1.39035E+01    0    1.39035E+01  1.00000
-   15  34 ( 34P ) 3.08993E-10    0    3.08993E-10  1.00000
-   16  33 ( 33S ) 4.51419E+01    0    4.51419E+01  1.00000
-   15  33 ( 33P ) 2.43642E+00    0    2.43642E+00  1.00000
-   16  32 ( 32S ) 5.18531E-01    0    5.18531E-01  1.00000
-   15  32 ( 32P ) 2.67907E-02    0    2.67907E-02  1.00000
-   14  32 ( 32Si) 6.14954E-06    0    6.14954E-06  1.00000
-   15  31 ( 31P ) 1.15136E-03    0    1.15136E-03  1.00000
-   14  31 ( 31Si) 4.06499E-08    0    4.06499E-08  1.00000
-   14  30 ( 30Si) 1.23485E+00    0    1.23485E+00  1.00000
-   14  29 ( 29Si) 2.25486E-03    0    2.25486E-03  1.00000
-   13  29 ( 29Al) 5.13830E-12    0    5.13830E-12  1.00000
-   12  26 ( 26Mg) 1.66389E-12    0    1.66389E-12  1.00000
+   18  37 ( 37Ar) 6.39081E+01    0    6.39081E+01  1.00000
+   17  37 ( 37Cl) 3.27603E+01    0    3.27603E+01  1.00000
+   16  37 ( 37S ) 4.10359E-10    0    4.10359E-10  1.00000
+   18  36 ( 36Ar) 7.09807E+01    0    7.09807E+01  1.00000
+   17  36 ( 36Cl) 1.70976E+02    0    1.70976E+02  1.00000
+   16  36 ( 36S ) 4.67335E+00    0    4.67335E+00  1.00000
+   18  35 ( 35Ar) 5.63362E-05    0    5.63362E-05  1.00000
+   17  35 ( 35Cl) 1.55167E+01    0    1.55167E+01  1.00000
+   16  35 ( 35S ) 7.32634E-01    0    7.32634E-01  1.00000
+   15  35 ( 35P ) 7.83005E-09    0    7.83005E-09  1.00000
+   17  34 ( 34Cl) 2.82109E-04    0    4.20622E-05  0.14910
+                                 1    2.40047E-04  0.85090   1.91900E+03 sec. 
+   16  34 ( 34S ) 1.38907E+01    0    1.38907E+01  1.00000
+   15  34 ( 34P ) 3.03727E-10    0    3.03727E-10  1.00000
+   16  33 ( 33S ) 4.59357E+01    0    4.59357E+01  1.00000
+   15  33 ( 33P ) 2.38159E+00    0    2.38159E+00  1.00000
+   16  32 ( 32S ) 5.03129E-01    0    5.03129E-01  1.00000
+   15  32 ( 32P ) 2.65062E-02    0    2.65062E-02  1.00000
+   14  32 ( 32Si) 6.08323E-06    0    6.08323E-06  1.00000
+   15  31 ( 31P ) 1.15132E-03    0    1.15132E-03  1.00000
+   14  31 ( 31Si) 4.03344E-08    0    4.03344E-08  1.00000
+   14  30 ( 30Si) 1.20359E+00    0    1.20359E+00  1.00000
+   14  29 ( 29Si) 2.08041E-03    0    2.08041E-03  1.00000
+   13  29 ( 29Al) 5.09507E-12    0    5.09507E-12  1.00000
+   12  26 ( 26Mg) 1.62544E-12    0    1.62544E-12  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.98939E-06
-   41 1.75078E+01
-   40 2.04530E+02
-   39 4.54902E+02
-   38 1.75318E+02
-   37 9.65638E+01
-   36 2.48166E+02
-   35 1.64381E+01
-   34 1.39038E+01
-   33 4.75783E+01
-   32 5.45328E-01
-   31 1.15140E-03
-   30 1.23485E+00
-   29 2.25486E-03
-   26 1.66389E-12
+   42 2.98394E-06
+   41 1.75216E+01
+   40 2.04429E+02
+   39 4.57031E+02
+   38 1.74218E+02
+   37 9.66684E+01
+   36 2.46630E+02
+   35 1.62494E+01
+   34 1.38910E+01
+   33 4.83173E+01
+   32 5.29641E-01
+   31 1.15136E-03
+   30 1.20359E+00
+   29 2.08041E-03
+   26 1.62544E-12
 
- Total residual production cross section:  1276.6922607
+ Total residual production cross section:  1276.6927490
  Non-elastic cross section              :  1274.3699951
 
  8. Discrete state angular distributions
@@ -5596,13 +5596,13 @@ file: aaang.L00
 
  3. Total particle production cross sections
 
- gamma   = 6.68316E+02    Multiplicity= 5.25038E-01
- neutron = 1.58606E+03    Multiplicity= 1.24603E+00
- proton  = 1.21614E+03    Multiplicity= 9.55418E-01
- deuteron= 6.19756E+01    Multiplicity= 4.86889E-02
- triton  = 1.63834E+01    Multiplicity= 1.28710E-02
- helium-3= 1.03850E+01    Multiplicity= 8.15859E-03
- alpha   = 5.65933E+02    Multiplicity= 4.44605E-01
+ gamma   = 6.44667E+02    Multiplicity= 5.06459E-01
+ neutron = 1.57762E+03    Multiplicity= 1.23940E+00
+ proton  = 1.22211E+03    Multiplicity= 9.60105E-01
+ deuteron= 6.20820E+01    Multiplicity= 4.87725E-02
+ triton  = 1.63831E+01    Multiplicity= 1.28708E-02
+ helium-3= 1.03883E+01    Multiplicity= 8.16117E-03
+ alpha   = 5.66367E+02    Multiplicity= 4.44945E-01
 
  4. Residual production cross sections
 
@@ -5611,73 +5611,73 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.03379E-06    0    2.03379E-06  1.00000
-   20  41 ( 41Ca) 7.35214E+00    0    7.35214E+00  1.00000
-   19  41 ( 41K ) 7.84353E+00    0    7.84353E+00  1.00000
-   20  40 ( 40Ca) 2.95883E+01    0    2.95883E+01  1.00000
-   19  40 ( 40K ) 1.29896E+02    0    1.29896E+02  1.00000
-   18  40 ( 40Ar) 1.58185E+01    0    1.58185E+01  1.00000
+   20  42 ( 42Ca) 2.03108E-06    0    2.03108E-06  1.00000
+   20  41 ( 41Ca) 7.36275E+00    0    7.36275E+00  1.00000
+   19  41 ( 41K ) 7.84348E+00    0    7.84348E+00  1.00000
+   20  40 ( 40Ca) 2.95859E+01    0    2.95859E+01  1.00000
+   19  40 ( 40K ) 1.29688E+02    0    1.29688E+02  1.00000
+   18  40 ( 40Ar) 1.59630E+01    0    1.59630E+01  1.00000
    20  39 ( 39Ca) 2.14241E+00    0    2.14241E+00  1.00000
-   19  39 ( 39K ) 2.62983E+02    0    2.62983E+02  1.00000
-   18  39 ( 39Ar) 1.66705E+02    0    1.66705E+02  1.00000
-   17  39 ( 39Cl) 5.79419E-01    0    5.79419E-01  1.00000
+   19  39 ( 39K ) 2.58172E+02    0    2.58172E+02  1.00000
+   18  39 ( 39Ar) 1.73300E+02    0    1.73300E+02  1.00000
+   17  39 ( 39Cl) 6.92682E-01    0    6.92682E-01  1.00000
    20  38 ( 38Ca) 5.14476E-07    0    5.14476E-07  1.00000
-   19  38 ( 38K ) 5.04201E+00    0    3.84721E+00  0.76303
-                                 1    1.19481E+00  0.23697   9.24400E-01 sec. 
-   18  38 ( 38Ar) 2.15715E+02    0    2.15715E+02  1.00000
-   17  38 ( 38Cl) 2.76330E-01    0    1.52431E-01  0.55163
-                                 1    1.23899E-01  0.44837   7.15000E-01 sec. 
-   16  38 ( 38S ) 9.80680E-08    0    9.80680E-08  1.00000
-   19  37 ( 37K ) 3.81965E-04    0    3.81965E-04  1.00000
-   18  37 ( 37Ar) 5.54136E+01    0    5.54136E+01  1.00000
-   17  37 ( 37Cl) 2.52171E+01    0    2.52171E+01  1.00000
-   16  37 ( 37S ) 9.91083E-08    0    9.91083E-08  1.00000
-   18  36 ( 36Ar) 7.12477E+01    0    7.12477E+01  1.00000
-   17  36 ( 36Cl) 1.78646E+02    0    1.78646E+02  1.00000
-   16  36 ( 36S ) 4.66906E+00    0    4.66906E+00  1.00000
-   18  35 ( 35Ar) 1.61830E-03    0    1.61830E-03  1.00000
-   17  35 ( 35Cl) 3.00250E+01    0    3.00250E+01  1.00000
-   16  35 ( 35S ) 1.83023E+00    0    1.83023E+00  1.00000
-   15  35 ( 35P ) 7.23748E-07    0    7.23748E-07  1.00000
-   17  34 ( 34Cl) 3.78193E-03    0    8.11372E-04  0.21454
-                                 1    2.97056E-03  0.78546   1.91900E+03 sec. 
-   16  34 ( 34S ) 1.07903E+01    0    1.07903E+01  1.00000
-   15  34 ( 34P ) 4.93531E-08    0    4.93531E-08  1.00000
-   16  33 ( 33S ) 4.71678E+01    0    4.71678E+01  1.00000
-   15  33 ( 33P ) 3.21653E+00    0    3.21653E+00  1.00000
-   16  32 ( 32S ) 1.56500E+00    0    1.56500E+00  1.00000
-   15  32 ( 32P ) 1.63467E-01    0    1.63467E-01  1.00000
-   14  32 ( 32Si) 1.34711E-04    0    1.34711E-04  1.00000
-   15  31 ( 31P ) 6.78624E-03    0    6.78624E-03  1.00000
-   14  31 ( 31Si) 2.02344E-06    0    2.02344E-06  1.00000
-   14  30 ( 30Si) 1.29472E+00    0    1.29472E+00  1.00000
-   14  29 ( 29Si) 2.17892E-02    0    2.17892E-02  1.00000
-   13  29 ( 29Al) 1.35307E-09    0    1.35307E-09  1.00000
-   14  28 ( 28Si) 3.60912E-12    0    3.60912E-12  1.00000
-   12  26 ( 26Mg) 3.86098E-10    0    3.86098E-10  1.00000
+   19  38 ( 38K ) 5.04019E+00    0    3.84570E+00  0.76301
+                                 1    1.19449E+00  0.23699   9.24400E-01 sec. 
+   18  38 ( 38Ar) 2.14336E+02    0    2.14336E+02  1.00000
+   17  38 ( 38Cl) 2.98480E-01    0    1.61868E-01  0.54231
+                                 1    1.36611E-01  0.45769   7.15000E-01 sec. 
+   16  38 ( 38S ) 8.00753E-08    0    8.00753E-08  1.00000
+   19  37 ( 37K ) 3.81964E-04    0    3.81964E-04  1.00000
+   18  37 ( 37Ar) 5.53589E+01    0    5.53589E+01  1.00000
+   17  37 ( 37Cl) 2.53558E+01    0    2.53558E+01  1.00000
+   16  37 ( 37S ) 9.67101E-08    0    9.67101E-08  1.00000
+   18  36 ( 36Ar) 7.01330E+01    0    7.01330E+01  1.00000
+   17  36 ( 36Cl) 1.78266E+02    0    1.78266E+02  1.00000
+   16  36 ( 36S ) 5.00867E+00    0    5.00867E+00  1.00000
+   18  35 ( 35Ar) 1.61485E-03    0    1.61485E-03  1.00000
+   17  35 ( 35Cl) 2.97039E+01    0    2.97039E+01  1.00000
+   16  35 ( 35S ) 1.78974E+00    0    1.78974E+00  1.00000
+   15  35 ( 35P ) 5.93942E-07    0    5.93942E-07  1.00000
+   17  34 ( 34Cl) 3.78126E-03    0    8.11144E-04  0.21452
+                                 1    2.97012E-03  0.78548   1.91900E+03 sec. 
+   16  34 ( 34S ) 1.07780E+01    0    1.07780E+01  1.00000
+   15  34 ( 34P ) 4.83217E-08    0    4.83217E-08  1.00000
+   16  33 ( 33S ) 4.82560E+01    0    4.82560E+01  1.00000
+   15  33 ( 33P ) 3.17331E+00    0    3.17331E+00  1.00000
+   16  32 ( 32S ) 1.52533E+00    0    1.52533E+00  1.00000
+   15  32 ( 32P ) 1.61511E-01    0    1.61511E-01  1.00000
+   14  32 ( 32Si) 1.32856E-04    0    1.32856E-04  1.00000
+   15  31 ( 31P ) 6.78595E-03    0    6.78595E-03  1.00000
+   14  31 ( 31Si) 2.01164E-06    0    2.01164E-06  1.00000
+   14  30 ( 30Si) 1.25400E+00    0    1.25400E+00  1.00000
+   14  29 ( 29Si) 2.05245E-02    0    2.05245E-02  1.00000
+   13  29 ( 29Al) 1.34538E-09    0    1.34538E-09  1.00000
+   14  28 ( 28Si) 3.60243E-12    0    3.60243E-12  1.00000
+   12  26 ( 26Mg) 3.78545E-10    0    3.78545E-10  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.03379E-06
-   41 1.51957E+01
-   40 1.75303E+02
-   39 4.32409E+02
-   38 2.21033E+02
-   37 8.06311E+01
-   36 2.54563E+02
-   35 3.18568E+01
-   34 1.07940E+01
-   33 5.03843E+01
-   32 1.72861E+00
-   31 6.78826E-03
-   30 1.29472E+00
-   29 2.17892E-02
-   28 3.60912E-12
-   26 3.86098E-10
+   42 2.03108E-06
+   41 1.52062E+01
+   40 1.75236E+02
+   39 4.34307E+02
+   38 2.19675E+02
+   37 8.07151E+01
+   36 2.53408E+02
+   35 3.14953E+01
+   34 1.07818E+01
+   33 5.14293E+01
+   32 1.68697E+00
+   31 6.78796E-03
+   30 1.25400E+00
+   29 2.05245E-02
+   28 3.60243E-12
+   26 3.78545E-10
 
- Total residual production cross section:  1275.2219238
+ Total residual production cross section:  1275.2218018
  Non-elastic cross section              :  1272.8900146
 
  8. Discrete state angular distributions
@@ -5769,18 +5769,18 @@ file: aaang.L00
  proton  = 4.63115E+02
  deuteron= 4.85102E+01
  triton  = 1.68692E+01
- helium-3= 1.06808E+01
+ helium-3= 1.06809E+01
  alpha   = 2.62390E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.58654E+02    Multiplicity= 5.18091E-01
- neutron = 1.62532E+03    Multiplicity= 1.27846E+00
- proton  = 1.25650E+03    Multiplicity= 9.88351E-01
- deuteron= 6.82434E+01    Multiplicity= 5.36796E-02
- triton  = 1.78697E+01    Multiplicity= 1.40561E-02
- helium-3= 1.10753E+01    Multiplicity= 8.71169E-03
- alpha   = 5.72794E+02    Multiplicity= 4.50554E-01
+ gamma   = 6.36085E+02    Multiplicity= 5.00338E-01
+ neutron = 1.61718E+03    Multiplicity= 1.27206E+00
+ proton  = 1.26129E+03    Multiplicity= 9.92121E-01
+ deuteron= 6.83346E+01    Multiplicity= 5.37513E-02
+ triton  = 1.78694E+01    Multiplicity= 1.40559E-02
+ helium-3= 1.10788E+01    Multiplicity= 8.71445E-03
+ alpha   = 5.73726E+02    Multiplicity= 4.51287E-01
 
  4. Residual production cross sections
 
@@ -5789,71 +5789,71 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.11488E-06    0    1.11488E-06  1.00000
-   20  41 ( 41Ca) 6.17305E+00    0    6.17305E+00  1.00000
-   19  41 ( 41K ) 7.12161E+00    0    7.12161E+00  1.00000
-   20  40 ( 40Ca) 2.65100E+01    0    2.65100E+01  1.00000
-   19  40 ( 40K ) 1.15926E+02    0    1.15926E+02  1.00000
-   18  40 ( 40Ar) 1.46465E+01    0    1.46465E+01  1.00000
+   20  42 ( 42Ca) 1.11358E-06    0    1.11358E-06  1.00000
+   20  41 ( 41Ca) 6.18364E+00    0    6.18364E+00  1.00000
+   19  41 ( 41K ) 7.12156E+00    0    7.12156E+00  1.00000
+   20  40 ( 40Ca) 2.65072E+01    0    2.65072E+01  1.00000
+   19  40 ( 40K ) 1.15746E+02    0    1.15746E+02  1.00000
+   18  40 ( 40Ar) 1.47764E+01    0    1.47764E+01  1.00000
    20  39 ( 39Ca) 2.25019E+00    0    2.25019E+00  1.00000
-   19  39 ( 39K ) 2.38787E+02    0    2.38787E+02  1.00000
-   18  39 ( 39Ar) 1.53400E+02    0    1.53400E+02  1.00000
-   17  39 ( 39Cl) 7.77978E-01    0    7.77978E-01  1.00000
+   19  39 ( 39K ) 2.34822E+02    0    2.34822E+02  1.00000
+   18  39 ( 39Ar) 1.58957E+02    0    1.58957E+02  1.00000
+   17  39 ( 39Cl) 9.08928E-01    0    9.08928E-01  1.00000
    20  38 ( 38Ca) 3.80514E-05    0    3.80514E-05  1.00000
-   19  38 ( 38K ) 8.53913E+00    0    6.48847E+00  0.75985
-                                 1    2.05066E+00  0.24015   9.24400E-01 sec. 
-   18  38 ( 38Ar) 2.61237E+02    0    2.61237E+02  1.00000
-   17  38 ( 38Cl) 6.29530E-01    0    3.38808E-01  0.53819
-                                 1    2.90722E-01  0.46181   7.15000E-01 sec. 
-   16  38 ( 38S ) 2.24873E-06    0    2.24873E-06  1.00000
-   19  37 ( 37K ) 2.48682E-03    0    2.48682E-03  1.00000
-   18  37 ( 37Ar) 4.98239E+01    0    4.98239E+01  1.00000
-   17  37 ( 37Cl) 2.15409E+01    0    2.15409E+01  1.00000
-   16  37 ( 37S ) 3.28358E-06    0    3.28358E-06  1.00000
-   18  36 ( 36Ar) 6.76173E+01    0    6.76173E+01  1.00000
-   17  36 ( 36Cl) 1.74544E+02    0    1.74544E+02  1.00000
-   16  36 ( 36S ) 5.59562E+00    0    5.59562E+00  1.00000
-   18  35 ( 35Ar) 1.31363E-02    0    1.31363E-02  1.00000
-   17  35 ( 35Cl) 4.83983E+01    0    4.83983E+01  1.00000
-   16  35 ( 35S ) 3.66959E+00    0    3.66959E+00  1.00000
-   15  35 ( 35P ) 1.43062E-05    0    1.43062E-05  1.00000
-   17  34 ( 34Cl) 1.91041E-02    0    5.05048E-03  0.26437
-                                 1    1.40536E-02  0.73563   1.91900E+03 sec. 
-   16  34 ( 34S ) 9.29858E+00    0    9.29858E+00  1.00000
-   15  34 ( 34P ) 1.80687E-06    0    1.80687E-06  1.00000
-   16  33 ( 33S ) 4.75002E+01    0    4.75002E+01  1.00000
-   15  33 ( 33P ) 4.08792E+00    0    4.08792E+00  1.00000
-   16  32 ( 32S ) 3.41239E+00    0    3.41239E+00  1.00000
-   15  32 ( 32P ) 6.79677E-01    0    6.79677E-01  1.00000
-   14  32 ( 32Si) 1.11003E-03    0    1.11003E-03  1.00000
-   15  31 ( 31P ) 2.11472E-02    0    2.11472E-02  1.00000
-   14  31 ( 31Si) 2.48613E-05    0    2.48613E-05  1.00000
-   14  30 ( 30Si) 1.31005E+00    0    1.31005E+00  1.00000
-   14  29 ( 29Si) 1.09019E-01    0    1.09019E-01  1.00000
-   13  29 ( 29Al) 1.01675E-07    0    1.01675E-07  1.00000
-   14  28 ( 28Si) 6.79113E-09    0    6.79113E-09  1.00000
-   12  26 ( 26Mg) 2.57078E-08    0    2.57078E-08  1.00000
+   19  38 ( 38K ) 8.53644E+00    0    6.48625E+00  0.75983
+                                 1    2.05019E+00  0.24017   9.24400E-01 sec. 
+   18  38 ( 38Ar) 2.59666E+02    0    2.59666E+02  1.00000
+   17  38 ( 38Cl) 6.68276E-01    0    3.53921E-01  0.52960
+                                 1    3.14355E-01  0.47040   7.15000E-01 sec. 
+   16  38 ( 38S ) 1.84373E-06    0    1.84373E-06  1.00000
+   19  37 ( 37K ) 2.48680E-03    0    2.48680E-03  1.00000
+   18  37 ( 37Ar) 4.97717E+01    0    4.97717E+01  1.00000
+   17  37 ( 37Cl) 2.16608E+01    0    2.16608E+01  1.00000
+   16  37 ( 37S ) 3.20671E-06    0    3.20671E-06  1.00000
+   18  36 ( 36Ar) 6.64857E+01    0    6.64857E+01  1.00000
+   17  36 ( 36Cl) 1.74396E+02    0    1.74396E+02  1.00000
+   16  36 ( 36S ) 6.08470E+00    0    6.08470E+00  1.00000
+   18  35 ( 35Ar) 1.31148E-02    0    1.31148E-02  1.00000
+   17  35 ( 35Cl) 4.79242E+01    0    4.79242E+01  1.00000
+   16  35 ( 35S ) 3.61045E+00    0    3.61045E+00  1.00000
+   15  35 ( 35P ) 1.14813E-05    0    1.14813E-05  1.00000
+   17  34 ( 34Cl) 1.91007E-02    0    5.04925E-03  0.26435
+                                 1    1.40514E-02  0.73565   1.91900E+03 sec. 
+   16  34 ( 34S ) 9.28526E+00    0    9.28526E+00  1.00000
+   15  34 ( 34P ) 1.77204E-06    0    1.77204E-06  1.00000
+   16  33 ( 33S ) 4.87744E+01    0    4.87744E+01  1.00000
+   15  33 ( 33P ) 4.06861E+00    0    4.06861E+00  1.00000
+   16  32 ( 32S ) 3.33852E+00    0    3.33852E+00  1.00000
+   15  32 ( 32P ) 6.71823E-01    0    6.71823E-01  1.00000
+   14  32 ( 32Si) 1.08639E-03    0    1.08639E-03  1.00000
+   15  31 ( 31P ) 2.11460E-02    0    2.11460E-02  1.00000
+   14  31 ( 31Si) 2.47534E-05    0    2.47534E-05  1.00000
+   14  30 ( 30Si) 1.26623E+00    0    1.26623E+00  1.00000
+   14  29 ( 29Si) 1.03748E-01    0    1.03748E-01  1.00000
+   13  29 ( 29Al) 1.01308E-07    0    1.01308E-07  1.00000
+   14  28 ( 28Si) 6.76887E-09    0    6.76887E-09  1.00000
+   12  26 ( 26Mg) 2.52844E-08    0    2.52844E-08  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.11488E-06
-   41 1.32947E+01
-   40 1.57083E+02
-   39 3.95215E+02
-   38 2.70406E+02
-   37 7.13673E+01
-   36 2.47757E+02
-   35 5.20810E+01
-   34 9.31768E+00
-   33 5.15881E+01
-   32 4.09318E+00
-   31 2.11720E-02
-   30 1.31005E+00
-   29 1.09019E-01
-   28 6.79112E-09
-   26 2.57078E-08
+   42 1.11358E-06
+   41 1.33052E+01
+   40 1.57030E+02
+   39 3.96937E+02
+   38 2.68871E+02
+   37 7.14350E+01
+   36 2.46966E+02
+   35 5.15478E+01
+   34 9.30436E+00
+   33 5.28430E+01
+   32 4.01143E+00
+   31 2.11708E-02
+   30 1.26623E+00
+   29 1.03748E-01
+   28 6.76887E-09
+   26 2.52844E-08
 
  Total residual production cross section:  1273.6424561
  Non-elastic cross section              :  1271.3100586
@@ -5947,18 +5947,18 @@ file: aaang.L00
  proton  = 4.59007E+02
  deuteron= 5.14773E+01
  triton  = 1.81365E+01
- helium-3= 1.19790E+01
+ helium-3= 1.19791E+01
  alpha   = 2.59321E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.26477E+02    Multiplicity= 4.93464E-01
- neutron = 1.67578E+03    Multiplicity= 1.31998E+00
- proton  = 1.29309E+03    Multiplicity= 1.01854E+00
- deuteron= 7.47294E+01    Multiplicity= 5.88629E-02
- triton  = 1.94161E+01    Multiplicity= 1.52937E-02
- helium-3= 1.25079E+01    Multiplicity= 9.85225E-03
- alpha   = 5.77547E+02    Multiplicity= 4.54923E-01
+ gamma   = 6.06175E+02    Multiplicity= 4.77472E-01
+ neutron = 1.66788E+03    Multiplicity= 1.31376E+00
+ proton  = 1.29704E+03    Multiplicity= 1.02165E+00
+ deuteron= 7.48168E+01    Multiplicity= 5.89317E-02
+ triton  = 1.94158E+01    Multiplicity= 1.52934E-02
+ helium-3= 1.25114E+01    Multiplicity= 9.85499E-03
+ alpha   = 5.78716E+02    Multiplicity= 4.55844E-01
 
  4. Residual production cross sections
 
@@ -5967,71 +5967,71 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 6.25312E-07    0    6.25312E-07  1.00000
-   20  41 ( 41Ca) 5.50009E+00    0    5.50009E+00  1.00000
-   19  41 ( 41K ) 6.00563E+00    0    6.00563E+00  1.00000
-   20  40 ( 40Ca) 2.35041E+01    0    2.35041E+01  1.00000
-   19  40 ( 40K ) 1.01620E+02    0    1.01620E+02  1.00000
-   18  40 ( 40Ar) 1.21579E+01    0    1.21579E+01  1.00000
+   20  42 ( 42Ca) 6.24244E-07    0    6.24244E-07  1.00000
+   20  41 ( 41Ca) 5.50953E+00    0    5.50953E+00  1.00000
+   19  41 ( 41K ) 6.00560E+00    0    6.00560E+00  1.00000
+   20  40 ( 40Ca) 2.35016E+01    0    2.35016E+01  1.00000
+   19  40 ( 40K ) 1.01468E+02    0    1.01468E+02  1.00000
+   18  40 ( 40Ar) 1.22791E+01    0    1.22791E+01  1.00000
    20  39 ( 39Ca) 2.25199E+00    0    2.25199E+00  1.00000
-   19  39 ( 39K ) 2.19159E+02    0    2.19159E+02  1.00000
-   18  39 ( 39Ar) 1.38867E+02    0    1.38867E+02  1.00000
-   17  39 ( 39Cl) 9.63147E-01    0    9.63147E-01  1.00000
-   20  38 ( 38Ca) 3.13316E-04    0    3.13316E-04  1.00000
-   19  38 ( 38K ) 1.30542E+01    0    9.83232E+00  0.75319
-                                 1    3.22191E+00  0.24681   9.24400E-01 sec. 
-   18  38 ( 38Ar) 3.05010E+02    0    3.05010E+02  1.00000
-   17  38 ( 38Cl) 1.26184E+00    0    6.38729E-01  0.50619
-                                 1    6.23114E-01  0.49381   7.15000E-01 sec. 
-   16  38 ( 38S ) 1.97720E-05    0    1.97720E-05  1.00000
-   19  37 ( 37K ) 8.09340E-03    0    8.09340E-03  1.00000
-   18  37 ( 37Ar) 4.54634E+01    0    4.54634E+01  1.00000
-   17  37 ( 37Cl) 1.80614E+01    0    1.80614E+01  1.00000
-   16  37 ( 37S ) 3.12276E-05    0    3.12276E-05  1.00000
-   18  36 ( 36Ar) 6.29098E+01    0    6.29098E+01  1.00000
-   17  36 ( 36Cl) 1.64927E+02    0    1.64927E+02  1.00000
-   16  36 ( 36S ) 5.72891E+00    0    5.72891E+00  1.00000
-   18  35 ( 35Ar) 5.44096E-02    0    5.44096E-02  1.00000
-   17  35 ( 35Cl) 6.98264E+01    0    6.98264E+01  1.00000
-   16  35 ( 35S ) 6.17610E+00    0    6.17610E+00  1.00000
-   15  35 ( 35P ) 1.13741E-04    0    1.13741E-04  1.00000
-   17  34 ( 34Cl) 5.57097E-02    0    1.69769E-02  0.30474
-                                 1    3.87328E-02  0.69526   1.91900E+03 sec. 
-   16  34 ( 34S ) 8.78166E+00    0    8.78166E+00  1.00000
-   15  34 ( 34P ) 2.18945E-05    0    2.18945E-05  1.00000
-   16  33 ( 33S ) 4.57419E+01    0    4.57419E+01  1.00000
-   15  33 ( 33P ) 4.78868E+00    0    4.78868E+00  1.00000
-   16  32 ( 32S ) 6.45768E+00    0    6.45768E+00  1.00000
-   15  32 ( 32P ) 1.80674E+00    0    1.80674E+00  1.00000
-   14  32 ( 32Si) 5.15170E-03    0    5.15170E-03  1.00000
-   15  31 ( 31P ) 4.45473E-02    0    4.45473E-02  1.00000
-   14  31 ( 31Si) 1.17712E-04    0    1.17712E-04  1.00000
-   14  30 ( 30Si) 1.35735E+00    0    1.35735E+00  1.00000
-   14  29 ( 29Si) 3.28602E-01    0    3.28602E-01  1.00000
-   13  29 ( 29Al) 3.15543E-06    0    3.15543E-06  1.00000
-   14  28 ( 28Si) 1.61672E-06    0    1.61672E-06  1.00000
-   12  26 ( 26Mg) 5.56015E-07    0    5.56015E-07  1.00000
+   19  39 ( 39K ) 2.15861E+02    0    2.15861E+02  1.00000
+   18  39 ( 39Ar) 1.43665E+02    0    1.43665E+02  1.00000
+   17  39 ( 39Cl) 1.09620E+00    0    1.09620E+00  1.00000
+   20  38 ( 38Ca) 3.13303E-04    0    3.13303E-04  1.00000
+   19  38 ( 38K ) 1.30508E+01    0    9.82949E+00  0.75317
+                                 1    3.22131E+00  0.24683   9.24400E-01 sec. 
+   18  38 ( 38Ar) 3.03278E+02    0    3.03278E+02  1.00000
+   17  38 ( 38Cl) 1.33680E+00    0    6.65334E-01  0.49771
+                                 1    6.71462E-01  0.50229   7.15000E-01 sec. 
+   16  38 ( 38S ) 1.65304E-05    0    1.65304E-05  1.00000
+   19  37 ( 37K ) 8.09326E-03    0    8.09326E-03  1.00000
+   18  37 ( 37Ar) 4.54118E+01    0    4.54118E+01  1.00000
+   17  37 ( 37Cl) 1.81668E+01    0    1.81668E+01  1.00000
+   16  37 ( 37S ) 3.05800E-05    0    3.05800E-05  1.00000
+   18  36 ( 36Ar) 6.18381E+01    0    6.18381E+01  1.00000
+   17  36 ( 36Cl) 1.64958E+02    0    1.64958E+02  1.00000
+   16  36 ( 36S ) 6.30682E+00    0    6.30682E+00  1.00000
+   18  35 ( 35Ar) 5.43823E-02    0    5.43823E-02  1.00000
+   17  35 ( 35Cl) 6.91890E+01    0    6.91890E+01  1.00000
+   16  35 ( 35S ) 6.13395E+00    0    6.13395E+00  1.00000
+   15  35 ( 35P ) 9.15425E-05    0    9.15425E-05  1.00000
+   17  34 ( 34Cl) 5.57001E-02    0    1.69734E-02  0.30473
+                                 1    3.87267E-02  0.69527   1.91900E+03 sec. 
+   16  34 ( 34S ) 8.76368E+00    0    8.76368E+00  1.00000
+   15  34 ( 34P ) 2.15754E-05    0    2.15754E-05  1.00000
+   16  33 ( 33S ) 4.70858E+01    0    4.70858E+01  1.00000
+   15  33 ( 33P ) 4.79483E+00    0    4.79483E+00  1.00000
+   16  32 ( 32S ) 6.33589E+00    0    6.33589E+00  1.00000
+   15  32 ( 32P ) 1.78804E+00    0    1.78804E+00  1.00000
+   14  32 ( 32Si) 4.99484E-03    0    4.99484E-03  1.00000
+   15  31 ( 31P ) 4.45437E-02    0    4.45437E-02  1.00000
+   14  31 ( 31Si) 1.17341E-04    0    1.17341E-04  1.00000
+   14  30 ( 30Si) 1.31857E+00    0    1.31857E+00  1.00000
+   14  29 ( 29Si) 3.16909E-01    0    3.16909E-01  1.00000
+   13  29 ( 29Al) 3.14757E-06    0    3.14757E-06  1.00000
+   14  28 ( 28Si) 1.60526E-06    0    1.60526E-06  1.00000
+   12  26 ( 26Mg) 5.48404E-07    0    5.48404E-07  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 6.25312E-07
-   41 1.15057E+01
-   40 1.37282E+02
-   39 3.61241E+02
-   38 3.19326E+02
-   37 6.35329E+01
-   36 2.33566E+02
-   35 7.60570E+01
-   34 8.83739E+00
-   33 5.05306E+01
-   32 8.26957E+00
-   31 4.46650E-02
-   30 1.35735E+00
-   29 3.28606E-01
-   28 1.61672E-06
-   26 5.56015E-07
+   42 6.24244E-07
+   41 1.15151E+01
+   40 1.37248E+02
+   39 3.62874E+02
+   38 3.17665E+02
+   37 6.35867E+01
+   36 2.33103E+02
+   35 7.53774E+01
+   34 8.81940E+00
+   33 5.18806E+01
+   32 8.12893E+00
+   31 4.46610E-02
+   30 1.31857E+00
+   29 3.16913E-01
+   28 1.60526E-06
+   26 5.48404E-07
 
  Total residual production cross section:  1271.8790283
  Non-elastic cross section              :  1269.5500488
@@ -6125,18 +6125,18 @@ file: aaang.L00
  proton  = 4.53877E+02
  deuteron= 5.43279E+01
  triton  = 1.94592E+01
- helium-3= 1.31405E+01
+ helium-3= 1.31406E+01
  alpha   = 2.55747E+02
 
  3. Total particle production cross sections
 
- gamma   = 6.01258E+02    Multiplicity= 4.74287E-01
- neutron = 1.72045E+03    Multiplicity= 1.35713E+00
- proton  = 1.32796E+03    Multiplicity= 1.04753E+00
- deuteron= 8.13543E+01    Multiplicity= 6.41742E-02
- triton  = 2.10699E+01    Multiplicity= 1.66205E-02
- helium-3= 1.38363E+01    Multiplicity= 1.09144E-02
- alpha   = 5.82232E+02    Multiplicity= 4.59278E-01
+ gamma   = 5.83353E+02    Multiplicity= 4.60163E-01
+ neutron = 1.71286E+03    Multiplicity= 1.35115E+00
+ proton  = 1.33137E+03    Multiplicity= 1.05021E+00
+ deuteron= 8.14455E+01    Multiplicity= 6.42461E-02
+ triton  = 2.10697E+01    Multiplicity= 1.66202E-02
+ helium-3= 1.38396E+01    Multiplicity= 1.09170E-02
+ alpha   = 5.83493E+02    Multiplicity= 4.60273E-01
 
  4. Residual production cross sections
 
@@ -6145,75 +6145,75 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 4.42555E-07    0    4.42555E-07  1.00000
-   20  41 ( 41Ca) 4.84615E+00    0    4.84615E+00  1.00000
-   19  41 ( 41K ) 5.42899E+00    0    5.42899E+00  1.00000
-   20  40 ( 40Ca) 2.06872E+01    0    2.06872E+01  1.00000
-   19  40 ( 40K ) 9.03867E+01    0    9.03867E+01  1.00000
-   18  40 ( 40Ar) 1.11116E+01    0    1.11116E+01  1.00000
+   20  42 ( 42Ca) 4.41967E-07    0    4.41967E-07  1.00000
+   20  41 ( 41Ca) 4.85319E+00    0    4.85319E+00  1.00000
+   19  41 ( 41K ) 5.42896E+00    0    5.42896E+00  1.00000
+   20  40 ( 40Ca) 2.06852E+01    0    2.06852E+01  1.00000
+   19  40 ( 40K ) 9.02527E+01    0    9.02527E+01  1.00000
+   18  40 ( 40Ar) 1.12183E+01    0    1.12183E+01  1.00000
    20  39 ( 39Ca) 2.19651E+00    0    2.19651E+00  1.00000
-   19  39 ( 39K ) 1.98970E+02    0    1.98970E+02  1.00000
-   18  39 ( 39Ar) 1.23979E+02    0    1.23979E+02  1.00000
-   17  39 ( 39Cl) 1.05197E+00    0    1.05197E+00  1.00000
-   20  38 ( 38Ca) 1.20612E-03    0    1.20612E-03  1.00000
-   19  38 ( 38K ) 1.81962E+01    0    1.36247E+01  0.74877
-                                 1    4.57143E+00  0.25123   9.24400E-01 sec. 
-   18  38 ( 38Ar) 3.42291E+02    0    3.42291E+02  1.00000
-   17  38 ( 38Cl) 2.31547E+00    0    1.19448E+00  0.51587
-                                 1    1.12098E+00  0.48413   7.15000E-01 sec. 
-   16  38 ( 38S ) 9.31561E-05    0    9.31561E-05  1.00000
-   19  37 ( 37K ) 1.82558E-02    0    1.82558E-02  1.00000
-   18  37 ( 37Ar) 4.43119E+01    0    4.43119E+01  1.00000
-   17  37 ( 37Cl) 1.66672E+01    0    1.66672E+01  1.00000
-   16  37 ( 37S ) 1.39218E-04    0    1.39218E-04  1.00000
-   18  36 ( 36Ar) 5.73538E+01    0    5.73538E+01  1.00000
-   17  36 ( 36Cl) 1.49739E+02    0    1.49739E+02  1.00000
-   16  36 ( 36S ) 5.90299E+00    0    5.90299E+00  1.00000
-   18  35 ( 35Ar) 1.48665E-01    0    1.48665E-01  1.00000
-   17  35 ( 35Cl) 9.11499E+01    0    9.11499E+01  1.00000
-   16  35 ( 35S ) 9.64680E+00    0    9.64680E+00  1.00000
-   15  35 ( 35P ) 4.99027E-04    0    4.99027E-04  1.00000
-   17  34 ( 34Cl) 1.18351E-01    0    3.97178E-02  0.33559
-                                 1    7.86329E-02  0.66441   1.91900E+03 sec. 
-   16  34 ( 34S ) 9.37564E+00    0    9.37564E+00  1.00000
-   15  34 ( 34P ) 1.27452E-04    0    1.27452E-04  1.00000
-   16  33 ( 33S ) 4.27234E+01    0    4.27234E+01  1.00000
-   15  33 ( 33P ) 5.36220E+00    0    5.36220E+00  1.00000
-   16  32 ( 32S ) 1.01680E+01    0    1.01680E+01  1.00000
-   15  32 ( 32P ) 3.70362E+00    0    3.70362E+00  1.00000
-   14  32 ( 32Si) 1.50869E-02    0    1.50869E-02  1.00000
-   16  31 ( 31S ) 2.14151E-12    0    2.14151E-12  1.00000
-   15  31 ( 31P ) 7.66623E-02    0    7.66623E-02  1.00000
-   14  31 ( 31Si) 3.00974E-04    0    3.00974E-04  1.00000
-   15  30 ( 30P ) 4.37860E-12    0    4.37860E-12  1.00000
-   14  30 ( 30Si) 1.38885E+00    0    1.38885E+00  1.00000
-   14  29 ( 29Si) 7.00368E-01    0    7.00368E-01  1.00000
-   13  29 ( 29Al) 4.10697E-05    0    4.10697E-05  1.00000
-   14  28 ( 28Si) 7.79471E-05    0    7.79471E-05  1.00000
-   12  26 ( 26Mg) 5.08362E-06    0    5.08362E-06  1.00000
+   19  39 ( 39K ) 1.96185E+02    0    1.96185E+02  1.00000
+   18  39 ( 39Ar) 1.28136E+02    0    1.28136E+02  1.00000
+   17  39 ( 39Cl) 1.18017E+00    0    1.18017E+00  1.00000
+   20  38 ( 38Ca) 1.20563E-03    0    1.20563E-03  1.00000
+   19  38 ( 38K ) 1.81921E+01    0    1.36214E+01  0.74875
+                                 1    4.57071E+00  0.25125   9.24400E-01 sec. 
+   18  38 ( 38Ar) 3.40491E+02    0    3.40491E+02  1.00000
+   17  38 ( 38Cl) 2.45579E+00    0    1.24015E+00  0.50499
+                                 1    1.21564E+00  0.49501   7.15000E-01 sec. 
+   16  38 ( 38S ) 8.01830E-05    0    8.01830E-05  1.00000
+   19  37 ( 37K ) 1.82554E-02    0    1.82554E-02  1.00000
+   18  37 ( 37Ar) 4.42552E+01    0    4.42552E+01  1.00000
+   17  37 ( 37Cl) 1.67572E+01    0    1.67572E+01  1.00000
+   16  37 ( 37S ) 1.37030E-04    0    1.37030E-04  1.00000
+   18  36 ( 36Ar) 5.63765E+01    0    5.63765E+01  1.00000
+   17  36 ( 36Cl) 1.49890E+02    0    1.49890E+02  1.00000
+   16  36 ( 36S ) 6.51606E+00    0    6.51606E+00  1.00000
+   18  35 ( 35Ar) 1.49733E-01    0    1.49733E-01  1.00000
+   17  35 ( 35Cl) 9.03966E+01    0    9.03966E+01  1.00000
+   16  35 ( 35S ) 9.69385E+00    0    9.69385E+00  1.00000
+   15  35 ( 35P ) 4.10458E-04    0    4.10458E-04  1.00000
+   17  34 ( 34Cl) 1.18330E-01    0    3.97105E-02  0.33559
+                                 1    7.86193E-02  0.66441   1.91900E+03 sec. 
+   16  34 ( 34S ) 9.34377E+00    0    9.34377E+00  1.00000
+   15  34 ( 34P ) 1.26990E-04    0    1.26990E-04  1.00000
+   16  33 ( 33S ) 4.40520E+01    0    4.40520E+01  1.00000
+   15  33 ( 33P ) 5.38955E+00    0    5.38955E+00  1.00000
+   16  32 ( 32S ) 1.00031E+01    0    1.00031E+01  1.00000
+   15  32 ( 32P ) 3.66955E+00    0    3.66955E+00  1.00000
+   14  32 ( 32Si) 1.44663E-02    0    1.44663E-02  1.00000
+   16  31 ( 31S ) 2.12489E-12    0    2.12489E-12  1.00000
+   15  31 ( 31P ) 7.66442E-02    0    7.66442E-02  1.00000
+   14  31 ( 31Si) 3.00305E-04    0    3.00305E-04  1.00000
+   15  30 ( 30P ) 4.37625E-12    0    4.37625E-12  1.00000
+   14  30 ( 30Si) 1.35812E+00    0    1.35812E+00  1.00000
+   14  29 ( 29Si) 6.79410E-01    0    6.79410E-01  1.00000
+   13  29 ( 29Al) 4.09978E-05    0    4.09978E-05  1.00000
+   14  28 ( 28Si) 7.71574E-05    0    7.71574E-05  1.00000
+   12  26 ( 26Mg) 5.02765E-06    0    5.02765E-06  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 4.42555E-07
-   41 1.02751E+01
-   40 1.22186E+02
-   39 3.26198E+02
-   38 3.62804E+02
-   37 6.09976E+01
-   36 2.12996E+02
-   35 1.00946E+02
-   34 9.49412E+00
-   33 4.80856E+01
-   32 1.38867E+01
-   31 7.69633E-02
-   30 1.38885E+00
-   29 7.00409E-01
-   28 7.79471E-05
-   26 5.08362E-06
+   42 4.41967E-07
+   41 1.02821E+01
+   40 1.22156E+02
+   39 3.27697E+02
+   38 3.61140E+02
+   37 6.10308E+01
+   36 2.12783E+02
+   35 1.00241E+02
+   34 9.46223E+00
+   33 4.94416E+01
+   32 1.36871E+01
+   31 7.69445E-02
+   30 1.35812E+00
+   29 6.79451E-01
+   28 7.71574E-05
+   26 5.02765E-06
 
- Total residual production cross section:  1270.0347900
+ Total residual production cross section:  1270.0349121
  Non-elastic cross section              :  1267.7099609
 
  8. Discrete state angular distributions
@@ -6310,13 +6310,13 @@ file: aaang.L00
 
  3. Total particle production cross sections
 
- gamma   = 5.87028E+02    Multiplicity= 4.63716E-01
- neutron = 1.76157E+03    Multiplicity= 1.39153E+00
- proton  = 1.35965E+03    Multiplicity= 1.07404E+00
- deuteron= 8.80924E+01    Multiplicity= 6.95876E-02
- triton  = 2.27974E+01    Multiplicity= 1.80086E-02
- helium-3= 1.55015E+01    Multiplicity= 1.22452E-02
- alpha   = 5.85624E+02    Multiplicity= 4.62607E-01
+ gamma   = 5.71109E+02    Multiplicity= 4.51142E-01
+ neutron = 1.75433E+03    Multiplicity= 1.38582E+00
+ proton  = 1.36271E+03    Multiplicity= 1.07646E+00
+ deuteron= 8.81908E+01    Multiplicity= 6.96654E-02
+ triton  = 2.27972E+01    Multiplicity= 1.80084E-02
+ helium-3= 1.55045E+01    Multiplicity= 1.22476E-02
+ alpha   = 5.86887E+02    Multiplicity= 4.63605E-01
 
  4. Residual production cross sections
 
@@ -6325,79 +6325,79 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 3.54414E-07    0    3.54414E-07  1.00000
-   20  41 ( 41Ca) 4.48109E+00    0    4.48109E+00  1.00000
-   19  41 ( 41K ) 4.94763E+00    0    4.94763E+00  1.00000
-   20  40 ( 40Ca) 1.82089E+01    0    1.82089E+01  1.00000
-   19  40 ( 40K ) 8.14403E+01    0    8.14403E+01  1.00000
-   18  40 ( 40Ar) 1.01788E+01    0    1.01788E+01  1.00000
+   20  42 ( 42Ca) 3.54060E-07    0    3.54060E-07  1.00000
+   20  41 ( 41Ca) 4.48763E+00    0    4.48763E+00  1.00000
+   19  41 ( 41K ) 4.94760E+00    0    4.94760E+00  1.00000
+   20  40 ( 40Ca) 1.82074E+01    0    1.82074E+01  1.00000
+   19  40 ( 40K ) 8.13225E+01    0    8.13225E+01  1.00000
+   18  40 ( 40Ar) 1.02755E+01    0    1.02755E+01  1.00000
    20  39 ( 39Ca) 2.10365E+00    0    2.10365E+00  1.00000
-   19  39 ( 39K ) 1.80277E+02    0    1.80277E+02  1.00000
-   18  39 ( 39Ar) 1.11004E+02    0    1.11004E+02  1.00000
-   17  39 ( 39Cl) 1.12660E+00    0    1.12660E+00  1.00000
-   20  38 ( 38Ca) 3.20240E-03    0    3.20240E-03  1.00000
-   19  38 ( 38K ) 2.33893E+01    0    1.74404E+01  0.74566
-                                 1    5.94890E+00  0.25434   9.24400E-01 sec. 
-   18  38 ( 38Ar) 3.70590E+02    0    3.70590E+02  1.00000
-   17  38 ( 38Cl) 3.63404E+00    0    1.79741E+00  0.49460
-                                 1    1.83663E+00  0.50540   7.15000E-01 sec. 
-   16  38 ( 38S ) 3.07373E-04    0    3.07373E-04  1.00000
-   19  37 ( 37K ) 3.23485E-02    0    3.23485E-02  1.00000
-   18  37 ( 37Ar) 4.81352E+01    0    4.81352E+01  1.00000
-   17  37 ( 37Cl) 1.57686E+01    0    1.57686E+01  1.00000
-   16  37 ( 37S ) 3.92729E-04    0    3.92729E-04  1.00000
-   18  36 ( 36Ar) 5.14706E+01    0    5.14706E+01  1.00000
-   17  36 ( 36Cl) 1.33926E+02    0    1.33926E+02  1.00000
-   16  36 ( 36S ) 5.83291E+00    0    5.83291E+00  1.00000
-   18  35 ( 35Ar) 3.09596E-01    0    3.09596E-01  1.00000
-   17  35 ( 35Cl) 1.08685E+02    0    1.08685E+02  1.00000
-   16  35 ( 35S ) 1.36683E+01    0    1.36683E+01  1.00000
-   15  35 ( 35P ) 1.51117E-03    0    1.51117E-03  1.00000
-   17  34 ( 34Cl) 2.15020E-01    0    7.45173E-02  0.34656
-                                 1    1.40502E-01  0.65344   1.91900E+03 sec. 
-   16  34 ( 34S ) 1.12820E+01    0    1.12820E+01  1.00000
-   15  34 ( 34P ) 4.62674E-04    0    4.62674E-04  1.00000
-   17  33 ( 33Cl) 5.32786E-10    0    5.32786E-10  1.00000
-   16  33 ( 33S ) 3.87129E+01    0    3.87129E+01  1.00000
-   15  33 ( 33P ) 5.78288E+00    0    5.78288E+00  1.00000
-   16  32 ( 32S ) 1.38835E+01    0    1.38835E+01  1.00000
-   15  32 ( 32P ) 6.31837E+00    0    6.31837E+00  1.00000
-   14  32 ( 32Si) 3.38716E-02    0    3.38716E-02  1.00000
-   16  31 ( 31S ) 1.65594E-09    0    1.65594E-09  1.00000
-   15  31 ( 31P ) 1.34020E-01    0    1.34020E-01  1.00000
-   14  31 ( 31Si) 5.67374E-04    0    5.67374E-04  1.00000
-   15  30 ( 30P ) 3.13243E-09    0    3.13243E-09  1.00000
-   14  30 ( 30Si) 1.37327E+00    0    1.37327E+00  1.00000
-   14  29 ( 29Si) 1.28462E+00    0    1.28462E+00  1.00000
-   13  29 ( 29Al) 2.87445E-04    0    2.87445E-04  1.00000
-   14  28 ( 28Si) 1.21628E-03    0    1.21628E-03  1.00000
-   13  28 ( 28Al) 1.42706E-10    0    1.42706E-10  1.00000
-   13  27 ( 27Al) 5.85164E-12    0    5.85164E-12  1.00000
-   12  26 ( 26Mg) 2.78206E-05    0    2.78206E-05  1.00000
+   19  39 ( 39K ) 1.77858E+02    0    1.77858E+02  1.00000
+   18  39 ( 39Ar) 1.14609E+02    0    1.14609E+02  1.00000
+   17  39 ( 39Cl) 1.24447E+00    0    1.24447E+00  1.00000
+   20  38 ( 38Ca) 3.19783E-03    0    3.19783E-03  1.00000
+   19  38 ( 38K ) 2.33843E+01    0    1.74362E+01  0.74564
+                                 1    5.94805E+00  0.25436   9.24400E-01 sec. 
+   18  38 ( 38Ar) 3.68792E+02    0    3.68792E+02  1.00000
+   17  38 ( 38Cl) 3.86351E+00    0    1.87287E+00  0.48476
+                                 1    1.99064E+00  0.51524   7.15000E-01 sec. 
+   16  38 ( 38S ) 2.71621E-04    0    2.71621E-04  1.00000
+   19  37 ( 37K ) 3.23477E-02    0    3.23477E-02  1.00000
+   18  37 ( 37Ar) 4.80565E+01    0    4.80565E+01  1.00000
+   17  37 ( 37Cl) 1.58460E+01    0    1.58460E+01  1.00000
+   16  37 ( 37S ) 3.89868E-04    0    3.89868E-04  1.00000
+   18  36 ( 36Ar) 5.06035E+01    0    5.06035E+01  1.00000
+   17  36 ( 36Cl) 1.34166E+02    0    1.34166E+02  1.00000
+   16  36 ( 36S ) 6.42462E+00    0    6.42462E+00  1.00000
+   18  35 ( 35Ar) 3.19316E-01    0    3.19316E-01  1.00000
+   17  35 ( 35Cl) 1.07880E+02    0    1.07880E+02  1.00000
+   16  35 ( 35S ) 1.38756E+01    0    1.38756E+01  1.00000
+   15  35 ( 35P ) 1.31132E-03    0    1.31132E-03  1.00000
+   17  34 ( 34Cl) 2.14938E-01    0    7.44973E-02  0.34660
+                                 1    1.40441E-01  0.65340   1.91900E+03 sec. 
+   16  34 ( 34S ) 1.12124E+01    0    1.12124E+01  1.00000
+   15  34 ( 34P ) 4.74053E-04    0    4.74053E-04  1.00000
+   17  33 ( 33Cl) 5.28817E-10    0    5.28817E-10  1.00000
+   16  33 ( 33S ) 3.99451E+01    0    3.99451E+01  1.00000
+   15  33 ( 33P ) 5.81941E+00    0    5.81941E+00  1.00000
+   16  32 ( 32S ) 1.36981E+01    0    1.36981E+01  1.00000
+   15  32 ( 32P ) 6.26661E+00    0    6.26661E+00  1.00000
+   14  32 ( 32Si) 3.22156E-02    0    3.22156E-02  1.00000
+   16  31 ( 31S ) 1.64679E-09    0    1.64679E-09  1.00000
+   15  31 ( 31P ) 1.33872E-01    0    1.33872E-01  1.00000
+   14  31 ( 31Si) 5.66406E-04    0    5.66406E-04  1.00000
+   15  30 ( 30P ) 3.11849E-09    0    3.11849E-09  1.00000
+   14  30 ( 30Si) 1.35519E+00    0    1.35519E+00  1.00000
+   14  29 ( 29Si) 1.25201E+00    0    1.25201E+00  1.00000
+   13  29 ( 29Al) 2.87048E-04    0    2.87048E-04  1.00000
+   14  28 ( 28Si) 1.20303E-03    0    1.20303E-03  1.00000
+   13  28 ( 28Al) 1.42603E-10    0    1.42603E-10  1.00000
+   13  27 ( 27Al) 5.84138E-12    0    5.84138E-12  1.00000
+   12  26 ( 26Mg) 2.75863E-05    0    2.75863E-05  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 3.54414E-07
-   41 9.42871E+00
-   40 1.09828E+02
-   39 2.94511E+02
-   38 3.97617E+02
-   37 6.39366E+01
-   36 1.91230E+02
-   35 1.22664E+02
-   34 1.14974E+01
-   33 4.44958E+01
-   32 2.02357E+01
-   31 1.34588E-01
-   30 1.37327E+00
-   29 1.28491E+00
-   28 1.21628E-03
-   27 5.85164E-12
-   26 2.78206E-05
+   42 3.54060E-07
+   41 9.43523E+00
+   40 1.09805E+02
+   39 2.95815E+02
+   38 3.96043E+02
+   37 6.39352E+01
+   36 1.91195E+02
+   35 1.22076E+02
+   34 1.14278E+01
+   33 4.57645E+01
+   32 1.99969E+01
+   31 1.34438E-01
+   30 1.35519E+00
+   29 1.25229E+00
+   28 1.20303E-03
+   27 5.84138E-12
+   26 2.75863E-05
 
- Total residual production cross section:  1268.2376709
+ Total residual production cross section:  1268.2380371
  Non-elastic cross section              :  1265.9200439
 
  8. Discrete state angular distributions
@@ -6494,13 +6494,13 @@ file: aaang.L00
 
  3. Total particle production cross sections
 
- gamma   = 5.69136E+02    Multiplicity= 4.50219E-01
- neutron = 1.80992E+03    Multiplicity= 1.43175E+00
- proton  = 1.39447E+03    Multiplicity= 1.10311E+00
- deuteron= 9.45140E+01    Multiplicity= 7.47660E-02
- triton  = 2.39445E+01    Multiplicity= 1.89415E-02
- helium-3= 1.64214E+01    Multiplicity= 1.29902E-02
- alpha   = 5.90607E+02    Multiplicity= 4.67204E-01
+ gamma   = 5.55172E+02    Multiplicity= 4.39173E-01
+ neutron = 1.80285E+03    Multiplicity= 1.42616E+00
+ proton  = 1.39734E+03    Multiplicity= 1.10537E+00
+ deuteron= 9.46185E+01    Multiplicity= 7.48487E-02
+ triton  = 2.39443E+01    Multiplicity= 1.89413E-02
+ helium-3= 1.64242E+01    Multiplicity= 1.29925E-02
+ alpha   = 5.91818E+02    Multiplicity= 4.68162E-01
 
  4. Residual production cross sections
 
@@ -6509,80 +6509,80 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 2.85854E-07    0    2.85854E-07  1.00000
-   20  41 ( 41Ca) 3.76085E+00    0    3.76085E+00  1.00000
-   19  41 ( 41K ) 4.40354E+00    0    4.40354E+00  1.00000
-   20  40 ( 40Ca) 1.61782E+01    0    1.61782E+01  1.00000
-   19  40 ( 40K ) 7.36003E+01    0    7.36003E+01  1.00000
-   18  40 ( 40Ar) 8.52019E+00    0    8.52019E+00  1.00000
+   20  42 ( 42Ca) 2.85539E-07    0    2.85539E-07  1.00000
+   20  41 ( 41Ca) 3.76734E+00    0    3.76734E+00  1.00000
+   19  41 ( 41K ) 4.40351E+00    0    4.40351E+00  1.00000
+   20  40 ( 40Ca) 1.61768E+01    0    1.61768E+01  1.00000
+   19  40 ( 40K ) 7.34914E+01    0    7.34914E+01  1.00000
+   18  40 ( 40Ar) 8.60751E+00    0    8.60751E+00  1.00000
    20  39 ( 39Ca) 1.97391E+00    0    1.97391E+00  1.00000
-   19  39 ( 39K ) 1.62107E+02    0    1.62107E+02  1.00000
-   18  39 ( 39Ar) 1.00295E+02    0    1.00295E+02  1.00000
-   17  39 ( 39Cl) 1.07523E+00    0    1.07523E+00  1.00000
-   20  38 ( 38Ca) 6.73207E-03    0    6.73207E-03  1.00000
-   19  38 ( 38K ) 2.77542E+01    0    2.05281E+01  0.73964
-                                 1    7.22604E+00  0.26036   9.24400E-01 sec. 
-   18  38 ( 38Ar) 3.90769E+02    0    3.90769E+02  1.00000
-   17  38 ( 38Cl) 5.21333E+00    0    2.62327E+00  0.50319
-                                 1    2.59005E+00  0.49681   7.15000E-01 sec. 
-   16  38 ( 38S ) 7.59895E-04    0    7.59895E-04  1.00000
-   19  37 ( 37K ) 5.01205E-02    0    5.01205E-02  1.00000
-   18  37 ( 37Ar) 5.55751E+01    0    5.55751E+01  1.00000
-   17  37 ( 37Cl) 1.55593E+01    0    1.55593E+01  1.00000
-   16  37 ( 37S ) 8.30407E-04    0    8.30407E-04  1.00000
-   18  36 ( 36Ar) 4.58669E+01    0    4.58669E+01  1.00000
-   17  36 ( 36Cl) 1.16365E+02    0    1.16365E+02  1.00000
-   16  36 ( 36S ) 5.37750E+00    0    5.37750E+00  1.00000
-   18  35 ( 35Ar) 5.33859E-01    0    5.33859E-01  1.00000
-   17  35 ( 35Cl) 1.26527E+02    0    1.26527E+02  1.00000
-   16  35 ( 35S ) 1.74654E+01    0    1.74654E+01  1.00000
-   15  35 ( 35P ) 3.54832E-03    0    3.54832E-03  1.00000
-   18  34 ( 34Ar) 8.51632E-11    0    8.51632E-11  1.00000
-   17  34 ( 34Cl) 3.70665E-01    0    1.26403E-01  0.34102
-                                 1    2.44261E-01  0.65898   1.91900E+03 sec. 
-   16  34 ( 34S ) 1.56752E+01    0    1.56752E+01  1.00000
-   15  34 ( 34P ) 1.22436E-03    0    1.22436E-03  1.00000
-   17  33 ( 33Cl) 1.84784E-07    0    1.84784E-07  1.00000
-   16  33 ( 33S ) 3.46992E+01    0    3.46992E+01  1.00000
-   15  33 ( 33P ) 5.30991E+00    0    5.30991E+00  1.00000
-   16  32 ( 32S ) 1.74811E+01    0    1.74811E+01  1.00000
-   15  32 ( 32P ) 1.03425E+01    0    1.03425E+01  1.00000
-   14  32 ( 32Si) 6.07028E-02    0    6.07028E-02  1.00000
-   16  31 ( 31S ) 2.23258E-07    0    2.23258E-07  1.00000
-   15  31 ( 31P ) 2.77436E-01    0    2.77436E-01  1.00000
-   14  31 ( 31Si) 1.32554E-03    0    1.32554E-03  1.00000
-   15  30 ( 30P ) 3.51273E-07    0    3.51273E-07  1.00000
-   14  30 ( 30Si) 1.33722E+00    0    1.33722E+00  1.00000
-   14  29 ( 29Si) 1.88280E+00    0    1.88280E+00  1.00000
-   13  29 ( 29Al) 1.29454E-03    0    1.29454E-03  1.00000
-   14  28 ( 28Si) 9.16956E-03    0    9.16956E-03  1.00000
-   13  28 ( 28Al) 1.62546E-08    0    1.62546E-08  1.00000
-   13  27 ( 27Al) 2.28363E-09    0    2.28363E-09  1.00000
-   12  26 ( 26Mg) 7.82829E-05    0    7.82829E-05  1.00000
+   19  39 ( 39K ) 1.59993E+02    0    1.59993E+02  1.00000
+   18  39 ( 39Ar) 1.03453E+02    0    1.03453E+02  1.00000
+   17  39 ( 39Cl) 1.18200E+00    0    1.18200E+00  1.00000
+   20  38 ( 38Ca) 6.71381E-03    0    6.71381E-03  1.00000
+   19  38 ( 38K ) 2.77479E+01    0    2.05229E+01  0.73962
+                                 1    7.22497E+00  0.26038   9.24400E-01 sec. 
+   18  38 ( 38Ar) 3.88971E+02    0    3.88971E+02  1.00000
+   17  38 ( 38Cl) 5.55400E+00    0    2.73683E+00  0.49277
+                                 1    2.81717E+00  0.50723   7.15000E-01 sec. 
+   16  38 ( 38S ) 6.88232E-04    0    6.88232E-04  1.00000
+   19  37 ( 37K ) 5.01181E-02    0    5.01181E-02  1.00000
+   18  37 ( 37Ar) 5.54635E+01    0    5.54635E+01  1.00000
+   17  37 ( 37Cl) 1.56151E+01    0    1.56151E+01  1.00000
+   16  37 ( 37S ) 8.34336E-04    0    8.34336E-04  1.00000
+   18  36 ( 36Ar) 4.51102E+01    0    4.51102E+01  1.00000
+   17  36 ( 36Cl) 1.16751E+02    0    1.16751E+02  1.00000
+   16  36 ( 36S ) 5.92690E+00    0    5.92690E+00  1.00000
+   18  35 ( 35Ar) 5.73183E-01    0    5.73183E-01  1.00000
+   17  35 ( 35Cl) 1.25553E+02    0    1.25553E+02  1.00000
+   16  35 ( 35S ) 1.79303E+01    0    1.79303E+01  1.00000
+   15  35 ( 35P ) 3.41331E-03    0    3.41331E-03  1.00000
+   18  34 ( 34Ar) 8.49471E-11    0    8.49471E-11  1.00000
+   17  34 ( 34Cl) 3.70193E-01    0    1.26319E-01  0.34123
+                                 1    2.43873E-01  0.65877   1.91900E+03 sec. 
+   16  34 ( 34S ) 1.55267E+01    0    1.55267E+01  1.00000
+   15  34 ( 34P ) 1.31811E-03    0    1.31811E-03  1.00000
+   17  33 ( 33Cl) 1.82568E-07    0    1.82568E-07  1.00000
+   16  33 ( 33S ) 3.58025E+01    0    3.58025E+01  1.00000
+   15  33 ( 33P ) 5.35931E+00    0    5.35931E+00  1.00000
+   16  32 ( 32S ) 1.72799E+01    0    1.72799E+01  1.00000
+   15  32 ( 32P ) 1.02636E+01    0    1.02636E+01  1.00000
+   14  32 ( 32Si) 5.75801E-02    0    5.75801E-02  1.00000
+   16  31 ( 31S ) 2.22341E-07    0    2.22341E-07  1.00000
+   15  31 ( 31P ) 2.76632E-01    0    2.76632E-01  1.00000
+   14  31 ( 31Si) 1.32239E-03    0    1.32239E-03  1.00000
+   15  30 ( 30P ) 3.46374E-07    0    3.46374E-07  1.00000
+   14  30 ( 30Si) 1.32895E+00    0    1.32895E+00  1.00000
+   14  29 ( 29Si) 1.84804E+00    0    1.84804E+00  1.00000
+   13  29 ( 29Al) 1.29326E-03    0    1.29326E-03  1.00000
+   14  28 ( 28Si) 9.07627E-03    0    9.07627E-03  1.00000
+   13  28 ( 28Al) 1.62419E-08    0    1.62419E-08  1.00000
+   13  27 ( 27Al) 2.27831E-09    0    2.27831E-09  1.00000
+   12  26 ( 26Mg) 7.78215E-05    0    7.78215E-05  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 2.85854E-07
-   41 8.16438E+00
-   40 9.82987E+01
-   39 2.65451E+02
-   38 4.23744E+02
-   37 7.11853E+01
-   36 1.67609E+02
-   35 1.44530E+02
-   34 1.60471E+01
-   33 4.00091E+01
-   32 2.78843E+01
-   31 2.78762E-01
-   30 1.33722E+00
-   29 1.88409E+00
-   28 9.16958E-03
-   27 2.28363E-09
-   26 7.82829E-05
+   42 2.85539E-07
+   41 8.17085E+00
+   40 9.82757E+01
+   39 2.66601E+02
+   38 4.22280E+02
+   37 7.11296E+01
+   36 1.67788E+02
+   35 1.44060E+02
+   34 1.58982E+01
+   33 4.11618E+01
+   32 2.76011E+01
+   31 2.77954E-01
+   30 1.32895E+00
+   29 1.84934E+00
+   28 9.07629E-03
+   27 2.27831E-09
+   26 7.78215E-05
 
- Total residual production cross section:  1266.4317627
+ Total residual production cross section:  1266.4320068
  Non-elastic cross section              :  1264.1300049
 
  8. Discrete state angular distributions
@@ -6679,13 +6679,13 @@ file: aaang.L00
 
  3. Total particle production cross sections
 
- gamma   = 5.49312E+02    Multiplicity= 4.35151E-01
- neutron = 1.85923E+03    Multiplicity= 1.47283E+00
- proton  = 1.42839E+03    Multiplicity= 1.13153E+00
- deuteron= 1.01636E+02    Multiplicity= 8.05136E-02
+ gamma   = 5.36763E+02    Multiplicity= 4.25209E-01
+ neutron = 1.85230E+03    Multiplicity= 1.46734E+00
+ proton  = 1.43111E+03    Multiplicity= 1.13369E+00
+ deuteron= 1.01744E+02    Multiplicity= 8.05987E-02
  triton  = 2.56147E+01    Multiplicity= 2.02913E-02
- helium-3= 1.72306E+01    Multiplicity= 1.36496E-02
- alpha   = 5.93902E+02    Multiplicity= 4.70474E-01
+ helium-3= 1.72332E+01    Multiplicity= 1.36517E-02
+ alpha   = 5.95033E+02    Multiplicity= 4.71369E-01
 
  4. Residual production cross sections
 
@@ -6694,82 +6694,82 @@ file: aaang.L00
    Z   A  nuclide    total     level   isomeric    isomeric    lifetime
                  cross section       cross section  ratio
 
-   20  42 ( 42Ca) 1.76543E-07    0    1.76543E-07  1.00000
-   20  41 ( 41Ca) 3.17696E+00    0    3.17696E+00  1.00000
-   19  41 ( 41K ) 3.43241E+00    0    3.43241E+00  1.00000
-   20  40 ( 40Ca) 1.44663E+01    0    1.44663E+01  1.00000
-   19  40 ( 40K ) 6.36213E+01    0    6.36213E+01  1.00000
-   18  40 ( 40Ar) 7.67210E+00    0    7.67210E+00  1.00000
+   20  42 ( 42Ca) 1.76334E-07    0    1.76334E-07  1.00000
+   20  41 ( 41Ca) 3.18261E+00    0    3.18261E+00  1.00000
+   19  41 ( 41K ) 3.43239E+00    0    3.43239E+00  1.00000
+   20  40 ( 40Ca) 1.44647E+01    0    1.44647E+01  1.00000
+   19  40 ( 40K ) 6.35318E+01    0    6.35318E+01  1.00000
+   18  40 ( 40Ar) 7.75006E+00    0    7.75006E+00  1.00000
    20  39 ( 39Ca) 1.84434E+00    0    1.84434E+00  1.00000
-   19  39 ( 39K ) 1.51493E+02    0    1.51493E+02  1.00000
-   18  39 ( 39Ar) 8.90610E+01    0    8.90610E+01  1.00000
-   17  39 ( 39Cl) 1.02370E+00    0    1.02370E+00  1.00000
-   20  38 ( 38Ca) 1.18364E-02    0    1.18364E-02  1.00000
-   19  38 ( 38K ) 3.12375E+01    0    2.30567E+01  0.73811
-                                 1    8.18086E+00  0.26189   9.24400E-01 sec. 
-   18  38 ( 38Ar) 4.01431E+02    0    4.01431E+02  1.00000
-   17  38 ( 38Cl) 6.87574E+00    0    3.38291E+00  0.49201
-                                 1    3.49284E+00  0.50799   7.15000E-01 sec. 
-   16  38 ( 38S ) 1.56172E-03    0    1.56172E-03  1.00000
-   19  37 ( 37K ) 7.45593E-02    0    7.45593E-02  1.00000
-   18  37 ( 37Ar) 6.67705E+01    0    6.67705E+01  1.00000
-   17  37 ( 37Cl) 1.63438E+01    0    1.63438E+01  1.00000
-   16  37 ( 37S ) 1.48687E-03    0    1.48687E-03  1.00000
-   18  36 ( 36Ar) 4.17328E+01    0    4.17328E+01  1.00000
-   17  36 ( 36Cl) 1.01850E+02    0    1.01850E+02  1.00000
-   16  36 ( 36S ) 4.88307E+00    0    4.88307E+00  1.00000
-   18  35 ( 35Ar) 7.90768E-01    0    7.90768E-01  1.00000
-   17  35 ( 35Cl) 1.37139E+02    0    1.37139E+02  1.00000
-   16  35 ( 35S ) 2.14988E+01    0    2.14988E+01  1.00000
-   15  35 ( 35P ) 7.19263E-03    0    7.19263E-03  1.00000
-   18  34 ( 34Ar) 3.12896E-08    0    3.12896E-08  1.00000
-   17  34 ( 34Cl) 6.40497E-01    0    2.11882E-01  0.33081
-                                 1    4.28615E-01  0.66919   1.91900E+03 sec. 
-   16  34 ( 34S ) 2.34885E+01    0    2.34885E+01  1.00000
-   15  34 ( 34P ) 2.61170E-03    0    2.61170E-03  1.00000
-   17  33 ( 33Cl) 8.41827E-06    0    8.41827E-06  1.00000
-   16  33 ( 33S ) 3.01506E+01    0    3.01506E+01  1.00000
-   15  33 ( 33P ) 4.99958E+00    0    4.99958E+00  1.00000
-   16  32 ( 32S ) 2.03804E+01    0    2.03804E+01  1.00000
-   15  32 ( 32P ) 1.41191E+01    0    1.41191E+01  1.00000
-   14  32 ( 32Si) 1.00070E-01    0    1.00070E-01  1.00000
-   16  31 ( 31S ) 8.03172E-06    0    8.03172E-06  1.00000
-   15  31 ( 31P ) 6.42077E-01    0    6.42077E-01  1.00000
-   14  31 ( 31Si) 3.67303E-03    0    3.67303E-03  1.00000
-   15  30 ( 30P ) 9.44525E-06    0    9.44525E-06  1.00000
-   14  30 ( 30Si) 1.19449E+00    0    1.19449E+00  1.00000
-   14  29 ( 29Si) 2.42988E+00    0    2.42988E+00  1.00000
-   13  29 ( 29Al) 4.11621E-03    0    4.11621E-03  1.00000
-   14  28 ( 28Si) 4.13720E-02    0    4.13720E-02  1.00000
-   13  28 ( 28Al) 2.61010E-07    0    2.61010E-07  1.00000
-   13  27 ( 27Al) 1.76071E-07    0    1.76071E-07  1.00000
-   12  26 ( 26Mg) 1.98557E-04    0    1.98557E-04  1.00000
-   12  25 ( 25Mg) 7.03036E-11    0    7.03036E-11  1.00000
+   19  39 ( 39K ) 1.49583E+02    0    1.49583E+02  1.00000
+   18  39 ( 39Ar) 9.19505E+01    0    9.19505E+01  1.00000
+   17  39 ( 39Cl) 1.12082E+00    0    1.12082E+00  1.00000
+   20  38 ( 38Ca) 1.17923E-02    0    1.17923E-02  1.00000
+   19  38 ( 38K ) 3.12289E+01    0    2.30494E+01  0.73808
+                                 1    8.17951E+00  0.26192   9.24400E-01 sec. 
+   18  38 ( 38Ar) 3.99582E+02    0    3.99582E+02  1.00000
+   17  38 ( 38Cl) 7.31367E+00    0    3.53679E+00  0.48359
+                                 1    3.77688E+00  0.51641   7.15000E-01 sec. 
+   16  38 ( 38S ) 1.44367E-03    0    1.44367E-03  1.00000
+   19  37 ( 37K ) 7.45511E-02    0    7.45511E-02  1.00000
+   18  37 ( 37Ar) 6.66170E+01    0    6.66170E+01  1.00000
+   17  37 ( 37Cl) 1.63784E+01    0    1.63784E+01  1.00000
+   16  37 ( 37S ) 1.51125E-03    0    1.51125E-03  1.00000
+   18  36 ( 36Ar) 4.10736E+01    0    4.10736E+01  1.00000
+   17  36 ( 36Cl) 1.02282E+02    0    1.02282E+02  1.00000
+   16  36 ( 36S ) 5.38327E+00    0    5.38327E+00  1.00000
+   18  35 ( 35Ar) 8.89919E-01    0    8.89919E-01  1.00000
+   17  35 ( 35Cl) 1.36120E+02    0    1.36120E+02  1.00000
+   16  35 ( 35S ) 2.22365E+01    0    2.22365E+01  1.00000
+   15  35 ( 35P ) 7.85252E-03    0    7.85252E-03  1.00000
+   18  34 ( 34Ar) 3.12226E-08    0    3.12226E-08  1.00000
+   17  34 ( 34Cl) 6.38725E-01    0    2.11573E-01  0.33124
+                                 1    4.27152E-01  0.66876   1.91900E+03 sec. 
+   16  34 ( 34S ) 2.32135E+01    0    2.32135E+01  1.00000
+   15  34 ( 34P ) 2.97253E-03    0    2.97253E-03  1.00000
+   17  33 ( 33Cl) 8.26689E-06    0    8.26689E-06  1.00000
+   16  33 ( 33S ) 3.11012E+01    0    3.11012E+01  1.00000
+   15  33 ( 33P ) 5.04815E+00    0    5.04815E+00  1.00000
+   16  32 ( 32S ) 2.01733E+01    0    2.01733E+01  1.00000
+   15  32 ( 32P ) 1.40248E+01    0    1.40248E+01  1.00000
+   14  32 ( 32Si) 9.55054E-02    0    9.55054E-02  1.00000
+   16  31 ( 31S ) 8.00788E-06    0    8.00788E-06  1.00000
+   15  31 ( 31P ) 6.39234E-01    0    6.39234E-01  1.00000
+   14  31 ( 31Si) 3.65555E-03    0    3.65555E-03  1.00000
+   15  30 ( 30P ) 9.20347E-06    0    9.20347E-06  1.00000
+   14  30 ( 30Si) 1.19383E+00    0    1.19383E+00  1.00000
+   14  29 ( 29Si) 2.39598E+00    0    2.39598E+00  1.00000
+   13  29 ( 29Al) 4.11640E-03    0    4.11640E-03  1.00000
+   14  28 ( 28Si) 4.10081E-02    0    4.10081E-02  1.00000
+   13  28 ( 28Al) 2.60597E-07    0    2.60597E-07  1.00000
+   13  27 ( 27Al) 1.75612E-07    0    1.75612E-07  1.00000
+   12  26 ( 26Mg) 1.97986E-04    0    1.97986E-04  1.00000
+   12  25 ( 25Mg) 7.00050E-11    0    7.00050E-11  1.00000
 
    b. Per mass
 
    A  cross section
 
-   42 1.76543E-07
-   41 6.60937E+00
-   40 8.57596E+01
-   39 2.43422E+02
-   38 4.39558E+02
-   37 8.31904E+01
-   36 1.48466E+02
-   35 1.59436E+02
-   34 2.41317E+01
-   33 3.51502E+01
-   32 3.45996E+01
-   31 6.45758E-01
-   30 1.19450E+00
-   29 2.43400E+00
-   28 4.13722E-02
-   27 1.76071E-07
-   26 1.98557E-04
-   25 7.03036E-11
+   42 1.76334E-07
+   41 6.61500E+00
+   40 8.57466E+01
+   39 2.44499E+02
+   38 4.38138E+02
+   37 8.30715E+01
+   36 1.48739E+02
+   35 1.59255E+02
+   34 2.38552E+01
+   33 3.61494E+01
+   32 3.42936E+01
+   31 6.42897E-01
+   30 1.19384E+00
+   29 2.40009E+00
+   28 4.10084E-02
+   27 1.75612E-07
+   26 1.97986E-04
+   25 7.00050E-11
 
- Total residual production cross section:  1264.6396484
+ Total residual production cross section:  1264.6394043
  Non-elastic cross section              :  1262.3499756
 
  8. Discrete state angular distributions
@@ -6893,6 +6893,6 @@ file: rp013027.tot
 file: rp012026.tot
 file: rp012025.tot
 
- Execution time:  0 hours  1 minutes 17.83 seconds 
+ Execution time:  0 hours  1 minutes 17.87 seconds 
 
  The TALYS team congratulates you with this successful calculation.

@@ -2,7 +2,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -28,7 +28,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -54,7 +54,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -80,7 +80,33 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
+#   format: YANDF-0.4
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,npta)
+#   Q-value [MeV]: -3.468995E+01
+#   E-threshold [MeV]:  3.528368E+01
+#   E-incident [MeV]:  2.900000E-04
+#   residual: 
+#     Z: 23
+#     A: 51
+#     nuclide: V51
+#   quantity: 
+#     type: gamma cross section and multiplicity
+#   datablock: 
+#     columns: 6
+#     entries: 0
+## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
+##      []             []            [mb]           [MeV]          [MeV]          [MeV]
+# header: 
+#   title: Co59(n,npta)V51 gamma cross section and multiplicity
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -106,7 +132,33 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
+#   format: YANDF-0.4
+# target: 
+#   Z: 27
+#   A: 59
+#   nuclide: Co59
+# reaction: 
+#   type: (n,npta)
+#   Q-value [MeV]: -3.468995E+01
+#   E-threshold [MeV]:  3.528368E+01
+#   E-incident [MeV]:  1.450000E-03
+#   residual: 
+#     Z: 23
+#     A: 51
+#     nuclide: V51
+#   quantity: 
+#     type: gamma cross section and multiplicity
+#   datablock: 
+#     columns: 6
+#     entries: 0
+## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
+##      []             []            [mb]           [MeV]          [MeV]          [MeV]
+# header: 
+#   title: Co59(n,npta)V51 gamma cross section and multiplicity
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -132,7 +184,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -158,7 +210,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -184,7 +236,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -210,7 +262,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -236,7 +288,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -262,33 +314,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
-#   format: YANDF-0.4
-# target: 
-#   Z: 27
-#   A: 59
-#   nuclide: Co59
-# reaction: 
-#   type: (n,npta)
-#   Q-value [MeV]: -3.468995E+01
-#   E-threshold [MeV]:  3.528368E+01
-#   E-incident [MeV]:  1.800000E-01
-#   residual: 
-#     Z: 23
-#     A: 51
-#     nuclide: V51
-#   quantity: 
-#     type: gamma cross section and multiplicity
-#   datablock: 
-#     columns: 6
-#     entries: 0
-## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
-##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-# header: 
-#   title: Co59(n,npta)V51 gamma cross section and multiplicity
-#   source: TALYS-2.2
-#   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -314,7 +340,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -340,7 +366,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -366,7 +392,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -392,7 +418,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -418,7 +444,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -444,7 +470,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -470,7 +496,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -496,7 +522,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -522,7 +548,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -548,7 +574,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -574,7 +600,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -600,7 +626,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -626,7 +652,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -652,7 +678,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -678,7 +704,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -704,7 +730,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -730,7 +756,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -756,7 +782,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -782,7 +808,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -808,7 +834,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -834,7 +860,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -860,7 +886,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -886,7 +912,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -912,7 +938,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -938,7 +964,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -964,7 +990,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -990,7 +1016,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1016,7 +1042,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1042,7 +1068,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1068,7 +1094,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1094,7 +1120,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1120,7 +1146,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1146,7 +1172,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1172,7 +1198,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1198,7 +1224,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1224,7 +1250,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1250,7 +1276,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1276,7 +1302,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1302,7 +1328,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1328,7 +1354,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1354,7 +1380,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1380,7 +1406,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1406,7 +1432,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1432,7 +1458,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1458,7 +1484,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1484,7 +1510,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1510,7 +1536,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1536,7 +1562,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1562,7 +1588,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1588,7 +1614,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1614,7 +1640,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1640,7 +1666,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1666,7 +1692,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1692,7 +1718,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1718,7 +1744,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1744,7 +1770,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1770,7 +1796,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1796,7 +1822,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1822,7 +1848,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1848,7 +1874,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1874,7 +1900,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1900,7 +1926,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1926,7 +1952,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1952,7 +1978,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -1978,7 +2004,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2004,7 +2030,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2030,7 +2056,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2056,7 +2082,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2082,7 +2108,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2108,7 +2134,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2134,7 +2160,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2160,7 +2186,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2186,7 +2212,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2212,7 +2238,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2238,7 +2264,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2264,7 +2290,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2290,7 +2316,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2316,7 +2342,7 @@
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2338,90 +2364,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            2.662863E-16   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            1.708219E-17   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            4.871925E-18   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            4.962368E-20   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            8.091696E-21   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            1.735706E-25   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            4.437613E-21   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            1.718739E-20   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            7.114223E-23   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            1.504082E-20   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            7.138940E-22   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            7.581842E-22   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            6.339521E-24   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            2.034741E-24   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            8.997476E-26   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            8.276735E-25   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            3.403154E-25   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            1.046141E-25   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            9.888006E-27   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            4.335961E-28   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            1.605400E-27   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            1.926075E-28   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            4.993047E-28   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            1.234070E-27   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            2.853404E-28   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            4.917420E-29   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            3.312984E-29   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            3.992721E-28   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            3.747254E-27   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            1.717191E-28   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            9.709564E-29   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            4.947700E-29   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            4.133601E-31   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            5.312192E-34   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            2.672601E-29   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            1.395435E-29   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            1.821265E-31   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            8.984390E-32   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            1.549032E-31   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            1.192367E-31   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            2.322766E-32   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            1.665355E-32   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            6.528952E-33   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.219849E-32   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            2.629529E-33   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            1.842198E-33   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            6.348996E-33   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            3.491652E-33   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            7.469370E-33   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            8.213691E-34   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            8.212101E-35   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            4.578300E-33   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            2.563384E-33   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            1.143332E-33   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            3.925605E-33   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.356546E-33   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            4.696779E-34   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            3.835011E-34   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            6.257985E-34   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            3.633926E-34   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            1.931136E-35   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            1.341487E-37   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            2.261837E-34   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            9.402178E-35   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            3.264765E-34   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            1.142645E-34   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            1.848113E-33   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            2.401503E-34   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            1.044912E-33   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            1.440877E-33   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            6.192060E-34   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            3.023974E-34   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            2.674038E-33   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            3.074828E-35   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            8.290885E-35   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            1.021050E-33   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            1.326191E-33   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            5.600993E-34   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            2.386309E-34   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            2.551635E-16   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            1.649135E-17   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            4.703414E-18   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            4.882308E-20   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            7.961148E-21   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            1.648966E-25   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            4.215850E-21   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            1.632848E-20   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            6.758701E-23   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            1.495132E-20   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            7.096461E-22   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            7.561044E-22   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            6.332217E-24   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            2.032397E-24   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            8.987110E-26   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            8.266827E-25   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            3.399080E-25   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            1.044888E-25   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            9.876169E-27   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            4.330465E-28   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            1.603365E-27   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            1.923633E-28   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            4.988102E-28   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            1.233233E-27   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            2.851468E-28   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            4.914083E-29   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            3.310736E-29   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            3.990755E-28   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            3.746464E-27   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            1.716743E-28   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            9.707035E-29   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            4.946411E-29   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            4.132524E-31   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            5.311230E-34   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            2.672117E-29   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            1.395183E-29   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            1.820935E-31   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            8.971469E-32   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            1.546804E-31   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            1.190652E-31   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            2.319425E-32   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            1.663013E-32   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            6.519772E-33   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.218134E-32   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            2.625832E-33   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            1.839727E-33   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            6.340483E-33   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            3.486970E-33   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            7.459667E-33   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            8.203022E-34   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            8.201433E-35   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            4.572270E-33   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            2.560008E-33   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            1.141826E-33   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            3.920683E-33   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.354845E-33   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            4.690890E-34   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            3.830202E-34   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            6.250309E-34   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            3.629469E-34   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            1.928767E-35   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            1.339841E-37   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            2.259377E-34   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            9.391950E-35   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            3.261213E-34   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            1.141402E-34   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            1.846191E-33   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            2.399006E-34   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            1.043813E-33   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            1.439424E-33   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            6.185818E-34   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            3.020926E-34   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            2.671381E-33   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            3.071773E-35   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            8.282647E-35   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            1.020074E-33   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            1.324924E-33   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            5.595939E-34   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            2.384313E-34   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2443,90 +2469,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            4.348945E-12   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            8.286437E-13   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            2.363333E-13   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            8.061952E-15   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            1.314591E-15   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            2.527215E-20   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            6.461237E-16   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            2.502512E-15   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            1.035842E-17   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            2.681763E-14   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            1.272866E-15   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            1.794124E-15   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            1.183319E-16   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            3.797998E-17   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            1.679447E-18   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            1.770804E-17   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            7.281035E-18   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            2.238214E-18   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            2.115535E-19   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            3.247269E-20   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            1.202309E-19   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            1.442468E-20   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            3.499955E-20   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            8.354382E-20   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            1.931691E-20   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            3.328984E-21   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            2.242816E-21   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            2.360047E-20   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            1.544073E-18   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            9.187271E-21   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            5.194787E-21   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            2.647106E-21   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            2.211549E-23   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            3.787723E-26   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            1.905630E-21   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            9.949796E-22   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            1.298606E-23   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            5.683245E-22   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            9.798690E-22   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            7.542543E-22   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            1.469309E-22   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            2.215963E-22   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            8.687588E-23   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.623161E-22   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            3.498918E-23   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            5.397559E-23   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            1.860228E-22   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.023039E-22   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            3.778596E-22   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            4.155133E-23   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            4.154328E-24   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            3.078497E-22   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            1.723646E-22   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            7.687886E-23   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            4.342994E-22   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.500780E-22   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            5.196163E-23   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            4.242767E-23   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            6.713808E-23   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            3.898616E-23   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            2.071797E-24   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            1.439199E-26   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            3.429724E-23   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            1.425694E-23   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            4.950507E-23   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            1.732643E-23   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            3.007119E-22   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            3.907556E-23   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            1.763438E-22   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            2.632278E-22   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            1.131202E-22   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            5.524375E-23   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            5.462435E-22   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            6.281156E-24   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            1.693634E-23   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            2.276906E-22   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            2.957361E-22   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            1.346876E-22   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            8.759316E-23   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            4.231401E-12   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            8.137661E-13   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            2.320901E-13   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            7.996598E-15   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            1.303935E-15   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            2.462133E-20   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            6.294843E-16   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            2.438066E-15   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            1.009167E-17   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            2.529777E-14   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            1.200728E-15   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            1.758979E-15   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            1.170702E-16   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            3.757501E-17   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            1.661539E-18   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            1.768181E-17   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            7.270247E-18   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            2.234898E-18   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            2.112401E-19   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            3.243622E-20   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            1.200959E-19   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            1.440847E-20   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            3.496179E-20   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            8.345100E-20   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            1.929545E-20   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            3.325285E-21   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            2.240324E-21   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            2.357783E-20   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            1.507413E-18   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            9.179251E-21   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            5.190252E-21   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            2.644795E-21   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            2.209618E-23   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            3.784546E-26   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            1.904031E-21   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            9.941449E-22   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            1.297517E-23   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            5.678631E-22   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            9.790737E-22   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            7.536422E-22   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            1.468116E-22   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            2.213984E-22   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            8.679829E-23   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.621712E-22   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            3.495793E-23   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            5.392687E-23   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            1.858549E-22   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.022115E-22   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            3.775406E-22   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            4.151625E-23   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            4.150821E-24   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            3.075784E-22   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            1.722127E-22   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            7.681111E-23   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            4.339383E-22   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.499533E-22   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            5.191843E-23   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            4.239240E-23   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            6.707963E-23   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            3.895222E-23   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            2.069993E-24   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            1.437946E-26   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            3.426566E-23   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            1.424381E-23   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            4.945949E-23   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            1.731047E-23   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            3.004957E-22   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            3.904747E-23   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            1.761919E-22   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            2.630436E-22   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            1.130410E-22   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            5.520508E-23   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            5.458645E-22   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            6.276797E-24   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            1.692459E-23   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            2.275347E-22   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            2.955335E-22   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            1.345733E-22   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            8.751692E-23   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2548,90 +2574,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            3.509237E-09   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            7.453584E-10   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            2.125799E-10   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            5.267846E-11   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            8.589814E-12   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            1.528151E-16   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            3.906965E-12   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            1.513213E-11   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            6.263506E-14   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            8.498936E-11   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            4.033916E-12   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            1.768145E-11   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            1.870497E-12   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            6.003574E-13   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            2.654736E-14   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            4.188169E-13   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            1.722054E-13   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            5.293650E-14   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            5.003499E-15   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            6.001284E-15   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            2.221990E-14   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            2.665827E-15   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            6.979965E-15   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            2.160692E-14   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            4.995929E-15   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            8.609745E-16   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            5.800592E-16   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            6.510450E-15   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            7.835517E-14   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            2.994061E-15   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            1.692941E-15   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            8.626716E-16   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            7.207267E-18   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            1.217025E-20   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            6.122938E-16   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            3.196947E-16   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            4.172523E-18   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            1.886980E-16   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            3.253411E-16   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            2.504314E-16   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            4.878474E-17   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            7.605710E-17   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            2.981786E-17   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            5.571075E-17   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            1.200912E-17   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            1.823598E-17   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            6.284891E-17   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            3.456398E-17   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            1.214651E-16   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            1.335691E-17   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            1.335433E-18   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            8.657618E-17   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            4.847388E-17   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            2.162054E-17   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            1.303816E-16   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            4.505513E-17   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            1.559947E-17   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            1.273727E-17   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            2.198223E-17   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            1.276478E-17   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            6.783440E-19   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            4.712199E-21   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            1.455957E-17   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            6.052233E-18   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            2.101547E-17   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            7.355266E-18   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            1.345120E-16   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            1.747896E-17   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            7.593128E-17   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            1.192193E-16   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            5.123359E-17   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            2.502060E-17   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            2.544895E-16   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            2.926329E-18   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            7.890477E-18   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            1.096618E-16   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            1.424343E-16   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            6.418222E-17   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            4.036864E-17   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            3.462709E-09   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            7.390075E-10   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            2.107686E-10   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            5.257877E-11   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            8.573557E-12   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            1.525113E-16   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            3.899200E-12   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            1.510206E-11   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            6.251059E-14   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            8.275811E-11   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            3.928012E-12   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            1.742909E-11   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            1.857244E-12   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            5.961034E-13   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            2.635925E-14   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            4.184236E-13   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            1.720437E-13   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            5.288679E-14   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            4.998801E-15   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            5.995339E-15   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            2.219788E-14   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            2.663186E-15   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            6.972563E-15   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            2.158807E-14   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            4.991570E-15   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            8.602233E-16   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            5.795531E-16   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            6.503590E-15   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            7.788326E-14   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            2.991185E-15   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            1.691315E-15   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            8.618429E-16   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            7.200345E-18   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            1.215677E-20   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            6.116157E-16   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            3.193407E-16   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            4.167903E-18   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            1.884754E-16   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            3.249574E-16   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            2.501360E-16   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            4.872720E-17   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            7.595049E-17   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            2.977606E-17   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            5.563265E-17   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            1.199228E-17   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            1.821066E-17   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            6.276165E-17   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            3.451599E-17   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            1.213267E-16   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            1.334169E-17   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            1.333911E-18   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            8.648682E-17   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            4.842384E-17   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            2.159823E-17   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            1.302798E-16   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            4.501996E-17   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            1.558730E-17   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            1.272733E-17   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            2.195656E-17   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            1.274987E-17   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            6.775518E-19   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            4.706695E-21   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            1.453939E-17   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            6.043844E-18   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            2.098634E-17   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            7.345072E-18   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            1.344203E-16   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            1.746705E-17   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            7.584426E-17   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            1.191488E-16   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            5.120330E-17   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            2.500581E-17   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            2.543432E-16   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            2.924646E-18   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            7.885938E-18   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            1.095992E-16   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            1.423530E-16   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            6.410910E-17   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            4.032456E-17   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2653,90 +2679,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            3.230223E-07   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            7.943235E-08   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            2.265450E-08   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            1.517794E-08   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            2.474933E-09   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            5.209141E-14   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            1.331801E-09   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            5.158221E-09   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            2.135097E-11   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            5.863727E-08   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            2.783146E-09   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            7.800109E-09   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            1.425415E-09   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            4.575031E-10   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            2.023045E-11   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            3.691111E-10   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            1.517678E-10   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            4.665392E-11   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            4.409677E-12   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            1.134096E-11   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            4.199018E-11   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            5.037761E-12   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            2.716061E-11   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            1.021190E-10   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            2.361183E-11   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            4.069150E-12   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            2.741484E-12   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            3.667901E-11   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            4.210164E-10   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            1.848087E-11   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            1.044970E-11   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            5.324849E-12   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            4.448693E-14   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            6.310699E-17   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            3.174956E-12   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            1.657728E-12   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            2.163599E-14   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            7.726521E-13   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            1.332158E-12   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            1.025429E-12   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            1.997564E-13   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            3.386172E-13   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            1.327534E-13   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            2.480323E-13   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            5.346632E-14   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            9.239347E-14   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            3.184271E-13   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.751201E-13   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            6.854031E-13   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            7.537035E-14   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            7.535574E-15   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            4.972305E-13   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            2.783987E-13   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            1.241726E-13   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            7.607897E-13   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            2.629012E-13   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            9.102447E-14   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            7.432324E-14   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            1.266184E-13   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            7.352555E-14   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            3.907284E-15   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            2.714242E-17   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            8.419764E-14   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            3.499992E-14   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            1.215319E-13   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            4.253533E-14   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            7.985815E-13   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            1.037705E-13   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            4.417422E-13   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            7.205344E-13   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            3.096443E-13   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            1.512189E-13   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            1.566380E-12   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            1.801152E-14   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            4.856578E-14   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            6.770070E-13   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            8.793308E-13   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            3.752943E-13   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            2.341145E-13   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            3.205010E-07   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            7.910307E-08   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            2.256059E-08   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            1.516163E-08   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            2.472273E-09   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            5.203593E-14   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            1.330383E-09   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            5.152728E-09   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            2.132823E-11   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            5.791365E-08   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            2.748801E-09   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            7.733508E-09   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            1.421831E-09   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            4.563528E-10   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            2.017958E-11   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            3.687687E-10   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            1.516270E-10   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            4.661064E-11   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            4.405586E-12   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            1.132969E-11   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            4.194846E-11   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            5.032756E-12   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            2.713639E-11   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            1.020506E-10   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            2.359602E-11   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            4.066425E-12   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            2.739648E-12   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            3.664782E-11   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            4.207181E-10   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            1.846557E-11   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            1.044104E-11   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            5.320439E-12   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            4.445008E-14   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            6.303964E-17   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            3.171568E-12   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            1.655959E-12   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            2.161290E-14   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            7.716531E-13   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            1.330435E-12   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            1.024103E-12   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            1.994981E-13   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            3.380745E-13   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            1.325407E-13   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            2.476348E-13   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            5.338064E-14   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            9.224301E-14   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            3.179086E-13   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.748349E-13   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            6.844819E-13   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            7.526905E-14   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            7.525447E-15   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            4.966116E-13   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            2.780521E-13   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            1.240181E-13   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            7.601350E-13   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            2.626749E-13   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            9.094614E-14   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            7.425928E-14   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            1.264249E-13   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            7.341323E-14   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            3.901315E-15   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            2.710095E-17   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            8.406553E-14   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            3.494500E-14   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            1.213413E-13   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            4.246859E-14   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            7.980126E-13   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            1.036966E-13   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            4.411785E-13   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            7.201138E-13   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            3.094636E-13   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            1.511306E-13   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            1.565551E-12   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            1.800198E-14   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            4.854008E-14   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            6.766506E-13   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            8.788680E-13   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            3.748318E-13   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            2.338289E-13   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2758,90 +2784,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            8.007733E-06   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            2.266783E-06   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            6.464977E-07   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            7.056055E-07   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            1.150569E-07   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            2.532281E-12   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            6.474188E-08   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            2.507528E-07   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            1.037919E-09   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            2.571674E-06   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            1.220614E-07   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            8.356828E-07   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            1.406263E-07   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            4.513560E-08   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            1.995863E-09   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            4.246031E-08   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            1.745845E-08   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            5.366785E-09   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            5.072626E-10   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            2.043666E-09   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            7.566721E-09   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            9.078155E-10   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            4.810864E-09   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            1.806656E-08   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            4.177330E-09   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            7.199011E-10   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            4.850146E-10   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            7.177412E-09   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            6.339680E-08   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            4.748287E-09   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            2.684838E-09   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            1.368112E-09   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            1.143002E-11   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            2.244048E-14   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            1.128996E-09   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            5.894787E-10   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            7.693634E-12   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            4.677324E-10   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            8.064346E-10   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            6.207531E-10   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            1.209245E-10   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            1.980027E-10   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            7.762613E-11   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.450342E-10   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            3.126385E-11   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            5.320697E-11   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            1.833738E-10   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.008470E-10   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            3.924054E-10   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            4.315086E-11   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            4.314250E-12   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            3.158996E-10   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            1.768718E-10   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            7.888917E-11   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            4.518816E-10   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.561538E-10   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            5.406525E-11   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            4.414532E-11   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            7.212544E-11   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            4.188225E-11   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            2.225701E-12   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            1.546110E-14   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            4.420595E-11   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            1.837587E-11   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            6.380743E-11   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            2.233216E-11   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            4.199927E-10   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            5.457532E-11   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            2.338648E-10   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            3.831038E-10   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            1.646360E-10   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            8.040216E-11   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            8.316645E-10   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            9.563158E-12   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            2.578585E-11   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            3.647745E-10   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            4.737876E-10   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            2.097552E-10   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            1.354314E-10   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            7.973323E-06   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            2.262970E-06   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            6.454105E-07   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            7.049392E-07   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            1.149482E-07   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            2.529900E-12   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            6.468100E-08   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            2.505170E-07   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            1.036943E-09   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            2.550138E-06   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            1.210392E-07   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            8.326492E-07   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            1.403944E-07   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            4.506120E-08   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            1.992573E-09   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            4.242036E-08   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            1.744203E-08   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            5.361736E-09   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            5.067853E-10   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            2.041557E-09   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            7.558914E-09   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            9.068789E-10   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            4.806639E-09   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            1.805652E-08   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            4.175010E-09   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            7.195012E-10   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            4.847452E-10   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            7.171789E-09   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            6.336740E-08   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            4.744944E-09   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            2.682948E-09   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            1.367149E-09   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            1.142197E-11   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            2.242049E-14   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            1.127990E-09   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            5.889536E-10   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            7.686780E-12   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            4.673488E-10   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            8.057732E-10   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            6.202440E-10   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            1.208253E-10   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            1.977995E-10   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            7.754643E-11   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.448853E-10   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            3.123175E-11   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            5.314790E-11   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            1.831702E-10   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.007351E-10   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            3.920216E-10   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            4.310865E-11   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            4.310030E-12   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            3.156243E-10   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            1.767176E-10   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            7.882040E-11   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            4.515789E-10   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.560492E-10   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            5.402902E-11   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            4.411574E-11   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            7.203542E-11   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            4.182998E-11   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            2.222923E-12   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            1.544180E-14   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            4.414298E-11   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            1.834969E-11   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            6.371655E-11   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            2.230034E-11   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            4.197238E-10   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            5.454039E-11   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            2.335920E-10   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            3.829119E-10   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            1.645535E-10   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            8.036190E-11   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            8.313177E-10   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            9.559170E-12   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            2.577510E-11   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            3.646229E-10   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            4.735907E-10   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            2.095119E-10   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            1.352562E-10   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2863,90 +2889,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            9.658283E-05   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            2.436480E-05   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            6.948960E-06   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            1.008614E-05   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            1.644658E-06   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            3.648389E-11   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            9.327699E-07   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            3.612726E-06   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            1.495383E-08   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            3.125723E-05   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            1.483586E-06   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            2.058777E-05   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            4.156482E-06   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            1.334070E-06   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            5.899158E-08   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            1.237986E-06   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            5.090240E-07   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            1.564757E-07   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            1.478990E-08   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            7.645475E-08   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            2.830755E-07   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            3.396192E-08   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            1.905549E-07   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            6.518166E-07   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            1.507123E-07   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            2.597304E-08   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            1.749866E-08   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            2.743911E-07   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            2.094749E-06   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            1.967925E-07   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            1.112730E-07   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            5.670135E-08   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            4.737166E-10   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            1.056863E-12   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            5.317151E-08   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            2.776225E-08   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            3.623415E-10   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            3.122356E-08   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            5.383368E-08   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            4.143849E-08   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            8.072335E-09   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            1.526070E-08   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            5.982893E-09   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.117825E-08   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            2.409605E-09   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            4.652535E-09   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            1.603461E-08   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            8.818288E-09   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            3.811684E-08   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            4.191518E-09   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            4.190706E-10   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            2.981656E-08   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            1.669425E-08   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            7.446045E-09   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            4.780840E-08   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.652084E-08   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            5.720023E-09   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            4.670509E-09   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            8.333246E-09   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            4.839002E-09   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            2.571535E-10   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            1.786348E-12   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            5.806944E-09   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            2.413875E-09   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            8.381818E-09   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            2.933577E-09   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            5.505801E-08   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            7.154432E-09   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            3.109016E-08   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            5.126483E-08   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            2.203068E-08   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            1.075897E-08   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            1.161777E-07   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            1.335906E-09   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            3.602102E-09   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            5.114618E-08   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            6.643123E-08   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            2.843603E-08   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            2.060284E-08   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            9.638995E-05   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            2.434122E-05   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            6.942236E-06   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            1.007760E-05   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            1.643266E-06   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            3.645272E-11   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            9.319729E-07   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            3.609639E-06   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            1.494106E-08   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            3.112841E-05   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            1.477472E-06   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            2.056006E-05   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            4.153421E-06   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            1.333088E-06   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            5.894814E-08   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            1.237013E-06   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            5.086239E-07   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            1.563527E-07   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            1.477828E-08   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            7.638785E-08   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            2.828278E-07   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            3.393221E-08   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            1.904074E-07   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            6.515140E-07   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            1.506424E-07   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            2.596098E-08   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            1.749054E-08   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            2.742046E-07   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            2.094107E-06   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            1.966774E-07   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            1.112079E-07   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            5.666819E-08   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            4.734395E-10   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            1.056085E-12   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            5.313239E-08   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            2.774182E-08   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            3.620749E-10   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            3.120422E-08   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            5.380034E-08   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            4.141282E-08   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            8.067335E-09   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            1.524973E-08   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            5.978592E-09   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.117021E-08   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            2.407873E-09   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            4.649232E-09   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            1.602323E-08   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            8.812029E-09   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            3.809446E-08   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            4.189057E-09   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            4.188246E-10   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            2.980087E-08   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            1.668547E-08   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            7.442129E-09   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            4.778934E-08   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.651425E-08   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            5.717743E-09   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            4.668647E-09   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            8.327765E-09   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            4.835819E-09   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            2.569844E-10   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            1.785173E-12   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            5.802848E-09   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            2.412172E-09   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            8.375904E-09   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            2.931508E-09   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            5.503767E-08   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            7.151787E-09   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            3.107180E-08   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            5.124942E-08   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            2.202406E-08   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            1.075574E-08   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            1.161481E-07   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            1.335566E-09   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            3.601184E-09   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            5.113315E-08   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            6.641432E-08   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            2.841916E-08   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            2.059025E-08   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -2968,90 +2994,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            4.885265E-04   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            1.552584E-04   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            4.428047E-05   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            6.234715E-05   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            1.016640E-05   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            2.194354E-10   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            5.610224E-06   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            2.172905E-05   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            8.994110E-08   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            1.693560E-04   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            8.038277E-06   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            1.571059E-04   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            3.872128E-05   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            1.242804E-05   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            5.495584E-07   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            1.235022E-05   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            5.078051E-06   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            1.561010E-06   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            1.475449E-07   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            9.084162E-07   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            3.363433E-06   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            4.035270E-07   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            2.358404E-06   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            7.316640E-06   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            1.691745E-06   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            2.915473E-07   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            1.964224E-07   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            3.292389E-06   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            2.605375E-05   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            2.468383E-06   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            1.395705E-06   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            7.112092E-07   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            5.941862E-09   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            1.456761E-11   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            7.329065E-07   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            3.826698E-07   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            4.994448E-09   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            5.074252E-07   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            8.748705E-07   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            6.734316E-07   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            1.311864E-07   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            2.665165E-07   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            1.044866E-07   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.952195E-07   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            4.208190E-08   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            8.508774E-08   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            2.932485E-07   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.612730E-07   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            7.077727E-07   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            7.783022E-08   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            7.781514E-09   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            5.015062E-07   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            2.807926E-07   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            1.252404E-07   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            8.128870E-07   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            2.809041E-07   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            9.725765E-08   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            7.941275E-08   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            1.579219E-07   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            9.170308E-08   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            4.873271E-09   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            3.385277E-11   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            1.198712E-07   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            4.982898E-08   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            1.730236E-07   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            6.055706E-08   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            1.130210E-06   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            1.468635E-07   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            6.359125E-07   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            1.051609E-06   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            4.519211E-07   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            2.207017E-07   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            2.350747E-06   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            2.703082E-08   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            7.288518E-08   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            1.044648E-06   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            1.356842E-06   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            5.978218E-07   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            4.058346E-07   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            4.878075E-04   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            1.550664E-04   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            4.422571E-05   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            6.230207E-05   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            1.015905E-05   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            2.192733E-10   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            5.606079E-06   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            2.171299E-05   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            8.987465E-08   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            1.690846E-04   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            8.025391E-06   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            1.570296E-04   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            3.870523E-05   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            1.242288E-05   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            5.493307E-07   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            1.234275E-05   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            5.074983E-06   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            1.560066E-06   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            1.474557E-07   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            9.077897E-07   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            3.361113E-06   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            4.032487E-07   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            2.356931E-06   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            7.313828E-06   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            1.691095E-06   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            2.914353E-07   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            1.963469E-07   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            3.290509E-06   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            2.604834E-05   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            2.467198E-06   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            1.395035E-06   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            7.108677E-07   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            5.939009E-09   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            1.455901E-11   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            7.324739E-07   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            3.824439E-07   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            4.991501E-09   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            5.071794E-07   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            8.744466E-07   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            6.731054E-07   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            1.311228E-07   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            2.663671E-07   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            1.044281E-07   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.951101E-07   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            4.205832E-08   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            8.504128E-08   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            2.930883E-07   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.611849E-07   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            7.074547E-07   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            7.779525E-08   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            7.778018E-09   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            5.012949E-07   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            2.806744E-07   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            1.251877E-07   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            8.126274E-07   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            2.808144E-07   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            9.722658E-08   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            7.938738E-08   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            1.578426E-07   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            9.165701E-08   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            4.870823E-09   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            3.383576E-11   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            1.198091E-07   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            4.980318E-08   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            1.729340E-07   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            6.052570E-08   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            1.129899E-06   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            1.468230E-07   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            6.356351E-07   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            1.051376E-06   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            4.518212E-07   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            2.206528E-07   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            2.350315E-06   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            2.702584E-08   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            7.287176E-08   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            1.044457E-06   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            1.356593E-06   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            5.975630E-07   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            4.056476E-07   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -3073,90 +3099,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            1.348073E-03   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            4.516063E-04   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            1.288004E-04   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            2.233504E-04   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            3.641978E-05   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            7.385269E-10   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            1.888164E-05   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            7.313078E-05   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            3.027037E-07   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            5.487884E-04   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            2.604757E-05   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            6.571210E-04   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            1.700689E-04   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            5.458555E-05   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            2.413733E-06   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            5.565427E-05   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            2.288343E-05   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            7.034440E-06   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            6.648875E-07   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            5.175199E-06   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            1.916130E-05   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            2.298872E-06   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            1.406293E-05   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            4.023346E-05   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            9.302736E-06   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            1.603189E-06   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            1.080107E-06   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            1.796613E-05   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            1.553232E-04   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            1.353101E-05   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            7.650879E-06   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            3.898656E-06   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            3.257168E-08   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            8.502310E-11   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            4.277571E-06   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            2.233433E-06   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            2.914984E-08   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            3.263971E-06   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            5.627533E-06   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            4.331794E-06   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            8.438458E-07   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            1.786251E-06   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            7.002920E-07   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.308403E-06   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            2.820420E-07   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            5.859341E-07   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            2.019378E-06   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.110564E-06   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            4.910989E-06   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            5.400369E-07   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            5.399323E-08   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            3.296530E-06   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            1.845723E-06   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            8.232377E-07   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            5.351470E-06   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.849273E-06   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            6.402751E-07   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            5.227969E-07   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            1.118150E-06   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            6.492946E-07   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            3.450472E-08   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            2.396912E-10   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            8.802769E-07   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            3.659203E-07   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            1.270603E-06   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            4.447022E-07   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            8.196935E-06   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            1.065138E-06   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            4.624682E-06   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            7.635930E-06   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            3.281485E-06   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            1.602556E-06   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            1.704654E-05   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            1.960150E-07   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            5.285297E-07   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            7.606444E-06   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            9.879635E-06   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            4.406216E-06   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            2.900155E-06   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            1.347130E-03   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            4.513054E-04   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            1.287145E-04   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            2.232181E-04   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            3.639821E-05   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            7.380642E-10   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            1.886981E-05   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            7.308496E-05   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            3.025141E-07   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            5.484836E-04   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            2.603310E-05   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            6.569551E-04   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            1.700155E-04   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            5.456841E-05   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            2.412974E-06   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            5.562728E-05   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            2.287233E-05   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            7.031028E-06   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            6.645650E-07   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            5.172469E-06   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            1.915119E-05   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            2.297659E-06   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            1.405619E-05   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            4.022090E-05   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            9.299832E-06   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            1.602688E-06   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            1.079770E-06   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            1.795781E-05   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            1.552999E-04   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            1.352562E-05   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            7.647834E-06   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            3.897105E-06   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            3.255871E-08   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            8.498291E-11   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            4.275549E-06   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            2.232377E-06   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            2.913606E-08   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            3.262732E-06   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            5.625396E-06   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            4.330150E-06   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            8.435255E-07   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            1.785479E-06   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            6.999892E-07   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.307838E-06   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            2.819200E-07   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            5.856870E-07   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            2.018526E-06   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.110095E-06   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            4.909265E-06   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            5.398472E-07   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            5.397427E-08   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            3.295412E-06   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            1.845097E-06   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            8.229585E-07   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            5.350088E-06   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.848796E-06   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            6.401098E-07   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            5.226620E-07   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            1.117717E-06   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            6.490428E-07   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            3.449134E-08   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            2.395982E-10   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            8.799299E-07   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            3.657760E-07   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            1.270102E-06   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            4.445268E-07   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            8.195186E-06   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            1.064911E-06   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            4.623134E-06   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            7.634639E-06   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            3.280929E-06   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            1.602285E-06   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            1.704417E-05   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            1.959878E-07   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            5.284563E-07   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            7.605394E-06   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            9.878270E-06   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            4.404762E-06   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            2.899118E-06   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -3178,90 +3204,90 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            2.846334E-03   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            9.453656E-04   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            2.696230E-04   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            5.785800E-04   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            9.434394E-05   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            1.754461E-09   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            4.485565E-05   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            1.737311E-04   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            7.191098E-07   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            1.222023E-03   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            5.800181E-05   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            1.898529E-03   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            4.574320E-04   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            1.468180E-04   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            6.492184E-06   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            1.528824E-04   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            6.286082E-05   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            1.932362E-05   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            1.826447E-06   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            1.652166E-05   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            6.117186E-05   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            7.339078E-06   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            4.665682E-05   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            1.324125E-04   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            3.061629E-05   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            5.276263E-06   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            3.554745E-06   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            6.259916E-05   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            6.918404E-04   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            4.747816E-05   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            2.684572E-05   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            1.367977E-05   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            1.142888E-07   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            2.983221E-10   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            1.500879E-05   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            7.836486E-06   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            1.022786E-07   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            1.143025E-05   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            1.970731E-05   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            1.516971E-05   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            2.955102E-06   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            6.468646E-06   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            2.536005E-06   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            4.738191E-06   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            1.021374E-06   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            2.156013E-06   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            7.430537E-06   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            4.086449E-06   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            1.808973E-05   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            1.989237E-06   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            1.988852E-07   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            1.173848E-05   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            6.572358E-06   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            2.931433E-06   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            1.898925E-05   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            6.561993E-06   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            2.271964E-06   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            1.855103E-06   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            4.246694E-06   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            2.465996E-06   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            1.310476E-07   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            9.103382E-10   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            3.377610E-06   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            1.404031E-06   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            4.875285E-06   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            1.706316E-06   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            3.070872E-05   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            3.990399E-06   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            1.755973E-05   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            2.853676E-05   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            1.226346E-05   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            5.989024E-06   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            6.418745E-05   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            7.380798E-07   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            1.990139E-06   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            2.870808E-05   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            3.728750E-05   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            1.687488E-05   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            1.097613E-05   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            2.844570E-03   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            9.448481E-04   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            2.694754E-04   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            5.783088E-04   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            9.429971E-05   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            1.753552E-09   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            4.483240E-05   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            1.736411E-04   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            7.187371E-07   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            1.220575E-03   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            5.793308E-05   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            1.898017E-03   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            4.573127E-04   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            1.467797E-04   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            6.490489E-06   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            1.528247E-04   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            6.283708E-05   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            1.931633E-05   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            1.825758E-06   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            1.651518E-05   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            6.114784E-05   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            7.336197E-06   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            4.664030E-05   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            1.323808E-04   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            3.060895E-05   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            5.275000E-06   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            3.553894E-06   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            6.257813E-05   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            6.917588E-04   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            4.746426E-05   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            2.683786E-05   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            1.367576E-05   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            1.142554E-07   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            2.982192E-10   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            1.500361E-05   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            7.833783E-06   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            1.022433E-07   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            1.142703E-05   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            1.970177E-05   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            1.516544E-05   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            2.954270E-06   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            6.466619E-06   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            2.535211E-06   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            4.736708E-06   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            1.021054E-06   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            2.155359E-06   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            7.428280E-06   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            4.085208E-06   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            1.808509E-05   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            1.988727E-06   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            1.988342E-07   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            1.173551E-05   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            6.570699E-06   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            2.930693E-06   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            1.898553E-05   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            6.560706E-06   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            2.271518E-06   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            1.854738E-06   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            4.245522E-06   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            2.465316E-06   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            1.310115E-07   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            9.100870E-10   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            3.376649E-06   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            1.403631E-06   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            4.873899E-06   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            1.705830E-06   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            3.070379E-05   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            3.989757E-06   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            1.755542E-05   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            2.853311E-05   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            1.226189E-05   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            5.988259E-06   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            6.418076E-05   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            7.380029E-07   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            1.989931E-06   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            2.870509E-05   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            3.728362E-05   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            1.687079E-05   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            1.097326E-05   3.443910E+00   9.286400E-01   2.515270E+00
 # header: 
 #   title: Co59(n,npta)V51 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 27
@@ -3283,82 +3309,82 @@
 #     entries: 79
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            4.883997E-03   3.200840E-01   0.000000E+00   3.200840E-01
-     2              0            1.621635E-03   4.700000E-01   0.000000E+00   4.700000E-01
-     2              1            4.624983E-04   4.700000E-01   3.200840E-01   1.499160E-01
-     3              0            1.150365E-03   9.286400E-01   0.000000E+00   9.286400E-01
-     3              1            1.875798E-04   9.286400E-01   3.200840E-01   6.085560E-01
-     4              0            3.341129E-09   1.010000E+00   0.000000E+00   1.010000E+00
-     4              1            8.542140E-05   1.010000E+00   3.200840E-01   6.899160E-01
-     4              2            3.308470E-04   1.010000E+00   4.700000E-01   5.400000E-01
-     4              3            1.369445E-06   1.010000E+00   9.286400E-01   8.135998E-02
-     5              0            2.576585E-03   1.190000E+00   0.000000E+00   1.190000E+00
-     5              1            1.222945E-04   1.190000E+00   3.200840E-01   8.699161E-01
-     6              0            4.117435E-03   1.609236E+00   0.000000E+00   1.609236E+00
-     7              0            9.472022E-04   1.813249E+00   0.000000E+00   1.813249E+00
-     7              1            3.040153E-04   1.813249E+00   3.200840E-01   1.493165E+00
-     7              6            1.344333E-05   1.813249E+00   1.609236E+00   2.040130E-01
-     8              0            3.121374E-04   1.910000E+00   0.000000E+00   1.910000E+00
-     8              2            1.283419E-04   1.910000E+00   4.700000E-01   1.440000E+00
-     8              3            3.945271E-05   1.910000E+00   9.286400E-01   9.813600E-01
-     8              4            3.729027E-06   1.910000E+00   1.010000E+00   9.000000E-01
-     9              0            3.723438E-05   2.410750E+00   0.000000E+00   2.410750E+00
-     9              1            1.378612E-04   2.410750E+00   3.200840E-01   2.090666E+00
-     9              3            1.653986E-05   2.410750E+00   9.286400E-01   1.482110E+00
-    10              3            1.067519E-04   2.546400E+00   9.286400E-01   1.617760E+00
-    11              1            2.961321E-04   2.600000E+00   3.200840E-01   2.279916E+00
-    11              5            6.847135E-05   2.600000E+00   1.190000E+00   1.410000E+00
-    11              7            1.180002E-05   2.600000E+00   1.813249E+00   7.867509E-01
-    11              8            7.949959E-06   2.600000E+00   1.910000E+00   6.899999E-01
-    12              3            1.424370E-04   2.677460E+00   9.286400E-01   1.748820E+00
-    13              6            1.674881E-03   2.699631E+00   1.609236E+00   1.090395E+00
-    14              0            1.114137E-04   2.790000E+00   0.000000E+00   2.790000E+00
-    14              2            6.299699E-05   2.790000E+00   4.700000E-01   2.320000E+00
-    14              3            3.210136E-05   2.790000E+00   9.286400E-01   1.861360E+00
-    14              9            2.681937E-07   2.790000E+00   2.410750E+00   3.792500E-01
-    15              1            7.201629E-10   2.870000E+00   3.200840E-01   2.549916E+00
-    15              2            3.623189E-05   2.870000E+00   4.700000E-01   2.400000E+00
-    15              3            1.891763E-05   2.870000E+00   9.286400E-01   1.941360E+00
-    15              9            2.469051E-07   2.870000E+00   2.410750E+00   4.592500E-01
-    16              0            2.830551E-05   3.083520E+00   0.000000E+00   3.083520E+00
-    16              1            4.880258E-05   3.083520E+00   3.200840E-01   2.763436E+00
-    16              3            3.756579E-05   3.083520E+00   9.286400E-01   2.154880E+00
-    16              9            7.317922E-06   3.083520E+00   2.410750E+00   6.727700E-01
-    17              1            1.606922E-05   3.150000E+00   3.200840E-01   2.829916E+00
-    17              4            6.299868E-06   3.150000E+00   1.010000E+00   2.140000E+00
-    17             10            1.177047E-05   3.150000E+00   2.546400E+00   6.036000E-01
-    17             14            2.537266E-06   3.150000E+00   2.790000E+00   3.600001E-01
-    18              1            5.363735E-06   3.215500E+00   3.200840E-01   2.895416E+00
-    18              3            1.848571E-05   3.215500E+00   9.286400E-01   2.286860E+00
-    18              9            1.016628E-05   3.215500E+00   2.410750E+00   8.047502E-01
-    19              1            4.479550E-05   3.264390E+00   3.200840E-01   2.944306E+00
-    19              3            4.925936E-06   3.264390E+00   9.286400E-01   2.335750E+00
-    19              9            4.924982E-07   3.264390E+00   2.410750E+00   8.536401E-01
-    20              1            2.882887E-05   3.279990E+00   3.200840E-01   2.959906E+00
-    20              3            1.614124E-05   3.279990E+00   9.286400E-01   2.351350E+00
-    20              9            7.199391E-06   3.279990E+00   2.410750E+00   8.692400E-01
-    21              1            4.641953E-05   3.310000E+00   3.200840E-01   2.989916E+00
-    21              5            1.604089E-05   3.310000E+00   1.190000E+00   2.120000E+00
-    21              7            5.553851E-06   3.310000E+00   1.813249E+00   1.496751E+00
-    21              8            4.534827E-06   3.310000E+00   1.910000E+00   1.400000E+00
-    22              2            1.064066E-05   3.320000E+00   4.700000E-01   2.850000E+00
-    22              3            6.178886E-06   3.320000E+00   9.286400E-01   2.391360E+00
-    22              9            3.283574E-07   3.320000E+00   2.410750E+00   9.092500E-01
-    22             17            2.280975E-09   3.320000E+00   3.150000E+00   1.699998E-01
-    23              1            8.457022E-06   3.372000E+00   3.200840E-01   3.051916E+00
-    23              4            3.515480E-06   3.372000E+00   1.010000E+00   2.362000E+00
-    23             10            1.220697E-05   3.372000E+00   2.546400E+00   8.255999E-01
-    23             14            4.272355E-06   3.372000E+00   2.790000E+00   5.820000E-01
-    24              0            7.718785E-05   3.377680E+00   0.000000E+00   3.377680E+00
-    24              1            1.003006E-05   3.377680E+00   3.200840E-01   3.057596E+00
-    25              0            4.368662E-05   3.381100E+00   0.000000E+00   3.381100E+00
-    26              0            7.267876E-05   3.383200E+00   0.000000E+00   3.383200E+00
-    26              6            3.123316E-05   3.383200E+00   1.609236E+00   1.773964E+00
-    26              7            1.525313E-05   3.383200E+00   1.813249E+00   1.569951E+00
-    27              6            1.668533E-04   3.385587E+00   1.609236E+00   1.776351E+00
-    27              7            1.918616E-06   3.385587E+00   1.813249E+00   1.572338E+00
-    27             13            5.173305E-06   3.385587E+00   2.699631E+00   6.859560E-01
-    28              6            7.472168E-05   3.395020E+00   1.609236E+00   1.785784E+00
-    28              7            9.705230E-05   3.395020E+00   1.813249E+00   1.581771E+00
-    29              1            4.220770E-05   3.412800E+00   3.200840E-01   3.092716E+00
-    30              3            2.723478E-05   3.443910E+00   9.286400E-01   2.515270E+00
+     1              0            4.882059E-03   3.200840E-01   0.000000E+00   3.200840E-01
+     2              0            1.620941E-03   4.700000E-01   0.000000E+00   4.700000E-01
+     2              1            4.623005E-04   4.700000E-01   3.200840E-01   1.499160E-01
+     3              0            1.149947E-03   9.286400E-01   0.000000E+00   9.286400E-01
+     3              1            1.875118E-04   9.286400E-01   3.200840E-01   6.085560E-01
+     4              0            3.339754E-09   1.010000E+00   0.000000E+00   1.010000E+00
+     4              1            8.538624E-05   1.010000E+00   3.200840E-01   6.899160E-01
+     4              2            3.307108E-04   1.010000E+00   4.700000E-01   5.400000E-01
+     4              3            1.368882E-06   1.010000E+00   9.286400E-01   8.135998E-02
+     5              0            2.575806E-03   1.190000E+00   0.000000E+00   1.190000E+00
+     5              1            1.222575E-04   1.190000E+00   3.200840E-01   8.699161E-01
+     6              0            4.116909E-03   1.609236E+00   0.000000E+00   1.609236E+00
+     7              0            9.470274E-04   1.813249E+00   0.000000E+00   1.813249E+00
+     7              1            3.039592E-04   1.813249E+00   3.200840E-01   1.493165E+00
+     7              6            1.344085E-05   1.813249E+00   1.609236E+00   2.040130E-01
+     8              0            3.120461E-04   1.910000E+00   0.000000E+00   1.910000E+00
+     8              2            1.283043E-04   1.910000E+00   4.700000E-01   1.440000E+00
+     8              3            3.944118E-05   1.910000E+00   9.286400E-01   9.813600E-01
+     8              4            3.727936E-06   1.910000E+00   1.010000E+00   9.000000E-01
+     9              0            3.722336E-05   2.410750E+00   0.000000E+00   2.410750E+00
+     9              1            1.378204E-04   2.410750E+00   3.200840E-01   2.090666E+00
+     9              3            1.653497E-05   2.410750E+00   9.286400E-01   1.482110E+00
+    10              3            1.067232E-04   2.546400E+00   9.286400E-01   1.617760E+00
+    11              1            2.960763E-04   2.600000E+00   3.200840E-01   2.279916E+00
+    11              5            6.845843E-05   2.600000E+00   1.190000E+00   1.410000E+00
+    11              7            1.179780E-05   2.600000E+00   1.813249E+00   7.867509E-01
+    11              8            7.948459E-06   2.600000E+00   1.910000E+00   6.899999E-01
+    12              3            1.424001E-04   2.677460E+00   9.286400E-01   1.748820E+00
+    13              6            1.674742E-03   2.699631E+00   1.609236E+00   1.090395E+00
+    14              0            1.113888E-04   2.790000E+00   0.000000E+00   2.790000E+00
+    14              2            6.298289E-05   2.790000E+00   4.700000E-01   2.320000E+00
+    14              3            3.209418E-05   2.790000E+00   9.286400E-01   1.861360E+00
+    14              9            2.681337E-07   2.790000E+00   2.410750E+00   3.792500E-01
+    15              1            7.199774E-10   2.870000E+00   3.200840E-01   2.549916E+00
+    15              2            3.622256E-05   2.870000E+00   4.700000E-01   2.400000E+00
+    15              3            1.891275E-05   2.870000E+00   9.286400E-01   1.941360E+00
+    15              9            2.468415E-07   2.870000E+00   2.410750E+00   4.592500E-01
+    16              0            2.829945E-05   3.083520E+00   0.000000E+00   3.083520E+00
+    16              1            4.879213E-05   3.083520E+00   3.200840E-01   2.763436E+00
+    16              3            3.755774E-05   3.083520E+00   9.286400E-01   2.154880E+00
+    16              9            7.316355E-06   3.083520E+00   2.410750E+00   6.727700E-01
+    17              1            1.606543E-05   3.150000E+00   3.200840E-01   2.829916E+00
+    17              4            6.298385E-06   3.150000E+00   1.010000E+00   2.140000E+00
+    17             10            1.176770E-05   3.150000E+00   2.546400E+00   6.036000E-01
+    17             14            2.536669E-06   3.150000E+00   2.790000E+00   3.600001E-01
+    18              1            5.362506E-06   3.215500E+00   3.200840E-01   2.895416E+00
+    18              3            1.848147E-05   3.215500E+00   9.286400E-01   2.286860E+00
+    18              9            1.016395E-05   3.215500E+00   2.410750E+00   8.047502E-01
+    19              1            4.478676E-05   3.264390E+00   3.200840E-01   2.944306E+00
+    19              3            4.924975E-06   3.264390E+00   9.286400E-01   2.335750E+00
+    19              9            4.924021E-07   3.264390E+00   2.410750E+00   8.536401E-01
+    20              1            2.882330E-05   3.279990E+00   3.200840E-01   2.959906E+00
+    20              3            1.613812E-05   3.279990E+00   9.286400E-01   2.351350E+00
+    20              9            7.198000E-06   3.279990E+00   2.410750E+00   8.692400E-01
+    21              1            4.641244E-05   3.310000E+00   3.200840E-01   2.989916E+00
+    21              5            1.603845E-05   3.310000E+00   1.190000E+00   2.120000E+00
+    21              7            5.553004E-06   3.310000E+00   1.813249E+00   1.496751E+00
+    21              8            4.534135E-06   3.310000E+00   1.910000E+00   1.400000E+00
+    22              2            1.063848E-05   3.320000E+00   4.700000E-01   2.850000E+00
+    22              3            6.177621E-06   3.320000E+00   9.286400E-01   2.391360E+00
+    22              9            3.282902E-07   3.320000E+00   2.410750E+00   9.092500E-01
+    22             17            2.280508E-09   3.320000E+00   3.150000E+00   1.699998E-01
+    23              1            8.455212E-06   3.372000E+00   3.200840E-01   3.051916E+00
+    23              4            3.514727E-06   3.372000E+00   1.010000E+00   2.362000E+00
+    23             10            1.220436E-05   3.372000E+00   2.546400E+00   8.255999E-01
+    23             14            4.271441E-06   3.372000E+00   2.790000E+00   5.820000E-01
+    24              0            7.717837E-05   3.377680E+00   0.000000E+00   3.377680E+00
+    24              1            1.002883E-05   3.377680E+00   3.200840E-01   3.057596E+00
+    25              0            4.367846E-05   3.381100E+00   0.000000E+00   3.381100E+00
+    26              0            7.267166E-05   3.383200E+00   0.000000E+00   3.383200E+00
+    26              6            3.123011E-05   3.383200E+00   1.609236E+00   1.773964E+00
+    26              7            1.525164E-05   3.383200E+00   1.813249E+00   1.569951E+00
+    27              6            1.668402E-04   3.385587E+00   1.609236E+00   1.776351E+00
+    27              7            1.918465E-06   3.385587E+00   1.813249E+00   1.572338E+00
+    27             13            5.172898E-06   3.385587E+00   2.699631E+00   6.859560E-01
+    28              6            7.471581E-05   3.395020E+00   1.609236E+00   1.785784E+00
+    28              7            9.704468E-05   3.395020E+00   1.813249E+00   1.581771E+00
+    29              1            4.219991E-05   3.412800E+00   3.200840E-01   3.092716E+00
+    30              3            2.722935E-05   3.443910E+00   9.286400E-01   2.515270E+00

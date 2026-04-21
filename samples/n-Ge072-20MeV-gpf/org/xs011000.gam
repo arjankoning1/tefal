@@ -2,7 +2,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -30,7 +30,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -58,7 +58,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -86,7 +86,35 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
+#   format: YANDF-0.4
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (n,pd)
+#   Q-value [MeV]: -1.537463E+01
+#   E-threshold [MeV]:  1.559025E+01
+#   ENDF_MF: 13
+#   ENDF_MT: 115
+#   E-incident [MeV]:  3.000000E-04
+#   residual: 
+#     Z: 30
+#     A: 70
+#     nuclide: Zn70
+#   quantity: 
+#     type: gamma cross section and multiplicity
+#   datablock: 
+#     columns: 6
+#     entries: 0
+## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
+##      []             []            [mb]           [MeV]          [MeV]          [MeV]
+# header: 
+#   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -114,7 +142,35 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
+#   format: YANDF-0.4
+# target: 
+#   Z: 32
+#   A: 72
+#   nuclide: Ge72
+# reaction: 
+#   type: (n,pd)
+#   Q-value [MeV]: -1.537463E+01
+#   E-threshold [MeV]:  1.559025E+01
+#   ENDF_MF: 13
+#   ENDF_MT: 115
+#   E-incident [MeV]:  1.500000E-03
+#   residual: 
+#     Z: 30
+#     A: 70
+#     nuclide: Zn70
+#   quantity: 
+#     type: gamma cross section and multiplicity
+#   datablock: 
+#     columns: 6
+#     entries: 0
+## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
+##      []             []            [mb]           [MeV]          [MeV]          [MeV]
+# header: 
+#   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
+#   source: TALYS-2.2
+#   user: Arjan Koning
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -142,7 +198,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -170,7 +226,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -198,7 +254,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -226,7 +282,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -254,7 +310,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -282,35 +338,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
-#   format: YANDF-0.4
-# target: 
-#   Z: 32
-#   A: 72
-#   nuclide: Ge72
-# reaction: 
-#   type: (n,pd)
-#   Q-value [MeV]: -1.537463E+01
-#   E-threshold [MeV]:  1.559025E+01
-#   ENDF_MF: 13
-#   ENDF_MT: 115
-#   E-incident [MeV]:  1.800000E-01
-#   residual: 
-#     Z: 30
-#     A: 70
-#     nuclide: Zn70
-#   quantity: 
-#     type: gamma cross section and multiplicity
-#   datablock: 
-#     columns: 6
-#     entries: 0
-## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
-##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-# header: 
-#   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
-#   source: TALYS-2.2
-#   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -338,7 +366,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -366,7 +394,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -394,7 +422,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -422,7 +450,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -450,7 +478,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -478,7 +506,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -506,7 +534,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -534,7 +562,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -562,7 +590,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -590,7 +618,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -618,7 +646,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -646,7 +674,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -674,7 +702,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -702,7 +730,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -730,7 +758,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -758,7 +786,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -786,7 +814,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -814,7 +842,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -842,7 +870,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -870,7 +898,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -898,7 +926,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -926,7 +954,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -954,7 +982,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -982,7 +1010,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1010,7 +1038,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1038,7 +1066,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1066,7 +1094,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1094,7 +1122,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1122,7 +1150,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1150,7 +1178,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1178,7 +1206,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1206,7 +1234,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1234,7 +1262,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1262,7 +1290,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1290,7 +1318,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1318,7 +1346,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1346,7 +1374,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1374,7 +1402,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1402,7 +1430,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1430,7 +1458,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1458,7 +1486,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1486,7 +1514,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1514,7 +1542,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1542,7 +1570,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1570,7 +1598,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1598,7 +1626,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1626,7 +1654,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1654,7 +1682,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1682,7 +1710,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1710,7 +1738,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1738,7 +1766,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1766,7 +1794,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1794,7 +1822,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1822,7 +1850,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1850,7 +1878,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1878,7 +1906,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1906,7 +1934,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1934,7 +1962,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1962,7 +1990,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -1990,7 +2018,7 @@
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -2014,13 +2042,13 @@
 #     entries: 2
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            2.537562E-19   8.849200E-01   0.000000E+00   8.849200E-01
-     2              1            4.834282E-23   1.070760E+00   8.849200E-01   1.858400E-01
+     1              0            2.509990E-19   8.849200E-01   0.000000E+00   8.849200E-01
+     2              1            4.808997E-23   1.070760E+00   8.849200E-01   1.858400E-01
 # header: 
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -2044,25 +2072,25 @@
 #     entries: 14
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            3.192535E-12   8.849200E-01   0.000000E+00   8.849200E-01
-     2              1            9.474159E-15   1.070760E+00   8.849200E-01   1.858400E-01
-     3              0            5.314892E-22   1.554000E+00   0.000000E+00   1.554000E+00
-     3              1            2.415804E-17   1.554000E+00   8.849200E-01   6.690800E-01
-     3              2            2.415860E-23   1.554000E+00   1.070760E+00   4.832400E-01
-     4              0            2.366867E-20   1.759160E+00   0.000000E+00   1.759160E+00
-     4              1            3.481581E-20   1.759160E+00   8.849200E-01   8.742400E-01
-     5              1            2.188048E-19   1.786750E+00   8.849200E-01   9.018300E-01
-     6              1            2.572614E-22   1.957280E+00   8.849200E-01   1.072360E+00
-     7              1            1.263671E-25   2.140640E+00   8.849200E-01   1.255720E+00
-     8              0            4.391870E-29   2.375000E+00   0.000000E+00   2.375000E+00
-     8              1            7.226441E-30   2.375000E+00   8.849200E-01   1.490080E+00
-     8              2            4.619255E-30   2.375000E+00   1.070760E+00   1.304240E+00
-     8              4            4.370788E-31   2.375000E+00   1.759160E+00   6.158400E-01
+     1              0            3.167710E-12   8.849200E-01   0.000000E+00   8.849200E-01
+     2              1            9.463449E-15   1.070760E+00   8.849200E-01   1.858400E-01
+     3              0            5.296357E-22   1.554000E+00   0.000000E+00   1.554000E+00
+     3              1            2.407380E-17   1.554000E+00   8.849200E-01   6.690800E-01
+     3              2            2.407435E-23   1.554000E+00   1.070760E+00   4.832400E-01
+     4              0            2.364481E-20   1.759160E+00   0.000000E+00   1.759160E+00
+     4              1            3.478071E-20   1.759160E+00   8.849200E-01   8.742400E-01
+     5              1            2.179017E-19   1.786750E+00   8.849200E-01   9.018300E-01
+     6              1            2.571582E-22   1.957280E+00   8.849200E-01   1.072360E+00
+     7              1            1.263436E-25   2.140640E+00   8.849200E-01   1.255720E+00
+     8              0            4.391609E-29   2.375000E+00   0.000000E+00   2.375000E+00
+     8              1            7.226012E-30   2.375000E+00   8.849200E-01   1.490080E+00
+     8              2            4.618981E-30   2.375000E+00   1.070760E+00   1.304240E+00
+     8              4            4.370529E-31   2.375000E+00   1.759160E+00   6.158400E-01
 # header: 
 #   title: Ge72(n,pd)Zn70 gamma cross section and multiplicity
 #   source: TALYS-2.2
 #   user: Arjan Koning
-#   date: 2026-03-28
+#   date: 2026-04-12
 #   format: YANDF-0.4
 # target: 
 #   Z: 32
@@ -2086,64 +2114,64 @@
 #     entries: 61
 ## Parent_level  Daughter_level       xs        Parent_energy Daughter_energy Gamma_energy
 ##      []             []            [mb]           [MeV]          [MeV]          [MeV]
-     1              0            8.219155E-09   8.849200E-01   0.000000E+00   8.849200E-01
-     2              1            1.394317E-10   1.070760E+00   8.849200E-01   1.858400E-01
-     3              0            1.473090E-16   1.554000E+00   0.000000E+00   1.554000E+00
-     3              1            6.695708E-12   1.554000E+00   8.849200E-01   6.690800E-01
-     3              2            6.695862E-18   1.554000E+00   1.070760E+00   4.832400E-01
-     4              0            9.033551E-14   1.759160E+00   0.000000E+00   1.759160E+00
-     4              1            1.328805E-13   1.759160E+00   8.849200E-01   8.742400E-01
-     5              1            6.648803E-13   1.786750E+00   8.849200E-01   9.018300E-01
-     6              1            1.342373E-14   1.957280E+00   8.849200E-01   1.072360E+00
-     7              1            1.766340E-16   2.140640E+00   8.849200E-01   1.255720E+00
-     8              0            5.747937E-18   2.375000E+00   0.000000E+00   2.375000E+00
-     8              1            9.457733E-19   2.375000E+00   8.849200E-01   1.490080E+00
-     8              2            6.045532E-19   2.375000E+00   1.070760E+00   1.304240E+00
-     8              4            5.720347E-20   2.375000E+00   1.759160E+00   6.158400E-01
-     9              0            5.184038E-20   2.538310E+00   0.000000E+00   2.538310E+00
-     9              1            2.590640E-19   2.538310E+00   8.849200E-01   1.653390E+00
-     9              4            1.036346E-19   2.538310E+00   1.759160E+00   7.791500E-01
-     9              5            4.662871E-20   2.538310E+00   1.786750E+00   7.515601E-01
-    10              0            1.318508E-20   2.665000E+00   0.000000E+00   2.665000E+00
-    10              2            2.758666E-21   2.665000E+00   1.070760E+00   1.594240E+00
-    10              3            1.190668E-20   2.665000E+00   1.554000E+00   1.111000E+00
-    10              5            4.810688E-22   2.665000E+00   1.786750E+00   8.782500E-01
-    11              1            1.633333E-20   2.693400E+00   8.849200E-01   1.808480E+00
-    11              4            4.901509E-21   2.693400E+00   1.759160E+00   9.342399E-01
-    11              5            1.502423E-20   2.693400E+00   1.786750E+00   9.066499E-01
-    11              6            1.796970E-21   2.693400E+00   1.957280E+00   7.361199E-01
-    12              1            1.065275E-21   2.805000E+00   8.849200E-01   1.920080E+00
-    12              4            1.757257E-22   2.805000E+00   1.759160E+00   1.045840E+00
-    12              5            1.624641E-22   2.805000E+00   1.786750E+00   1.018250E+00
-    12              6            9.602909E-23   2.805000E+00   1.957280E+00   8.477200E-01
-    13              1            1.749557E-22   2.859490E+00   8.849200E-01   1.974570E+00
-    13              4            8.459103E-23   2.859490E+00   1.759160E+00   1.100330E+00
-    13              5            1.880248E-22   2.859490E+00   1.786750E+00   1.072740E+00
-    14              5            3.723142E-22   2.895100E+00   1.786750E+00   1.108350E+00
-    15              1            1.322487E-23   2.949670E+00   8.849200E-01   2.064750E+00
-    15              4            9.521726E-24   2.949670E+00   1.759160E+00   1.190510E+00
-    16              0            6.934497E-24   2.954000E+00   0.000000E+00   2.954000E+00
-    16              1            2.310577E-24   2.954000E+00   8.849200E-01   2.069080E+00
-    16              2            1.736639E-24   2.954000E+00   1.070760E+00   1.883240E+00
-    16              4            4.474517E-25   2.954000E+00   1.759160E+00   1.194840E+00
-    17              5            2.323208E-23   2.978260E+00   1.786750E+00   1.191510E+00
-    18              0            7.232677E-25   3.022000E+00   0.000000E+00   3.022000E+00
-    18              1            2.476059E-25   3.022000E+00   8.849200E-01   2.137080E+00
-    18              2            1.877884E-25   3.022000E+00   1.070760E+00   1.951240E+00
-    18              4            5.119005E-26   3.022000E+00   1.759160E+00   1.262840E+00
-    19              5            4.799564E-24   3.038150E+00   1.786750E+00   1.251400E+00
-    20              0            1.701614E-27   3.222080E+00   0.000000E+00   3.222080E+00
-    20              2            5.611704E-28   3.222080E+00   1.070760E+00   2.151320E+00
-    21              1            1.663244E-28   3.235000E+00   8.849200E-01   2.350080E+00
-    21              3            8.887363E-28   3.235000E+00   1.554000E+00   1.681000E+00
-    21             12            9.428387E-28   3.235000E+00   2.805000E+00   4.299998E-01
-    21             13            6.605680E-28   3.235000E+00   2.859490E+00   3.755100E-01
-    22              5            8.728000E-29   3.246710E+00   1.786750E+00   1.459960E+00
-    22              9            4.364023E-28   3.246710E+00   2.538310E+00   7.084000E-01
-    22             11            1.222113E-28   3.246710E+00   2.693400E+00   5.533102E-01
-    22             13            2.363793E-28   3.246710E+00   2.859490E+00   3.872201E-01
-    22             19            2.504247E-28   3.246710E+00   3.038150E+00   2.085600E-01
-    23              1            1.210059E-30   3.328000E+00   8.849200E-01   2.443080E+00
-    23              8            8.804647E-31   3.328000E+00   2.375000E+00   9.530001E-01
-    23             16            4.222083E-30   3.328000E+00   2.954000E+00   3.740001E-01
-    23             18            2.497248E-30   3.328000E+00   3.022000E+00   3.060000E-01
+     1              0            8.184587E-09   8.849200E-01   0.000000E+00   8.849200E-01
+     2              1            1.393951E-10   1.070760E+00   8.849200E-01   1.858400E-01
+     3              0            1.472107E-16   1.554000E+00   0.000000E+00   1.554000E+00
+     3              1            6.691240E-12   1.554000E+00   8.849200E-01   6.690800E-01
+     3              2            6.691394E-18   1.554000E+00   1.070760E+00   4.832400E-01
+     4              0            9.032313E-14   1.759160E+00   0.000000E+00   1.759160E+00
+     4              1            1.328623E-13   1.759160E+00   8.849200E-01   8.742400E-01
+     5              1            6.645786E-13   1.786750E+00   8.849200E-01   9.018300E-01
+     6              1            1.342254E-14   1.957280E+00   8.849200E-01   1.072360E+00
+     7              1            1.766132E-16   2.140640E+00   8.849200E-01   1.255720E+00
+     8              0            5.747509E-18   2.375000E+00   0.000000E+00   2.375000E+00
+     8              1            9.457028E-19   2.375000E+00   8.849200E-01   1.490080E+00
+     8              2            6.045081E-19   2.375000E+00   1.070760E+00   1.304240E+00
+     8              4            5.719920E-20   2.375000E+00   1.759160E+00   6.158400E-01
+     9              0            5.183743E-20   2.538310E+00   0.000000E+00   2.538310E+00
+     9              1            2.590492E-19   2.538310E+00   8.849200E-01   1.653390E+00
+     9              4            1.036287E-19   2.538310E+00   1.759160E+00   7.791500E-01
+     9              5            4.662605E-20   2.538310E+00   1.786750E+00   7.515601E-01
+    10              0            1.318455E-20   2.665000E+00   0.000000E+00   2.665000E+00
+    10              2            2.758555E-21   2.665000E+00   1.070760E+00   1.594240E+00
+    10              3            1.190620E-20   2.665000E+00   1.554000E+00   1.111000E+00
+    10              5            4.810494E-22   2.665000E+00   1.786750E+00   8.782500E-01
+    11              1            1.633241E-20   2.693400E+00   8.849200E-01   1.808480E+00
+    11              4            4.901233E-21   2.693400E+00   1.759160E+00   9.342399E-01
+    11              5            1.502339E-20   2.693400E+00   1.786750E+00   9.066499E-01
+    11              6            1.796869E-21   2.693400E+00   1.957280E+00   7.361199E-01
+    12              1            1.065205E-21   2.805000E+00   8.849200E-01   1.920080E+00
+    12              4            1.757142E-22   2.805000E+00   1.759160E+00   1.045840E+00
+    12              5            1.624535E-22   2.805000E+00   1.786750E+00   1.018250E+00
+    12              6            9.602279E-23   2.805000E+00   1.957280E+00   8.477200E-01
+    13              1            1.749457E-22   2.859490E+00   8.849200E-01   1.974570E+00
+    13              4            8.458618E-23   2.859490E+00   1.759160E+00   1.100330E+00
+    13              5            1.880141E-22   2.859490E+00   1.786750E+00   1.072740E+00
+    14              5            3.722927E-22   2.895100E+00   1.786750E+00   1.108350E+00
+    15              1            1.322427E-23   2.949670E+00   8.849200E-01   2.064750E+00
+    15              4            9.521296E-24   2.949670E+00   1.759160E+00   1.190510E+00
+    16              0            6.934162E-24   2.954000E+00   0.000000E+00   2.954000E+00
+    16              1            2.310466E-24   2.954000E+00   8.849200E-01   2.069080E+00
+    16              2            1.736555E-24   2.954000E+00   1.070760E+00   1.883240E+00
+    16              4            4.474302E-25   2.954000E+00   1.759160E+00   1.194840E+00
+    17              5            2.323091E-23   2.978260E+00   1.786750E+00   1.191510E+00
+    18              0            7.232119E-25   3.022000E+00   0.000000E+00   3.022000E+00
+    18              1            2.475868E-25   3.022000E+00   8.849200E-01   2.137080E+00
+    18              2            1.877739E-25   3.022000E+00   1.070760E+00   1.951240E+00
+    18              4            5.118611E-26   3.022000E+00   1.759160E+00   1.262840E+00
+    19              5            4.799185E-24   3.038150E+00   1.786750E+00   1.251400E+00
+    20              0            1.701554E-27   3.222080E+00   0.000000E+00   3.222080E+00
+    20              2            5.611506E-28   3.222080E+00   1.070760E+00   2.151320E+00
+    21              1            1.663170E-28   3.235000E+00   8.849200E-01   2.350080E+00
+    21              3            8.886973E-28   3.235000E+00   1.554000E+00   1.681000E+00
+    21             12            9.427973E-28   3.235000E+00   2.805000E+00   4.299998E-01
+    21             13            6.605389E-28   3.235000E+00   2.859490E+00   3.755100E-01
+    22              5            8.727595E-29   3.246710E+00   1.786750E+00   1.459960E+00
+    22              9            4.363820E-28   3.246710E+00   2.538310E+00   7.084000E-01
+    22             11            1.222056E-28   3.246710E+00   2.693400E+00   5.533102E-01
+    22             13            2.363683E-28   3.246710E+00   2.859490E+00   3.872201E-01
+    22             19            2.504130E-28   3.246710E+00   3.038150E+00   2.085600E-01
+    23              1            1.210038E-30   3.328000E+00   8.849200E-01   2.443080E+00
+    23              8            8.804495E-31   3.328000E+00   2.375000E+00   9.530001E-01
+    23             16            4.222010E-30   3.328000E+00   2.954000E+00   3.740001E-01
+    23             18            2.497204E-30   3.328000E+00   3.022000E+00   3.060000E-01
