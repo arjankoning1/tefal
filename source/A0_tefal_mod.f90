@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2025-12-18: Current revision
+! 2026-05-10: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -996,4 +996,4 @@ module A0_tefal_mod
   real(sgl), dimension(numchan,numencov,numencov)               :: Rrp           ! covariance element for residual cross sections
   real(sgl), dimension(numchan,numencov)                        :: xserr         ! cross section uncertainty
 end module A0_tefal_mod
-! Copyright A.J. Koning 2025
+! Copyright A.J. Koning 2026
