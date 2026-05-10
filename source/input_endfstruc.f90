@@ -193,6 +193,12 @@ subroutine input_endfstruc
       if (ch /= 'y' .and. ch /= 'n') call read_error(line, istat)
       cycle
     endif
+    if (key == 'gamspectrum') then
+      if (ch == 'n') flaggamspec = .false.
+      if (ch == 'y') flaggamspec = .true.
+      if (ch /= 'y' .and. ch /= 'n') call read_error(line, istat)
+      cycle
+    endif
     if (key == 'partialn') then
       if (ch == 'n') flagparn = .false.
       if (ch == 'y') flagparn = .true.
@@ -280,21 +286,21 @@ subroutine input_endfstruc
     if (key == 'include') then
       read(val, * , iostat = istat) imt
       if (istat /= 0) call read_error(line, istat)
-      call range_integer_error(key, imt, 0, nummt)
+      call range_integer_error(key, imt, 1, nummt)
       flaginclude(imt) = .true.
       cycle
     endif
     if (key == 'exclude') then
       read(val, * , iostat = istat) imt
       if (istat /= 0) call read_error(line, istat)
-      call range_integer_error(key, imt, 0, nummt)
+      call range_integer_error(key, imt, 1, nummt)
       flagexclude(imt) = .true.
       cycle
     endif
     if (key == 'nomf') then
       read(val, * , iostat = istat) imf
       if (istat /= 0) call read_error(line, istat)
-      call range_integer_error(key, imf, 0, nummf)
+      call range_integer_error(key, imf, 1, nummf)
       nomf(imf) = .true.
       cycle
     endif
