@@ -118,14 +118,14 @@ subroutine input_endfcovar
     if (key == 'cross') then
       read(val, * , iostat = istat) imt
       if (istat /= 0) call read_error(line, istat)
-      call range_integer_error(key, imt, 0, nummt)
+      call range_integer_error(key, imt, 1, nummt)
       flagcross(imt) = .true.
       cycle
     endif
     if (key == 'nocross') then
       read(val, * , iostat = istat) imt
       if (istat /= 0) call read_error(line, istat)
-      call range_integer_error(key, imt, 0, nummt)
+      call range_integer_error(key, imt, 1, nummt)
       flagcross(imt) = .false.
       cycle
     endif
