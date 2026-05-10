@@ -140,7 +140,7 @@ subroutine inputout
  &   "sections in MF10")') yesno(flagfis10)
   write(*, '(" gam13               ", a1, "     flaggam13     flag to use MF13 for gamma production instead of ", &
  &   "MF12 (if not in MF6)")') yesno(flaggam13)
-  write(*, '(" gamdisc             ", a1, "     flaggamdisc   flag to store gamma production per discrete level ", &
+  write(*, '(" gamdiscrete         ", a1, "     flaggamdisc   flag to store gamma production per discrete level ", &
  &   "cross section (MT51..) instead of in the total of MT4")') yesno(flaggamdisc)
   write(*, '(" gamspectrum         ", a1, "     flaggamspec   flag to store gamma production only as a spectrum ", &
  &   "and not per discrete level")') yesno(flaggamspec)
