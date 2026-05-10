@@ -6,12 +6,12 @@ program tefal
 ! Author    : Arjan Koning
 !
 ! 2021-12-30: Original code
-! 2025-12-18: Current revision
+! 2026-05-10: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !
 !   |-------------------------------------------------------|
-!   |                 TEFAL-2.2                             |
+!   |                 TEFAL-2.23                            |
 !   |                 Arjan Koning                          |
 !   |                                                       |
 !   | Email: A.Koning@@iaea.org                             |
@@ -19,7 +19,7 @@ program tefal
 !
 ! MIT License
 !
-! Copyright (c) 2025 Arjan Koning
+! Copyright (c) 2026 Arjan Koning
 !
 ! Permission is hereby granted, free of charge, to any person obtaining a copy
 ! of this software and associated documentation files (the "Software"), to deal
@@ -60,4 +60,4 @@ program tefal
   call process
   call tefalmake
 end program tefal
-! Copyright A.J. Koning 2025
+! Copyright A.J. Koning 2026
