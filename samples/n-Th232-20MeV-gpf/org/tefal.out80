@@ -3,7 +3,7 @@
  TEFAL-warning: n-Th232.endfb8.1 not present
    MF   2 MT 151 potential scattering radius used
 
-    TEFAL-2.2 (Version: December 18, 2025)
+    TEFAL-2.23 (Version: May 10, 2026)
 
            Creating ENDF-6 files with TALYS
 
@@ -51,7 +51,7 @@
  rp10                n     flagrp10      flag to put all residual production cro
  fis10               n     flagfis10     flag to put (subactinide) fission cross
  gam13               n     flaggam13     flag to use MF13 for gamma production i
- gamdisc             y     flaggamdisc   flag to store gamma production per disc
+ gamdiscrete         y     flaggamdisc   flag to store gamma production per disc
  gamspectrum         n     flaggamspec   flag to store gamma production only as 
  ngn                 n     flagngn       flag to include (n,gamma n) data
  partialn            y     flagparn      flag to include partial cross sections 
@@ -100,6 +100,6 @@
 
  Number of deleted points:   368 (see file tefal.clean)
 
- Execution time:  0 hours  0 minutes 11.15 seconds 
+ Execution time:  0 hours  0 minutes 10.08 seconds 
 
  TEFAL has created the following ENDF-6 file: n-Th232.gpf
