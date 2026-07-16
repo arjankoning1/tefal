@@ -5,7 +5,7 @@ subroutine checkvalue
 !
 ! Author    : Arjan Koning
 !
-! 2021-12-30: Original code
+! 2026-07-16: Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -133,6 +133,10 @@ subroutine checkvalue
   if (adopt(33,2)) nomf(32) = .true.
   if (adopt(33,18)) nomf(32) = .true.
   if (adopt(33,102)) nomf(32) = .true.
+!
+!
+!
+  if (.not. flagres) adoptfile(2, 151) = ' '
   return
 end subroutine checkvalue
 ! Copyright A.J. Koning 2021
