@@ -1,12 +1,12 @@
 
-    TALYS-2.23 (Version: July 15, 2026)
+    TALYS-2.24 (Version: August 17, 2026)
 
  Copyright (C) 2026  A.J. Koning, S. Hilaire and S. Goriely
 
  Dimensions - Cross sections: mb, Energies: MeV, Angles: degrees
 
  User: Arjan Koning
- Date: 2026-07-16
+ Date: 2026-08-17
 
  ########## USER INPUT ##########
 
@@ -104,7 +104,7 @@
  maxZrp             12     maxZrp       maximal number of protons from the initial CN before residual evaporation
  maxNrp             32     maxNrp       maximal number of neutrons from the initial CN before residual evaporation
  user      Arjan Koning    user         user for this calculation
- source    TALYS-2.2       source       source for this calculation
+ source    TALYS-2.24      source       source for this calculation
  format    YANDF-0.4       oformat      format for output
  #
  # Optical model
@@ -16297,7 +16297,7 @@ file: paang.L30
  3. Total particle production cross sections
 
  gamma   = 1.74162E+02    Multiplicity= 2.43526E-01
- neutron = 3.10572E+02    Multiplicity= 4.34266E-01
+ neutron = 3.10572E+02    Multiplicity= 4.34265E-01
  proton  = 9.08864E+02    Multiplicity= 1.27084E+00
  deuteron= 5.58038E+01    Multiplicity= 7.80292E-02
  triton  = 1.33193E+00    Multiplicity= 1.86241E-03
@@ -18179,7 +18179,7 @@ file: paang.L30
 
  gamma   = 1.27500E+02    Multiplicity= 1.96730E-01
  neutron = 3.97969E+02    Multiplicity= 6.14058E-01
- proton  = 8.71668E+02    Multiplicity= 1.34497E+00
+ proton  = 8.71669E+02    Multiplicity= 1.34497E+00
  deuteron= 7.46938E+01    Multiplicity= 1.15251E-01
  triton  = 2.62800E+00    Multiplicity= 4.05495E-03
  helium-3= 2.30763E+01    Multiplicity= 3.56063E-02
@@ -24841,7 +24841,7 @@ file: paang.L30
  3. Total particle production cross sections
 
  gamma   = 6.64628E+01    Multiplicity= 1.41194E-01
- neutron = 5.69229E+02    Multiplicity= 1.20928E+00
+ neutron = 5.69229E+02    Multiplicity= 1.20927E+00
  proton  = 8.52166E+02    Multiplicity= 1.81035E+00
  deuteron= 9.91699E+01    Multiplicity= 2.10677E-01
  triton  = 7.36248E+00    Multiplicity= 1.56409E-02
@@ -27777,7 +27777,7 @@ file: paang.L30
  3. Total particle production cross sections
 
  gamma   = 2.69036E+01    Multiplicity= 6.63716E-02
- neutron = 7.31215E+02    Multiplicity= 1.80392E+00
+ neutron = 7.31214E+02    Multiplicity= 1.80392E+00
  proton  = 9.44659E+02    Multiplicity= 2.33049E+00
  deuteron= 1.13020E+02    Multiplicity= 2.78822E-01
  triton  = 1.59422E+01    Multiplicity= 3.93297E-02
@@ -30789,7 +30789,7 @@ file: paang.L30
  neutron = 9.12929E+02    Multiplicity= 2.49353E+00
  proton  = 1.07840E+03    Multiplicity= 2.94548E+00
  deuteron= 1.59018E+02    Multiplicity= 4.34335E-01
- triton  = 3.41266E+01    Multiplicity= 9.32119E-02
+ triton  = 3.41267E+01    Multiplicity= 9.32119E-02
  helium-3= 4.19776E+01    Multiplicity= 1.14656E-01
  alpha   = 1.14870E+02    Multiplicity= 3.13750E-01
 
@@ -32092,6 +32092,6 @@ file: pa.L28
 file: pa.L29
 file: pa.L30
 
- Execution time:  0 hours  0 minutes 37.97 seconds 
+ Execution time:  0 hours  0 minutes 20.65 seconds 
 
  The TALYS team congratulates you with this successful calculation.
