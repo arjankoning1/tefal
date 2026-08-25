@@ -1,48 +1,56 @@
-# This file is part of TEFAL
-# 
-#    Author: Arjan Koning Copyright: (C) 2024
+# TEFAL Makefile
 #
-# TEFAL is free software; you can redistribute it and/or modify it
-# under the terms of the MIT License; see LICENSE file for more details.
+# Examples:
 #
-# Basic installation (verified with the sample cases)
-#
-# FC="gfortran " FFLAGS=" "
-#
-# Distribution FC & FFLAGS (options provided by J-C Sublet)
-#
-# FC="gfortran " FFLAGS=" -Ofast "
-# FC="ifort    " FFLAGS=" -Ofast "
-# FC="nagfor   " FFLAGS=" -w     "
-#
-# Development FC & FFLAGS  (options provided by J-C Sublet)
-#
-# FC="gfortran " FFLAGS=" -Wall -fcheck=all -Og -g -fbacktrace   "
-# FC="ifort    " FFLAGS=" -O0 -g -traceback -check all -debug all"
-# FC="nagfor   " FFLAGS=" -C=all -O0 -g -gline                   "
-#
-CWD = $(shell pwd)
-PREFIX ?= $(CWD)/../
+#   make
+#   make FC=gfortran FFLAGS="-w -O3 -ffp-contract=off"
+#   make FC=ifx FFLAGS="-O3"
+#   make clean
+#   make check
 
-FC = gfortran
-FFLAGS = -w
+# Compiler-specific flags can be supplied by the user.
+ifeq ($(origin FC), default)
+  FC = gfortran
+endif
 
-fsub = $(shell echo [A-z]*.f90)
-obj = $(fsub:.f=.o)
-src = $(fsub)
+ifeq ($(origin FFLAGS), undefined)
+  ifneq ($(findstring gfortran,$(FC)),)
+    FFLAGS = -w -O3 -ffp-contract=off
+  else
+    FFLAGS =
+  endif
+endif
 
-all: change tefal install clean
+# Installation directories.
 
-change : 
-	../path_change.bash
+TEFAL_DIR := $(abspath ..)
+BIN_DIR   := $(TEFAL_DIR)/bin
+TARGET    := $(BIN_DIR)/tefal
 
-tefal : $(obj)
-	$(FC) $(FFLAGS) -o  tefal  $(obj)
+# TEFAL source files.
+#
+# Free-form source files must be named so that alphabetical order places
+# module definitions, such as A0_tefal_mod.f90, before their users.
 
-install:
-	mkdir -p $(PREFIX)bin
-	mv tefal $(PREFIX)bin  
+FIXED_SOURCES := $(sort $(wildcard *.f))
+FREE_SOURCES  := $(sort $(wildcard *.f90))
+SOURCES       := $(FIXED_SOURCES) $(FREE_SOURCES)
+
+.PHONY: all install clean check
+
+all install: $(TARGET)
+
+$(TARGET): $(SOURCES)
+	@echo "Compiler: $(FC)"
+	@echo "Flags:    $(FFLAGS)"
+	@mkdir -p "$(BIN_DIR)"
+	$(FC) $(FFLAGS) -o "$(TARGET)" $(SOURCES)
+	@rm -f *.o *.mod
+	@echo "Installed: $(TARGET)"
 
 clean:
-	rm -f *.o *.mod
+	rm -f *.o *.mod tefal "$(TARGET)"
 
+check: all
+	cd "$(TEFAL_DIR)/samples" && \
+	  TEFAL_DIR="$(TEFAL_DIR)" ./verify
