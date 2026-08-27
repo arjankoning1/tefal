@@ -45,16 +45,20 @@ make -C "$source_dir" all "$@"
 
 tefal_exe="$tefal_dir/bin/tefal"
 
-if [[ -x "$tefal_exe" ]]; then
-  echo
-  echo "TEFAL executable:"
-  echo "  $tefal_exe"
-  echo
-  echo "If not already done, add the following lines to your shell configuration:"
-  echo
-  echo "  export TEFAL_DIR=\"$tefal_dir\""
-  echo "  export PATH=\"\$TEFAL_DIR/bin:\$PATH\""
-  echo
-  echo "Alternatively, edit code_dir in source/machine.f90 and rebuild TEFAL."
-  echo
+if [[ ! -x "$tefal_exe" ]]; then
+  echo "TEFAL installation error: executable not created:" >&2
+  echo "  $tefal_exe" >&2
+  exit 1
 fi
+
+echo
+echo "TEFAL executable:"
+echo "  $tefal_exe"
+echo
+echo "If not already done, add the following lines to your shell configuration:"
+echo
+echo "  export TEFAL_DIR=\"$tefal_dir\""
+echo "  export PATH=\"\$TEFAL_DIR/bin:\$PATH\""
+echo
+echo "Alternatively, edit code_dir in source/machine.f90 and rebuild TEFAL."
+echo
