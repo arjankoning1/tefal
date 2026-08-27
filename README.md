@@ -148,7 +148,7 @@ From the top-level TEFAL directory, the same test can be started with:
 make -C source check
 ```
 
-`make check` sets `TEFAL_DIR` automatically for the test.
+`make check` sets `TEFAL_DIR` and the sibling `TALYS_DIR` automatically for the test.
 
 TEFAL normally operates on the result of a TALYS calculation performed with the keyword:
 
