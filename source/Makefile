@@ -27,14 +27,14 @@ TEFAL_DIR := $(abspath ..)
 BIN_DIR   := $(TEFAL_DIR)/bin
 TARGET    := $(BIN_DIR)/tefal
 
+TALYS_DIR_CHECK := $(abspath $(TEFAL_DIR)/../talys)
+
 # TEFAL source files.
 #
 # Free-form source files must be named so that alphabetical order places
 # module definitions, such as A0_tefal_mod.f90, before their users.
 
-FIXED_SOURCES := $(sort $(wildcard *.f))
-FREE_SOURCES  := $(sort $(wildcard *.f90))
-SOURCES       := $(FIXED_SOURCES) $(FREE_SOURCES)
+SOURCES := $(sort $(wildcard *.f) $(wildcard *.f90))
 
 .PHONY: all install clean check
 
@@ -53,4 +53,6 @@ clean:
 
 check: all
 	cd "$(TEFAL_DIR)/samples" && \
-	  TEFAL_DIR="$(TEFAL_DIR)" ./verify
+	  TEFAL_DIR="$(TEFAL_DIR)" \
+	  TALYS_DIR="$(TALYS_DIR_CHECK)" \
+	  ./verify
