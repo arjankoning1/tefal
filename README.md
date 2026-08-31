@@ -131,8 +131,9 @@ The sample cases provide examples of the use of TEFAL and can be used to verify 
 The TEFAL sample cases assume that TALYS is installed in a sibling directory:
 
 ```text
-.../talys/
-.../tefal/
+parent_directory/
+├── talys/
+└── tefal/
 ```
 
 To run the sample cases:
