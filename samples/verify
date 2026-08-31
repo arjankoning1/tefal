@@ -1,142 +1,112 @@
-#!/bin/bash
-echo
-echo "     verify (Version December 27 2024) (C) Copyright 2024 Arjan Koning and Viktor Zerkin All Rights Reserved"
-echo
-#
-# verify: run TEFAL for each sample case present in the new/ directories and determine
-#         the numerical differences with the results of the org/ directories
-#
-# Examples: verify     (run all sample cases)"
-#           verify 2   (run only the first 2 sample case)"
-#
-# verify has been developed on Linux and Macos.
-# For Windows, change diff --> FC  and /dev/null --> NUL
-#
-# TEFAL executable: Relative path from the current directory tefal/samples.  
-# It is assumed that TALYS is installed at the same level as TEFAL.
-#
-cwd=`pwd`
-tefal=${cwd}/../bin/tefal
-talys=${cwd}/../../talys/bin/talys
-#
-# Main output and determine number of sample cases
-# nfiles: total number of TEFAL sample cases
-# iimax:  number of sample cases to be run by the user
-#
-start=`date +%F,%T`
-echo "________Script [$0] starting on:`uname -n` at:$start"
-files=`find . -name tefal.inp | grep new | sort `
-nfiles=`find . -name tefal.inp | grep new | sort  | wc -l`
-iimax=1000
-if [ "$1" != "" ] ; then 
-  iimax=$1 
-else 
-  iimax=${nfiles}
-fi
-if [ $iimax -ge $nfiles ] ; then 
-  iimax=$nfiles
-fi
-iimax=`printf "%2d"  $(echo $iimax)`
-nfiles=`printf "%2d"  $(echo $nfiles)`
-echo "________in total there are ${nfiles} sample cases"
-echo "________going to run TEFAL on ${iimax} sample cases"
-#
-# Runtime of the sample cases is printed in times.log
-#
-echo "Script $0 start on:`uname -n` at:`date +%F,%T` with ${iimax} cases">times.log
-echo "TEFAL executable: ${tefal}">>times.log
-ls -la ${tefal}>>times.log
-echo
-echo 'times.log: computer time of each sample case, to be compared with times_org.log'
-echo 'files_dif.log: differences in file length for each output file'
-echo
-echo >> times.log
-echo 'Differences in file length'  > files_dif.log
-echo >> files_dif.log
-#
-# Output of TEFAL executable
-#
-homedir=`pwd`
-echo "________TEFAL executable: $tefal"
-ls -la ${tefal}
-echo ""
-#
-# Loop over sample cases
-#
-t00=`date +%s`
-ii=0
-for f in ${files} ; do
-  ii=$((ii+1))
-  dir=`dirname ${f}`
-  cd ${dir}
-#
-# Run TALYS and TEFAL and output of calculation time
-#
-  echo "${ii}/${iimax}  *** Sample case $dir "
-  echo "          *** Start: `date +%F,%T`"
-  t0=`date +%s`
-  echo "              Running TALYS"
-  $talys < talys.inp > talys.out
-  echo "              Running TEFAL"
-  $tefal < tefal.inp > tefal.out
-  errCode=$?
-  if [ $errCode -ne 0 ] ; then 
-    echo "___________error=$errCode on $dir"
-  fi
-  if [ -e tefal2.inp ] ; then
-    $tefal < tefal2.inp > tefal2.out
-  fi
-  t1=`date +%s` 
-  dt=$(($t1-t0))
-  dt0=$(($t1-t00))
-  printf " %2d/%-2d %-30s %s time[sec]:%-5d total[sec]:%-5d sec err:%d\n" $ii ${iimax} $dir `date +%F,%T` $dt ${dt0} $errCode>>../../times.log
-  echo "          *** End  : `date +%F,%T`" time[sec]:${dt}
-  echo
-#
-# Output of file differences
-#
-  if [ -e outputdiff ]; then
-    rm outputdiff
-  fi
-  first=1
-  for of in `ls -1` ; do
-    diff ${of} ../org/${of} | grep -v date >> /dev/null
-    if [ $? -eq 1 ] ; then
-      echo $of >> outputdiff
-      diff ${of} ../org/${of} | grep -v date >> outputdiff
-    fi
-    lines_new=`cat ${of}|wc -l`
-    lines_org=`cat ../org/${of}|wc -l`
-    if [ $lines_new != $lines_org ] ; then 
-      if [ $first -eq 1 ] ;then
-        echo "*** Sample case $dir" >> ../../files_dif.log
-        echo "Difference in length of output file, see files_dif.log"
-        echo
-        first=0
-      fi
-      echo $of "lines - new:" $lines_new " org:" $lines_org >> ../../files_dif.log
-    fi
-    perl -ne 'print if /[^[:ascii:]]/' $of >> /dev/null
-    if [ $? -eq 1 ] ; then
-      echo "Non-ascii characters in " $of >> files_dif.log
-      perl -ne 'print if /[^[:ascii:]]/' $of >> files_dif.log
-    fi
-  done
-#
-# Back to original directory for next sample case
-#
-  cd $homedir
-  if [ $ii -ge $iimax ] ; then 
-    break
-  fi
+#!/usr/bin/env bash
+# Run user TEFAL sample cases in new/ and compare them with org/ references.
+set -u
+set -o pipefail
+
+samples_dir=$(cd "$(dirname "$0")" && pwd)
+cd "$samples_dir"
+tefal="$samples_dir/../bin/tefal"
+talys="${TALYS_DIR:+$TALYS_DIR/bin/talys}"
+talys=${talys:-"$samples_dir/../../talys/bin/talys"}
+
+usage() {
+  echo "Usage:"
+  echo "  ./verify_new [--tefal /path/to/tefal] [--talys /path/to/talys]"
+}
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -e|--tefal) [[ $# -ge 2 ]] || { echo "*** TEFAL verify error: $1 requires a pathname" >&2; exit 2; }; tefal=$2; shift 2 ;;
+    -t|--talys) [[ $# -ge 2 ]] || { echo "*** TEFAL verify error: $1 requires a pathname" >&2; exit 2; }; talys=$2; shift 2 ;;
+    -h|--help) usage; exit 0 ;;
+    *) echo "*** TEFAL verify error: unknown option: $1" >&2; usage >&2; exit 2 ;;
+  esac
 done
-#
-# Output of total time
-#
-t11=`date +%s`; dt0=$(($t11-t00))
-echo "Script $0 `date +%F,%T` stop $ii cases ${dt0}sec">>times.log
-echo "Elapsed time[sec]:" ${dt0}
-end=`date +%F,%T`
-echo "*** All sample cases done " 
-echo "Start: " $start
-echo "End  : " $end
+
+resolve_executable() {
+  local path=$1 directory
+  if [[ "$path" != /* ]]; then directory=$(cd "$(dirname "$path")" 2>/dev/null && pwd) || return 1; path="$directory/$(basename "$path")"; fi
+  [[ -x "$path" ]] || return 1
+  printf '%s\n' "$path"
+}
+tefal=$(resolve_executable "$tefal") || { echo "*** TEFAL verify error: TEFAL executable not found" >&2; exit 2; }
+talys=$(resolve_executable "$talys") || { echo "*** TEFAL verify error: TALYS executable not found" >&2; exit 2; }
+talys_dir=$(cd "$(dirname "$talys")/.." && pwd)
+if [[ ! -d "$talys_dir/structure" ]]; then
+  local_talys_dir=$(cd "$samples_dir/../../talys" 2>/dev/null && pwd) || local_talys_dir=
+  if [[ -n "$local_talys_dir" && -d "$local_talys_dir/structure" ]]; then
+    echo "Using structure database from $local_talys_dir (the selected TALYS executable is outside a TALYS installation)." >&2
+    talys_dir=$local_talys_dir
+  else
+    echo "*** TEFAL verify error: TALYS structure directory not found: $talys_dir/structure" >&2
+    exit 2
+  fi
+fi
+
+cases=()
+while IFS= read -r input; do cases+=("$input"); done < <(find . -type f -path '*/new/tefal.inp' -print | LC_ALL=C sort)
+nfiles=${#cases[@]}
+[[ "$nfiles" -gt 0 ]] || { echo "*** TEFAL verify error: no sample cases found" >&2; exit 2; }
+
+tmpdir=$(mktemp -d "${TMPDIR:-/tmp}/tefal_verify.XXXXXX") || exit 2
+cleanup() { rm -rf "$tmpdir"; }
+interrupted() { echo "*** TEFAL verification interrupted; stopping after the current command." >&2; exit "$1"; }
+trap cleanup EXIT
+trap 'interrupted 130' INT
+trap 'interrupted 143' TERM HUP
+
+normalize_file() {
+  awk '/^[[:space:]]*User:[[:space:]]/ {next} /^[[:space:]]*Date:[[:space:]]/ {next} /^[[:space:]]*Execution time:/ {next} /^[[:space:]]*#[[:space:]]*user:[[:space:]]/ {next} /^[[:space:]]*#[[:space:]]*date:[[:space:]]/ {next} {print}' "$1"
+}
+list_files() {
+  local dir=$1 file
+  shopt -s nullglob
+  for file in "$dir"/* "$dir"/.[!.]* "$dir"/..?*; do [[ -f "$file" ]] && basename "$file"; done
+  shopt -u nullglob
+}
+
+: > times.log; : > files_dif.log
+start=$(date '+%F,%T'); host=$(uname -n); total_start=$(date +%s)
+echo; echo "TEFAL sample verification"; echo "TEFAL executable: $tefal"; echo "TALYS executable: $talys"; echo "TALYS_DIR:        $talys_dir"; echo "Sample cases:     $nfiles"; echo
+printf 'TEFAL verify started on %s at %s\nTEFAL executable: %s\nTALYS executable: %s\nTALYS_DIR: %s\nSample cases: %s\n\n' "$host" "$start" "$tefal" "$talys" "$talys_dir" "$nfiles" >> times.log
+run_failures=0; missing_files=0; different_files=0; different_cases=0; ii=0
+
+for input in "${cases[@]}"; do
+  ii=$((ii + 1)); new_dir=$(dirname "$input"); case_dir=$(dirname "$new_dir"); org_dir="$case_dir/org"; case_name=${case_dir#./}
+  echo "$ii/$nfiles  *** Sample case $case_name"
+  if [[ ! -d "$org_dir" ]]; then echo "*** Missing reference directory: $org_dir" >&2; missing_files=$((missing_files+1)); continue; fi
+  rm -f "$new_dir/outputdiff"; t0=$(date +%s); err=0
+  echo "          Running TALYS"
+  (cd "$new_dir" && TALYS_DIR="$talys_dir" "$talys" < talys.inp > talys.out) || err=$?
+  if [[ "$err" -eq 0 ]]; then
+    echo "          Running TEFAL"
+    (cd "$new_dir" && "$tefal" < tefal.inp > tefal.out && colrm 81 < tefal.out > tefal.out80) || err=$?
+  fi
+  if [[ "$err" -eq 0 && -f "$new_dir/tefal2.inp" ]]; then (cd "$new_dir" && "$tefal" < tefal2.inp > tefal2.out) || err=$?; fi
+  [[ "$err" -eq 0 ]] || { echo "*** TEFAL failed for $case_name: exit status $err" >&2; run_failures=$((run_failures+1)); }
+  t1=$(date +%s); dt=$((t1-t0)); elapsed=$((t1-total_start))
+  printf '%3d/%-3d %-35s %s  time:%6d s  total:%6d s  err:%d\n' "$ii" "$nfiles" "$case_name" "$(date '+%F,%T')" "$dt" "$elapsed" "$err" >> times.log
+  names="$tmpdir/names"; { list_files "$new_dir"; list_files "$org_dir"; } | LC_ALL=C sort -u > "$names"
+  case_different=0; outputdiff="$new_dir/outputdiff"
+  while IFS= read -r name; do
+    [[ "$name" != outputdiff && "$name" != .DS_Store ]] || continue
+    new_file="$new_dir/$name"; org_file="$org_dir/$name"
+    if [[ ! -f "$new_file" ]]; then printf '\n===== %s =====\nMissing file in new results\n' "$name" >> "$outputdiff"; echo "$case_name: missing new file $name" >> files_dif.log; missing_files=$((missing_files+1)); different_files=$((different_files+1)); case_different=1; continue; fi
+    if [[ ! -f "$org_file" ]]; then printf '\n===== %s =====\nNo reference file in org/\n' "$name" >> "$outputdiff"; different_files=$((different_files+1)); case_different=1; continue; fi
+    normalize_file "$new_file" > "$tmpdir/new"; normalize_file "$org_file" > "$tmpdir/org"
+    diff -u "$tmpdir/org" "$tmpdir/new" > "$tmpdir/diff"
+    diff_status=$?
+    if [[ "$diff_status" -eq 1 ]]; then
+      printf '\n===== %s =====\n' "$name" >> "$outputdiff"; cat "$tmpdir/diff" >> "$outputdiff"; different_files=$((different_files+1)); case_different=1
+    elif [[ "$diff_status" -gt 1 ]]; then
+      echo "*** diff failed for $case_name/$name" >&2; run_failures=$((run_failures+1))
+    fi
+    lines_new=$(wc -l < "$new_file" | tr -d ' '); lines_org=$(wc -l < "$org_file" | tr -d ' ')
+    [[ "$lines_new" -eq "$lines_org" ]] || printf '%-35s %-30s new:%6d org:%6d\n' "$case_name" "$name" "$lines_new" "$lines_org" >> files_dif.log
+  done < "$names"
+  if [[ "$case_different" -eq 1 ]]; then different_cases=$((different_cases+1)); echo "          differences: $outputdiff"; else rm -f "$outputdiff"; echo "          no differences"; fi
+  echo "          time: $dt s"
+done
+
+elapsed=$(($(date +%s)-total_start)); echo "------------------------------------------------------------"; echo "TEFAL sample verification completed"; echo "Cases run: $ii"; echo "Cases with differences: $different_cases"; echo "Files with differences: $different_files"; echo "Missing files: $missing_files"; echo "Execution errors: $run_failures"; echo "Elapsed time: $elapsed s"
+printf '\nFinished: %s\nElapsed time: %s s\nCases with differences: %s\nFiles with differences: %s\nMissing files: %s\nExecution errors: %s\n' "$(date '+%F,%T')" "$elapsed" "$different_cases" "$different_files" "$missing_files" "$run_failures" >> times.log
+[[ "$run_failures" -eq 0 && "$missing_files" -eq 0 ]]
