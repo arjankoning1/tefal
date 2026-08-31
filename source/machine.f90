@@ -23,8 +23,8 @@ subroutine machine
   implicit none
   logical            :: lexist          ! logical to determine existence
   character(len=3)   :: monthC(12)      ! month
-  character(len=132) :: code_dir        ! code directory
-  character(len=132) :: tefal_dir       ! code directory runtime defined
+  character(len=1024):: code_dir        ! code directory
+  character(len=1024):: tefal_dir       ! code directory runtime defined
   integer            :: envstat
   integer            :: i               ! counter
   integer            :: n
