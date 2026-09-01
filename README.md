@@ -28,7 +28,7 @@ To download TEFAL, you can use one of the following options.
 #### 1. Download the entire tar file (frozen version TEFAL-2.2)
 
 ```bash
-curl -LO https://nds.iaea.org/talys/tefal.tar
+curl -LO https://nds.iaea.org/talys/codes/tefal.tar
 tar zxf tefal.tar
 ```
 
