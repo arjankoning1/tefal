@@ -16,32 +16,63 @@ A.J. Koning, D. Rochman, J.-Ch. Sublet, N. Dzysiuk, M. Fleming, and S. van der M
 
 The following are the prerequisites for compiling TEFAL:
 
-- git (only if the package is downloaded via GitHub)
 - GNU make
 - a recent Fortran compiler, such as GNU Fortran (gfortran)
 - a successful installation of the TALYS nuclear model code
+- git, only when TEFAL is downloaded using `git clone`
 
 ### Downloads
 
-To download TEFAL, you can use one of the following options.
+TEFAL can be downloaded in one of the following ways.
 
-#### 1. Download the entire tar file (frozen version TEFAL-2.2)
+#### 1. Frozen version TEFAL-2.2 (December 2025)
 
-This is available at the the [TALYS page](https://nds.iaea.org/talys/), and can be retrieved by clicking on the download link or
+The frozen TEFAL-2.2 distribution is available from the [TALYS page](https://nds.iaea.org/talys/). It can be retrieved by clicking on the download link or with
+
 ```bash
 curl -LO https://nds.iaea.org/talys/codes/tefal.tar
 tar zxf tefal.tar
 ```
 
-#### 2. Using git (latest beta version)
+This version is fixed and will not change.
+
+#### 2. Latest beta version without git
+
+Users who do not have git can download a snapshot of the current `main` branch directly from GitHub:
+
+```bash
+curl -L \
+  -o tefal-main.tar.gz \
+  https://github.com/arjankoning1/tefal/archive/refs/heads/main.tar.gz
+
+tar zxf tefal-main.tar.gz
+mv tefal-main tefal
+```
+
+This produces the same `tefal/` directory structure as the git version, but without the git history.
+
+The downloaded snapshot contains the latest version of the `main` branch at the time of download. To obtain a newer version later, download the snapshot again.
+
+#### 3. Latest beta version using git
+
+Users with git can clone the repository with
 
 ```bash
 git clone https://github.com/arjankoning1/tefal.git
 ```
 
+The advantage of this method is that the local TEFAL installation can subsequently be updated with
+
+```bash
+cd tefal
+git pull --ff-only
+```
+
 ### Installation instructions
 
-#### 1. For the tar file (frozen version TEFAL-2.2)
+#### 1. Frozen version TEFAL-2.2
+
+For the frozen tar distribution:
 
 ```bash
 cd tefal
@@ -57,15 +88,17 @@ make
 
 The above will invoke the default compiler `gfortran`.
 
-#### 2. For the git version (latest beta version)
+#### 2. Latest beta version
+
+The installation procedure is identical whether the latest beta version was obtained as a GitHub tar snapshot or using `git clone`.
+
+From the `tefal/` directory, run
 
 ```bash
-cd tefal
 ./install_tefal.bash
 ```
 
-which automatically executes the `Makefile` in `tefal/source`. At the end, `install_tefal.bash`
-will print the recommended shell configuration.
+which automatically executes the `Makefile` in `tefal/source`. At the end, `install_tefal.bash` will print the recommended shell configuration.
 
 An alternative option is:
 
@@ -74,7 +107,13 @@ cd tefal/source
 make
 ```
 
-For the git version, the default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
+The executable is installed as
+
+```text
+tefal/bin/tefal
+```
+
+For the latest beta version, the default compiler is `gfortran`. When `gfortran` is used and no `FFLAGS` are supplied, the Makefile uses:
 
 ```text
 -w -O3 -ffp-contract=off
@@ -91,8 +130,6 @@ The compiler and compilation options can be passed to the Makefile through `inst
 # Intel Fortran
 ./install_tefal.bash FC=ifx FFLAGS="-O3"
 ```
-
-The above will produce a `tefal` executable in the `tefal/bin` directory.
 
 Set `TEFAL_DIR` to the TEFAL installation directory. This variable is required unless the fallback path in `source/machine.f90` has been set manually. For example:
 
