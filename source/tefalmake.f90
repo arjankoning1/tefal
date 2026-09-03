@@ -164,6 +164,7 @@ subroutine tefalmake
 ! timer     : subroutine for output of execution time
 !
   call finalwrite
+  call deallocate_arrays
   call timer
   return
 end subroutine tefalmake
