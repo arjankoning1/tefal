@@ -118,7 +118,7 @@ subroutine processphoton
 !
 ! *********************** Re-indexing of gamma rays ********************
 !
-  do idc = 0, numchan
+  do idc = 0, idnum
     do i1 = 1, numlevels
       do i2 = 0, i1
         gamexist(i1, i2) = .false.
@@ -148,7 +148,7 @@ subroutine processphoton
 !
 ! ********** Sort gamma ray energies into descending order *************
 !
-  do idc = 0, numchan
+  do idc = 0, idnum
     do igam = 1, Ngam(idc)
       do igam2 = 1, igam
         if (Egamma(idc, igam) > Egamma(idc, igam2)) then
@@ -435,7 +435,7 @@ subroutine processphoton
 !
 ! Set some histogram energies
 !
-  do idc = 0, numchan
+  do idc = 0, idnum
     do nen = numenspec - 1, 1, -1
       do type = 0, 6
         do nenout = 0, numen2
