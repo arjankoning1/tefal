@@ -440,9 +440,12 @@ subroutine talyschannels
     enddo
   enddo
 !
-! Count the channels
+! Check the number of channels
 !
-  idnum = idc
+  if (idc /= idnum) then
+    write(*,'(" TEFAL-error: channel count mismatch: ",2i6)') idnum, idc
+    stop
+  endif
   return
 end subroutine talyschannels
 ! Copyright A.J. Koning 2021
