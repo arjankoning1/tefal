@@ -49,9 +49,6 @@ subroutine arrayinitial
   Nisomer = 0
   Ngam = 0
   Eout = 0.
-  specexcl = 0.
-  Ehist = 0.
-  f0ex = 0.
   Eocum = 0.
   preeqratio = 0.
   buratio = 0.
