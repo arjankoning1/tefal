@@ -47,7 +47,7 @@ subroutine input_endfMF1
     author = 'A.J. Koning               '
   endif
   lab = 'IAEA       '
-  identifier = 'TENDL-2025'
+  identifier = 'TENDL-2026'
   endftext = ''
 !
 ! ************************ Read input variables ************************
