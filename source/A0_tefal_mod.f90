@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2026-05-10: Current revision
+! 2026-09-03: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -819,7 +819,7 @@ module A0_tefal_mod
   integer, dimension(0:numchan,0:numlevels)                        :: isolevel    ! level of isomer
   real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: branchiso   ! branching ratio for isomer
   real(sgl), dimension(0:numchan,0:numlevels,0:numlevels)          :: Egammadis   ! gamma energy
-  real(sgl), dimension(0:numchan,numenspec,0:numpar,0:numen2)      :: Ehist       ! histogram emission energy
+  real(sgl), allocatable                                           :: Ehist(:,:,:,:)       ! histogram emission energy
   real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: Ehistrec    ! histogram recoil energy
   real(sgl), dimension(0:numchan,numenspec,0:numen2)               :: Eout        ! emission energy
   real(sgl), dimension(0:numchan,numenspec)                        :: Eparticles  ! total energy carried away by particles
@@ -828,12 +828,12 @@ module A0_tefal_mod
   real(sgl), dimension(0:numchan,0:numlevels,0:numlevels)          :: Estartdis   ! starting level
   real(sgl), dimension(-5:numchan)                                 :: Ethexcl     ! threshold energy
   real(sgl), dimension(0:numchan,0:numlevels)                      :: Ethexcliso  ! threshold energy for isomer
-  real(sgl), dimension(0:numchan,numenspec,0:numpar,0:numen2)      :: f0ex        ! energy distribution for exclusive c
+  real(sgl), allocatable                                           :: f0ex(:,:,:,:)        ! energy distribution for exclusive c
   real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: f0exrec     ! energy distribution for recoil
   real(sgl), dimension(0:numchan)                                  :: Qexcl       ! Q-value
   real(sgl), dimension(0:numchan,0:numlevels)                      :: Qexcliso    ! Q-value for isomer
   real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: recexcl     ! exclusive recoils
-  real(sgl), dimension(0:numchan,numenspec,0:numpar,0:numen2)      :: specexcl    ! exclusive spectra
+  real(sgl), allocatable                                           :: specexcl(:,:,:,:)    ! exclusive spectra
   real(sgl), dimension(-5:numchan,0:numenin)                       :: xsexcl      ! exclusive cross section
   real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: xsexcliso   ! exclusive cross section for isomer
   real(sgl), dimension(0:numchan,numengam,0:numlevels,0:numlevels) :: xsgamdis    ! exclusive discrete gamma-ray c
