@@ -436,7 +436,7 @@ subroutine processphoton
 ! Set some histogram energies
 !
   do idc = 0, idnum
-    do nen = numenspec - 1, 1, -1
+    do nen = Nenspec - 1, 1, -1
       do type = 0, 6
         do nenout = 0, numen2
           if (Ehist(idc, nen, type, nenout) == 0.) Ehist(idc, nen, type, nenout) = Ehist(idc, nen + 1, type, nenout)
