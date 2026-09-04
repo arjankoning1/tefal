@@ -41,7 +41,6 @@ subroutine arrayinitial
   branchiso = 0.
   Estartdis = 0.
   Egammadis = 0.
-  xsgamdis = 0.
   Ethexcl = 0.
   idchannel = 0
   xsexcl = 0.
@@ -145,15 +144,10 @@ subroutine arrayinitial
   MTindexiso = -1
   MTintindex = 0
   MTintindexiso = -1
-  Rmt = 0.
   Ecov = 0.
   Eleg = 0.
   Ecov = 0.
   Eleg = 0.
-  relerr = 0.
-  xserr = 0.
-  Rcov = 0.
-  Rleg = 0.
   LI4 = 0
   LCT = 0
   LVT = 0
