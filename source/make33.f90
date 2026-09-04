@@ -146,6 +146,7 @@ subroutine make33(MF)
   integer   :: Nsec                                                          ! number of sections
   integer   :: Nthresh(nummt)                                                ! energy point at threshold
   integer   :: NthZA                                                         ! counter
+  integer   :: Nencovtot                                                     ! counter
   real(sgl) :: E33read                                                       ! energy of covariance grid
   real(sgl) :: ELB5(0:numencov+1)                                            ! energy of covariance grid
   real(sgl) :: ELB6(0:numencov+1)                                            ! energy of covariance grid
@@ -153,10 +154,15 @@ subroutine make33(MF)
   real(sgl) :: ELB8(0:numencov+1)                                            ! energy of covariance grid
   real(sgl) :: err                                                           ! error
   real(sgl) :: EZA(0:numencov+1)                                             ! energy of covariance grid
-  real(sgl) :: Rfinal(numchancov, numencov, numchancov, numencov)            ! relative covariance matrix
-  real(sgl) :: Rmt8(numchan, numencovtot)                                    ! relative covariance matrix within same MT number
-  real(sgl) :: Rmtfinal(numchan, numencov, numencov)                         ! relative covariance matrix within same MT number
-  real(sgl) :: RZA(numchan, numencov, numencov)                              ! realtive covariance matrix for residual cross section
+  real(sgl), allocatable :: RZA(:,:,:)                                       ! relative covariance matrix for residual cross section
+  real(sgl), allocatable :: Rfinal(:,:,:,:)            ! relative covariance matrix within same MT number
+  real(sgl), allocatable :: Rmt8(:,:)    ! relative covariance matrix
+  real(sgl), allocatable :: Rmtfinal(:,:,:)    ! relative covariance matrix within same MT number
+  allocate(Rfinal(idnum,Nencov, Nchancov, Nencov))
+  Nencovtot=1+Nencov*Nencov
+  allocate(Rmt8(idnum,Nencovtot))
+  allocate(Rmtfinal(idnum, Nencov, Nencov))
+  allocate(RZA(idnum, Nencov, Nencov))
 !
 ! ***************************** Make MF33 ******************************
 !
