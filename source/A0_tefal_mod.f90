@@ -689,9 +689,9 @@ module A0_tefal_mod
   integer, dimension(nummf,nummt)                         :: NL33read  ! number of subsections
   integer, dimension(numchan)                             :: NT8read   ! total number of entries
   integer, dimension(numchan,numchan)                     :: NT33read  ! total number of entries
-  real(sgl), dimension(numchancov,numchancov,numencovtot) :: b33read   ! covariance matrix element
-  real(sgl), dimension(numchan,numencovtot)               :: b33MTread ! covariance matrix element
-  real(sgl), dimension(numchan,numencovtot)               :: b8read    ! covariance matrix element
+  real(sgl), allocatable :: b33read(:,:,:)   ! covariance matrix element
+  real(sgl), allocatable                                  :: b33MTread(:,:) ! covariance matrix element
+  real(sgl), allocatable                                  :: b8read(:,:)    ! covariance matrix element
   real(sgl), dimension(numchan,numchan)                   :: XLFS1read ! second state discrete level number
   real(sgl), dimension(numchan,numchan)                   :: XMF1read  ! second MF-number
 !
@@ -720,10 +720,10 @@ module A0_tefal_mod
   integer, dimension(numchan,numchan)                     :: NT33      ! total number of entries
   integer, dimension(numsec,numchan)                      :: NT33ZA    ! total number of entries
   integer, dimension(numchan)                             :: NT8       ! total number of entries
-  real(sgl), dimension(numchancov,numchancov,numencovtot) :: b33       ! covariance matrix element
-  real(sgl), dimension(numchan,numencovtot)               :: b33MT     ! covariance matrix element
-  real(sgl), dimension(numchan,numencovtot)               :: b33ZA     ! covariance matrix element
-  real(sgl), dimension(numchan,numencovtot)               :: b8        ! covariance matrix element
+  real(sgl), allocatable                                  :: b33(:,:,:)       ! covariance matrix element
+  real(sgl), allocatable               :: b33MT(:,:)     ! covariance matrix element
+  real(sgl), allocatable               :: b33ZA(:,:)     ! covariance matrix element
+  real(sgl), allocatable               :: b8(:,:)        ! covariance matrix element
   real(sgl)                                               :: Emincov   ! minimum energy for covariance information
   real(sgl), dimension(numchan,numchan)                   :: XLFS1     ! second state discrete level number
   real(sgl), dimension(numchan,numchan)                   :: XMF1      ! second MF-number
