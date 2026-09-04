@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2026-09-03: Current revision
+! 2026-09-04: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -751,7 +751,7 @@ module A0_tefal_mod
   integer                                       :: LS35           ! symmetry flag
   integer, dimension(numencov35)                :: NE35           ! number of energies in energy array
   integer, dimension(numencov35)                :: NT35           ! total number of entries
-  real(sgl), dimension(numencov35, numencovtot) :: b35            ! covariance matrix element
+  real(sgl), dimension(numencov35, numencov35) :: b35            ! covariance matrix element
   real(sgl), dimension(numencov35)              :: E35b           ! start energy of block
   real(sgl), dimension(numencov35)              :: E35e           ! end energy of block
 !
@@ -836,7 +836,7 @@ module A0_tefal_mod
   real(sgl), allocatable                                           :: specexcl(:,:,:,:)    ! exclusive spectra
   real(sgl), dimension(-5:numchan,0:numenin)                       :: xsexcl      ! exclusive cross section
   real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: xsexcliso   ! exclusive cross section for isomer
-  real(sgl), dimension(0:numchan,numengam,0:numlevels,0:numlevels) :: xsgamdis    ! exclusive discrete gamma-ray c
+  real(sgl), allocatable                                           :: xsgamdis(:,:,:,:)    ! exclusive discrete gamma-ray c
   real(sgl), dimension(0:numchan,numenin)                          :: xsgamexcl   ! exclusive gamma cross section
   real(sgl), dimension(numenin)                                    :: xsnonth     ! sum of all non-thr. reac. except (n,g) and (n,f)
 !
@@ -988,12 +988,11 @@ module A0_tefal_mod
   integer, dimension(numchan)                                   :: Zrpcov        ! charge number of residual product
   real(sgl), dimension(0:numencov+1)                            :: Ecov          ! energy grid for covariances
   real(sgl), dimension(0:numencov)                              :: Eleg          ! energy for Legendre covariance data
-  real(sgl), dimension(numchancov,numencov,numchancov,numencov) :: Rcov          ! relative covariance matrix
-  real(sgl), dimension(numchan,numencov)                        :: relerr        ! relative cross section uncertainty
-  real(sgl), dimension(0:numencov,0:numleg,0:numencov,0:numleg) :: Rleg          ! covariance matrix element for Legend
-  real(sgl), dimension(numchan,numencov,numencov)               :: Rmt           ! relative covariance matrix within same MT number
-  real(sgl), dimension(numchan,numencov,numencov)               :: Rmtres        ! relative covariance matrix within same MT number
-  real(sgl), dimension(numchan,numencov,numencov)               :: Rrp           ! covariance element for residual cross sections
-  real(sgl), dimension(numchan,numencov)                        :: xserr         ! cross section uncertainty
+  real(sgl), allocatable                                        :: Rcov(:,:,:,:) ! relative covariance matrix
+  real(sgl), allocatable                                        :: relerr(:,:)   ! relative cross section uncertainty
+  real(sgl), allocatable                                        :: Rleg(:,:,:,:) ! covariance matrix element for Legend
+  real(sgl), allocatable                                        :: Rmt(:,:,:)    ! relative covariance matrix within same MT number
+  real(sgl), allocatable                                        :: Rrp(:,:,:)    ! covariance element for residual cross sections
+  real(sgl), allocatable                                        :: xserr(:,:)    ! cross section uncertainty
 end module A0_tefal_mod
 ! Copyright A.J. Koning 2026
