@@ -158,11 +158,11 @@ subroutine make33(MF)
   real(sgl), allocatable :: Rfinal(:,:,:,:)            ! relative covariance matrix within same MT number
   real(sgl), allocatable :: Rmt8(:,:)    ! relative covariance matrix
   real(sgl), allocatable :: Rmtfinal(:,:,:)    ! relative covariance matrix within same MT number
-  allocate(Rfinal(idnum,Nencov, Nchancov, Nencov))
+  allocate(Rfinal(Nchancovint,Nencov, Nchancov, Nencov))
   Nencovtot=1+Nencov*Nencov
   allocate(Rmt8(idnum,Nencovtot))
-  allocate(Rmtfinal(idnum, Nencov, Nencov))
-  allocate(RZA(idnum, Nencov, Nencov))
+  allocate(Rmtfinal(Nchancov, Nencov, Nencov))
+  allocate(RZA(Ncovrp, Nencov, Nencov))
 !
 ! ***************************** Make MF33 ******************************
 !
@@ -270,7 +270,7 @@ Loop1:  do MT = 1, nummt
             do j = i, nencov
               if (mod(j, covstep) == 1 .and. j /= i .and. j /= Nencov) cycle
               iEb = iEb + 1
-              RZA(ichan, iE, iEb) = Rrp(iza, i, j)
+              RZA(iza, iE, iEb) = Rrp(iza, i, j)
             enddo
           enddo
           NE33ZA(iza, 1) = iE
@@ -563,6 +563,10 @@ Loop1:  do MT = 1, nummt
       mfexist(MF) = .true.
     endif
   enddo
+  deallocate(Rfinal)
+  deallocate(Rmt8)
+  deallocate(Rmtfinal)
+  deallocate(RZA)
   return
 end subroutine make33
 ! Copyright A.J. Koning 2021
