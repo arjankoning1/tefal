@@ -67,68 +67,11 @@ subroutine talyscovar
   integer   :: keyix
   integer   :: l                            ! counter
   integer   :: mt                           ! MT number
-  integer   :: MTint(numchan)               ! MT-numbers with inter-MT covariance data
-  integer   :: MTintiso(numchan)            ! isomer of MT-number with inter-MT covariance data
   integer   :: nen                          ! energy counter
   integer   :: nen2                         ! energy counter
   integer   :: nin                          ! counter for incident energy
   real(sgl) :: ee                           ! energy
   real(sgl) :: ee1                          ! help variable
-!
-! ****************** Read covariance info ******************************
-!
-  inquire (file = 'covariance.inf', exist = lexist)
-  if ( .not. lexist) then
-    write(*, '(" TEFAL-error: Non-existent covariance file")')
-    stop
-  endif
-  open (unit = 1, file = 'covariance.inf', status = 'old')
-  read(1, * )
-  read(1, * ) Nencov
-  do j = 1, Nencov
-    read(1, * ) Ecovindex(j)
-  enddo
-  read(1, * ) Nchancov
-  do ichan = 1, Nchancov
-    read(1, * ) MTindex(ichan), MTindexiso(ichan)
-    if (MTindexiso(ichan) >= 0) Nisocov(MTindex(ichan)) = Nisocov(MTindex(ichan)) + 1
-  enddo
-  read(1, * ) Nchancovint
-  do ichan = 1, Nchancovint
-    read(1, * ) MTint(ichan), MTintiso(ichan)
-  enddo
-  if (Nchancovint > numchancov) then
-    write(*, '(" TEFAL-error: Increase numchancov dimension")')
-    stop
-  endif
-  read(1, * ) Nchanleg, Nleg34
-  do ichan = 1, Nchanleg
-    read(1, * ) Eleg(ichan)
-  enddo
-  read(1, * ) Ncovrp
-  do ichan = 1, Ncovrp
-    read(1, * ) Zrpcov(ichan), Arpcov(ichan), isorpcov(ichan)
-  enddo
-  close (unit = 1)
-  if (Nchanleg > 0) then
-    flagcovleg = .true.
-  else
-    flagcovleg = .false.
-  endif
-  do ichan = 1, Nchancov
-    flagMTint(ichan) = .false.
-    do ichan2 = 1, Nchancovint
-      if (MTint(ichan2) == MTindex(ichan) .and. MTintiso(ichan2) == MTindexiso(ichan) .and. flagcross(MTindex(ichan))) then
-        MTintindex(ichan) = ichan2
-        MTintindexiso(ichan) = MTintiso(ichan2)
-        if (flagintercor) flagMTint(ichan) = .true.
-      endif
-    enddo
-  enddo
-  do ichan = 1, Nchancovint
-    if (flagsubfis .and. MTint(ichan) == 18) flagMTint(ichan) = .false.
-  enddo
-!
 ! ************ Read covariance data within same MT number **************
 !
   open (unit = 2, file = 'cov_intra.ave', status = 'old')
