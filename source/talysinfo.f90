@@ -107,7 +107,7 @@ subroutine talysinfo
 !
   if (numinc > numenin) then
     write(*, '(" TEFAL-error: there are more than", i3, " incident energies in file ", a)') numenin, trim(energyfile)
-    write(*, '(" numenin in tefal.cmb should be increased")')
+    write(*, '(" numenin in A0-tefal_mod.f90 should be increased")')
     stop
   endif
   inquire (file = energyfile, exist = lexist)
