@@ -42,10 +42,10 @@ subroutine talysfiles
 ! Exclusive reaction channels, discrete level and photon production data per reaction channel are only stored for incident neutrons.
 !
   call countchannels
-  call allocate_arrays
   if (flagcovar) then
     call talyscovar
   endif
+  call allocate_arrays
   call talystotal
   if (flagendfdet .or. flageaf) call talyschannels
   call talysresidual
