@@ -120,7 +120,7 @@ subroutine read4(MT)
     iE = iE + 1
     if (iE > numen4) then
       write(*, '(" TEFAL-error: there are more than ", i4, " incident energies in file ", a)') numen4, trim(adoptfile(MF, MT))
-      write(*, '(" numen4 in tefal.cmb should be increased")')
+      write(*, '(" numen4 in A0_tefal_mod.f90 should be increased")')
       stop
     endif
     E4r(iE) = E4x
