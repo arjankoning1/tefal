@@ -158,7 +158,7 @@ subroutine make33(MF)
   real(sgl), allocatable :: Rfinal(:,:,:,:)            ! relative covariance matrix within same MT number
   real(sgl), allocatable :: Rmt8(:,:)    ! relative covariance matrix
   real(sgl), allocatable :: Rmtfinal(:,:,:)    ! relative covariance matrix within same MT number
-  allocate(Rfinal(Nchancovint,Nencov, Nchancov, Nencov))
+  allocate(Rfinal(Nchancovint,Nencov,Nchancovint,Nencov))
   Nencovtot=1+Nencov*Nencov
   allocate(Rmt8(idnum,Nencovtot))
   allocate(Rmtfinal(Nchancov, Nencov, Nencov))
@@ -239,7 +239,7 @@ Loop1:  do MT = 1, nummt
 !
 ! ********** Covariances for residual production cross sections ********
 !
-      if (MT == 5 .and. Ncovrp > 0) then
+      if (MT == 5 .and. flagcovrp .and. Ncovrp > 0) then
         do iza = 1, Ncovrp
           NthZA = 1000
           do i = 2, Nencov
