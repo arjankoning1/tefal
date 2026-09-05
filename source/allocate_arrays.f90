@@ -41,7 +41,7 @@ subroutine allocate_arrays
       allocate(Rleg(0:Nchanleg,0:Nleg34,0:Nchanleg,0:Nleg34))
       Rleg = 0.
     endif
-    if (flagcovrp) then
+    if (flagcovrp .and. Ncovrp > 0) then
       allocate(Rrp(Ncovrp,Nencov,Nencov))
       Rrp = 0.
     endif
