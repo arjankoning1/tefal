@@ -82,7 +82,7 @@ subroutine processresidual
   integer   :: Nrp                                 ! number of residual products
   integer   :: nrpchan(0:numZ, 0:numN)             ! number of MT numbers for residual product
   integer   :: Ntmp                                ! help variable
-  integer   :: rpex(0:numZ, 0:numN, 20)            ! index for residual product
+  integer   :: rpex(0:numZ, 0:numN, numchan + 2)            ! index for residual product
   integer   :: type                                ! particle type
   integer   :: Zix                                 ! charge number index for residual nucleus
   integer   :: Zix1                                ! proton index of residual nucleus
@@ -195,14 +195,16 @@ subroutine processresidual
 ! ************* Determine yields for (n,anything) channel **************
 !
 ! This is a correction for the residual production yields for the case where specific MT numbers run to high energies
+! Only use exclusive channels when talyschannels has loaded them. Count each channel once, even if it has several MT numbers.
 !
   do Zix = 0, numZ
     do Nix = 0, numN
       nrpchan(Zix, Nix) = 0
-      do i = 1, 20
+      do i = 1, numchan + 2
         rpex(Zix, Nix, i) = 0
       enddo
       do idc = -1, idnum
+        if (.not. (flagendfdet .or. flageaf)) exit
         id = idchannel(idc)
         do MT = 4, MTmax
           if (MT == 18 .or. (MT >= 51 .and. MT <= 91)) cycle
@@ -217,6 +219,7 @@ subroutine processresidual
             if (Zix1 == Zix .and. Nix1 == Nix) then
               nrpchan(Zix, Nix) = nrpchan(Zix, Nix) + 1
               rpex(Zix, Nix, nrpchan(Zix, Nix)) = idc
+              exit
             endif
           endif
         enddo
@@ -226,6 +229,7 @@ subroutine processresidual
   do nin = 1, numcut - 1
     xsnonin = 0.
     do idc = -1, idnum
+       if (.not. (flagendfdet .or. flageaf)) exit
        id = idchannel(idc)
        do MT = 4, MTmax
          if (MT >= 51 .and. MT <= 91) cycle
