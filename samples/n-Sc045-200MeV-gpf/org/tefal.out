@@ -1,13 +1,13 @@
 
-    TEFAL-2.23 (Version: May 10, 2026)
+    TEFAL-2.25 (Version: September 3, 2026)
 
            Creating ENDF-6 files with TALYS
 
- Copyright (C) 2025  A.J. Koning     
+ Copyright (C) 2026  A.J. Koning     
 
  ########### DATA FILE ##########
 
- TENDL-2025: neutron  + Sc- 45  1.e-5 eV - 200 MeV       CC-BY-4.0
+ TENDL-2026: neutron  + Sc- 45  1.e-5 eV - 200 MeV       CC-BY-4.0
 
  ########## USER INPUT ##########
 
@@ -83,7 +83,7 @@
  #
  author             A.J. Koning and D. Rochman       
  lab                IAEA       
- identifier         TENDL-2025
+ identifier         TENDL-2026
  endftext           /Users/koning/tefal/misc/endf_n.txt
  #
  # Covariance data
@@ -100,6 +100,6 @@
 
  Number of deleted points:   484 (see file tefal.clean)
 
- Execution time:  0 hours  0 minutes 14.75 seconds 
+ Execution time:  0 hours  0 minutes 14.81 seconds 
 
  TEFAL has created the following ENDF-6 file: Sc45.high

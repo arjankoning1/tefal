@@ -1,13 +1,13 @@
 
-    TEFAL-2.23 (Version: May 10, 2026)
+    TEFAL-2.25 (Version: September 3, 2026)
 
            Creating ENDF-6 files with TALYS
 
- Copyright (C) 2025  A.J. Koning     
+ Copyright (C) 2026  A.J. Koning     
 
  ########### DATA FILE ##########
 
- TENDL-2025: proton   + Al- 27     1 MeV - 200 MeV       CC-BY-4.0
+ TENDL-2026: proton   + Al- 27     1 MeV - 200 MeV       CC-BY-4.0
 
  ########## USER INPUT ##########
 
@@ -72,7 +72,7 @@
  #
  author             A.J. Koning                      
  lab                IAEA       
- identifier         TENDL-2025
+ identifier         TENDL-2026
  endftext           /Users/koning/tefal/misc/endf_p.txt
  #
  # Covariance data
@@ -89,6 +89,6 @@
 
  Number of deleted points:    41 (see file tefal.clean)
 
- Execution time:  0 hours  0 minutes  0.31 seconds 
+ Execution time:  0 hours  0 minutes  0.28 seconds 
 
  TEFAL has created the following ENDF-6 file: p-Al027.gpf
