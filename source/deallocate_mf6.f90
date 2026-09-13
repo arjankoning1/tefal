@@ -35,5 +35,7 @@ subroutine deallocate_mf6
   if (allocated(b6gam)) deallocate(b6gam)
   if (allocated(b6rec)) deallocate(b6rec)
 
+  if (allocated(cleg0)) deallocate(cleg0)
+  if (allocated(ncleg)) deallocate(ncleg)
   return
 end subroutine deallocate_mf6
