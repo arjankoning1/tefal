@@ -215,7 +215,7 @@ subroutine make4discrete(MT)
         do i = 1, NEhr
           if (E4hr(i) > Eahigh(MF, MT)) exit
           iEh = iEh + 1
-          E4(iEh) = E4hr(i)
+          E4h(iEh) = E4hr(i)
           NP4(iEh) = NP4r(i)
           NR4(iEh) = 1
           NBT4(iEh, 1) = NP4r(i)
