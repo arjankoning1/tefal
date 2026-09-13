@@ -167,7 +167,7 @@ subroutine make4discrete(MT)
         E4(iE) = E4r(i)
         NL(iE) = NL4r(i)
         leg(iE, 0) = cleg0(type, nex, nen, 0)
-        do L = 1, NL(i)
+        do L = 1, NL(iE)
           leg(iE, L) = legr(i, L)
         enddo
       enddo
