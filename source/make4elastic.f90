@@ -104,7 +104,7 @@ subroutine make4elastic
     endif
   else
     E4(1) = EmineV
-    NL(MF, MT, 1) = 2
+    NL(1) = 2
     leg(1, 1) = 0.
     leg(1, 2) = 0.
     iE = 1
@@ -130,9 +130,9 @@ subroutine make4elastic
         if (E4r(i) > Eahigh(MF, MT)) exit
         iE = iE + 1
         E4(iE) = E4r(i)
-        NL(4, MT, iE) = NL4r(i)
+        NL(iE) = NL4r(i)
         leg(iE, 0) = cleg0(k0, Ltarget, nen, 0)
-        do L = 1, NL(4, MT, i)
+        do L = 1, NL(i)
           leg(iE, L) = legr(i, L)
         enddo
       enddo
@@ -141,13 +141,13 @@ subroutine make4elastic
       if (adopt(MF, MT) .and. Eev >= Ealow(MF, MT) .and. Eev <= Eahigh(MF, MT)) cycle
       iE = iE + 1
       E4(iE) = Eev
-      NL(4, MT, iE) = 2 * (ncleg(k0, Ltarget, nen) / 2)
+      NL(iE) = 2 * (ncleg(k0, Ltarget, nen) / 2)
       leg(iE, 1) = 0.
       leg(iE, 2) = 0.
-      do L = 0, NL(4, MT, iE)
+      do L = 0, NL(iE)
         leg(iE, L) = cleg0(k0, Ltarget, nen, L)
       enddo
-      NL(4, MT, iE) = max(NL(4, MT, iE), 2)
+      NL(iE) = max(NL(iE), 2)
     endif
   enddo
 !
