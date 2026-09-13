@@ -566,8 +566,9 @@ subroutine make6mt5(MT)
             else
               do nin = 1, numcut
                 if (xsnonel(nin) == 0.) cycle
-                if (Yrpiso(Zix, Nix, nex, nin) == 0..and.nin < numcut &
- &                .and. Yrpiso(Zix, Nix, nex, min(nin + 1, numenin)) == 0.) cycle
+                if (nin < numcut) then
+                  if (Yrpiso(Zix, Nix, nex, nin) == 0..and. Yrpiso(Zix, Nix, nex, nin + 1) == 0.) cycle
+                endif
                 if (eninc(nin) * 1.e6 < Ey(k, 1)) cycle
                 if (iE < numenin) iE = iE + 1
                 Ey(k, iE) = eninc(nin) * 1.e6
