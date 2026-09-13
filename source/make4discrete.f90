@@ -139,7 +139,7 @@ subroutine make4discrete(MT)
     iE = NE
   else
     E4(1) = E3(MT, 1)
-    NL(4, MT, 1) = 2
+    NL(1) = 2
     leg(1, 1) = 0.
     leg(1, 2) = 0.
     iE = 1
@@ -165,9 +165,9 @@ subroutine make4discrete(MT)
         if (E4r(i) > Eahigh(MF, MT)) exit
         iE = iE + 1
         E4(iE) = E4r(i)
-        NL(4, MT, iE) = NL4r(i)
+        NL(iE) = NL4r(i)
         leg(iE, 0) = cleg0(type, nex, nen, 0)
-        do L = 1, NL(4, MT, i)
+        do L = 1, NL(i)
           leg(iE, L) = legr(i, L)
         enddo
       enddo
@@ -176,10 +176,10 @@ subroutine make4discrete(MT)
       if (adopt(MF, MT) .and. Eev >= Ealow(MF, MT) .and. Eev <= Eahigh(MF, MT)) cycle
       iE = iE + 1
       E4(iE) = Ein * 1.e6
-      NL(4, MT, iE) = ncleg(type, nex, nen)
+      NL(iE) = ncleg(type, nex, nen)
       leg(iE, 1) = 0.
       leg(iE, 2) = 0.
-      do L = 0, NL(4, MT, iE)
+      do L = 0, NL(iE)
         leg(iE, L) = cleg0(type, nex, nen, L)
       enddo
     endif
@@ -187,10 +187,10 @@ subroutine make4discrete(MT)
   if (xsdisc(type, nex, numcut4) == 0.) then
     iE = iE + 1
     E4(iE) = Ein * 1.e6
-    NL(4, MT, iE) = NL(4, MT, iE - 1)
+    NL(iE) = NL(iE - 1)
     leg(iE, 1) = 0.
     leg(iE, 2) = 0.
-    do L = 0, NL(4, MT, iE)
+    do L = 0, NL(iE)
       leg(iE, L) = leg(iE - 1, L)
     enddo
   endif
@@ -254,8 +254,8 @@ subroutine make4discrete(MT)
 200 if (flaghigh) then
     iE = iE + 1
     E4(iE) = EMAX
-    NL(4, MT, iE) = NL(4, MT, iE - 1)
-    do L = 0, NL(4, MT, iE)
+    NL(iE) = NL(iE - 1)
+    do L = 0, NL(iE)
       leg(iE, L) = leg(iE - 1, L)
     enddo
   endif
