@@ -155,7 +155,7 @@ subroutine talysresidual
             if (keyix > 0) then
               read(line(keyix+len_trim(key)+2:80),*, iostat = istat) nen
               if (istat /= 0) call read_error(isofile, istat)
-              nen = min(nen, numenin)
+              nen = min(nen, numinc)
               read(1,'(/)')
               do nin = 1, nen
                 read(1, '(15x, es15.6)') xsrpiso(Zix, Nix, nex, nin)
