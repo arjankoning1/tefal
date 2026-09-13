@@ -23,7 +23,6 @@ subroutine deallocate_arrays
   if (allocated(Eout)) deallocate(Eout)
   if (allocated(ncleg)) deallocate(ncleg)
   if (allocated(cleg0)) deallocate(cleg0)
-  if (allocated(xsang)) deallocate(xsang)
   if (allocated(fang)) deallocate(fang)
   if (allocated(xsrpiso)) deallocate(xsrpiso)
   if (allocated(Yrpiso)) deallocate(Yrpiso)
