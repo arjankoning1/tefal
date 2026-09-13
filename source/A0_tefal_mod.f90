@@ -659,39 +659,41 @@ module A0_tefal_mod
   integer                              :: NI31 ! number of NI-type sub-subsections
   integer                              :: NL31 ! number of subsections
   integer                              :: NT31 ! total number of entries
-  real(sgl), dimension(10*numencovtot) :: b31  ! covariance matrix element
+  real(sgl), allocatable               :: b31(:)   ! covariance matrix element
 !
 ! read32
 !
-  character(len=4), dimension(numrescov*numrescov/2,14) :: covdigit ! elements of compact covariance format
-  integer, dimension(numrescov*numrescov/2,2)           :: covix32  ! covariance index
-  integer, dimension(numres)                            :: ISR      ! flag for presence of scattering radius uncertainty
-  integer, dimension(numres)                            :: LCOMP    ! compatibility flag
-  integer                                               :: LRX32    ! flag to indicate competitive width
-  integer, dimension(numres)                            :: MLS      ! number of DAP points
-  integer                                               :: MPAR     ! number of parameters per resonance
-  integer                                               :: MPARURR  ! number of parameters per resonance for URR
-  integer                                               :: N32      ! number of values for MF32
-  integer                                               :: N32URR   ! number of points for URR
-  integer                                               :: NDIGIT   ! integer for compact covariance format
-  integer, dimension(numres,numlres)                    :: NJS32    ! number of j-values
-  integer                                               :: NLRS     ! number of subsections with long-range covariance
-  integer, dimension(numres)                            :: NLS32    ! number of l-values
-  integer                                               :: NM       ! integer for compact covariance format
-  integer                                               :: NNN      ! integer for compact covariance format
-  integer                                               :: NPARURR  ! number of parameters per resonance for URR
-  integer                                               :: NRB      ! number of resonances
-  integer                                               :: NSRS     ! number of subsections with covariances
-  real(sgl), dimension(numres,numlres,numjres)          :: AJ32     ! spin of the resonance
-  real(sgl)                                             :: APLQX    ! l-dependent scattering radius
-  real(sgl), dimension(5*numjres*(numjres+1))           :: b32URR   ! covariance matrix elemen
-  real(sgl), dimension(numres,numlres,numjres)          :: D32      ! MF32 resonance parameter
-  real(sgl), dimension(numres)                          :: DAP      ! uncertainty in scattering radius (compact format)
-  real(sgl), dimension(numres,numlres,numjres)          :: GF32     ! fission width of the resonance
-  real(sgl), dimension(numres,numlres,numjres)          :: GG32     ! gamma width of the resonance
-  real(sgl), dimension(numres,numlres,numjres)          :: GNO32    ! neutron width of the resonance
-  real(sgl), dimension(numres,numlres,numjres)          :: GX32     ! competitive width of the resonance
-  real(sgl), dimension(6*numrescov+numrescov*numrespar*(numrescov*numrespar+1)) :: b32      ! covariance matrix
+  character(len=4), allocatable :: covdigit(:,:) ! elements of compact covariance format
+
+  integer, allocatable :: covix32(:,:) ! covariance index
+  integer, allocatable :: ISR(:)       ! flag for presence of scattering radius uncertainty
+  integer, allocatable :: LCOMP(:)     ! compatibility flag
+  integer              :: LRX32        ! flag to indicate competitive width
+  integer, allocatable :: MLS(:)       ! number of DAP points
+  integer              :: MPAR         ! number of parameters per resonance
+  integer              :: MPARURR      ! number of parameters per resonance for URR
+  integer              :: N32          ! number of values for MF32
+  integer              :: N32URR       ! number of points for URR
+  integer              :: NDIGIT       ! integer for compact covariance format
+  integer, allocatable :: NJS32(:,:)   ! number of j-values
+  integer              :: NLRS         ! number of subsections with long-range covariance
+  integer, allocatable :: NLS32(:)     ! number of l-values
+  integer              :: NM           ! integer for compact covariance format
+  integer              :: NNN          ! integer for compact covariance format
+  integer              :: NPARURR      ! number of parameters per resonance for URR
+  integer              :: NRB          ! number of resonances
+  integer              :: NSRS         ! number of subsections with covariances
+
+  real(sgl), allocatable :: AJ32(:,:,:)   ! spin of the resonance
+  real(sgl)              :: APLQX         ! l-dependent scattering radius
+  real(sgl), allocatable :: b32URR(:)     ! covariance matrix element
+  real(sgl), allocatable :: D32(:,:,:)    ! MF32 resonance parameter
+  real(sgl), allocatable :: DAP(:)        ! uncertainty in scattering radius
+  real(sgl), allocatable :: GF32(:,:,:)   ! fission width
+  real(sgl), allocatable :: GG32(:,:,:)   ! gamma width
+  real(sgl), allocatable :: GNO32(:,:,:)  ! neutron width
+  real(sgl), allocatable :: GX32(:,:,:)   ! competitive width
+  real(sgl), allocatable :: b32(:)        ! covariance matrix
 !
 ! read33
 !
@@ -749,30 +751,30 @@ module A0_tefal_mod
 !
 ! make34
 !
+  integer, allocatable   :: NE34(:,:)    ! number of energies in energy array
+  integer, allocatable   :: NI34(:,:)    ! number of NI-type sub-subsections
+  integer, allocatable   :: NT34(:,:)    ! total number of entries
+  real(sgl), allocatable :: b34(:,:,:)   ! covariance matrix element
   integer                                         :: LB34  ! flag for meaning of numbers
   integer                                         :: LS34  ! symmetry flag
   integer                                         :: LTT34 ! representation
   integer                                         :: LVT34 ! specification of transformation matrix
   integer                                         :: MAT34 ! material number for MF34
   integer                                         :: MT34  ! MT number for MF34
-  integer, dimension(numleg,numleg)               :: NE34  ! number of energies in energy array
-  integer, dimension(numleg,numleg)               :: NI34  ! number of NI-type sub-subsections
   integer                                         :: NL34  ! number of Legendre coefficients with covariances
   integer                                         :: NL341 ! number of Legendre coefficients with covariances
   integer                                         :: NMT34 ! total number of MT sections
-  integer, dimension(numleg,numleg)               :: NT34  ! total number of entries
-  real(sgl), dimension(numleg,numleg,numencovtot) :: b34   ! covariance matrix element
 !
 ! read35
 !
-  integer, parameter                            :: numencov35=750 ! number of incident energies for FNS covariances
-  integer                                       :: LB35           ! flag for meaning of numbers
-  integer                                       :: LS35           ! symmetry flag
-  integer, dimension(numencov35)                :: NE35           ! number of energies in energy array
-  integer, dimension(numencov35)                :: NT35           ! total number of entries
-  real(sgl), dimension(numencov35, numencov35) :: b35            ! covariance matrix element
-  real(sgl), dimension(numencov35)              :: E35b           ! start energy of block
-  real(sgl), dimension(numencov35)              :: E35e           ! end energy of block
+integer, parameter              :: numencov35=750 ! number of incident energies for FNS covariances
+  integer                         :: LB35           ! flag for meaning of numbers
+  integer                         :: LS35           ! symmetry flag
+  integer, allocatable            :: NE35(:)        ! number of energies in energy array
+  integer, allocatable            :: NT35(:)        ! total number of entries
+  real(sgl), allocatable          :: b35(:,:)       ! covariance matrix element
+  real(sgl), allocatable          :: E35b(:)        ! start energy of block
+  real(sgl), allocatable          :: E35e(:)        ! end energy of block
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for initialization of ENDF variables
@@ -864,15 +866,16 @@ module A0_tefal_mod
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
   logical, dimension(0:numpar,0:numlevels)                      :: levexist  ! flag for existence of discrete level
-  integer, dimension(0:numpar,0:numlevin,numenang)              :: ncleg     ! number of Legendre coefficients
+  integer, allocatable                                          :: ncleg(:,:,:)    ! number of Legendre coefficients
+  real(sgl), allocatable                                        :: cleg0(:,:,:,:)    ! Legendre coefficients
+  real(sgl), allocatable                                        :: xsang(:,:,:,:)    ! differential cross section
+  real(sgl), allocatable                                        :: fang(:,:,:,:)  ! scattering angular distribution
   integer, dimension(0:numpar)                                  :: ndisc     ! number of discrete levels
   integer, dimension(0:numpar)                                  :: numendisc ! number of incident energies including discrete states
-  real(sgl), dimension(0:numpar,0:numlevin,numenang,0:numl)     :: cleg0     ! Legendre coefficients
   real(sgl), dimension(0:numpar,0:numenin+150)                  :: edisc     ! incident energy for discrete level cross sections
   real(sgl), dimension(0:numpar,0:numlevels)                    :: Ethdisc   ! threshold energy
   real(sgl), dimension(0:numpar,0:numlevels)                    :: jdis      ! spin of level
   real(dbl), dimension(0:numpar,0:numlevels)                    :: Qdisc     ! Q-value
-  real(sgl), dimension(0:numpar,0:numlevin,0:numenang,0:numang) :: xsang     ! differential cross section
   real(sgl), dimension(0:numpar,0:numenin+150)                  :: xsbin     ! binary cross section
   real(sgl), dimension(0:numpar,0:numenin)                      :: xscont    ! continuum cross section
   real(sgl), dimension(0:numpar,0:numlevels,0:numenin)          :: xsdisc    ! discrete state cross section
@@ -902,7 +905,6 @@ module A0_tefal_mod
 !
   integer                                                       :: limang ! smallest angle for charged-particle elastic scattering
   real(sgl), dimension(0:numenin,0:numang)                      :: cpang  ! differential cross section
-  real(sgl), dimension(0:numpar,0:numlevin,0:numenang,0:numang) :: fang   ! scattering angular distribution
   real(sgl), dimension(0:numenin,0:numang)                      :: fcpang ! scattering angular dist. for charged-particle elastic
   real(sgl), dimension(0:numenin,0:numang)                      :: elasni ! nuclear + interference term
 !
