@@ -45,14 +45,14 @@ subroutine allocate_mf6
 !
 ! Yield grids can contain essentially the full incident-energy grid.
 !
-  allocate(Ey(numsec,numenin))
-  allocate(Y(numsec,numenin))
+  allocate(Ey(numsec,numinc + 2))
+  allocate(Y(numsec,numinc + 2))
 
   allocate(ZAP(numsec))
 !
 ! Energy-angle arrays
 !
-  allocate(b6(numsecea,Nenspec+3,40*numen2))
+  allocate(b6(numsecea,nen6,40*numen2))
   allocate(b6gam(Nenspec+3,40*numen2))
   allocate(b6rec(numsec,Nenspec+3,2*numenrec))
 
