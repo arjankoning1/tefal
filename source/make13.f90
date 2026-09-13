@@ -173,7 +173,7 @@ subroutine make13
         igam = igam - 1
         cycle
       endif
-      x = xsgam(idc, i, numcut)
+      x = xsgam(idc, i, nencut)
       if (x == 0.) then
         iEg = iEg + 1
         Eg(idc, igam, iEg) = Ein * 1.e6
