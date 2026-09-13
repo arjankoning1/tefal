@@ -33,5 +33,7 @@ subroutine deallocate_mf4
   if (allocated(leg)) deallocate(leg)
   if (allocated(x4)) deallocate(x4)
 
+  if (allocated(fang)) deallocate(fang)
+
   return
 end subroutine deallocate_mf4
