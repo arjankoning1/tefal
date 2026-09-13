@@ -9,6 +9,7 @@ subroutine deallocate_mf2
 
   if (allocated(AJ)) deallocate(AJ)
   if (allocated(Er)) deallocate(Er)
+  if (allocated(ER7)) deallocate(ER7)
 
   if (allocated(GF)) deallocate(GF)
   if (allocated(GFA)) deallocate(GFA)
