@@ -9,6 +9,7 @@ subroutine allocate_mf2
 
   allocate(AJ(numres,numlres,numnrs))
   allocate(Er(numres,numlres,numnrs))
+  allocate(ER7(numjres,numnrs))
 
   allocate(GF(numres,numlres,numnrs))
   allocate(GFA(numres,numlres,numnrs))
@@ -28,6 +29,7 @@ subroutine allocate_mf2
 
   AJ = 0.
   Er = 0.
+  ER7 = 0.
 
   GF = 0.
   GFA = 0.
