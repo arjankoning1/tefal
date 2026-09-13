@@ -140,23 +140,37 @@ subroutine tefalmake
 ! write35   : subroutine to write MF35
 !
   if (flagcovar) then
+    call allocate_mf33_40
     call make33(33)
     call write33(33)
     if (.not. flageaf) then
       call make33(40)
       call write33(40)
+    endif
+    call deallocate_mf33_40
+    if (.not. flageaf) then
       if (k0 == 1 .and. flagendfdet .and. flaggpf) then
         if (flagfission .and. .not. flagfis10) then
+          call allocate_mf31
           call read31
           call write31
+          call deallocate_mf31
+          call allocate_mf35
           call make35
           call write35
+          call deallocate_mf35
         endif
-        call read32
-        call write32
+        if (LRU(1) /= 0 .and. adopt(32,151)) then
+          call allocate_mf32
+          call read32
+          call write32
+          call deallocate_mf32
+        endif
         if (flagcovleg) then
+          call allocate_mf34
           call make34
           call write34
+          call deallocate_mf34
         endif
       endif
     endif
