@@ -160,7 +160,7 @@ subroutine make33(MF)
   real(sgl), allocatable :: Rmtfinal(:,:,:)    ! relative covariance matrix within same MT number
   allocate(Rfinal(Nchancovint,Nencov,Nchancovint,Nencov))
   Nencovtot=1+Nencov*Nencov
-  allocate(Rmt8(idnum,Nencovtot))
+  allocate(Rmt8(Nchancov,Nencovtot))
   allocate(Rmtfinal(Nchancov, Nencov, Nencov))
   allocate(RZA(Ncovrp, Nencov, Nencov))
 !
