@@ -54,7 +54,10 @@ subroutine allocate_mf6
 !
   allocate(b6(numsecea,nen6,40*numen2))
   allocate(b6gam(Nenspec+3,40*numen2))
-  allocate(b6rec(numsec,Nenspec+3,2*numenrec))
+  if (flagrecoil) then
+    allocate(b6rec(numsec,Nenspec+3,2*numenrec))
+    b6rec = 0.
+  endif
 
   allocate(flagrec(numsec))
 !
@@ -90,7 +93,6 @@ subroutine allocate_mf6
 
   flagrec = .false.
   b6gam = 0.
-  b6rec = 0.
 
   kpart = 0
 
