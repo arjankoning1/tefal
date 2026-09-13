@@ -6,7 +6,6 @@ subroutine allocate_arrays
 !
   use A0_tefal_mod
   implicit none
-  integer:: Nencovtot
 !
   if (flaggpf) then
     allocate(Ehist(0:idnum,1:Nenspec,0:numpar,0:numen2))
@@ -20,15 +19,19 @@ subroutine allocate_arrays
     allocate(xsgamdis(0:idnum,1:Nengam,0:numlevels,0:numlevels))
     xsgamdis = 0.
   endif
+  ! Angular arrays are also used by processangle and MF4 when endfdetail is disabled.
+  if (flaggpf) then
+    allocate(ncleg(0:numpar,0:numlevin,Nenang))
+    allocate(cleg0(0:numpar,0:numlevin,Nenang,0:numl))
+    allocate(xsang(0:numpar,0:numlevin,0:Nenang,0:numang))
+    allocate(fang(0:numpar,0:numlevin,0:Nenang,0:numang))
+
+    ncleg = 0
+    cleg0 = 0.
+    xsang = 0.
+    fang = 0.
+  endif
   if (flagcovar) then
-    Nencovtot = 1 + Nencov * Nencov
-    allocate(b33read(Nchancov,Nchancov,Nencovtot))
-    allocate(b33(Nchancov,Nchancov,Nencovtot))
-    allocate(b33MT(Nchancov,Nencovtot))
-    allocate(b33ZA(Ncovrp,Nencovtot))
-    allocate(b8(Nchancov,Nencovtot))
-    allocate(b33MTread(Nchancov,Nencovtot))
-    allocate(b8read(Nchancov,Nencovtot))
     allocate(Rmt(Nchancov,Nencov,Nencov))
     Rmt = 0.
     allocate(relerr(Nchancov,Nencov))
