@@ -91,7 +91,7 @@ subroutine write4(MT)
 ! xwrite: subroutine to write real value block
 !
     do iE = 1, NE
-      N = NL(MF, MT, iE)
+      N = NL(iE)
       call hrwrite(0., E4(iE), 0, 0, N, 0, MAT, MF, MT, NS)
       do i = 1, N
         x(i) = leg(iE, i)
