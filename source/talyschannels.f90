@@ -246,6 +246,11 @@ subroutine talyschannels
                           read(line(keyix+len_trim(key)+2:80),*, iostat = istat) N
                           if (istat /= 0) call read_error(xsfile, istat)
                           read(1,'(/)')
+                          if (N > numinc) then
+                            write(*,'(" TEFAL-error: number of isomer energy points ",i6, &
+ &                           " exceeds numinc ",i6," in file ",a)') N,numinc,trim(isofile)
+                            stop
+                          endif
                           do nin = 1, N
                             read(1, '(15x, es15.6)', iostat = istat) xsexcliso(idc, nex, nin)
                             if (istat == -1) exit
