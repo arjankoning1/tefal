@@ -657,10 +657,10 @@ subroutine make6mt5(MT)
   ZAP(k) = 0.
   AWP(k) = 0.
   if (flaghigh) then
+    Ey(k, 1) = E3(MT, 1)
+    Y(k, 1) = yieldp(0, 1)
+    iE = 1
     if (flagendfdet) then
-      Ey(k, 1) = E3(MT, 1)
-      Y(k, 1) = yieldp(0, 1)
-      iE = 1
       if (numcut > 1) then
         Ey(k, 2) = eninccut * 1.e6
         Y(k, 2) = yieldp(0, 1)
