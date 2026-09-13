@@ -184,8 +184,8 @@ subroutine make6discrete(MT)
       LIP(k) = 0
       LANG(k) = 0
       E6(k, 1) = E3(MT, 1)
-      NL(6, MT, 1) = 2
-      NW(k, 1) = NL(6, MT, 1)
+      NL(1) = 2
+      NW(k, 1) = NL(1)
       leg(1, 1) = 0.
       leg(1, 2) = 0.
 !
@@ -202,21 +202,21 @@ subroutine make6discrete(MT)
         iE = iE + 1
         E6(k, iE) = Ein * 1.e6
         if (k0 == 0) then
-          NL(6, MT, iE) = 2
+          NL(iE) = 2
         else
-          NL(6, MT, iE) = ncleg(type, nex, nen)
+          NL(iE) = ncleg(type, nex, nen)
         endif
-        NW(k, iE) = NL(6, MT, iE)
+        NW(k, iE) = NL(iE)
         leg(iE, 1) = 0.
         leg(iE, 2) = 0.
         if (nin <= numcut4) then
-          do L = 0, NL(6, MT, iE)
+          do L = 0, NL(iE)
             leg(iE, L) = cleg0(type, nex, nen, L)
           enddo
         else
-          NL(6, MT, iE) = NL(6, MT, iE - 1)
+          NL(iE) = NL(iE - 1)
           NW(k, iE) = NW(k, iE - 1)
-          do L = 0, NL(6, MT, iE)
+          do L = 0, NL(iE)
             leg(iE, L) = leg(iE - 1, L)
           enddo
         endif
@@ -224,11 +224,11 @@ subroutine make6discrete(MT)
       if (xsdisc(type, nex, numcut) == 0.) then
         iE = iE + 1
         E6(k, iE) = Ein * 1.e6
-        NL(6, MT, iE) = NL(6, MT, iE - 1)
+        NL(iE) = NL(iE - 1)
         NW(k, iE) = NW(k, iE - 1)
         leg(iE, 1) = 0.
         leg(iE, 2) = 0.
-        do L = 0, NL(6, MT, iE)
+        do L = 0, NL(iE)
           leg(iE, L) = leg(iE - 1, L)
         enddo
       endif
@@ -238,9 +238,9 @@ subroutine make6discrete(MT)
       if (flaghigh) then
         iE = iE + 1
         E6(k, iE) = EMAX
-        NL(6, MT, iE) = NL(6, MT, iE - 1)
+        NL(iE) = NL(iE - 1)
         NW(k, iE) = NW(k, iE - 1)
-        do L = 0, NL(6, MT, iE)
+        do L = 0, NL(iE)
           leg(iE, L) = leg(iE - 1, L)
         enddo
       endif
