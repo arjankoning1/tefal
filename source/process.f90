@@ -42,9 +42,15 @@ subroutine process
   call processdiscrete
   if (flaggpf) then
     call processyields
-    if (flagendfdet) call processphoton
+    if (allocated(Eout)) deallocate(Eout)
+    if (flagendfdet) then
+      call processphoton
+      if (allocated(specexcl)) deallocate(specexcl)
+      if (allocated(xsgamdis)) deallocate(xsgamdis)
+    endif
     if (k0 <= 1) then
       call processangle
+      if (allocated(xsang)) deallocate(xsang)
     else
       call processcpelastic
     endif
