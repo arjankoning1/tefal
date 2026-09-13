@@ -19,6 +19,17 @@ subroutine allocate_arrays
     allocate(xsgamdis(0:idnum,1:Nengam,0:numlevels,0:numlevels))
     xsgamdis = 0.
   endif
+  if (flagendfdet .or. flageaf) then
+    allocate(xsexcliso(0:idnum,0:nlevmax,1:numinc))
+    allocate(branchiso(0:idnum,0:nlevmax,1:numinc))
+
+    xsexcliso = 0.
+    branchiso = 0.
+  endif
+  if (flaggpf) then
+    allocate(Eout(0:idnum,1:Nenspec,0:numen2))
+    Eout = 0.
+  endif
   ! Angular arrays are also used by processangle and MF4 when endfdetail is disabled.
   if (flaggpf) then
     allocate(ncleg(0:numpar,0:numlevin,Nenang))
@@ -49,5 +60,6 @@ subroutine allocate_arrays
       Rrp = 0.
     endif
   endif
+  call allocate_recoil
   return
 end subroutine allocate_arrays
