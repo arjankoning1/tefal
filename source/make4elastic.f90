@@ -132,7 +132,7 @@ subroutine make4elastic
         E4(iE) = E4r(i)
         NL(iE) = NL4r(i)
         leg(iE, 0) = cleg0(k0, Ltarget, nen, 0)
-        do L = 1, NL(i)
+        do L = 1, NL(iE)
           leg(iE, L) = legr(i, L)
         enddo
       enddo
