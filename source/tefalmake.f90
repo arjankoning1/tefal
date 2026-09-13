@@ -5,7 +5,7 @@ subroutine tefalmake
 !
 ! Author    : Arjan Koning
 !
-! 2021-12-30: Original code
+! 2026-09-13: Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -69,19 +69,29 @@ subroutine tefalmake
 !
 ! make4      : subroutine to make MF4
 !
-    if (k0 == 1 .and. flagendfdet .and. flaggpf) call make4
+    if (k0 == 1 .and. flagendfdet .and. flaggpf) then
+      call allocate_mf4
+      call make4
+      call deallocate_mf4
+    endif
 !
 ! Secondary energy distributions
 !
 ! make5    : subroutine to make MF5 (contains write5)
 !
-    if (k0 <= 1 .and. flagfission .and. .not. flagfis10) call make5
+    if (k0 <= 1 .and. flagfission .and. .not. flagfis10) then
+      call allocate_mf5
+      call make5
+      call deallocate_mf5
+    endif
 !
 ! Yields and secondary distributions
 !
 ! make6: subroutine to make MF6 (contains write6)
 !
+    call allocate_mf6
     call make6
+    call deallocate_mf6
 !
 ! Isomeric cross sections
 !
@@ -91,10 +101,12 @@ subroutine tefalmake
 ! write8   : subroutine to write MF8
 !
     if (flagendfdet) then
+      call allocate_mf8_10
       call make9_10
       call make8
       call write9_10
       call write8
+      call deallocate_mf8_10
 !
 ! Photon production data
 !
@@ -104,10 +116,12 @@ subroutine tefalmake
 ! make15   : subroutine to make MF15 (contains write15)
 !
       if ( .not. flagcapt6 .or. .not. flagdisc6 .or. .not. flagpart6) then
+        call allocate_mf12_15
         call make12
         if (flaggam13) call make13
         call make14
         call make15
+        call deallocate_mf12_15
       endif
     endif
   endif
