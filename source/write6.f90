@@ -149,8 +149,8 @@ subroutine write6(MT)
       endif
       do iE = 1, NE6ea(k)
         if (LAW(k) == 1) call hrwrite(0., E6(k, iE), ND(k, iE), NA(k, iE), NW(k, iE), NEP(k, iE), MAT, MF, MT, NS)
-        if (LAW(k) == 2) call hrwrite(0., E6(k, iE), LANG(k), 0, NW(k, iE), NL(6, MT, iE), MAT, MF, MT, NS)
-        if (LAW(k) == 5) call hrwrite(0., E6(k, iE), LTP, 0, NW(k, iE), NL(6, MT, iE), MAT, MF, MT, NS)
+        if (LAW(k) == 2) call hrwrite(0., E6(k, iE), LANG(k), 0, NW(k, iE), NL(iE), MAT, MF, MT, NS)
+        if (LAW(k) == 5) call hrwrite(0., E6(k, iE), LTP, 0, NW(k, iE), NL(iE), MAT, MF, MT, NS)
         N = NW(k, iE)
         if (LAW(k) == 2) then
           do i = 1, N
