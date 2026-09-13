@@ -363,7 +363,7 @@ module A0_tefal_mod
   real(sgl), dimension(numres,numenin)                :: E2     ! incident energy for MF2 (in ENDF-6 format)
   real(sgl), dimension(numres)                        :: EH     ! boundary for resonance range
   real(sgl), dimension(numres)                        :: EL     ! boundary for resonance range
-  real(sgl), dimension(numjres,numch7)                :: ER7    ! energy of resonance in eV
+  real(sgl), allocatable :: ER7(:,:)       ! energy of R-matrix resonance
   real(sgl), dimension(numres,numlres)                :: QX     ! Q-value to be added to C.M. incident energy
   real(sgl), dimension(numres)                        :: SPI    ! target spin
   real(sgl), dimension(numPP)                         :: IA7    ! spin of first particle in pair
