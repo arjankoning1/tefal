@@ -110,8 +110,8 @@ subroutine make6mt2
           ib = ib + 1
           b6(k, iE, ib) = fcpang(nen, iang)
         enddo
-        NL(6, MT, iE) = 91 - limang
-        NW(k, iE) = 2 * NL(6, MT, iE)
+        NL(iE) = 91 - limang
+        NW(k, iE) = 2 * NL(iE)
       enddo
 !
 ! Recoils
