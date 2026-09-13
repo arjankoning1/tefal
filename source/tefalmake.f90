@@ -51,8 +51,10 @@ subroutine tefalmake
 ! k0=1 means neutron-induced data.
 !
     if (k0 == 1) then
+      call allocate_mf2
       call make2
       call write2
+      call deallocate_mf2
     endif
   endif
 !
