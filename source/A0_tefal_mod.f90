@@ -831,35 +831,37 @@ integer, parameter              :: numencov35=750 ! number of incident energies 
   character(len=54), dimension(-1:numchan,0:numlevels)             :: reacstring  ! string with reaction information
   integer, dimension(-5:numchan)                                   :: idchannel   ! identifier for channel
   integer, dimension(0:numchan,0:numpar,numenspec)                 :: nbeg        ! first outgoing energy
-  integer, dimension(0:numchan,numenspec)                          :: nbegrec     ! first outgoing energy
   integer, dimension(0:numchan,0:numpar,numenspec)                 :: nend        ! last outgoing energy
-  integer, dimension(0:numchan,numenspec)                          :: nendrec     ! last outgoing energy
   integer, dimension(0:numchan)                                    :: Nisomer     ! number of isomers
   integer, dimension(0:numchan,numenspec)                          :: nout        ! number of emission energies
-  integer, dimension(0:numchan,numenspec)                          :: noutrec     ! number of recoil energies
   integer, dimension(0:numchan,0:numlevels)                        :: isolevel    ! level of isomer
-  real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: branchiso   ! branching ratio for isomer
   real(sgl), dimension(0:numchan,0:numlevels,0:numlevels)          :: Egammadis   ! gamma energy
   real(sgl), allocatable                                           :: Ehist(:,:,:,:)       ! histogram emission energy
-  real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: Ehistrec    ! histogram recoil energy
-  real(sgl), dimension(0:numchan,numenspec,0:numen2)               :: Eout        ! emission energy
   real(sgl), dimension(0:numchan,numenspec)                        :: Eparticles  ! total energy carried away by particles
-  real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: Erec        ! recoil energy
   real(sgl), dimension(0:numchan,numenspec)                        :: Erecav      ! average recoil energy
   real(sgl), dimension(0:numchan,0:numlevels,0:numlevels)          :: Estartdis   ! starting level
   real(sgl), dimension(-5:numchan)                                 :: Ethexcl     ! threshold energy
   real(sgl), dimension(0:numchan,0:numlevels)                      :: Ethexcliso  ! threshold energy for isomer
   real(sgl), allocatable                                           :: f0ex(:,:,:,:)        ! energy distribution for exclusive c
-  real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: f0exrec     ! energy distribution for recoil
   real(sgl), dimension(0:numchan)                                  :: Qexcl       ! Q-value
   real(sgl), dimension(0:numchan,0:numlevels)                      :: Qexcliso    ! Q-value for isomer
-  real(sgl), dimension(0:numchan,numenspec,0:numenrec)             :: recexcl     ! exclusive recoils
   real(sgl), allocatable                                           :: specexcl(:,:,:,:)    ! exclusive spectra
   real(sgl), dimension(-5:numchan,0:numenin)                       :: xsexcl      ! exclusive cross section
-  real(sgl), dimension(0:numchan,0:numlevels,numenin)              :: xsexcliso   ! exclusive cross section for isomer
   real(sgl), allocatable                                           :: xsgamdis(:,:,:,:)    ! exclusive discrete gamma-ray c
   real(sgl), dimension(0:numchan,numenin)                          :: xsgamexcl   ! exclusive gamma cross section
   real(sgl), dimension(numenin)                                    :: xsnonth     ! sum of all non-thr. reac. except (n,g) and (n,f)
+  real(sgl), allocatable                                           :: xsexcliso(:,:,:)  ! exclusive cross section for isomer
+  real(sgl), allocatable                                           :: branchiso(:,:,:)  ! branching ratio for isomer
+  real(sgl), allocatable                                           :: Eout(:,:,:)      ! emission energy
+  integer, allocatable :: nbegrec(:,:)       ! first outgoing recoil energy
+  integer, allocatable :: nendrec(:,:)       ! last outgoing recoil energy
+  integer, allocatable :: noutrec(:,:)       ! number of recoil energies
+
+  real(sgl), allocatable :: Erec(:,:,:)       ! recoil energy
+  real(sgl), allocatable :: recexcl(:,:,:)    ! exclusive recoil spectrum
+  real(sgl), allocatable :: Ehistrec(:,:,:)   ! histogram recoil energy
+  real(sgl), allocatable :: f0exrec(:,:,:)    ! recoil energy distribution
+
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for discrete cross sections in ENDF format
@@ -941,26 +943,27 @@ integer, parameter              :: numencov35=750 ! number of incident energies 
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
   logical, dimension(0:numZ,0:numN,0:numlevels)            :: isorpexist  ! flag for existence of isomer of residual nucleus
-  integer, dimension(0:numZ,0:numN,numenspec)              :: nbegcumrec  ! first outgoing energy
-  integer, dimension(0:numZ,0:numN,numenspec)              :: nendcumrec  ! last outgoing energy
   integer, dimension(0:numZ,0:numN)                        :: Nisorp      ! number of isomers
-  integer, dimension(0:numZ,0:numN,numenspec)              :: noutrecrp   ! number of recoil energies for residual nucleus
   logical, dimension(0:numZ,0:numN)                        :: rpexist     ! flag for existence of residual nuclide
   integer, dimension(0:numZ,0:numN,0:numlevels)            :: rpisolevel  ! level of isomer of residual nucleus
-  real(sgl), dimension(0:numZ,0:numN,numenin,0:numenrec)   :: Erecrp      ! recoil energy of residual nucleus
-  real(sgl), dimension(0:numZ,0:numN,numenspec,0:numenrec) :: Ehistcumrec ! histogram emission energy for recoil spectr
   real(sgl), dimension(0:numZ,0:numN,0:numlevels)          :: Erpiso      ! energy of isomer
   real(sgl), dimension(0:numZ,0:numN)                      :: Ethrp       ! threshold energy for residual product
   real(sgl), dimension(0:numZ,0:numN,0:numlevels)          :: Ethrpiso    ! threshold energy for isomer of residual product
-  real(sgl), dimension(0:numZ,0:numN,numenspec,0:numenrec) :: f0cumrec    ! energy distribution for recoil spectra
   real(sgl), dimension(0:numZ,0:numN)                      :: nucmass     ! mass of nucleus
   real(sgl), dimension(0:numZ,0:numN)                      :: Qrp         ! Q-value for residual product
   real(sgl), dimension(0:numZ,0:numN,0:numlevels)          :: Qrpiso      ! Q-value for isomer of residual product
-  real(sgl), dimension(0:numZ,0:numN,numenin,0:numenrec)   :: recrp       ! recoils or residual nucleus
   real(sgl), dimension(0:numZ,0:numN,numenin)              :: xsrp        ! residual production cross section
   real(sgl), dimension(0:numZ,0:numN,0:numlevels,numenin)  :: xsrpiso     ! residual production cross section for isomer
   real(sgl), dimension(0:numZ,0:numN,numenin)              :: Yrp         ! residual production yield
   real(sgl), dimension(0:numZ,0:numN,0:numlevels,numenin)  :: Yrpiso      ! residual production yield for isomer
+  integer, allocatable :: nbegcumrec(:,:,:)  ! first outgoing residual recoil energy
+  integer, allocatable :: nendcumrec(:,:,:)  ! last outgoing residual recoil energy
+  integer, allocatable :: noutrecrp(:,:,:)   ! number of residual recoil energies
+
+  real(sgl), allocatable :: Erecrp(:,:,:,:)      ! residual recoil energy
+  real(sgl), allocatable :: recrp(:,:,:,:)       ! residual recoil spectrum
+  real(sgl), allocatable :: Ehistcumrec(:,:,:,:) ! histogram residual recoil energy
+  real(sgl), allocatable :: f0cumrec(:,:,:,:)    ! residual recoil distribution
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for photon production in ENDF format
