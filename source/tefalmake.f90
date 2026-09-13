@@ -91,6 +91,7 @@ subroutine tefalmake
 !
     call allocate_mf6
     call make6
+    call deallocate_recoil
     call deallocate_mf6
 !
 ! Isomeric cross sections
