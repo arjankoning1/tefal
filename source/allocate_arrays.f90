@@ -30,6 +30,10 @@ subroutine allocate_arrays
     allocate(Eout(0:idnum,1:Nenspec,0:numen2))
     Eout = 0.
   endif
+  allocate(xsrpiso(0:numZ,0:numN,0:nlevmax,1:numinc))
+  allocate(Yrpiso(0:numZ,0:numN,0:nlevmax,1:numinc))
+  xsrpiso = 0.
+  Yrpiso = 0.
   ! Angular arrays are also used by processangle and MF4 when endfdetail is disabled.
   if (flaggpf) then
     allocate(ncleg(0:numpar,0:numlevin,Nenang))
@@ -61,5 +65,6 @@ subroutine allocate_arrays
     endif
   endif
   call allocate_recoil
+  call allocate_ddx
   return
 end subroutine allocate_arrays
