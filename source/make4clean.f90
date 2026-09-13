@@ -5,7 +5,7 @@ subroutine make4clean(MT)
 !
 ! Author    : Arjan Koning
 !
-! 2021-12-30: Original code
+! 2026-09-13: Original code
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 ! *** Use data from other modules
@@ -53,15 +53,15 @@ subroutine make4clean(MT)
   do
     flagdel = .false.
 Loop1:  do i = 1, N - 2
-      if (NL(MF, MT, i) == NL(MF, MT, i + 1) .and. NL(MF, MT, i) == NL(MF, MT, i + 2)) then
-        do L = 1, NL(MF, MT, i)
+      if (NL(i) == NL(i + 1) .and. NL(i) == NL(i + 2)) then
+        do L = 1, NL(i)
           if (leg(i, L) /= leg(i + 1, L)) cycle Loop1
           if (leg(i, L) /= leg(i + 2, L)) cycle Loop1
         enddo
         do j = i + 1, N - 1
           E4(j) = E4(j + 1)
-          NL(MF, MT, j) = NL(MF, MT, j + 1)
-          do L = 1, NL(MF, MT, j)
+          NL(j) = NL(j + 1)
+          do L = 1, NL(j)
             leg(j, L) = leg(j + 1, L)
           enddo
         enddo
