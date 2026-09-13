@@ -179,6 +179,10 @@ subroutine talysspectra
                 read(1,'(/)')
                 if (flagblock) then
                   if (abs(Ein-Efile) <= 1.e-4 .and. abs(ang-Afile) <= 1.e-4) then
+                    if (iddx >= numddx) then
+                      write(*,'(" TEFAL-error: number of DDX angles exceeds ",i4)') numddx
+                      stop
+                    endif
                     iddx = iddx + 1
                     ncumddx(type,nen,iddx) = min(Nfile,numen2)
                     rmuddx(iddx) = cos(ang * pi / 180.)
@@ -193,6 +197,10 @@ subroutine talysspectra
                     cycle
                   endif
                 else
+                  if (iddx >= numddx) then
+                    write(*,'(" TEFAL-error: number of DDX angles exceeds ",i4)') numddx
+                    stop
+                  endif
                   iddx = iddx + 1
                   ncumddx(type,nen,iddx) = min(Nfile,numen2)
                   rmuddx(iddx) = cos(ang * pi / 180.)
