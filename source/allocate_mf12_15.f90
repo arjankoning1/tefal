@@ -31,12 +31,6 @@ subroutine allocate_mf12_15
   allocate(xsgtotyield(0:idnum,numenin))
   allocate(xsgyield(0:idnum,numgam,numenin))
 !
-! MF13
-!
-  allocate(E13(0:idnum,numenin))
-  allocate(xsg(0:idnum,numgam,numenin))
-  allocate(xsgtot(0:idnum,numenin))
-!
 ! MF14
 !
   allocate(LI14(nummt))
@@ -86,9 +80,18 @@ subroutine allocate_mf12_15
   xsgtotyield = 0.
   xsgyield = 0.
 
-  E13 = 0.
-  xsg = 0.
-  xsgtot = 0.
+!
+! MF13
+!
+  if (flaggam13) then
+    allocate(E13(0:idnum,numenin))
+    allocate(xsg(0:idnum,numgam,numenin))
+    allocate(xsgtot(0:idnum,numenin))
+
+    E13 = 0.
+    xsg = 0.
+    xsgtot = 0.
+  endif
 
   LI14 = 0
 
