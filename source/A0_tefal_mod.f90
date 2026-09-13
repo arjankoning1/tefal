@@ -347,7 +347,6 @@ module A0_tefal_mod
   integer, dimension(numjres)                         :: NRS7   ! number of resonances
   integer                                             :: NRU    ! number of URR interpolation ranges
   integer, dimension(numjres)                         :: NX7    ! number of lines required for all resonances
-  real(sgl), dimension(numres,numlres,numnrs)         :: AJ     ! spin of the resonance
   real(sgl), dimension(numPP)                         :: AJ7    ! spin
   real(sgl), dimension(numres,numlres,numjres)        :: AJU    ! spin
   real(sgl), dimension(numres,numlres,numjres)        :: AMUF   ! number of degrees of freedom for fission width distributio
@@ -361,26 +360,12 @@ module A0_tefal_mod
   real(sgl), dimension(numjres,numch7)                :: APT7   ! true channel radius
   real(sgl), dimension(numres,numlres)                :: AWRI   ! ratio of isotope mass to neutron
   real(sgl), dimension(numjres,numch7)                :: BND7   ! boundary condition for this channel
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: D      ! average level spacing for resonances with spin J
   real(sgl), dimension(numres,numenin)                :: E2     ! incident energy for MF2 (in ENDF-6 format)
   real(sgl), dimension(numres)                        :: EH     ! boundary for resonance range
   real(sgl), dimension(numres)                        :: EL     ! boundary for resonance range
-  real(sgl), dimension(numres,numlres,numnrs)         :: Er     ! resonance energy in LAB system
   real(sgl), dimension(numjres,numch7)                :: ER7    ! energy of resonance in eV
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: Es     ! energy of energy-dependent width
   real(sgl), dimension(numres,numlres)                :: QX     ! Q-value to be added to C.M. incident energy
   real(sgl), dimension(numres)                        :: SPI    ! target spin
-  real(sgl), dimension(numjres,numnrs,numch7)         :: GAM7   ! channel width or reduced width
-  real(sgl), dimension(numres,numlres,numnrs)         :: GF     ! fission width of the resonance
-  real(sgl), dimension(numres,numlres,numnrs)         :: GFA    ! first partial fission width
-  real(sgl), dimension(numres,numlres,numnrs)         :: GFB    ! second partial fission width
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: GFu    ! average fission width
-  real(sgl), dimension(numres,numlres,numnrs)         :: GG     ! gamma width of the resonance
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: GGu    ! average radiation width
-  real(sgl), dimension(numres,numlres,numnrs)         :: GN     ! neutron width of the resonance
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: GN0    ! average reduced neutron width
-  real(sgl), dimension(numres,numlres,numnrs)         :: GT     ! total width of the resonance
-  real(sgl), dimension(numres,numlres,numjres,numnrs) :: GX     ! average competitive reaction width
   real(sgl), dimension(numPP)                         :: IA7    ! spin of first particle in pair
   real(sgl), dimension(numPP)                         :: IB7    ! spin of second particle in pair
   real(sgl), dimension(numjres,numch7)                :: L7     ! orbital angular momentum
@@ -397,6 +382,24 @@ module A0_tefal_mod
   real(sgl), dimension(numPP)                         :: SHF7   ! flag for shift factor
   real(sgl), dimension(numPP)                         :: ZA7    ! charge of first particle in pair
   real(sgl), dimension(numPP)                         :: ZB7    ! charge of second particle in pair
+  real(sgl), allocatable :: AJ(:,:,:)       ! spin of resolved resonance
+  real(sgl), allocatable :: Er(:,:,:)       ! resolved resonance energy in LAB system
+
+  real(sgl), allocatable :: GF(:,:,:)       ! fission width of resolved resonance
+  real(sgl), allocatable :: GFA(:,:,:)      ! first partial fission width
+  real(sgl), allocatable :: GFB(:,:,:)      ! second partial fission width
+  real(sgl), allocatable :: GG(:,:,:)       ! gamma width of resolved resonance
+  real(sgl), allocatable :: GN(:,:,:)       ! neutron width of resolved resonance
+  real(sgl), allocatable :: GT(:,:,:)       ! total width of resolved resonance
+
+  real(sgl), allocatable :: D(:,:,:,:)       ! average level spacing for resonances with spin J
+  real(sgl), allocatable :: Es(:,:,:,:)      ! energy of energy-dependent unresolved-resonance width
+  real(sgl), allocatable :: GFu(:,:,:,:)     ! average fission width in unresolved resonance region
+  real(sgl), allocatable :: GGu(:,:,:,:)     ! average radiation width in unresolved resonance region
+  real(sgl), allocatable :: GN0(:,:,:,:)     ! average reduced neutron width in unresolved resonance region
+  real(sgl), allocatable :: GX(:,:,:,:)      ! average competitive reaction width in unresolved resonance region
+
+  real(sgl), allocatable :: GAM7(:,:,:)      ! channel width or reduced width for R-matrix representation  
 !
 ! make2
 !
@@ -918,12 +921,13 @@ integer, parameter              :: numencov35=750 ! number of incident energies 
   integer, dimension(0:numpar,numenspec)                   :: ncumout    ! number of emission energies for total production spectra
   integer                                                  :: Nddx       ! number of angles
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: buratio    ! break-up ratio
-  real(sgl), dimension(0:numpar,numenspec,numddx,0:numen2) :: ddxemis    ! double-differential emission spectra
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: Eocum      ! emission energies for total production spectra
-  real(sgl), dimension(0:numpar,numenspec,numddx,0:numen2) :: Eoddx      ! emission energies for double-differential sp
+  real(sgl)                                                :: Eoddx      ! emission energies for double-differential sp
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: preeqratio ! pre-equilibrium ratio
   real(sgl), dimension(numddx)                             :: rmuddx     ! cosine of angle
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: xsemis     ! total production emission spectra
+  real(sgl), allocatable :: ddxemis(:,:,:,:) ! double-differential emission spectra
+  real(sgl), allocatable :: f0ddx(:,:,:,:)   ! normalized energy distribution for DDX
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for yields in ENDF format
@@ -933,7 +937,6 @@ integer, parameter              :: numencov35=750 ! number of incident energies 
   integer, dimension(0:numpar,numenspec)                   :: nendcum  ! last outgoing energy
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: Ehistcum ! histogram emission energy for total production spec
   real(sgl), dimension(0:numpar,numenspec,0:numen2)        :: f0cum    ! energy distribution for cumulative spectra
-  real(sgl), dimension(0:numpar,numenspec,numddx,0:numen2) :: f0ddx    ! energy distribution for DDX
   real(sgl), dimension(0:numpar,numenin)                   :: xsprod   ! particle production cross section
   real(sgl), dimension(0:numpar,numenin)                   :: yieldany ! yield for (n,anything) channel
   real(sgl), dimension(0:numpar,numenin)                   :: yieldp   ! particle production yield
@@ -953,9 +956,9 @@ integer, parameter              :: numencov35=750 ! number of incident energies 
   real(sgl), dimension(0:numZ,0:numN)                      :: Qrp         ! Q-value for residual product
   real(sgl), dimension(0:numZ,0:numN,0:numlevels)          :: Qrpiso      ! Q-value for isomer of residual product
   real(sgl), dimension(0:numZ,0:numN,numenin)              :: xsrp        ! residual production cross section
-  real(sgl), dimension(0:numZ,0:numN,0:numlevels,numenin)  :: xsrpiso     ! residual production cross section for isomer
   real(sgl), dimension(0:numZ,0:numN,numenin)              :: Yrp         ! residual production yield
-  real(sgl), dimension(0:numZ,0:numN,0:numlevels,numenin)  :: Yrpiso      ! residual production yield for isomer
+  real(sgl), allocatable :: xsrpiso(:,:,:,:) ! residual production cross section for isomer
+  real(sgl), allocatable :: Yrpiso(:,:,:,:)  ! residual production yield for isomer
   integer, allocatable :: nbegcumrec(:,:,:)  ! first outgoing residual recoil energy
   integer, allocatable :: nendcumrec(:,:,:)  ! last outgoing residual recoil energy
   integer, allocatable :: noutrecrp(:,:,:)   ! number of residual recoil energies
