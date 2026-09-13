@@ -315,8 +315,9 @@ subroutine talysdiscrete
 !
 ! For very low energies, copy angular distribution of the lowest TALYS energy (seldom used anyway).
 !
+      ! The highest energy has no next distribution to copy from.
       do iang = 0, nang1-1
-        do nen = Nenang, 1, -1
+        do nen = Nenang-1, 1, -1
           if (xsang(type, nex, nen, iang) == 0.) xsang(type, nex, nen, iang) = xsang(type, nex, nen+1, iang)
         enddo
       enddo
