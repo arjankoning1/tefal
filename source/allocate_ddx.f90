@@ -7,6 +7,7 @@ subroutine allocate_ddx
   use A0_tefal_mod
   implicit none
 
+  Nddx = 0
   if (.not. flagtabddx) return
 
   allocate(ddxemis(1:2,1:Nenspec,1:numddx,0:numen2))
