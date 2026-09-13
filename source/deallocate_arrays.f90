@@ -18,6 +18,10 @@ subroutine deallocate_arrays
   if (allocated(Rcov)) deallocate(Rcov)
   if (allocated(Rleg)) deallocate(Rleg)
   if (allocated(Rrp)) deallocate(Rrp)
+  if (allocated(xsexcliso)) deallocate(xsexcliso)
+  if (allocated(branchiso)) deallocate(branchiso)
+  if (allocated(Eout)) deallocate(Eout)
 !
+  call deallocate_recoil
   return
 end subroutine deallocate_arrays
