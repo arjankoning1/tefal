@@ -116,8 +116,6 @@ subroutine arrayinitial
   ncumout = 0
   nbegcum = 0
   nendcum = 0
-  ncleg = 0
-  cleg0 = 0.
   cpang = 0.
   fcpang = 0.
   elasni = 0.
@@ -125,8 +123,6 @@ subroutine arrayinitial
   Egamma = 0.
   Estart = 0.
   rmu = 0.
-  fang = 0.
-  xsang = 0.
   numendisc = 0
   ndisc = 0
   NSt = 0
