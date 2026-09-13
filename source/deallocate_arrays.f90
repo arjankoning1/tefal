@@ -10,7 +10,7 @@ subroutine deallocate_arrays
   if (allocated(Ehist)) deallocate(Ehist)
   if (allocated(f0ex)) deallocate(f0ex)
   if (allocated(specexcl)) deallocate(specexcl)
-  if (allocated(fang)) deallocate(fang)
+  if (allocated(xsang)) deallocate(xsang)
   if (allocated(xsgamdis)) deallocate(xsgamdis)
   if (allocated(Rmt)) deallocate(Rmt)
   if (allocated(relerr)) deallocate(relerr)
