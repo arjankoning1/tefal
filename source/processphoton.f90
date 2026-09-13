@@ -375,7 +375,8 @@ subroutine processphoton
 !
 ! Extrapolate gamma production for E < 1 keV
 !
-      if (eninc(nin) < 0.001) then
+! Only extrapolate when a higher incident-energy spectrum exists.
+      if (eninc(nin) < 0.001 .and. nen < min(Nengam, Nenspec)) then
         xsgamdisctot(idc, nen) = xsgamdisctot(idc, nen + 1)
         xsgamcont(idc, nen) = xsgamcont(idc, nen + 1)
         yieldtot(idc, nen) = yieldtot(idc, nen + 1)
