@@ -6,7 +6,7 @@ module A0_tefal_mod
 ! Author    : Arjan Koning
 !
 ! 2023-12-29: Original code
-! 2026-09-04: Current revision
+! 2026-09-13: Current revision
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
@@ -439,62 +439,74 @@ module A0_tefal_mod
 !
   integer                                 :: NE4r ! number of incident energies (MF4 only)
   integer                                 :: NEhr ! number of incident energies (MF4 only)
-  integer, dimension(numen4)              :: NL4r ! number of Legendre coefficients
-  integer, dimension(numen4+1)            :: NP4r ! number of angles (MF4 only)
-  integer, dimension(numen4+1)            :: NR4r ! number of interpolation ranges (MF4 only)
-  real(sgl), dimension(numen4+1)          :: E4hr ! incident energy for MF4 (in ENDF-6 format)
-  real(sgl), dimension(numen4)            :: E4r  ! incident energy for MF4 (in ENDF-6 format)
-  real(sgl), dimension(numen4+1,numang+3) :: f4r  ! angular distribution
-  real(sgl), dimension(numen4,0:numl)     :: legr ! Legendre coefficients (in ENDF-6 format)
-  real(sgl), dimension(numen4+1,numang+3) :: x4r  ! cosine of the angle
+
+  integer, allocatable :: NL4r(:)          ! number of Legendre coefficients
+  integer, allocatable :: NP4r(:)          ! number of angles (MF4 only)
+  integer, allocatable :: NR4r(:)          ! number of interpolation ranges (MF4 only)
+
+  real(sgl), allocatable :: E4hr(:)        ! incident energy for MF4
+  real(sgl), allocatable :: E4r(:)         ! incident energy for MF4
+  real(sgl), allocatable :: f4r(:,:)       ! angular distribution
+  real(sgl), allocatable :: legr(:,:)      ! Legendre coefficients
+  real(sgl), allocatable :: x4r(:,:)       ! cosine of the angle
 !
 ! make4elastic
 !
-  integer, dimension(numen4,numint)       :: INTER4 ! interpolation scheme
-  integer, dimension(numint)              :: INTERh ! interpolation scheme
-  integer                                 :: LCT    ! LAB/CM flag
-  integer                                 :: LI4    ! isotropy flag
-  integer                                 :: LTT    ! representation
-  integer                                 :: LVT    ! specification of transformation matrix
-  integer, dimension(numen4,numint)       :: NBT4   ! separation value for interpolation scheme
-  integer, dimension(numint)              :: NBTh   ! separation value for interpolation scheme
-  integer                                 :: NE     ! number of incident energies
-  integer                                 :: NEh    ! number of incident energies (MF4 only)
-  integer, dimension(6,nummt,numen4)      :: NL     ! Legendre order or number of cosines
-  integer, dimension(numen4)              :: NP4    ! number of incident energies
-  integer, dimension(numen4)              :: NR4    ! number of interpolation ranges
-  integer                                 :: NRh    ! number of interpolation ranges
-  real(sgl), dimension(numen4)            :: E4     ! incident energy for MF4 (in ENDF-6 format)
-  real(sgl), dimension(numen4+1)          :: E4h    ! incident energy for MF4 (in ENDF-6 format)
-  real(sgl), dimension(numen4+1,numang+3) :: f4     ! angular distribution
-  real(sgl), dimension(numen4,0:numl)     :: leg    ! Legendre coefficients (in ENDF-6 format)
-  real(sgl), dimension(numen4+1,numang+3) :: x4     ! cosine of the angle
+  integer, allocatable :: INTER4(:,:)      ! interpolation scheme
+  integer, allocatable :: INTERh(:)        ! interpolation scheme
+
+  integer             :: LCT               ! LAB/CM flag
+  integer             :: LI4               ! isotropy flag
+  integer             :: LTT               ! representation
+  integer             :: LVT               ! specification of transformation matrix
+
+  integer, allocatable :: NBT4(:,:)        ! separation value for interpolation scheme
+  integer, allocatable :: NBTh(:)          ! separation value for interpolation scheme
+
+  integer             :: NE                ! number of incident energies
+  integer             :: NEh               ! number of incident energies (MF4 only)
+
+  integer, allocatable :: NP4(:)           ! number of incident energies
+  integer, allocatable :: NR4(:)           ! number of interpolation ranges
+
+  integer             :: NRh               ! number of interpolation ranges
+
+  real(sgl), allocatable :: E4(:)          ! incident energy for MF4
+  real(sgl), allocatable :: E4h(:)         ! incident energy for MF4
+  real(sgl), allocatable :: f4(:,:)        ! angular distribution
+  real(sgl), allocatable :: x4(:,:)        ! cosine of the angle
+!-----------------------------------------------------------------------------------------------------------------------------------
+! Shared temporary arrays for MF4 and MF6
+!-----------------------------------------------------------------------------------------------------------------------------------
+  integer, allocatable :: NL(:)            ! number of Legendre coefficients
+  real(sgl), allocatable :: leg(:,:)       ! Legendre coefficients
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for MF5
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
-  integer, dimension(numsecea,numint)              :: INTER5   ! interpolation scheme
-  integer, dimension(numsecea,numint)              :: INTER5e  ! interpolation scheme
-  integer, dimension(numsecea,numenin,numint)      :: INTER5e2 ! interpolation scheme
-  integer, dimension(numsecea)                     :: LF       ! flag for energy distribution law
-  integer, dimension(numsecea,numint)              :: NBT5     ! separation value for interpolation scheme
-  integer, dimension(numsecea,numint)              :: NBT5e    ! separation value for interpolation scheme
-  integer, dimension(numsecea,numenin,numint)      :: NBT5e2   ! separation value for interpolation scheme
-  integer, dimension(numsecea)                     :: NE5e     ! number of incident energies for distribution
-  integer, dimension(numsecea,numenin)             :: NF       ! number of secondary energy points
-  integer, dimension(numsecea)                     :: NP5      ! number of incident energies
-  integer, dimension(numsecea)                     :: NR5      ! number of interpolation ranges
-  integer, dimension(numsecea)                     :: NR5e     ! number of interpolation ranges
-  integer, dimension(numsecea,numenin)             :: NR5e2    ! number of interpolation ranges
-  real(sgl), dimension(numsecea,numenin)           :: E5       ! incident energy for MF5 (in ENDF-6 format)
-  real(sgl), dimension(numsecea,numenin)           :: E5p      ! incident energy for which tabulated distribution is given
-  real(sgl)                                        :: EFH      ! constant used in the energy-dependent fission neutron spectrum
-  real(sgl)                                        :: EFL      ! constant used in the energy-dependent fission neutron spectrum
-  real(sgl), dimension(numsecea,numenin,10*numen2) :: gE5      ! energy-spectrum values
-  real(sgl), dimension(numsecea,numenin)           :: pE       ! fractional part of cross section
-  real(sgl), dimension(numsecea,10*numen2)         :: TM5      ! Effective (7) or maximum (12) temperature  FNS parameter
-  real(sgl), dimension(numsecea)                   :: U        ! constant for upper energy limit
+  integer, allocatable :: INTER5(:,:)     ! interpolation scheme
+  integer, allocatable :: INTER5e(:,:)    ! interpolation scheme
+  integer, allocatable :: INTER5e2(:,:,:) ! interpolation scheme
+  integer, allocatable :: LF(:)           ! flag for energy distribution law
+  integer, allocatable :: NBT5(:,:)       ! separation value for interpolation scheme
+  integer, allocatable :: NBT5e(:,:)      ! separation value for interpolation scheme
+  integer, allocatable :: NBT5e2(:,:,:)   ! separation value for interpolation scheme
+  integer, allocatable :: NE5e(:)         ! number of incident energies for distribution
+  integer, allocatable :: NF(:,:)         ! number of secondary energy points
+  integer, allocatable :: NP5(:)          ! number of incident energies
+  integer, allocatable :: NR5(:)          ! number of interpolation ranges
+  integer, allocatable :: NR5e(:)         ! number of interpolation ranges
+  integer, allocatable :: NR5e2(:,:)      ! number of interpolation ranges
+
+  real(sgl), allocatable :: E5(:,:)       ! incident energy for MF5
+  real(sgl), allocatable :: E5p(:,:)      ! incident energy for tabulated distribution
+  real(sgl)              :: EFH           ! FNS parameter
+  real(sgl)              :: EFL           ! FNS parameter
+  real(sgl), allocatable :: gE5(:,:,:)    ! energy-spectrum values
+  real(sgl), allocatable :: pE(:,:)       ! fractional part of cross section
+  real(sgl), allocatable :: TM5(:,:)      ! effective/maximum FNS temperature
+  real(sgl), allocatable :: U(:)          ! upper-energy-limit constant
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for MF6
@@ -506,35 +518,40 @@ module A0_tefal_mod
 !
 ! make6partial
 !
-  integer, dimension(numsec,numint)                    :: INTER6ea ! interpolation scheme
-  integer, dimension(numsec,numint)                    :: INTER6y  ! interpolation scheme
-  integer, dimension(numsec)                           :: LANG     ! flag for angular representation
-  integer, dimension(numsec)                           :: LAW      ! flag for distribution function
-  integer, dimension(numsec)                           :: LEP      ! interpolation scheme for secondary energy
-  integer, dimension(numsec)                           :: LIP      ! product modifier flag
-  integer, dimension(numsec,numenin)                   :: NA       ! number of angular parameters
-  integer, dimension(numsec,numint)                    :: NBT6ea   ! separation value for interpolation scheme
-  integer, dimension(numsec,numint)                    :: NBT6y    ! separation value for interpolation scheme
-  integer, dimension(numsec,numenin)                   :: ND       ! number of discrete energies
-  integer, dimension(numsec)                           :: NE6ea    ! number of incident energies for distribution
-  integer, dimension(numsec,numenin)                   :: NEP      ! number of secondary energy points
-  integer, dimension(numsec)                           :: NP6y     ! number of incident energies for yields
-  integer, dimension(numsec)                           :: NR6ea    ! number of interpolation ranges for distribution
-  integer, dimension(numsec)                           :: NR6y     ! number of interpolation ranges for yields
-  integer, dimension(numsec,numenin)                   :: NW       ! number of words
-  real(sgl), dimension(numsec)                         :: AWP      ! product mass
-  real(sgl), dimension(numsecea,numenspec+1,40*numen2) :: b6       ! energy-angle values
-  real(sgl), dimension(numsec,numenin)                 :: E6       ! incident energy (in ENDF-6 format) for distribution
-  real(sgl), dimension(numsec,numenin)                 :: Ey       ! incident energy for yields (in ENDF-6 format)
-  real(sgl), dimension(numsec,numenin)                 :: Y        ! product yield (in ENDF-6 format)
-  real(sgl), dimension(numsec)                         :: ZAP      ! product identifier
+  integer, allocatable   :: INTER6ea(:,:) ! interpolation scheme
+  integer, allocatable   :: INTER6y(:,:)  ! interpolation scheme
+
+  integer, allocatable   :: LANG(:)       ! flag for angular representation
+  integer, allocatable   :: LAW(:)        ! flag for distribution function
+  integer, allocatable   :: LEP(:)        ! interpolation scheme for secondary energy
+  integer, allocatable   :: LIP(:)        ! product modifier flag
+
+  integer, allocatable   :: NA(:,:)       ! number of angular parameters
+  integer, allocatable   :: NBT6ea(:,:)   ! separation value for interpolation scheme
+  integer, allocatable   :: NBT6y(:,:)    ! separation value for interpolation scheme
+  integer, allocatable   :: ND(:,:)       ! number of discrete energies
+  integer, allocatable   :: NE6ea(:)      ! number of incident energies for distribution
+  integer, allocatable   :: NEP(:,:)      ! number of secondary energy points
+  integer, allocatable   :: NP6y(:)       ! number of incident energies for yields
+  integer, allocatable   :: NR6ea(:)      ! number of interpolation ranges for distribution
+  integer, allocatable   :: NR6y(:)       ! number of interpolation ranges for yields
+  integer, allocatable   :: NW(:,:)       ! number of words
+
+  real(sgl), allocatable :: AWP(:)        ! product mass
+  real(sgl), allocatable :: b6(:,:,:)     ! energy-angle values
+  real(sgl), allocatable :: E6(:,:)       ! incident energy for distribution
+  real(sgl), allocatable :: Ey(:,:)       ! incident energy for yields
+  real(sgl), allocatable :: Y(:,:)        ! product yield
+  real(sgl), allocatable :: ZAP(:)        ! product identifier
 !
 ! make6mt5
 !
-  logical, dimension(numsec)                          :: flagrec ! flag to state that b6 element concerns recoil grid
-  integer                                             :: kpart   ! section number for particles
-  real(sgl), dimension(numenspec+1,40*numen2)         :: b6gam   ! energy-angle values for photons
-  real(sgl), dimension(numsec,numenspec+1,2*numenrec) :: b6rec   ! energy-angle values for recoils
+  logical, allocatable   :: flagrec(:)    ! recoil-grid flag
+
+  integer                :: kpart         ! section number for particles
+
+  real(sgl), allocatable :: b6gam(:,:)    ! photon energy-angle values
+  real(sgl), allocatable :: b6rec(:,:,:)  ! recoil energy-angle values
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for MF8-10
@@ -549,85 +566,87 @@ module A0_tefal_mod
 !
 ! make10
 !
-  integer, dimension(nummt,numiso,numint)    :: INTER10  ! interpolation scheme
-  integer, dimension(numsec,numint)          :: INTERZA  ! interpolation scheme
+  integer, allocatable :: INTER10(:,:,:) ! interpolation scheme
+  integer, allocatable :: INTERZA(:,:)   ! interpolation scheme
+  integer, allocatable :: NBT10(:,:,:)   ! separation value for interpolation scheme
+  integer, allocatable :: NBTZA(:,:)     ! separation value for interpolation scheme
+  integer, allocatable :: NP10(:,:)      ! number of incident energies
+  integer, allocatable :: NPZA(:)        ! number of incident energies
+  integer, allocatable :: NR10(:,:)      ! number of interpolation ranges
+  integer, allocatable :: NRZA(:)        ! number of interpolation ranges
+
+  real(sgl), allocatable :: E10(:,:,:)   ! incident energy
+  real(sgl), allocatable :: E10ZA(:,:)   ! incident energy for residual production
+  real(sgl), allocatable :: xsiso(:,:,:) ! isomeric cross section
+  real(sgl), allocatable :: xsrpZA(:,:)  ! residual production cross section
   integer, dimension(numsec)                 :: IZAP     ! second IZAP-number
   integer, dimension(nummt,numsec)           :: LFS      ! final state number
   integer, dimension(numsec)                 :: LFSZA    ! final state number
-  integer, dimension(nummt,numiso,numint)    :: NBT10    ! separation value for interpolation scheme
-  integer, dimension(numsec,numint)          :: NBTZA    ! separation value for interpolation scheme
-  integer, dimension(nummt,numiso)           :: NP10     ! number of incident energies
-  integer, dimension(numsec)                 :: NPZA     ! number of incident energies
-  integer, dimension(nummt,numiso)           :: NR10     ! number of interpolation ranges
-  integer, dimension(numsec)                 :: NRZA     ! number of interpolation ranges
   integer, dimension(nummt)                  :: NSt      ! number of final states
   integer                                    :: NZA      ! number of nuclides
   integer, dimension(numsec)                 :: XMFZA    ! second MF-number
-  real(sgl), dimension(nummt,numiso,numenin) :: E10      ! incident energy (in ENDF-6 format)
-  real(sgl), dimension(numsec,numenin)       :: E10ZA    ! incident energy (in ENDF-6 format)
   real(sgl), dimension(nummt,numsec)         :: ELFS     ! excitation energy of final state
   real(sgl), dimension(numsec)               :: ErpZAiso ! energy of isomer
   real(sgl), dimension(numsec)               :: EthZA    ! threshold energy
   real(sgl), dimension(nummt,numiso)         :: QIiso    ! Q-value for isomer (in ENDF-6 format)
   real(sgl), dimension(numsec)               :: QIZA     ! Q-value (in ENDF-6 format)
   real(sgl), dimension(numsec)               :: QMZA     ! Q-value (in ENDF-6 format)
-  real(sgl), dimension(nummt,numiso,numenin) :: xsiso    ! cross section for isomer (in ENDF-6 format)
-  real(sgl), dimension(numsec,numenin)       :: xsrpZA   ! cross section for residual production (in ENDF-6 format)
-!
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for MF12-15
 !-----------------------------------------------------------------------------------------------------------------------------------
 !
-  integer, dimension(nummt,numgam,numint)        :: INTERg      ! interpolation scheme
-  integer, dimension(nummt)                      :: LG12        ! type setters
-  integer, dimension(nummt)                      :: LO12        ! type setters
-  integer, dimension(nummt,numgam,numint)        :: NBTg        ! separation value for interpolation scheme
-  integer, dimension(nummt,numgam)               :: NPg         ! number of incident energies
-  integer, dimension(nummt,numgam)               :: NRg         ! number of interpolation ranges
-  integer, dimension(nummt)                      :: LP12        ! origin of photons
-  integer, dimension(nummt,numgam)               :: LPg         ! primary photon flag
-  integer, dimension(nummt,numgam)               :: LFg         ! photo energy distribution law
-  integer, dimension(nummt)                      :: NS12        ! number of levels below the present one
-  integer, dimension(nummt)                      :: NT12        ! number of transitions for which data are given
-  real(sgl), dimension(0:numchan,numenin)        :: E12         ! incident energy (in ENDF-6 format)
-  real(sgl), dimension(0:numchan,numgam,numenin) :: Eg          ! gamma energy
-  real(sgl), dimension(0:numchan,numgam)         :: Egk         ! gamma energy
-  real(sgl), dimension(nummt,numgam)             :: ES12        ! energy of level
-  real(sgl), dimension(0:numchan,numgam)         :: Esk         ! starting level (in ENDF-6 format)
-  real(sgl), dimension(nummt)                    :: ESNS        ! energy of mother level
-  real(sgl), dimension(nummt,numgam)             :: TP12        ! probability of direct transition
-  real(sgl), dimension(0:numchan,numenin)        :: xsgtotyield ! total discrete photon multiplicity
-  real(sgl), dimension(0:numchan,numgam,numenin) :: xsgyield    ! gamma-ray multiplicity (in ENDF-6 format)
+  integer, allocatable :: INTERg(:,:,:)      ! interpolation scheme
+  integer, allocatable :: LG12(:)            ! type setters
+  integer, allocatable :: LO12(:)            ! type setters
+  integer, allocatable :: NBTg(:,:,:)        ! separation value for interpolation scheme
+  integer, allocatable :: NPg(:,:)           ! number of incident energies
+  integer, allocatable :: NRg(:,:)           ! number of interpolation ranges
+  integer, allocatable :: LP12(:)            ! origin of photons
+  integer, allocatable :: LPg(:,:)           ! primary photon flag
+  integer, allocatable :: LFg(:,:)           ! photon energy distribution law
+  integer, allocatable :: NS12(:)            ! number of levels below the present one
+  integer, allocatable :: NT12(:)            ! number of transitions for which data are given
+
+  real(sgl), allocatable :: E12(:,:)         ! incident energy
+  real(sgl), allocatable :: Eg(:,:,:)        ! gamma energy
+  real(sgl), allocatable :: Egk(:,:)         ! gamma energy
+  real(sgl), allocatable :: ES12(:,:)        ! energy of level
+  real(sgl), allocatable :: Esk(:,:)         ! starting level
+  real(sgl), allocatable :: ESNS(:)          ! energy of mother level
+  real(sgl), allocatable :: TP12(:,:)        ! probability of direct transition
+  real(sgl), allocatable :: xsgtotyield(:,:) ! total discrete photon multiplicity
+  real(sgl), allocatable :: xsgyield(:,:,:)  ! gamma-ray multiplicity
 !
 ! make13
 !
-  real(sgl), dimension(0:numchan,numenin)        :: E13       ! incident energy (in ENDF-6 format)
-  real(sgl), dimension(0:numchan,numgam,numenin) :: xsg       ! gamma-ray cross section (in ENDF-6 format)
-  real(sgl), dimension(0:numchan,numenin)        :: xsgtot    ! total discrete photon production cross section
+  real(sgl), allocatable :: E13(:,:)         ! incident energy
+  real(sgl), allocatable :: xsg(:,:,:)       ! gamma-ray cross section
+  real(sgl), allocatable :: xsgtot(:,:)      ! total discrete photon production cross section
 !
 ! make14
 !
-  integer, dimension(nummt)       :: LI14 ! isotropy flag
+  integer, allocatable :: LI14(:)            ! isotropy flag
 !
 ! make15
 !
-  integer, dimension(numsecg,numint)             :: INTER15   ! interpolation scheme
-  integer, dimension(numsecg,numint)             :: INTER15g  ! interpolation scheme
-  integer, dimension(numsecg,numenin,numint)     :: INTER15ge ! interpolation scheme
-  integer, dimension(numsecg,numint)             :: NBT15     ! separation value for interpolation scheme
-  integer, dimension(numsecg,numint)             :: NBT15g    ! separation value for interpolation scheme
-  integer, dimension(numsecg,numenin,numint)     :: NBT15ge   ! separation value for interpolation scheme
-  integer, dimension(numsecg)                    :: NE15g     ! number of incident energies for distribution
-  integer, dimension(numsecg)                    :: NP15      ! number of incident energies
-  integer, dimension(numsecg,numenin)            :: NP15ge    ! number of secondary energy point
-  integer, dimension(numsecg)                    :: NR15      ! number of interpolation ranges
-  integer, dimension(numsecg)                    :: NR15g     ! number of interpolation ranges
-  integer, dimension(numsecg,numenin)            :: NR15ge    ! number of interpolation ranges
-  real(sgl), dimension(numsecg,numenin)          :: E15       ! incident energy (in ENDF-6 format)
-  real(sgl), dimension(numsecg,numenin,3*numen2) :: E15ge     ! secondary energy
-  real(sgl), dimension(numsecg,numenin)          :: EPy       ! incident energy for probabilities (in ENDF-6 format)
-  real(sgl), dimension(numsecg,numenin,3*numen2) :: ge        ! gamma distribution
-  real(sgl), dimension(numsecg,numenin)          :: Pg        ! probability (in ENDF-6 format)
+  integer, allocatable :: INTER15(:,:)       ! interpolation scheme
+  integer, allocatable :: INTER15g(:,:)      ! interpolation scheme
+  integer, allocatable :: INTER15ge(:,:,:)   ! interpolation scheme
+  integer, allocatable :: NBT15(:,:)         ! separation value for interpolation scheme
+  integer, allocatable :: NBT15g(:,:)        ! separation value for interpolation scheme
+  integer, allocatable :: NBT15ge(:,:,:)     ! separation value for interpolation scheme
+  integer, allocatable :: NE15g(:)           ! number of incident energies for distribution
+  integer, allocatable :: NP15(:)            ! number of incident energies
+  integer, allocatable :: NP15ge(:,:)        ! number of secondary energy points
+  integer, allocatable :: NR15(:)            ! number of interpolation ranges
+  integer, allocatable :: NR15g(:)           ! number of interpolation ranges
+  integer, allocatable :: NR15ge(:,:)        ! number of interpolation ranges
+
+  real(sgl), allocatable :: E15(:,:)         ! incident energy
+  real(sgl), allocatable :: E15ge(:,:,:)     ! secondary energy
+  real(sgl), allocatable :: EPy(:,:)         ! incident energy for probabilities
+  real(sgl), allocatable :: ge(:,:,:)        ! gamma distribution
+  real(sgl), allocatable :: Pg(:,:)          ! probability
 !
 !-----------------------------------------------------------------------------------------------------------------------------------
 ! Purpose   : Variables for MF31-40
