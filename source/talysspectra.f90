@@ -183,7 +183,7 @@ subroutine talysspectra
                     ncumddx(type,nen,iddx) = min(Nfile,numen2)
                     rmuddx(iddx) = cos(ang * pi / 180.)
                     do nen2 = 1, ncumddx(type,nen,iddx)
-                      read(1, '(2es15.6)') Eoddx(type,nen,iddx,nen2), ddxemis(type,nen,iddx,nen2)
+                      read(1, '(2es15.6)') Eoddx, ddxemis(type,nen,iddx,nen2)
                     enddo
                     exit
                   else
@@ -197,7 +197,7 @@ subroutine talysspectra
                   ncumddx(type,nen,iddx) = min(Nfile,numen2)
                   rmuddx(iddx) = cos(ang * pi / 180.)
                   do nen2 = 1, ncumddx(type,nen,iddx)
-                    read(1, '(2es15.6)') Eoddx(type,nen,iddx,nen2), ddxemis(type,nen,iddx,nen2)
+                    read(1, '(2es15.6)') Eoddx, ddxemis(type,nen,iddx,nen2)
                   enddo
                   exit
                 endif
