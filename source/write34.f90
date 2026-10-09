@@ -14,8 +14,6 @@ subroutine write34
 !
 ! Definition of single and double precision variables
 !   sgl            ! single precision kind
-! All global variables
-!   numencovtot    ! number of energies for covariances
 ! Variables for initialization of ENDF format
 !   AWR        ! standard mass parameter
 !   MAT        ! MAT number
@@ -45,11 +43,12 @@ subroutine write34
   integer   :: i                         ! counter
   integer   :: L1                        ! integration limits
   integer   :: L2                        ! integration limits
+  integer   :: LSblock                   ! symmetry flag for this order pair
   integer   :: MF                        ! MF-number
   integer   :: MT                        ! MT-number
   integer   :: N                         ! neutron number of residual nucleus
   integer   :: NS                        ! line number
-  real(sgl) :: x(numencovtot)            ! help variable
+  real(sgl) :: x(size(b34, 3))            ! help variable sized for full blocks
 !
 ! ***************************** Write MF34 *****************************
 !
@@ -65,7 +64,9 @@ subroutine write34
   do L1 = 1, NL34
     do L2 = L1, NL341
       call hrwrite(0., 0., L1, L2, 0, NI34(L1, L2), MAT, MF, MT, NS)
-      call hrwrite(0., 0., LS34, LB34, NT34(L1, L2), NE34(L1, L2), MAT, MF, MT, NS)
+      LSblock = LS34
+      if (L1 /= L2) LSblock = 0
+      call hrwrite(0., 0., LSblock, LB34, NT34(L1, L2), NE34(L1, L2), MAT, MF, MT, NS)
 !
 ! 1. Covariance data per L1,L2 set
 !
