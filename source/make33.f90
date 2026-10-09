@@ -161,7 +161,8 @@ subroutine make33(MF)
   allocate(Rfinal(Nchancovint,Nencov,Nchancovint,Nencov))
   Nencovtot=1+Nencov*Nencov
   allocate(Rmt8(Nchancov,Nencovtot))
-  allocate(Rmtfinal(Nchancov, Nencov, Nencov))
+! Adopted MF33 and appended fast-range points use the full output grid.
+  allocate(Rmtfinal(Nchancov, numencov+1, numencov+1))
   allocate(RZA(Ncovrp, Nencov, Nencov))
 !
 ! ***************************** Make MF33 ******************************
