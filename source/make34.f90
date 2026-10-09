@@ -46,6 +46,7 @@ subroutine make34
   integer :: iE                         ! energy counter
   integer :: iE0                        ! counter of energies
   integer :: iE1                        ! counter of energies
+  integer :: iEstart                    ! first column stored in this row
   integer :: j                          ! counter
   integer :: L1                         ! integration limits
   integer :: L2                         ! integration limits
@@ -67,14 +68,17 @@ subroutine make34
       NE34(L1, L2) = iE
       do iE0 = 1, NE34(L1, L2) - 1
         i = icov(iE0)
-        do iE1 = iE0, NE34(L1, L2) - 1
+! Only equal-order blocks are symmetric in their energy indices.
+        iEstart = 1
+        if (L1 == L2) iEstart = iE0
+        do iE1 = iEstart, NE34(L1, L2) - 1
           j = icov(iE1)
           iE = iE + 1
           b34(L1, L2, iE) = Rleg(i, L1, j, L2)
         enddo
       enddo
       NI34(L1, L2) = 1
-      NT34(L1, L2) = (NE34(L1, L2) * (NE34(L1, L2) + 1)) / 2
+      NT34(L1, L2) = iE
     enddo
   enddo
 !
@@ -87,7 +91,7 @@ subroutine make34
   MT34 = 2
   NL34 = Nleg34
   NL341 = Nleg34
-  LS34 = 1
+  LS34 = 1  ! equal-order default; write34 sets LS=0 for cross-order blocks
   LB34 = 5
   mtexist(34, MT) = .true.
   mfexist(34) = .true.
