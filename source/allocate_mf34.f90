@@ -20,10 +20,10 @@ subroutine allocate_mf34
     nE34max = nE34max + 1
   enddo
 !
-! MF34 contains the energy grid followed by the upper triangular
-! covariance matrix. This is equal to N*(N+1)/2 entries.
+! Allow the energy grid followed by a full (N-1) by (N-1) matrix
+! for cross-order blocks. Equal-order blocks retain triangular storage.
 !
-  nT34max = nE34max * (nE34max + 1) / 2
+  nT34max = nE34max + max(0, nE34max - 1)**2
 !
 ! Allocate MF34 arrays.
 !
