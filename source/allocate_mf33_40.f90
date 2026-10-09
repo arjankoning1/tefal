@@ -8,6 +8,7 @@ subroutine allocate_mf33_40
   implicit none
 
   integer :: ncovtot
+  integer :: nreadmt
   integer :: nread
 !
 ! Maximum number of covariance matrix entries.
@@ -18,19 +19,21 @@ subroutine allocate_mf33_40
 ! Round the read arrays upward to a multiple of 6.
 !
   nread = 6 * ((ncovtot + 5) / 6)
+! Adopted intra-MT data and merged grids are independent of Nencov.
+  nreadmt = 6 * ((numencovtot + 5) / 6)
 !
 ! Arrays for adopted covariance data.
 !
   allocate(b33read(Nchancov,Nchancov,nread))
-  allocate(b33MTread(Nchancov,nread))
-  allocate(b8read(Nchancov,nread))
+  allocate(b33MTread(Nchancov,nreadmt))
+  allocate(b8read(Nchancov,nreadmt))
 !
 ! Arrays for generated MF33/MF40 data.
 !
   allocate(b33(Nchancov,Nchancov,ncovtot))
-  allocate(b33MT(Nchancov,ncovtot))
+  allocate(b33MT(Nchancov,numencovtot))
   allocate(b33ZA(Ncovrp,ncovtot))
-  allocate(b8(Nchancov,ncovtot))
+  allocate(b8(Nchancov,numencovtot))
 !
 ! Initialization.
 !
