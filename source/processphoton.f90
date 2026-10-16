@@ -443,6 +443,8 @@ subroutine processphoton
           if (Ehist(idc, nen, type, nenout) == 0.) Ehist(idc, nen, type, nenout) = Ehist(idc, nen + 1, type, nenout)
         enddo
       enddo
+    enddo
+    do nen = 1, Nenspec
       nend0 = nend(idc, 0, nen)
       if (nend0 > 1 .and. Ehist(idc, nen, 0, nend0) == 0.) nend(idc, 0, nen) = nend(idc, 0, nen) - 1
     enddo
