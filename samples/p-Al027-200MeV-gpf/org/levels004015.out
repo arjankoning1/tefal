@@ -1,0 +1,26 @@
+# header: 
+#   title: Be15 Nuclear masses and levels
+#   source: TALYS-2.24
+#   user: Arjan Koning
+#   date: 2026-10-20
+#   format: YANDF-0.4
+# residual: 
+#   Z: 4
+#   A: 15
+#   nuclide: Be15
+#   parameters: 
+#     nuclear mass [amu]:  1.505349E+01
+#     neutron separation energy [MeV]: -1.800002E+00
+#     proton separation energy [MeV]:  2.470078E+01
+#     alpha separation energy [MeV]:  1.124948E+01
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        2.5             +              0                                                      7.900000E-22                      (5/2+)
+     1            1.733333E+00        2.5             +              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           

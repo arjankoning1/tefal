@@ -1,0 +1,26 @@
+# header: 
+#   title: Na16 Nuclear masses and levels
+#   source: TALYS-2.24
+#   user: Arjan Koning
+#   date: 2026-10-20
+#   format: YANDF-0.4
+# residual: 
+#   Z: 11
+#   A: 16
+#   nuclide: Na16
+#   parameters: 
+#     nuclear mass [amu]:  1.606035E+01
+#     neutron separation energy [MeV]:  2.417883E+01
+#     proton separation energy [MeV]: -5.140630E+00
+#     alpha separation energy [MeV]:  8.901097E+00
+#     number of excited levels: 1
+#   quantity: 
+#     type: Nuclear masses and levels
+#   datablock: 
+#     columns: 11
+#     entries: 3
+##     Level         Energy          Spin          Parity      Num._Branches  Branch._level  Branch._ratio  Intern._conv     Half-life     Assignment        ENSDF
+##      []            [MeV]           []             []             []             []             [%]            []            [sec]           []             []
+     0            0.000000E+00        0.0             +              0                                                                                              
+     1            1.625000E+00        2.0             +              1                                                                        EJP                   
+                                                                           --->     0         100.0000       0.000000E+00                           
